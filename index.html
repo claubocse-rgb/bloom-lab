@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="description" content="Bloom Lab - cafea mai bună acasă: rețete cu timer, calculator, diagnostic de gust, jurnal și experimente.">
+<meta name="description" content="Bloom Lab - cafea mai bună acasă: recunoaștere cafea, rețete cu timer, calculator, diagnostic de gust, jurnal și teste A/B.">
 <meta name="theme-color" content="#ECEEE8">
 <style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}</style>
 </head>
@@ -193,6 +193,49 @@ nav.tabs a[aria-current="page"]{color:var(--accent)}
 .win{outline:2px solid var(--good)}
 .toast{position:fixed;left:50%;bottom:calc(84px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:999px;font-size:14px;font-weight:600;z-index:60;max-width:calc(100% - 32px)}
 .confirm{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:8px;padding:10px;border-radius:10px;background:color-mix(in srgb,var(--accent) 10%,transparent)}
+/* v2 additions */
+:root:not([data-theme="dark"]){--bean:#4E5D2F}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bean:#A9BA7E}}
+.chip{min-height:40px;padding:8px 14px}
+.chip.static{cursor:default}
+.lang button{padding:9px 13px;min-height:40px}
+.stars button{color:var(--muted);opacity:.55}
+.stars button.on{color:var(--amber);opacity:1}
+details>summary{padding:10px 0;font-weight:600;cursor:pointer;min-height:40px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.err{color:var(--accent);font-size:13px;font-weight:600;min-height:0}
+.err:empty{display:none}
+.hrow{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:24px}
+.hrow .btn{padding:8px 14px}
+.recog{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:16px;margin-top:10px}
+.recog h3{font-family:var(--f-display);font-weight:400;font-size:21px;margin:0}
+.rgrow{display:flex;gap:10px;align-items:stretch}
+.rgphoto{flex:none;width:96px;flex-direction:column;gap:6px;padding:8px;font-size:12px;text-align:center;line-height:1.2;cursor:pointer}
+.rgphoto svg{width:28px;height:28px;stroke:var(--accent);fill:none;stroke-width:1.7;stroke-linejoin:round}
+.rgphoto img{width:64px;height:48px;object-fit:cover;border-radius:6px}
+.rgtext{flex:1}
+.rgtext textarea{min-height:76px;height:100%}
+.banner{display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap;background:color-mix(in srgb,var(--bean) 12%,var(--surface));border:1px solid color-mix(in srgb,var(--bean) 35%,var(--line));border-radius:12px;padding:10px 12px;margin-top:10px}
+.banner.warn{background:color-mix(in srgb,var(--amber) 14%,var(--surface));border-color:color-mix(in srgb,var(--amber) 40%,var(--line))}
+.banner b{font-size:13px}
+.conf{font-size:13px;font-weight:600;margin-top:8px;color:var(--good)}
+.conf.medium{color:var(--amber)}.conf.low{color:var(--accent)}
+label.f.guess select,label.f.guess input{border-color:var(--amber);background:color-mix(in srgb,var(--amber) 10%,var(--surface))}
+.display{cursor:pointer;user-select:none;-webkit-user-select:none}
+.ring .t b.long{font-size:17px}
+.target .cd{margin-top:10px;font-size:13px;color:var(--muted)}
+.target .cd b{font-family:var(--f-mono);font-size:22px;color:var(--ink);font-weight:500}
+.toggles{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
+.tg{border:1px solid var(--line);background:none;border-radius:999px;padding:8px 12px;font-size:12px;font-weight:600;color:var(--muted);min-height:36px}
+.tg[aria-pressed="true"]{color:var(--ink);border-color:var(--ink)}
+.tg.static{border-style:dashed;display:inline-flex;align-items:center}
+.lastlog{font-size:13px;color:var(--muted);margin-top:12px;padding:10px 12px;background:var(--sunk);border-radius:10px}
+.lastlog b{color:var(--ink)}
+.advcard{position:relative;background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:12px;padding:14px 46px 14px 14px;margin-bottom:12px}
+.x.sm{position:absolute;top:8px;right:8px;width:36px;height:36px;font-size:14px}
+.confirm span{flex:1 1 160px;font-weight:600;font-size:14px}
+input[type=range]{width:100%;accent-color:var(--accent);height:32px;padding:0;border:0;background:none}
+
 @media (prefers-reduced-motion: reduce){*{transition:none!important;animation:none!important}}
 </style>
 
@@ -215,26 +258,26 @@ nav.tabs a[aria-current="page"]{color:var(--accent)}
 const UI = {
  ro:{tagline:"cafea mai bună acasă",tab_recipes:"Rețete",tab_calc:"Calculator",tab_diag:"Diagnostic",tab_journal:"Jurnal",tab_lab:"Laborator",
   rec_title:"Ce prepari azi?",rec_lede:"Alege o metodă. Fiecare rețetă are ghid pas cu pas cu timer și ținte pe cântar.",
-  all:"Toate",m_pour:"Filtru",m_immersion:"Imersie",m_espresso:"Espresso",m_moka:"Moka",m_ibrik:"Ibric",m_cold:"Cold brew",m_lab:"Experimente",
+  all:"Toate",m_pour:"Filtru",m_immersion:"AeroPress / Press",m_espresso:"Espresso",m_moka:"Moka",m_ibrik:"Ibric",m_cold:"Cold brew",m_lab:"Neobișnuite",
   mine:"Rețetele mele",coffee:"Cafea",water:"Apă",ratio:"Raport",temp:"Temp.",time:"Timp",grind:"Măcinare",yield:"În ceașcă",
-  start:"Începe",pause:"Pauză",resume:"Continuă",reset:"De la zero",finish:"Gata, notează",sound:"Sunet",target:"Ținta pe cântar",
+  start:"Începe",pause:"Pauză",resume:"Continuă",reset:"Ia-o de la capăt",finish:"Gata, notează",sound:"Sunet",target:"Ținta pe cântar",
   next:"Urmează la",then:"apoi",done:"Gata. Gustă și notează.",ready:"Pregătește tot, tarează cântarul și apasă Începe.",
-  dose:"Doza de cafea",scale_note:"Apa și țintele se scalează cu doza. Timpii rămân aceiași.",ingredients:"Ingrediente",steps:"Pași",
+  dose:"Doza de cafea",scale_note:"Apa și țintele se recalculează după doză. La filtru, peste 1,5× doza, macină puțin mai grosier.",ingredients:"Ingrediente",steps:"Pași",
   calc_title:"Calculator de rețetă",calc_lede:"Pornește de la cafeaua pe care o ai sau de la cât vrei să bei.",
   method:"Metodă",know:"Pornesc de la",know_coffee:"cafea (g)",know_drink:"băutură dorită (ml)",amount:"Cantitate",
   bev:"Băutură aprox.",absorbed:"zațul reține ~2 g apă/g cafea",ey_title:"Randament de extracție",ey_lede:"Ai refractometru? Introdu TDS-ul și vezi unde cade cafeaua pe diagrama de control.",
   tds:"TDS (%)",bevw:"Băutură (g)",ey:"Extracție",ideal:"zona ideală",strength:"Concentrație",
-  ey_low:"Sub-extras: macină mai fin sau mărește timpul.",ey_high:"Supra-extras: macină mai grosier sau scade temperatura.",ey_ok:"În zona țintă (18–22%).",
-  diag_title:"De ce nu-mi place cafeaua?",diag_lede:"Atinge căsuța care descrie gustul. Primești ce să schimbi data viitoare, pentru metoda ta.",
+  ey_low:"Subextracție: macină mai fin sau prelungește timpul.",ey_high:"Supraextracție: macină mai grosier sau scade temperatura.",ey_ok:"În zona țintă (18–22%).",
+  diag_title:"De ce nu-mi place cafeaua?",diag_lede:"Atinge căsuța care descrie gustul. Îți spunem ce să schimbi data viitoare, pentru metoda ta.",
   stronger:"mai intens",weaker:"mai apos",sour:"acru",bitter:"amar",
   c00:"acru și intens",c01:"prea intens, greu",c02:"amar și greu",c10:"acru, înțepător",c11:"echilibrat",c12:"amar",c20:"acru și apos",c21:"apos, subțire",c22:"amar, dar subțire și sec",
   extra:"Alte simptome",s_astr:"astringent / sec pe limbă",s_flat:"plat, fără aromă",s_paper:"gust de hârtie / carton",s_slow:"se scurge prea încet",
   rule:"Schimbă un singur lucru o dată. Altfel nu știi ce a ajutat.",pick:"Alege o căsuță de mai sus.",perfect:"Asta e cafeaua ta. Notează setările în jurnal ca s-o poți repeta.",
   j_title:"Jurnal",j_lede:"Fiecare cafea notată te apropie de rețeta ta.",j_empty_t:"Încă nicio cafea notată",j_empty:"După ce termini o preparare, apasă „Gata, notează”. Sau adaugă una manual.",
   add_manual:"Adaugă manual",brews:"Preparări",avg:"Nota medie",best:"Cea mai bună",
-  bean:"Boabe / prăjitor",bean_ph:"ex. Etiopia Guji, prăjitorie locală",rating:"Notă",taste:"Gust",notes:"Notițe",notes_ph:"Ce ai simțit? Ce schimbi data viitoare?",
+  bean:"Boabe / prăjitor",bean_ph:"ex. Etiopia Guji, prăjitorie locală",rating:"Nota (1–5)",taste:"Gust",notes:"Notițe",notes_ph:"Ce ai simțit? Ce schimbi data viitoare?",
   t_sweet:"dulce",t_bal:"echilibrat",t_fruit:"fructat",t_sour:"acru",t_bitter:"amar",t_weak:"apos",t_strong:"intens",t_astr:"astringent",
-  save:"Salvează",cancel:"Renunță",delete:"Șterge",del_q:"Ștergi definitiv această notă?",yes_del:"Da, șterge",repeat:"Prepară din nou",fix:"Vezi ce să schimbi",
+  save:"Salvează",cancel:"Renunță",delete:"Șterge",del_q:"Ștergi definitiv?",yes_del:"Da, șterge",repeat:"Prepară din nou",fix:"Vezi ce să schimbi",
   saved:"Salvat în jurnal",deleted:"Șters",cloud:"Se salvează în contul tău și pe acest telefon.",local:"Se salvează doar pe acest dispozitiv.",
   recipe:"Rețetă",date:"Data",all_m:"Toate metodele",
   lab_title:"Laborator",lab_lede:"Rețete ciudate de pe internet, teste A/B și rețetele tale.",
@@ -245,18 +288,18 @@ const UI = {
   name:"Nume",origin:"Sursă (opțional)",save_recipe:"Salvează rețeta",recipe_saved:"Rețetă salvată în „Rețetele mele”",bad_steps:"Nu am găsit pași valizi. Folosește formatul timp | grame | text.",
   ab_t:"Test A/B",ab_l:"Aceeași rețetă, o singură variabilă schimbată. Prepari A, notezi, prepari B, notezi. Laboratorul îți arată câștigătorul.",
   ab_new:"Experiment nou",variable:"Ce schimbi",va:"Varianta A",vb:"Varianta B",base:"Rețeta de bază",brew_a:"Prepară A",brew_b:"Prepară B",ab_create:"Creează experimentul",
-  ab_wait:"neprăjit încă",winner:"câștigă",tie:"egalitate",
+  ab_wait:"nepreparat încă",winner:"câștigă",tie:"egalitate",
   v_grind:"Măcinarea",v_temp:"Temperatura apei",v_ratio:"Raportul",v_water:"Tipul de apă",v_bloom:"Timpul de bloom",v_agit:"Agitarea",v_bean:"Boabele",v_paper:"Filtrul",
-  weird:"Rețete ciudate, testate de alții",open:"Deschide",scaled:"scalat",per:"la",cups:"căni",
+  weird:"Rețete neobișnuite, testate de alții",open:"Deschide",scaled:"scalat",per:"la",cups:"căni",
   ab_tag:"Experiment",of:"din",
  },
  en:{tagline:"better coffee at home",tab_recipes:"Recipes",tab_calc:"Calculator",tab_diag:"Diagnose",tab_journal:"Journal",tab_lab:"Lab",
   rec_title:"What are you brewing?",rec_lede:"Pick a method. Every recipe has a step-by-step guide with a timer and scale targets.",
-  all:"All",m_pour:"Pour-over",m_immersion:"Immersion",m_espresso:"Espresso",m_moka:"Moka",m_ibrik:"Ibrik",m_cold:"Cold brew",m_lab:"Experiments",
+  all:"All",m_pour:"Pour-over",m_immersion:"AeroPress / Press",m_espresso:"Espresso",m_moka:"Moka",m_ibrik:"Ibrik",m_cold:"Cold brew",m_lab:"Unusual",
   mine:"My recipes",coffee:"Coffee",water:"Water",ratio:"Ratio",temp:"Temp",time:"Time",grind:"Grind",yield:"In cup",
   start:"Start",pause:"Pause",resume:"Resume",reset:"Reset",finish:"Done, log it",sound:"Sound",target:"Scale target",
   next:"Next at",then:"then",done:"Done. Taste it and log it.",ready:"Get everything ready, tare the scale and press Start.",
-  dose:"Coffee dose",scale_note:"Water and targets scale with the dose. Times stay the same.",ingredients:"Ingredients",steps:"Steps",
+  dose:"Coffee dose",scale_note:"Water and targets follow the dose. For pour-over above 1.5× the dose, grind a bit coarser.",ingredients:"Ingredients",steps:"Steps",
   calc_title:"Recipe calculator",calc_lede:"Start from the coffee you have or from how much you want to drink.",
   method:"Method",know:"Start from",know_coffee:"coffee (g)",know_drink:"drink wanted (ml)",amount:"Amount",
   bev:"Drink, approx.",absorbed:"grounds hold ~2 g water per g coffee",ey_title:"Extraction yield",ey_lede:"Got a refractometer? Enter TDS and see where your cup lands on the brewing control chart.",
@@ -288,6 +331,57 @@ const UI = {
   ab_tag:"Experiment",of:"of",
  }
 };
+Object.assign(UI.ro,{
+ u_coffee:"cafea",u_water:"apă",u_cup:"în ceașcă",mine_tag:"a mea",all_recipes:"Toate rețetele",add_recipe:"+ Rețetă",add_title:"Rețetă nouă",
+ pinned:"Recomandat pentru",active_t:"Ai o preparare în curs",cont:"Continuă",discard:"Renunță",started_at:"pornită la",
+ next_in:"Următorul pas în",first_at:"Primul pas la",sound_on:"Sunet: pornit",sound_off:"Sunet: oprit",voice_on:"Voce: pornită",voice_off:"Voce: oprită",awake:"Ecranul rămâne aprins",
+ tap_hint:"Atinge panoul ca să pornești sau să pui pauză",log_it:"Notează cafeaua",leave_q:"Oprești prepararea în curs?",leave_yes:"Da, oprește",reset_q:"O iei de la capăt? Timpul se pierde.",reset_yes:"Da, de la capăt",no:"Nu",
+ this_time:"De data asta",last_time:"Ultima dată:",safety:"Atenție",log_title:"Notează cafeaua",grinder:"Setare râșniță",grinder_ph:"ex. 22 clicuri",
+ adv_t:"Data viitoare",adv_brew:"Prepară din nou cu schimbarea",adv_more:"Vezi tot diagnosticul",was:"Cafeaua de adineauri",adv_both:"Acru și amar în același timp înseamnă de obicei extracție neuniformă: toarnă mai blând și verifică dacă râșnița face mult praf fin.",
+ first_brew:"Prepară prima cafea",bad_num:"Introdu un număr valid.",bad_dose:"Doza trebuie să fie între 1 și 2000 g.",bad_time:"Timpul se scrie m:ss (ex. 3:00) sau în secunde.",need_name:"Dă-i un nume rețetei.",
+ sync_fail:"Nu s-a putut salva în cont; rămâne pe acest dispozitiv.",ey_bad:"Valoare imposibilă: verifică TDS-ul și cantitățile.",ey_imm:"La imersie folosești toată apa, nu doar băutura.",
+ zone_filter:"Zona ideală pentru filtru: extracție 18–22%, TDS 1,15–1,45% (SCA 1,15–1,35, vechiul standard SCAE 1,20–1,45).",zone_esp:"Espresso: extracție 18–22%, TDS 8–12%.",zone_turbo:"Raport lung (turbo / lungo): TDS 6–9% e normal.",
+ ab_runs:"preparări",ab_need:"câștigătorul apare după 2 preparări pe fiecare variantă",ab_blind:"Gustă-le fără să știi care e care: roagă pe cineva să-ți dea cănile nemarcate.",ab_unusual:"Rețetele neobișnuite sunt în Rețete → Neobișnuite. Rețetele de pe internet le adaugi din Rețete → + Rețetă.",
+ ab_applied:"Valoarea se aplică automat în ghidul de preparare.",ab_fill:"Completează ambele variante.",lab_lede:"Teste A/B: aceeași rețetă, o singură variabilă schimbată. Prepari A, notezi, prepari B, notezi.",
+ del_recipe:"Șterge rețeta",no_recipe:"Rețeta nu mai există.",imp_need:"Lipește mai întâi textul rețetei.",imp_fail:"Nu am reușit să citesc rețeta. Încearcă un text mai clar sau scrie pașii mai jos.",imported:"Rețetă importată",
+ ai_off:"Conversia automată merge doar în versiunea din Claude. Scrie pașii mai jos.",
+ rg_title:"Ce cafea ai?",rg_lede:"Fă o poză la pungă sau scrie ce scrie pe ea. Primești o rețetă potrivită și la ce să te aștepți.",rg_photo:"Fă o poză la pungă",rg_photo_change:"Altă poză",rg_text_l:"Descrierea cafelei",
+ rg_ph:"ex. Etiopia Guji, natural, prăjire deschisă, prăjită acum 10 zile",rg_method:"Cu ce prepari?",rg_go:"Recomandă-mi o rețetă",rg_busy:"Citesc punga…",rg_need:"Adaugă o poză sau scrie ce cafea ai.",
+ rg_notcoffee:"Nu pare o pungă de cafea. Fă o poză mai aproape de etichetă.",rg_fail:"Nu am reușit să citesc. Încearcă o poză mai clară sau scrie ce scrie pe pungă.",rg_rate:"Prea multe cereri. Mai încearcă peste un minut.",
+ rg_local:"Am folosit recunoașterea simplă din text.",rg_text_only:"Recunoașterea din poză nu e disponibilă aici; scrie ce scrie pe pungă.",rg_offline:"Aici merge recunoașterea din text. Din poză merge în versiunea din Claude.",
+ rg_mybeans:"Pungile mele",rg_unnamed:"Cafea fără nume",rg_from_photo:"Din poză",rg_from_text:"Din text",rg_k_process:"Procesare",rg_k_roast:"Prăjire",rg_k_days:"Zile de la prăjire",
+ rg_c_high:"Recunoaștere sigură",rg_c_med:"Recunoaștere parțială: verifică datele de mai jos",rg_c_low:"Am ghicit o parte: verifică datele de mai jos",rg_edit:"Corectează ce nu e bine",rg_unknown:"nu știu",
+ rg_expect:"La ce să te aștepți",rg_recipe:"Rețeta recomandată",rg_brew:"Prepară cu rețeta asta",rg_why:"De ce așa",rg_tips:"Sfaturi",rg_save_bean:"Salvează punga",rg_saved_b:"Pungă salvată",rg_del_bean:"Șterge punga",
+ rg_save_recipe:"Salvează rețeta",rg_bean_ok:"Punga e salvată în „Pungile mele”",rg_disclaimer:"E un punct de plecare. După prima cafea notează gustul, iar aplicația îți spune ce să ajustezi.",rg_hist:"Ultimele cafele din punga asta",
+ pr_washed:"spălată",pr_natural:"naturală",pr_honey:"honey",pr_anaerobic:"anaerobă",ro_light:"deschisă",ro_medium:"medie",ro_dark:"închisă",
+ aria_close:"Închide",aria_lang:"Limbă",aria_tabs:"Secțiuni",rec_title:"Ce prepari azi?",
+});
+Object.assign(UI.en,{
+ u_coffee:"coffee",u_water:"water",u_cup:"in cup",mine_tag:"mine",all_recipes:"All recipes",add_recipe:"+ Recipe",add_title:"New recipe",
+ pinned:"Recommended for",active_t:"You have a brew in progress",cont:"Continue",discard:"Discard",started_at:"started at",
+ next_in:"Next step in",first_at:"First step at",sound_on:"Sound: on",sound_off:"Sound: off",voice_on:"Voice: on",voice_off:"Voice: off",awake:"Screen stays on",
+ tap_hint:"Tap the panel to start or pause",log_it:"Log this cup",leave_q:"Stop the brew in progress?",leave_yes:"Yes, stop",reset_q:"Start over? The time is lost.",reset_yes:"Yes, start over",no:"No",
+ this_time:"This time",last_time:"Last time:",safety:"Careful",log_title:"Log this cup",grinder:"Grinder setting",grinder_ph:"e.g. 22 clicks",
+ adv_t:"Next time",adv_brew:"Brew again with this change",adv_more:"See full diagnosis",was:"Your last cup",adv_both:"Sour and bitter at once usually means uneven extraction: pour more gently and check whether your grinder makes lots of fines.",
+ first_brew:"Brew your first cup",bad_num:"Enter a valid number.",bad_dose:"The dose must be between 1 and 2000 g.",bad_time:"Write time as m:ss (e.g. 3:00) or in seconds.",need_name:"Give the recipe a name.",
+ sync_fail:"Couldn't save to your account; kept on this device.",ey_bad:"Impossible value: check the TDS and the amounts.",ey_imm:"For immersion, use all the water, not just the drink.",
+ zone_filter:"Ideal filter zone: 18–22% extraction, TDS 1.15–1.45% (SCA 1.15–1.35, older SCAE 1.20–1.45).",zone_esp:"Espresso: 18–22% extraction, TDS 8–12%.",zone_turbo:"Long ratio (turbo / lungo): TDS 6–9% is normal.",
+ ab_runs:"brews",ab_need:"the winner shows after 2 brews per variant",ab_blind:"Taste them blind: ask someone to hand you unmarked cups.",ab_unusual:"Unusual recipes live in Recipes → Unusual. Add recipes from the internet in Recipes → + Recipe.",
+ ab_applied:"The value is applied automatically in the brew guide.",ab_fill:"Fill in both variants.",lab_lede:"A/B tests: same recipe, one variable changed. Brew A, log it, brew B, log it.",
+ del_recipe:"Delete recipe",no_recipe:"That recipe no longer exists.",imp_need:"Paste the recipe text first.",imp_fail:"Couldn't read that recipe. Try clearer text or write the steps below.",imported:"Imported recipe",
+ ai_off:"Automatic conversion only works in the Claude version. Write the steps below.",
+ rg_title:"What coffee do you have?",rg_lede:"Snap the bag or type what it says. You get a matching recipe and what to expect.",rg_photo:"Photo of the bag",rg_photo_change:"Change photo",rg_text_l:"Coffee description",
+ rg_ph:"e.g. Ethiopia Guji, natural, light roast, roasted 10 days ago",rg_method:"What do you brew with?",rg_go:"Recommend a recipe",rg_busy:"Reading the bag…",rg_need:"Add a photo or type which coffee you have.",
+ rg_notcoffee:"That doesn't look like a coffee bag. Take a closer photo of the label.",rg_fail:"Couldn't read it. Try a clearer photo or type what the bag says.",rg_rate:"Too many requests. Try again in a minute.",
+ rg_local:"Used the simple text recognition.",rg_text_only:"Photo recognition isn't available here; type what the bag says.",rg_offline:"Text recognition works here. Photos work in the Claude version.",
+ rg_mybeans:"My bags",rg_unnamed:"Unnamed coffee",rg_from_photo:"From photo",rg_from_text:"From text",rg_k_process:"Process",rg_k_roast:"Roast",rg_k_days:"Days since roast",
+ rg_c_high:"Confident match",rg_c_med:"Partial match: check the details below",rg_c_low:"Partly guessed: check the details below",rg_edit:"Fix anything that's wrong",rg_unknown:"unknown",
+ rg_expect:"What to expect",rg_recipe:"Recommended recipe",rg_brew:"Brew with this recipe",rg_why:"Why this way",rg_tips:"Tips",rg_save_bean:"Save this bag",rg_saved_b:"Bag saved",rg_del_bean:"Delete bag",
+ rg_save_recipe:"Save recipe",rg_bean_ok:"Saved to “My bags”",rg_disclaimer:"It's a starting point. After the first cup, log the taste and the app tells you what to adjust.",rg_hist:"Your last cups of this bag",
+ pr_washed:"washed",pr_natural:"natural",pr_honey:"honey",pr_anaerobic:"anaerobic",ro_light:"light",ro_medium:"medium",ro_dark:"dark",
+ aria_close:"Close",aria_lang:"Language",aria_tabs:"Sections",rec_title:"What are you brewing today?",
+});
+
 let lang = (()=>{try{const s=localStorage.getItem('bloom.lang'); if(s) return s}catch(e){} return (navigator.language||'ro').toLowerCase().startsWith('ro')?'ro':'en'})();
 const t = k => (UI[lang]&&UI[lang][k]) ?? UI.ro[k] ?? k;
 const L = o => o==null ? '' : (typeof o==='string' ? o : (o[lang] ?? o.ro ?? o.en ?? ''));
@@ -295,7 +389,7 @@ const esc = s => String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>
 
 /* ---------- reference data ---------- */
 const GRIND = {
- xfine:{ro:"pudră, ca făina",en:"powder, like flour",um:"100–200 µm"},
+ xfine:{ro:"pudră, ca făina",en:"powder, like flour",um:"50–200 µm"},
  fine:{ro:"fină, sub sarea de masă",en:"fine, below table salt",um:"200–400 µm"},
  mfine:{ro:"medie-fină, ca sarea de masă",en:"medium-fine, like table salt",um:"400–600 µm"},
  medium:{ro:"medie, ca nisipul",en:"medium, like sand",um:"600–800 µm"},
@@ -306,25 +400,26 @@ const METHODS = ['pour','immersion','espresso','moka','ibrik','cold','lab'];
 
 const S = (t,w,ro,en)=>({t,w,ro,en});
 const RECIPES = [
- {id:'v60-hoffmann',method:'pour',name:{ro:"V60, o cană",en:"V60, single cup"},by:"James Hoffmann",dose:15,water:250,temp:95,grind:'mfine',
+ {id:'v60-hoffmann',method:'pour',name:{ro:"V60, o cană",en:"V60, single cup"},by:"James Hoffmann",dose:15,water:250,temp:100,grind:'mfine',
+  note:{ro:"Hoffmann folosește apă cât mai fierbinte, chiar de la fierbere, mai ales la prăjiri deschise.",en:"Hoffmann uses water as hot as possible, right off the boil, especially for light roasts."},
   steps:[S(0,50,"Bloom: toarnă 50 g și rotește ușor conul ca să se ude tot.","Bloom: pour 50 g and swirl the cone so everything is wet."),
    S(45,100,"Toarnă până la 100 g, în cerc, în 15 s.","Pour to 100 g in circles, within 15 s."),
    S(70,150,"Toarnă până la 150 g.","Pour to 150 g."),
    S(90,200,"Toarnă până la 200 g.","Pour to 200 g."),
-   S(110,250,"Toarnă până la 250 g. Amestecă ușor o dată în fiecare sens, apoi rotește conul.","Pour to 250 g. Stir gently once each way, then swirl the cone."),
+   S(110,250,"Toarnă până la 250 g, apoi rotește ușor conul.","Pour to 250 g, then give the cone a gentle swirl."),
    S(180,null,"Scurgerea ar trebui să se termine în jur de 3:00.","Drawdown should finish around 3:00.")]},
- {id:'v60-46',method:'pour',name:{ro:"Metoda 4:6",en:"The 4:6 method"},by:"Tetsu Kasuya, campion mondial 2016",dose:20,water:300,temp:93,grind:'mcoarse',
-  note:{ro:"Primele două turnări reglează dulceața și aciditatea (prima mai mare = mai dulce). Ultimele trei reglează intensitatea.",en:"The first two pours tune sweetness vs acidity (bigger first pour = sweeter). The last three tune strength."},
+ {id:'v60-46',method:'pour',name:{ro:"Metoda 4:6",en:"The 4:6 method"},by:{ro:"Tetsu Kasuya, campion mondial 2016",en:"Tetsu Kasuya, 2016 world champion"},dose:20,water:300,temp:93,grind:'mcoarse',
+  note:{ro:"Primele două turnări reglează dulceața și aciditatea (prima mai mică = mai dulce, prima mai mare = mai acidă). Ultimele trei reglează intensitatea.",en:"The first two pours tune sweetness vs acidity (smaller first pour = sweeter, bigger = brighter). The last three tune strength."},
   steps:[S(0,60,"Turnarea 1: 60 g.","Pour 1: 60 g."),S(45,120,"Turnarea 2: până la 120 g.","Pour 2: to 120 g."),S(90,180,"Turnarea 3: până la 180 g.","Pour 3: to 180 g."),
    S(135,240,"Turnarea 4: până la 240 g.","Pour 4: to 240 g."),S(180,300,"Turnarea 5: până la 300 g.","Pour 5: to 300 g."),S(210,null,"Scoate dripperul când s-a scurs.","Remove the dripper once drained.")]},
- {id:'chemex',method:'pour',name:{ro:"Chemex pentru doi",en:"Chemex for two"},by:"clasic",dose:30,water:500,temp:94,grind:'mcoarse',
+ {id:'chemex',method:'pour',name:{ro:"Chemex pentru doi",en:"Chemex for two"},by:{ro:"clasic",en:"classic"},dose:30,water:500,temp:94,grind:'mcoarse',
   steps:[S(0,60,"Clătește filtrul cu apă fierbinte și arunc-o. Bloom: 60 g.","Rinse the filter with hot water and discard it. Bloom: 60 g."),
    S(45,250,"Toarnă lent până la 250 g.","Pour slowly to 250 g."),S(90,400,"Toarnă până la 400 g.","Pour to 400 g."),
    S(135,500,"Toarnă până la 500 g.","Pour to 500 g."),S(270,null,"Scurgerea se termină în jur de 4:30.","Drawdown ends around 4:30.")]},
- {id:'kalita',method:'pour',name:{ro:"Kalita Wave în pulsuri",en:"Kalita Wave pulse pour"},by:"clasic",dose:20,water:320,temp:94,grind:'medium',
+ {id:'kalita',method:'pour',name:{ro:"Kalita Wave în pulsuri",en:"Kalita Wave pulse pour"},by:{ro:"clasic",en:"classic"},dose:20,water:320,temp:94,grind:'medium',
   steps:[S(0,50,"Bloom: 50 g.","Bloom: 50 g."),S(40,120,"Puls până la 120 g.","Pulse to 120 g."),S(70,190,"Puls până la 190 g.","Pulse to 190 g."),
    S(100,260,"Puls până la 260 g.","Pulse to 260 g."),S(130,320,"Ultimul puls până la 320 g.","Final pulse to 320 g."),S(210,null,"Gata în jur de 3:30.","Done around 3:30.")]},
- {id:'v60-iced',method:'pour',name:{ro:"V60 cu gheață (stil japonez)",en:"Japanese iced V60"},by:"clasic",dose:20,water:200,temp:96,grind:'mfine',
+ {id:'v60-iced',method:'pour',name:{ro:"V60 cu gheață (stil japonez)",en:"Japanese iced V60"},by:{ro:"clasic",en:"classic"},dose:20,water:200,temp:96,grind:'mfine',
   extras:[{g:120,ro:"gheață în carafă, sub dripper",en:"ice in the server, under the dripper"}],
   note:{ro:"Apa caldă extrage, gheața răcește și diluează. Macini puțin mai fin decât la cald.",en:"Hot water extracts, the ice chills and dilutes. Grind a bit finer than for hot."},
   steps:[S(0,40,"Bloom: 40 g.","Bloom: 40 g."),S(45,120,"Toarnă până la 120 g.","Pour to 120 g."),S(75,200,"Toarnă până la 200 g.","Pour to 200 g."),S(150,null,"Amestecă în carafă până se topește gheața.","Swirl the server until the ice melts.")]},
@@ -332,7 +427,8 @@ const RECIPES = [
   steps:[S(0,200,"Toarnă toată apa, apoi pune pistonul puțin în cilindru ca să nu picure.","Pour all the water, then set the plunger in slightly so it doesn't drip."),
    S(120,null,"Ține de cilindru și rotește-l ușor.","Hold the chamber and swirl it gently."),
    S(150,null,"Apasă ușor, cam 30 s, până la capăt.","Press gently, about 30 s, all the way."),S(180,null,"Gata.","Done.")]},
- {id:'aero-inverted',method:'immersion',name:{ro:"AeroPress inversat",en:"Inverted AeroPress"},by:"stil de concurs",dose:18,water:250,temp:85,grind:'medium',
+ {id:'aero-inverted',method:'immersion',name:{ro:"AeroPress inversat",en:"Inverted AeroPress"},by:{ro:"stil de concurs",en:"competition style"},dose:18,water:250,temp:85,grind:'medium',
+  safety:{ro:"Inversat, AeroPress-ul se poate răsturna; întoarce-l ținând cana deasupra, cu grijă la apa fierbinte.",en:"Upside down it can tip over; flip it with the mug on top and mind the hot water."},
   note:{ro:"Temperatura mai mică scoate dulceața la prăjiri deschise. Dacă e prea concentrat, adaugă apă fierbinte după gust.",en:"Lower temperature brings out sweetness in light roasts. If it's too concentrated, top up with hot water to taste."},
   steps:[S(0,100,"Cu AeroPress-ul întors, toarnă 100 g și amestecă 10 s.","With the AeroPress upside down, pour 100 g and stir for 10 s."),
    S(30,250,"Completează până la 250 g.","Top up to 250 g."),S(90,null,"Pune capacul cu filtrul clătit și întoarce-l pe cană.","Fit the cap with a rinsed filter and flip it onto the mug."),
@@ -342,26 +438,26 @@ const RECIPES = [
    S(240,null,"Sparge crusta cu o lingură, apoi scoate spuma de deasupra cu două linguri.","Break the crust with a spoon, then skim the foam off the top with two spoons."),
    S(300,null,"Pune capacul, dar nu apăsa. Lasă zațul fin să se depună.","Put the lid on but don't press. Let the fines settle."),
    S(600,null,"Coboară pistonul doar până la suprafață și toarnă încet.","Lower the plunger just to the surface and pour slowly.")]},
- {id:'espresso',method:'espresso',name:{ro:"Espresso clasic 1:2",en:"Classic 1:2 espresso"},by:"punct de plecare",dose:18,water:36,temp:93,grind:'fine',
+ {id:'espresso',method:'espresso',name:{ro:"Espresso clasic 1:2",en:"Classic 1:2 espresso"},by:{ro:"punct de plecare",en:"starting point"},dose:18,water:36,temp:93,grind:'fine',
   note:{ro:"Aici „apa” înseamnă cât cântărește espresso-ul în ceașcă.",en:"Here “water” means the espresso's weight in the cup."},
   steps:[S(0,0,"Pornește pompa și cronometrul în același timp.","Start the pump and the timer together."),
    S(7,2,"Apar primele picături.","First drops appear."),S(28,36,"Oprește la 36 g în ceașcă (25–30 s).","Stop at 36 g in the cup (25–30 s).")]},
- {id:'espresso-turbo',method:'espresso',name:{ro:"Turbo shot",en:"Turbo shot"},by:"studiu Cameron et al., 2020",dose:18,water:54,temp:93,grind:'fine',tagLab:true,
+ {id:'espresso-turbo',method:'espresso',name:{ro:"Turbo shot",en:"Turbo shot"},by:{ro:"inspirat de Cameron et al., 2020",en:"inspired by Cameron et al., 2020"},dose:18,water:54,temp:93,grind:'fine',tagLab:true,
   note:{ro:"Macini mai grosier decât la espresso normal, raport 1:3, presiune mai mică dacă poți. Mai repetabil, mai puțin amar.",en:"Grind coarser than normal espresso, 1:3 ratio, lower pressure if you can. More repeatable, less bitter."},
   steps:[S(0,0,"Pornește pompa.","Start the pump."),S(4,5,"Curge aproape imediat.","It flows almost immediately."),S(16,54,"Oprește la 54 g (15–20 s).","Stop at 54 g (15–20 s).")]},
- {id:'moka',method:'moka',name:{ro:"Moka fără gust de ars",en:"Moka pot without the burnt taste"},by:"Bialetti, 3 cești",dose:15,water:150,temp:70,grind:'mfine',
-  steps:[S(0,150,"Toarnă apă fierbinte (nu clocotită) în rezervor, sub valvă. Umple coșul cu cafea fără s-o tasezi.","Pour hot (not boiling) water into the base, below the valve. Fill the basket without tamping."),
+ {id:'moka',method:'moka',name:{ro:"Moka fără gust de ars",en:"Moka pot without the burnt taste"},by:{ro:"Bialetti, 3 cești",en:"Bialetti, 3-cup"},dose:15,water:150,temp:null,tempLabel:{ro:"apă fierbinte",en:"hot water"},grind:'mfine',
+  steps:[S(0,150,"Toarnă apă fierbinte, chiar de pe fierbător, în rezervor, sub valvă. Umple coșul cu cafea fără s-o tasezi.","Pour hot water, just off the boil, into the base, below the valve. Fill the basket without tamping."),
    S(60,null,"Înșurubează cu o cârpă și pune pe foc mediu-mic, cu capacul deschis.","Screw it together with a cloth and put it on medium-low heat, lid open."),
-   S(180,null,"Când cafeaua curge ca mierea, ia ibricul de pe foc.","When coffee flows like honey, take it off the heat."),
-   S(240,null,"La primul gâlgâit, ține baza sub apă rece ca să oprești extracția.","At the first gurgle, run the base under cold water to stop extraction.")]},
- {id:'ibrik',method:'ibrik',name:{ro:"Cafea la ibric, două cești",en:"Ibrik coffee, two cups"},by:"tradițional",dose:14,water:140,temp:20,grind:'xfine',
+   S(180,null,"Când cafeaua curge ca mierea, ia moka de pe foc.","When coffee flows like honey, take it off the heat."),
+   S(240,null,"La primul gâlgâit, ține baza sub apă rece ca să oprești extracția. Nu deschide moka cât e sub presiune.","At the first gurgle, run the base under cold water to stop extraction. Never open it while it's under pressure.")]},
+ {id:'ibrik',method:'ibrik',name:{ro:"Cafea la ibric, două cești",en:"Ibrik coffee, two cups"},by:{ro:"tradițional",en:"traditional"},dose:14,water:140,temp:null,tempLabel:{ro:"apă rece",en:"cold water"},grind:'xfine',
   note:{ro:"Zahărul, dacă vrei, se pune de la început. Foc cât mai mic: cu cât urcă mai încet, cu atât mai multă spumă.",en:"Add sugar, if you want it, at the start. Lowest heat: the slower it rises, the more foam."},
   steps:[S(0,140,"Apă rece, cafea măcinată ca făina și zahăr în ibric. Amestecă bine.","Cold water, flour-fine coffee and sugar in the ibrik. Stir well."),
    S(30,null,"Pune pe foc mic. De acum nu mai amesteca.","Put on low heat. Don't stir from now on."),
    S(150,null,"Când spuma urcă spre buză, ia de pe foc chiar înainte să fiarbă.","When the foam rises to the rim, take it off just before it boils."),
    S(170,null,"Împarte spuma în cești, apoi toarnă restul încet.","Spoon the foam into the cups, then pour the rest slowly.")]},
- {id:'cold',method:'cold',name:{ro:"Concentrat cold brew",en:"Cold brew concentrate"},by:"1:10, de diluat 1:1",dose:100,water:1000,temp:4,grind:'coarse',
-  note:{ro:"Diluează concentratul 1:1 cu apă sau lapte. Ține la frigider până la o săptămână.",en:"Dilute the concentrate 1:1 with water or milk. Keeps up to a week in the fridge."},
+ {id:'cold',method:'cold',name:{ro:"Cold brew",en:"Cold brew"},by:{ro:"1:10, gata de băut",en:"1:10, ready to drink"},dose:100,water:1000,temp:4,grind:'coarse',
+  note:{ro:"La 1:10 se bea ca atare, cu gheață sau lapte. Vrei concentrat? Folosește 1:5 și diluează 1:1. Ține la frigider până la o săptămână.",en:"At 1:10 it's ready to drink, over ice or with milk. Want a concentrate? Brew 1:5 and dilute 1:1. Keeps up to a week in the fridge."},
   steps:[S(0,1000,"Amestecă cafeaua cu apa rece până se udă toată.","Stir the coffee into cold water until it's all wet."),
    S(300,null,"Acoperă și pune la frigider 12–18 ore. Poți închide aplicația.","Cover and refrigerate for 12–18 hours. You can close the app."),
    S(54000,null,"Filtrează printr-o sită, apoi prin filtru de hârtie.","Strain through a sieve, then a paper filter.")]},
@@ -369,33 +465,35 @@ const RECIPES = [
 
 /* odd recipes from the internet (Lab) */
 const WEIRD = [
- {id:'salt',method:'lab',name:{ro:"Un vârf de sare",en:"A pinch of salt"},by:"Alton Brown și jumătate de internet",dose:15,water:250,temp:95,grind:'mfine',
+ {id:'salt',method:'lab',name:{ro:"Un vârf de sare",en:"A pinch of salt"},by:{ro:"Alton Brown și jumătate de internet",en:"Alton Brown and half the internet"},dose:15,water:250,temp:95,grind:'mfine',
   desc:{ro:"Sodiul maschează amăreala. Merge pe orice rețetă, mai ales la cafea prea prăjită.",en:"Sodium masks bitterness. Works on any recipe, especially over-roasted coffee."},
   ingredients:[{ro:"~0,1 g sare fină (un vârf de cuțit) la 250 ml",en:"~0.1 g fine salt (a knife-tip pinch) per 250 ml"}],
   steps:[S(0,null,"Prepară cafeaua cum faci de obicei.","Brew your coffee as usual."),S(10,null,"Adaugă sarea, amestecă, gustă. Compară cu o ceașcă fără.","Add the salt, stir, taste. Compare with a cup without.")]},
  {id:'egg-vn',method:'lab',name:{ro:"Cà phê trứng (cafea cu ou)",en:"Cà phê trứng (egg coffee)"},by:"Hanoi, Vietnam",dose:15,water:60,temp:96,grind:'fine',
   desc:{ro:"O cremă din gălbenuș și lapte condensat peste o cafea foarte tare. Gust de tiramisu.",en:"A yolk and condensed milk cream over very strong coffee. Tastes like tiramisu."},
-  ingredients:[{ro:"2 gălbenușuri foarte proaspete",en:"2 very fresh egg yolks"},{ro:"2 lingurițe lapte condensat",en:"2 tsp condensed milk"},{ro:"60 ml cafea foarte tare (phin, moka sau 2 espresso)",en:"60 ml very strong coffee (phin, moka or 2 espressos)"}],
-  steps:[S(0,null,"Bate gălbenușurile cu laptele condensat până devin o cremă deschisă la culoare.","Whisk the yolks with the condensed milk until pale and creamy."),
+  safety:{ro:"Gălbenușul rămâne crud: folosește ouă pasteurizate. Evită dacă ești însărcinată, pentru copii mici, vârstnici sau persoane cu imunitate scăzută.",en:"The yolk stays raw: use pasteurised eggs. Avoid if pregnant, for small children, the elderly or anyone immunocompromised."},
+  ingredients:[{ro:"1 gălbenuș foarte proaspăt (pasteurizat)",en:"1 very fresh egg yolk (pasteurised)"},{ro:"2 lingurițe lapte condensat",en:"2 tsp condensed milk"},{ro:"60 ml cafea foarte tare (phin, moka sau 2 espresso)",en:"60 ml very strong coffee (phin, moka or 2 espressos)"}],
+  steps:[S(0,null,"Bate gălbenușul cu laptele condensat până devine o cremă deschisă la culoare.","Whisk the yolk with the condensed milk until pale and creamy."),
    S(240,null,"Pune ceașca de cafea într-un bol cu apă fierbinte ca să rămână caldă.","Set the coffee cup in a bowl of hot water to keep it warm."),
    S(270,null,"Toarnă crema peste cafea. Se mănâncă cu lingurița.","Spoon the cream on top. Eat it with a spoon.")]},
- {id:'egg-scandi',method:'lab',name:{ro:"Cafea scandinavă cu ou",en:"Scandinavian egg coffee"},by:"Minnesota, comunități suedeze și norvegiene",dose:30,water:600,temp:100,grind:'mcoarse',
-  desc:{ro:"Un ou întreg amestecat în zaț leagă particulele. Rezultă o cafea limpede, fără amăreală.",en:"A whole egg mixed into the grounds binds the fines. You get a clear cup with no bitterness."},
+ {id:'egg-scandi',method:'lab',name:{ro:"Cafea scandinavă cu ou",en:"Scandinavian egg coffee"},by:{ro:"Minnesota, comunități suedeze și norvegiene",en:"Minnesota, Swedish and Norwegian communities"},dose:30,water:600,temp:100,grind:'mcoarse',
+  desc:{ro:"Un ou întreg amestecat în zaț leagă particulele. Rezultă o cafea limpede și mai blândă.",en:"A whole egg mixed into the grounds binds the fines. You get a clear, smoother cup."},
+  safety:{ro:"Conține ou (alergen). Fierberea de 3 minute face coaja sigură.",en:"Contains egg (allergen). The 3-minute boil makes the shell safe."},
   ingredients:[{ro:"1 ou întreg, cu tot cu coaja zdrobită",en:"1 whole egg, crushed shell included"},{ro:"120 ml apă rece separat",en:"120 ml cold water on the side"}],
   steps:[S(0,null,"Amestecă cafeaua cu oul și puțină apă într-o pastă.","Mix the coffee, egg and a splash of water into a paste."),
    S(60,600,"Pune pasta în apa clocotită. Fierbe 3 minute.","Add the paste to boiling water. Boil for 3 minutes."),
    S(240,null,"Ia de pe foc și toarnă 120 ml apă rece. Zațul coboară la fund.","Take off the heat and pour in 120 ml cold water. The grounds sink."),
    S(330,null,"Strecoară prin sită fină.","Strain through a fine sieve.")]},
- {id:'dalgona',method:'lab',name:{ro:"Dalgona (cafea bătută)",en:"Dalgona whipped coffee"},by:"Coreea de Sud, viral în 2020",dose:10,water:30,temp:100,grind:'xfine',
+ {id:'dalgona',method:'lab',name:{ro:"Dalgona (cafea bătută)",en:"Dalgona whipped coffee"},by:{ro:"Coreea de Sud, viral în 2020",en:"South Korea, viral in 2020"},dose:10,water:30,temp:null,grind:null,
   desc:{ro:"Cafea instant, zahăr și apă bătute până devin spumă fermă, peste lapte rece.",en:"Instant coffee, sugar and water whipped to a stiff foam, over cold milk."},
   ingredients:[{ro:"2 linguri cafea instant",en:"2 tbsp instant coffee"},{ro:"2 linguri zahăr",en:"2 tbsp sugar"},{ro:"2 linguri apă fierbinte",en:"2 tbsp hot water"},{ro:"250 ml lapte rece cu gheață",en:"250 ml cold milk with ice"}],
   steps:[S(0,null,"Bate cafeaua, zahărul și apa cu mixerul.","Whisk the coffee, sugar and water with a mixer."),
    S(180,null,"Când face vârfuri, pune spuma peste lapte.","When it holds peaks, spoon it over the milk.")]},
- {id:'tonic',method:'lab',name:{ro:"Espresso tonic",en:"Espresso tonic"},by:"Stockholm, Koppi",dose:18,water:36,temp:93,grind:'fine',
+ {id:'tonic',method:'lab',name:{ro:"Espresso tonic",en:"Espresso tonic"},by:"Koppi, Helsingborg",dose:18,water:36,temp:93,grind:'fine',
   desc:{ro:"Amar, acrișor și spumos. Merge cel mai bine cu espresso fructat, prăjit deschis.",en:"Bitter, tart and fizzy. Best with a fruity, light-roast espresso."},
   ingredients:[{ro:"150 ml apă tonică rece",en:"150 ml cold tonic water"},{ro:"gheață",en:"ice"},{ro:"o felie de portocală (opțional)",en:"an orange slice (optional)"}],
   steps:[S(0,null,"Pahar înalt cu gheață și apă tonică.","Tall glass with ice and tonic."),S(20,null,"Prepară espresso-ul.","Pull the espresso."),S(50,null,"Toarnă espresso-ul încet, peste o linguriță, ca să rămână în straturi.","Pour the espresso slowly over a spoon so it layers.")]},
- {id:'olla',method:'lab',name:{ro:"Café de olla",en:"Café de olla"},by:"Mexic",dose:30,water:500,temp:100,grind:'mcoarse',
+ {id:'olla',method:'lab',name:{ro:"Café de olla",en:"Café de olla"},by:{ro:"Mexic",en:"Mexico"},dose:30,water:500,temp:100,grind:'mcoarse',
   desc:{ro:"Cafea fiartă cu scorțișoară și zahăr brut, tradițional în oală de lut.",en:"Coffee simmered with cinnamon and raw cane sugar, traditionally in a clay pot."},
   ingredients:[{ro:"1 baton de scorțișoară",en:"1 cinnamon stick"},{ro:"40 g piloncillo sau zahăr brun",en:"40 g piloncillo or brown sugar"},{ro:"coajă de portocală (opțional)",en:"orange peel (optional)"}],
   steps:[S(0,500,"Fierbe apa cu scorțișoara și zahărul până se topește zahărul.","Simmer the water with cinnamon and sugar until the sugar dissolves."),
@@ -403,9 +501,10 @@ const WEIRD = [
    S(600,null,"Strecoară prin sită fină.","Strain through a fine sieve.")]},
  {id:'butter',method:'lab',name:{ro:"Cafea cu unt",en:"Butter coffee"},by:"Bulletproof, Dave Asprey",dose:15,water:250,temp:95,grind:'medium',
   desc:{ro:"Cafea mixată cu unt nesărat. Iese cremoasă, ca un latte fără lapte.",en:"Coffee blended with unsalted butter. Comes out creamy, like a latte without milk."},
+  safety:{ro:"Lichidul fierbinte într-un blender închis poate arunca capacul: scoate dopul din capac și acoperă cu un prosop.",en:"Hot liquid in a sealed blender can blow the lid: remove the lid cap and cover with a towel."},
   ingredients:[{ro:"1 lingură unt nesărat",en:"1 tbsp unsalted butter"},{ro:"1 linguriță ulei MCT sau de cocos (opțional)",en:"1 tsp MCT or coconut oil (optional)"}],
   steps:[S(0,null,"Prepară o cafea filtru sau French press.","Brew a filter or French press coffee."),S(10,null,"Pune-o în blender cu untul. Mixează 20 s până face spumă.","Blend it with the butter for 20 s until foamy.")]},
- {id:'mazagran',method:'lab',name:{ro:"Mazagran",en:"Mazagran"},by:"Portugalia și Algeria",dose:100,water:200,temp:4,grind:'coarse',
+ {id:'mazagran',method:'lab',name:{ro:"Mazagran",en:"Mazagran"},by:{ro:"Portugalia și Algeria",en:"Portugal and Algeria"},dose:null,water:null,temp:null,grind:null,
   desc:{ro:"Cafea rece cu lămâie și gheață. Vara, pe cold brew.",en:"Iced coffee with lemon. Summer, on cold brew."},
   ingredients:[{ro:"100 ml cold brew diluat sau 2 espresso",en:"100 ml diluted cold brew or 2 espressos"},{ro:"suc de la ½ lămâie",en:"juice of ½ lemon"},{ro:"1–2 lingurițe zahăr",en:"1–2 tsp sugar"},{ro:"gheață",en:"ice"}],
   steps:[S(0,null,"Amestecă lămâia cu zahărul până se dizolvă.","Stir the lemon and sugar until dissolved."),S(30,null,"Adaugă gheața și cafeaua. Amestecă și gustă.","Add ice and coffee. Stir and taste.")]},
@@ -415,9 +514,179 @@ const WEIRD = [
   steps:[S(0,null,"Prepară ceaiul (5 min) și cafeaua separat.","Brew the tea (5 min) and the coffee separately."),S(300,null,"Amestecă 1:1. Cald sau cu gheață.","Mix 1:1. Hot or over ice.")]},
 ];
 
+/* ---------- coffee recognition: bean profile -> starting recipe ---------- */
+const RM = [ // methods offered by the recognizer: key, base recipe, label
+ {k:'v60',base:'v60-hoffmann',ro:'V60',en:'V60'},{k:'chemex',base:'chemex',ro:'Chemex',en:'Chemex'},
+ {k:'aeropress',base:'aero-hoffmann',ro:'AeroPress',en:'AeroPress'},{k:'french',base:'french-hoffmann',ro:'French press',en:'French press'},
+ {k:'espresso',base:'espresso',ro:'Espresso',en:'Espresso'},{k:'moka',base:'moka',ro:'Moka',en:'Moka'},
+ {k:'ibrik',base:'ibrik',ro:'Ibric',en:'Ibrik'},{k:'cold',base:'cold',ro:'Cold brew',en:'Cold brew'}];
+const GKEYS=['xfine','fine','mfine','medium','mcoarse','coarse'];
+const ORIGINS = { // keyword(s) -> profile hints
+ ethiopia:{kw:['ethiopia','etiopia','yirgacheffe','yirgachefe','guji','sidama','sidamo','harrar','limu'],dense:true,ro:"floral, citrice, ceai negru; fructe de pădure la natural",en:"floral, citrus, black tea; berries when natural",name:{ro:'Etiopia',en:'Ethiopia'}},
+ kenya:{kw:['kenya','kenia','nyeri','kirinyaga'],dense:true,ro:"coacăze negre, grepfrut, aciditate vie",en:"blackcurrant, grapefruit, lively acidity",name:{ro:'Kenya',en:'Kenya'}},
+ colombia:{kw:['colombia','columbia','huila','nariño','narino','tolima','cauca'],dense:true,ro:"caramel, fructe roșii, ciocolată cu lapte",en:"caramel, red fruit, milk chocolate",name:{ro:'Columbia',en:'Colombia'}},
+ brazil:{kw:['brazil','brazilia','brasil','cerrado','minas','mogiana','santos'],dense:false,low:true,ro:"nuci, ciocolată, corp plin, aciditate mică",en:"nuts, chocolate, full body, low acidity",name:{ro:'Brazilia',en:'Brazil'}},
+ guatemala:{kw:['guatemala','antigua','huehuetenango'],dense:true,ro:"ciocolată, măr, condimente",en:"chocolate, apple, spice",name:{ro:'Guatemala',en:'Guatemala'}},
+ costarica:{kw:['costa rica','tarrazu','tarrazú'],dense:true,ro:"miere, citrice, gust curat",en:"honey, citrus, clean cup",name:{ro:'Costa Rica',en:'Costa Rica'}},
+ rwanda:{kw:['rwanda','ruanda'],dense:true,ro:"fructe roșii, ceai, citrice",en:"red fruit, tea, citrus",name:{ro:'Rwanda',en:'Rwanda'}},
+ burundi:{kw:['burundi'],dense:true,ro:"fructe roșii, ceai negru",en:"red fruit, black tea",name:{ro:'Burundi',en:'Burundi'}},
+ panama:{kw:['panama','boquete','geisha','gesha'],dense:true,ro:"iasomie, bergamotă, piersică",en:"jasmine, bergamot, peach",name:{ro:'Panama',en:'Panama'}},
+ yemen:{kw:['yemen','yemeni','mokha'],dense:true,ro:"fructe uscate, condimente, vinos",en:"dried fruit, spice, winey",name:{ro:'Yemen',en:'Yemen'}},
+ peru:{kw:['peru'],dense:true,ro:"cacao, nuci, dulce",en:"cocoa, nuts, sweet",name:{ro:'Peru',en:'Peru'}},
+ honduras:{kw:['honduras'],dense:true,ro:"caramel, fructe galbene",en:"caramel, stone fruit",name:{ro:'Honduras',en:'Honduras'}},
+ mexico:{kw:['mexic','mexico','chiapas','oaxaca'],dense:false,ro:"ciocolată, nuci",en:"chocolate, nuts",name:{ro:'Mexic',en:'Mexico'}},
+ elsalvador:{kw:['el salvador','salvador'],dense:true,ro:"caramel, ciocolată, fructe",en:"caramel, chocolate, fruit",name:{ro:'El Salvador',en:'El Salvador'}},
+ nicaragua:{kw:['nicaragua'],dense:true,ro:"ciocolată, caramel",en:"chocolate, caramel",name:{ro:'Nicaragua',en:'Nicaragua'}},
+ indonesia:{kw:['indonesia','sumatra','java','sulawesi','bali','mandheling'],dense:false,low:true,ro:"pământ, ierburi, cedru, corp greu",en:"earthy, herbal, cedar, heavy body",name:{ro:'Indonezia',en:'Indonesia'}},
+ india:{kw:['india','monsooned','malabar'],dense:false,low:true,ro:"ciocolată amăruie, condimente, corp mare",en:"bitter chocolate, spice, big body",name:{ro:'India',en:'India'}},
+ vietnam:{kw:['vietnam'],dense:false,low:true,ro:"ciocolată neagră, amărui (des robusta)",en:"dark chocolate, bitter (often robusta)",name:{ro:'Vietnam',en:'Vietnam'}},
+ uganda:{kw:['uganda'],dense:true,ro:"fructe, ciocolată",en:"fruit, chocolate",name:{ro:'Uganda',en:'Uganda'}},
+ tanzania:{kw:['tanzania','kilimanjaro'],dense:true,ro:"fructe, citrice, ciocolată",en:"fruit, citrus, chocolate",name:{ro:'Tanzania',en:'Tanzania'}},
+};
+const PROC_TXT={washed:{ro:"spălat: gust curat, aciditate clară",en:"washed: clean, clear acidity"},natural:{ro:"natural: fructe coapte, dulce, corp mai mare",en:"natural: ripe fruit, sweet, more body"},
+ honey:{ro:"honey: dulce și rotund",en:"honey: sweet and round"},anaerobic:{ro:"anaerob: fermentat, vinos, intens",en:"anaerobic: fermented, winey, intense"}};
+const ROAST_TXT={light:{ro:"prăjire deschisă: aciditate vie, arome delicate",en:"light roast: lively acidity, delicate aromas"},medium:{ro:"prăjire medie: echilibru între dulce și aciditate",en:"medium roast: balance of sweetness and acidity"},
+ dark:{ro:"prăjire închisă: ciocolată neagră, amărui, corp greu",en:"dark roast: dark chocolate, bitter edge, heavy body"}};
+
+function parseBeanText(txt){ // local, no AI: keyword rules
+ const s=' '+txt.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'')+' ';
+ const has=(...k)=>k.some(w=>s.includes(w));
+ const first=txt.trim().split(/[,;\n]/)[0].trim();
+ const p={source:'text',name:(first.length>42?first.slice(0,40)+'…':first)};
+ for(const [k,o] of Object.entries(ORIGINS)) if(o.kw.some(w=>s.includes(' '+w.normalize('NFD').replace(/[̀-ͯ]/g,'')))){p.origin=k;break}
+ if(has('decaf','decofeinizat','fara cofeina','decaffeinated')) p.decaf=true;
+ if(has('anaerob','carbonic','ferment','co-ferment','thermal shock')) p.process='anaerobic';
+ else if(has('honey','miere','pulped natural')) p.process='honey';
+ else if(has('natural','uscat la soare','dry process','sun dried','sun-dried')) p.process='natural';
+ else if(has('washed','spalat','lavat','wet process','fully washed')) p.process='washed';
+ if(has('light','deschis','blond','nordic','filter roast','omni','pentru filtru','cinnamon')) p.roast='light';
+ else if(has('dark','inchis','intens','italian','french roast','espresso roast','pentru espresso','full city+','vienna')) p.roast='dark';
+ else if(has('medium','mediu','medie','city roast','full city')) p.roast='medium';
+ if(has('robusta')) {p.robusta=true; if(!p.roast) p.roast='dark'}
+ if(has('blend','amestec','house')) p.blend=true;
+ let m=s.match(/(\d{3,4})\s*(?:-\s*\d{3,4}\s*)?(?:m\b|masl|m\.a\.s\.l|metri)/); if(m) p.altitude=+m[1];
+ m=s.match(/(\d{1,3})\s*(?:zile|zi|days|day)\b/); if(m) p.days=+m[1];
+ m=s.match(/(\d{1,3})\s*(?:saptamani|săptămâni|weeks|week)\b/); if(m&&p.days==null) p.days=+m[1]*7;
+ m=s.match(/\b(\d{1,2})[./-](\d{1,2})[./-](20\d{2})\b/); if(m&&p.days==null){const d=new Date(+m[3],+m[2]-1,+m[1]);const n=Math.round((Date.now()-d)/864e5);if(n>=0&&n<400)p.days=n}
+ m=s.match(/\b(20\d{2})-(\d{2})-(\d{2})\b/); if(m&&p.days==null){const n=Math.round((Date.now()-new Date(+m[1],+m[2]-1,+m[3]))/864e5);if(n>=0&&n<400)p.days=n}
+ const assumed=[]; if(!p.roast) assumed.push('roast'); if(!p.process&&!p.blend) assumed.push('process'); if(p.days==null) assumed.push('days');
+ p.assumed=assumed; p.confidence=p.origin&&p.roast?'medium':'low';
+ return p;
+}
+
+/* freshness window by method and roast (days since roast) */
+function freshness(mk,roast,d){
+ if(d==null) return null;
+ const esp=mk==='espresso', light=roast==='light', dark=roast==='dark';
+ const [lo,hi]=esp?(light?[8,45]:dark?[4,30]:[6,35]):(light?[5,45]:[3,35]);
+ return {state:d<lo?'fresh':d>hi?'stale':'ok',lo,hi};
+}
+function buildRecipe(p,mk,hist){
+ const meta=RM.find(x=>x.k===mk)||RM[0], base=findRecipe(meta.base), r=JSON.parse(JSON.stringify(base));
+ const why=[], tips=[], W=(ro,en)=>({ro,en});
+ const roast=p.roast||'medium', proc=p.process||'', o=ORIGINS[p.origin]||null;
+ const filter=mk==='v60'||mk==='chemex', imm=mk==='aeropress'||mk==='french', esp=mk==='espresso', hot=filter||imm||esp;
+ let temp=base.temp, ratio=base.water/base.dose, g=0, bloom=0;
+ if(filter){temp={light:98,medium:93,dark:89}[roast];ratio={light:16.5,medium:16,dark:15.5}[roast]}
+ if(mk==='french'){temp={light:99,medium:95,dark:90}[roast];ratio={light:16.5,medium:16,dark:15.5}[roast]}
+ if(mk==='aeropress'){temp={light:99,medium:93,dark:88}[roast];ratio={light:18,medium:17,dark:16}[roast]}
+ if(esp){temp={light:95,medium:92,dark:90}[roast];ratio={light:2.3,medium:2,dark:1.7}[roast]}
+ if(roast==='light'){g-=1; if(hot) why.push(esp?W("Prăjire deschisă: raport mai lung (1:2,3), 95 °C și măcinare fină. Țintă: 28–32 s.","Light roast: longer ratio (1:2.3), 95 °C and a fine grind. Aim for 28–32 s."):W("Prăjire deschisă: apă foarte fierbinte și măcinare cu o treaptă mai fină, ca să scoți dulceața.","Light roast: very hot water and a grind one step finer, to pull out the sweetness."))}
+ if(roast==='dark'){g+=1; if(hot) why.push(esp?W("Prăjire închisă: raport scurt (1:1,7) și 90 °C, ca să rămână dulce, nu amar.","Dark roast: short ratio (1:1.7) and 90 °C, to keep it sweet, not bitter."):W("Prăjire închisă: apă mai rece, măcinare mai grosieră și raport mai strâns, ca să eviți amăreala.","Dark roast: cooler water, coarser grind and a tighter ratio, to avoid bitterness."))}
+ if(roast==='medium'&&hot) why.push(esp?W("Prăjire medie: espresso clasic 1:2 la 92 °C, țintă 25–30 s.","Medium roast: classic 1:2 espresso at 92 °C, aim for 25–30 s."):W("Prăjire medie: pornim de la valorile clasice, 1:16.","Medium roast: we start from the classic values, 1:16."));
+ if(hot){
+  if(proc==='honey'){temp-=1;why.push(W("Procesare honey: dulce și siropoasă; cu 1 °C mai rece.","Honey process: sweet and syrupy; 1 °C cooler."))}
+  if(proc==='natural'){temp-=1.5;g+=.5;why.push(W("Procesare naturală: extrage ușor și face mai mult praf fin, deci mai rece și turnare blândă.","Natural process: extracts easily and makes more fines, so cooler and a gentle pour."))}
+  if(proc==='anaerobic'){temp-=3;g+=1;if(!esp)ratio+=.5;why.push(W("Fermentare anaerobă: arome intense care devin repede aspre; −3 °C, mai grosier, raport puțin mai larg.","Anaerobic: intense flavors that turn harsh fast; −3 °C, coarser, slightly wider ratio."))}
+  if(proc==='washed'&&roast!=='dark') why.push(W("Spălată: suportă bine apă fierbinte și o extracție completă.","Washed: handles hot water and a full extraction well."));
+  if(((o&&o.dense)||(p.altitude&&p.altitude>=1800))&&!(p.altitude&&p.altitude<1200)){temp+=1;g-=.5;why.push(W("Boabe crescute la altitudine, dense: +1 °C și puțin mai fin.","High-grown, dense beans: +1 °C and slightly finer."))}
+  else if((o&&o.low)||(p.altitude&&p.altitude<=1200)||p.robusta){temp-=1;g+=.5;why.push(W("Boabe de altitudine mică sau robusta: −1 °C ca să nu iasă amar.","Lower-grown beans or robusta: −1 °C so it doesn't turn bitter."))}
+  if(p.decaf){temp-=3;g+=1;why.push(W("Decofeinizată: extrage mai repede, deci mai rece și mai grosier.","Decaf: extracts faster, so cooler and coarser."))}
+ } else {
+  if(proc==='natural'||proc==='anaerobic') g+=.5;
+  if(mk==='moka'){ if(roast==='light') tips.push(W("La moka, prăjirile deschise pot ieși acre: pornește cu apă chiar de la fierbere.","Light roasts can turn sour in a moka: start with water right off the boil."));
+   if(roast==='dark') tips.push(W("Prăjire închisă: foc cât mai mic și ia de pe foc devreme, altfel iese amar.","Dark roast: lowest heat and pull it early, or it turns bitter.")); }
+  if(mk==='ibrik'&&roast==='light') tips.push(W("La ibric merg mai bine prăjirile medii-închise. Cu prăjire deschisă, lasă spuma să urce încet.","Ibrik suits medium-dark roasts. With a light roast, let the foam rise slowly."));
+  if(mk==='cold'){ if(roast==='light') why.push(W("Prăjire deschisă la rece: extracția e lentă, lasă 16–18 ore.","Light roast cold: extraction is slow, steep 16–18 hours."));
+   else if(roast==='dark') why.push(W("Prăjire închisă: 12 ore ajung; mai mult scoate gust de lemn.","Dark roast: 12 hours is enough; longer gets woody.")); }
+ }
+ const f=freshness(mk,roast,p.days);
+ if(f&&f.state==='fresh'){ if(filter) bloom=15;
+  tips.push(esp?W(`Prăjită acum ${p.days} zile: prea proaspătă pentru espresso, face canale. Ideal aștepți până la ziua ${f.lo}.`,`Roasted ${p.days} days ago: too fresh for espresso, it channels. Ideally wait until day ${f.lo}.`)
+   :W(`Prăjită acum ${p.days} zile: e foarte proaspătă și are mult CO₂. Bloom de 60 s, cu apă cât de 3 ori doza. Dă cel mai bine după ziua ${f.lo}.`,`Roasted ${p.days} days ago: very fresh, lots of CO₂. Bloom 60 s with 3× the dose in water. Best from day ${f.lo}.`)) }
+ if(f&&f.state==='stale'){g-=1;if(hot)temp+=1;ratio-=esp?.1:.5;
+  tips.push(W(`Prăjită acum ${p.days} zile: aromele s-au estompat. Am mers mai fin, mai fierbinte și mai concentrat. Data viitoare, pungi mai mici.`,`Roasted ${p.days} days ago: aromas have faded. Finer, hotter and stronger. Next time, smaller bags.`)) }
+ if(f&&f.state==='ok') tips.push(W(`${p.days} zile de la prăjire: e în fereastra bună (${f.lo}–${f.hi} zile).`,`${p.days} days since roast: in the sweet spot (${f.lo}–${f.hi} days).`));
+ if(!f) tips.push(W("Caută data prăjirii pe pungă: pentru filtru e ideal între 1 și 5 săptămâni.","Look for the roast date on the bag: for filter, 1 to 5 weeks is ideal."));
+ if(hist&&hist.n>=2){
+  if(hist.sour>=2){g-=1;why.push(W(`Ultimele tale ${hist.n} cafele din punga asta au ieșit acre: încă o treaptă mai fin.`,`Your last ${hist.n} cups of this bag were sour: one more step finer.`))}
+  else if(hist.bitter>=2){g+=1;why.push(W(`Ultimele tale ${hist.n} cafele din punga asta au ieșit amare: o treaptă mai grosier.`,`Your last ${hist.n} cups of this bag were bitter: one step coarser.`))}
+ }
+ if(p.blend||p.robusta) tips.push(W("Blend sau robusta: merge foarte bine la espresso, moka și cu lapte.","Blend or robusta: great for espresso, moka and with milk."));
+ tips.push(W("Apa contează: plată, slab mineralizată sau filtrată (în jur de 150 mg/L reziduu fix).","Water matters: still, low-mineral or filtered (around 150 mg/L TDS)."));
+ temp=Math.round(Math.min(100,Math.max(80,temp)));
+ g=Math.max(-2,Math.min(2,Math.round(g)));
+ const water=Math.round(r.dose*ratio*(esp?1:1));
+ const fct=water/base.water;
+ r.steps=r.steps.map((s,i)=>({...s,w:s.w==null?null:Math.round(s.w*fct),t:i>0?s.t+bloom:s.t,ro:i>0?s.ro:s.ro,en:s.en}));
+ if(bloom){r.steps[0]={...r.steps[0],ro:r.steps[0].ro+" Lasă 60 s.",en:r.steps[0].en+" Wait 60 s."}}
+ // step texts carry gram values for the base recipe: rescale them
+ r.steps=r.steps.map(s=>({...s,ro:scaleGramsIn(s.ro,fct),en:scaleGramsIn(s.en,fct)}));
+ if(r.extras) r.extras=r.extras.map(x=>({...x,g:Math.round(x.g*fct)}));
+ r.water=water; if(hot) r.temp=temp; r.grindAdj=g;
+ r.id='gen-'+mk; r.generated=true; delete r.note;
+ const bn=p.name||(o?L(o.name):'');
+ r.name={ro:`${meta.ro} pentru ${bn||'cafeaua ta'}`,en:`${meta.en} for ${bn||'your coffee'}`};
+ r.by={ro:'recomandare pentru boabele tale',en:'tailored to your beans'};
+ if(g) why.push(W(`Măcinare: cu ${Math.abs(g)} ${Math.abs(g)===1?'treaptă':'trepte'} mai ${g<0?'fină':'grosieră'} decât rețeta de bază.`,`Grind: ${Math.abs(g)} step${Math.abs(g)===1?'':'s'} ${g<0?'finer':'coarser'} than the base recipe.`));
+ if(!why.length) why.push(W("Pornim de la rețeta de bază; după prima cafea ajustezi cu Diagnosticul.","Starting from the base recipe; after the first cup, adjust with Diagnose."));
+ const exp=[]; if(p.notes&&p.notes.length) exp.push(p.notes.join(', '));
+ else if(o) exp.push(L(o));
+ if(proc&&PROC_TXT[proc]) exp.push(L(PROC_TXT[proc]));
+ exp.push(L(ROAST_TXT[roast]));
+ return {recipe:r,why:why.map(L),tips:tips.map(L),expectation:p.expectation||exp.join('. ')+'.'};
+}
+function scaleGramsIn(txt,f){
+ if(!txt||Math.abs(f-1)<.001) return txt;
+ return txt.replace(/(\d+(?:[.,]\d+)?)(\s?)g\b/g,(m,n,sp)=>{const v=parseFloat(n.replace(',','.'))*f;return fmtG(v>=20?Math.round(v):Math.round(v*10)/10)+sp+'g'});
+}
+
+/* AI side: Claude reads the photo or text and returns the bean profile; the rules above set the numbers */
+const AI={sample:null,images:false,checked:false,mediaTypes:null};
+async function initAI(){
+ try{ if(window.claude&&window.claude.use){
+   AI.sample=await window.claude.use('sample');
+   if(AI.sample){const lim=await AI.sample.limits().catch(()=>null);AI.images=!!(lim&&lim.images);AI.mediaTypes=lim&&lim.images&&lim.images.mediaTypes}}
+ }catch(e){AI.sample=null}
+ AI.checked=true; if(route==='recipes'&&$('#sheet').hidden) render();
+}
+async function shrinkImage(file){
+ try{const img=await createImageBitmap(file);const m=1600,s=Math.min(1,m/Math.max(img.width,img.height));
+  const c=document.createElement('canvas');c.width=Math.round(img.width*s);c.height=Math.round(img.height*s);c.getContext('2d').drawImage(img,0,0,c.width,c.height);
+  return await new Promise(res=>c.toBlob(b=>res(b||file),'image/jpeg',.85));}catch(e){return file}
+}
+async function aiProfile({text,file}){
+ const today=new Date().toISOString().slice(0,10), langName=lang==='ro'?'Romanian':'English';
+ const prompt=`You identify a coffee from ${file?'a photo of its bag or label':'a short description'} so a brewing app can build a recipe. Today is ${today}.
+Reply with only one JSON object:
+{"is_coffee": boolean, "name": string (coffee, farm or lot name, short), "roaster": string or "", "origin": one of ${JSON.stringify(Object.keys(ORIGINS))} or "" if other/unknown, "origin_label": string (country/region as written), "altitude": number in meters (use the midpoint of a range) or null, "variety": string or "", "process": "washed"|"natural"|"honey"|"anaerobic"|"", "roast": "light"|"medium"|"dark"|"" (infer from the roaster's wording: "filter roast"/"omni" = light, "espresso roast" = medium; supermarket or Italian espresso bags are usually dark), "roast_date": "YYYY-MM-DD" or "", "days_since_roast": number or null, "decaf": boolean, "blend": boolean, "robusta": boolean, "notes": up to 5 tasting notes as printed, or typical for this origin and process, written in ${langName}, "expectation": one or two sentences in ${langName} on how this coffee should taste, "confidence": "high"|"medium"|"low", "assumed": array with any of "roast","process","days","origin" that you could not read and had to guess}.
+${file?'If the photo is not a coffee bag or label, set is_coffee to false.':''}${text?`\nWhat the user wrote: """${String(text).slice(0,2000)}"""`:''}`;
+ const opts={modelTier:'default'};
+ if(file) opts.images=[await shrinkImage(file)];
+ const j=await AI.sample.json(prompt,opts);
+ if(!j||j.is_coffee===false) throw {code:'not_coffee'};
+ const p={source:file?'photo':'ai',name:String(j.name||j.origin_label||'').slice(0,80),roaster:String(j.roaster||''),origin:ORIGINS[j.origin]?j.origin:'',originLabel:String(j.origin_label||''),
+  altitude:typeof j.altitude==='number'?Math.round(j.altitude):null,variety:String(j.variety||''),process:['washed','natural','honey','anaerobic'].includes(j.process)?j.process:'',
+  roast:['light','medium','dark'].includes(j.roast)?j.roast:'',days:typeof j.days_since_roast==='number'?Math.max(0,Math.round(j.days_since_roast)):null,roastDate:String(j.roast_date||''),
+  decaf:!!j.decaf,blend:!!j.blend,robusta:!!j.robusta,notes:Array.isArray(j.notes)?j.notes.map(String).slice(0,5):[],expectation:j.expectation?String(j.expectation):'',
+  confidence:['high','medium','low'].includes(j.confidence)?j.confidence:'medium',assumed:Array.isArray(j.assumed)?j.assumed.map(String):[]};
+ if(p.days==null&&/^\d{4}-\d{2}-\d{2}$/.test(p.roastDate)){const n=Math.round((Date.now()-new Date(p.roastDate))/864e5);if(n>=0&&n<500)p.days=n}
+ return p;
+}
+
 /* ---------- storage: account (db) when signed in, this device otherwise ---------- */
 const Store = {
- kinds:['brews','recipes','exps'], data:{brews:[],recipes:[],exps:[]}, db:null, uid:null, cloud:false,
+ kinds:['brews','recipes','exps','beans'], data:{brews:[],recipes:[],exps:[],beans:[]}, db:null, uid:null, cloud:false,
  lsGet(k){try{return JSON.parse(localStorage.getItem('bloom.'+k)||'[]')}catch(e){return []}},
  lsSet(k){try{localStorage.setItem('bloom.'+k,JSON.stringify(this.data[k]))}catch(e){}},
  col(){return this.db.collection('data/users/'+this.uid)},
@@ -427,17 +696,17 @@ const Store = {
    if(!window.claude||!window.claude.use) return;
    const [db,user]=await Promise.all([window.claude.use('db'),window.claude.use('user')]);
    if(!db||!user) return;
-   const uid=await user.id(); if(!uid) return;
-   this.db=db; this.uid=uid;
+   const id=await user.id(); if(!id) return;
+   this.db=db; this.uid=id;
    const snap=await this.col().get();
-   const remote={brews:new Map(),recipes:new Map(),exps:new Map()};
+   const remote={}; this.kinds.forEach(k=>remote[k]=new Map());
    snap.docs.forEach(d=>{const v=d.data(); if(v&&remote[v._k]) remote[v._k].set(v.id,JSON.parse(JSON.stringify(v)))});
    this.cloud=true;
    for(const k of this.kinds){
     for(const it of this.data[k]) if(!remote[k].has(it.id)){ remote[k].set(it.id,{...it,_k:k}); this.col().doc(k[0]+'-'+it.id).set({...it,_k:k}).catch(()=>{this.cloud=false}); }
     this.data[k]=[...remote[k].values()].sort((a,b)=>(b.ts||0)-(a.ts||0)); this.lsSet(k);
    }
-   render();
+   if($('#sheet').hidden) render();
   }catch(e){ this.cloud=false }
  },
  put(k,item){
@@ -445,7 +714,7 @@ const Store = {
   const i=this.data[k].findIndex(x=>x.id===item.id);
   if(i>=0) this.data[k][i]=item; else this.data[k].unshift(item);
   this.lsSet(k);
-  if(this.db&&this.cloud) this.col().doc(k[0]+'-'+item.id).set({...item,_k:k}).catch(()=>{this.cloud=false; render()});
+  if(this.db&&this.cloud) this.col().doc(k[0]+'-'+item.id).set({...item,_k:k}).catch(()=>{this.cloud=false;toast(t('sync_fail'))});
  },
  del(k,id){
   this.data[k]=this.data[k].filter(x=>x.id!==id); this.lsSet(k);
@@ -456,20 +725,30 @@ const uid = ()=>Date.now().toString(36)+Math.random().toString(36).slice(2,7);
 
 /* ---------- helpers ---------- */
 const $ = s=>document.querySelector(s);
+const lsGet=k=>{try{return localStorage.getItem(k)}catch(e){return null}};
+const lsSet=(k,v)=>{try{v==null?localStorage.removeItem(k):localStorage.setItem(k,v)}catch(e){}};
 const mmss = s=>{s=Math.max(0,Math.round(s)); if(s>=3600){const h=Math.floor(s/3600),m=Math.floor(s%3600/60);return h+'h '+String(m).padStart(2,'0')+'m'} return Math.floor(s/60)+':'+String(s%60).padStart(2,'0')};
 const fmtG = g=> (Math.round(g*10)/10).toString().replace('.',lang==='ro'?',':'.');
-const ratioStr = (d,w)=> d? '1:'+fmtG(w/d) : '–';
-const allRecipes = ()=>[...RECIPES,...WEIRD,...Store.data.recipes];
+const ratioStr = (d,w)=> d&&w? '1:'+fmtG(w/d) : '–';
+let GENERATED=[];
+const allRecipes = ()=>[...RECIPES,...WEIRD,...Store.data.recipes,...GENERATED];
 const findRecipe = id=>allRecipes().find(r=>r.id===id);
 const totalTime = r=>r.steps&&r.steps.length? r.steps[r.steps.length-1].t : 0;
 const stars = n=>'★★★★★'.slice(0,n)+'☆☆☆☆☆'.slice(0,5-n);
-function toast(msg){const el=$('#toast');el.textContent=msg;el.hidden=false;clearTimeout(toast._t);toast._t=setTimeout(()=>el.hidden=true,2200)}
+const tempStr = r=> r.temp!=null? r.temp+' °C' : (L(r.tempLabel)||'–');
+const grindShort = k=> GRIND[k]? L(GRIND[k]).split(',')[0] : '';
+const grindAdjTxt = a=> !a?'':lang==='ro'?`cu ${Math.abs(a)} ${Math.abs(a)===1?'treaptă':'trepte'} mai ${a<0?'fin':'grosier'} decât de obicei`:`${Math.abs(a)} step${Math.abs(a)===1?'':'s'} ${a<0?'finer':'coarser'} than usual`;
+const num = v=>{const n=parseFloat(String(v??'').replace(',','.'));return isNaN(n)?null:n};
+const parseTime = v=>{v=String(v||'').trim();const m=v.match(/^(\d+)(?::(\d{1,2}))?$/);if(!m)return null;return m[2]!=null?(+m[1]*60+ +m[2]):+m[1]};
+function toast(msg){const el=$('#toast');el.textContent=msg;el.hidden=false;clearTimeout(toast._t);toast._t=setTimeout(()=>el.hidden=true,2400)}
 const diagMethod = m=> m==='lab'?'pour':m;
+function confirmBar(sel,q,yes,fn){const el=$(sel);if(!el)return;el.innerHTML=`<div class="confirm" role="alert"><span>${esc(q)}</span><button class="btn primary" type="button" data-cy>${esc(yes)}</button><button class="btn" type="button" data-cn>${t('no')}</button></div>`;
+ el.querySelector('[data-cy]').onclick=()=>{el.innerHTML='';fn()};el.querySelector('[data-cn]').onclick=()=>{el.innerHTML=''}}
 
 /* ---------- routing ---------- */
 const TABS=[
  {id:'recipes',icon:'<path d="M5 8h11v5a5 5 0 0 1-5 5h-1a5 5 0 0 1-5-5V8z"/><path d="M16 9h1.5a2.5 2.5 0 0 1 0 5H16"/><path d="M8 3c0 1.5 1 1.5 1 3M12 3c0 1.5 1 1.5 1 3"/>'},
- {id:'calc',icon:'<rect x="4" y="9" width="16" height="11" rx="2"/><path d="M8 9V6a4 4 0 0 1 8 0v3"/><path d="M9 14.5h6"/>'},
+ {id:'calc',icon:'<rect x="3" y="12" width="18" height="8" rx="2"/><path d="M7 12V9h10v3"/><rect x="9" y="14.5" width="6" height="3" rx=".6"/>'},
  {id:'diag',icon:'<circle cx="12" cy="12" r="8"/><path d="M15 9l-2 4-4 2 2-4z"/>'},
  {id:'journal',icon:'<path d="M6 4h11a1 1 0 0 1 1 1v15H7a2 2 0 0 1-2-2V5a1 1 0 0 1 1-1z"/><path d="M9 8h6M9 12h6M5 18a2 2 0 0 1 2-2h11"/>'},
  {id:'lab',icon:'<path d="M9 3h6M10 3v6L5 18a2 2 0 0 0 1.8 3h10.4A2 2 0 0 0 19 18l-5-9V3"/><path d="M7.5 15h9"/>'},
@@ -477,7 +756,7 @@ const TABS=[
 const tabLabel={recipes:'tab_recipes',calc:'tab_calc',diag:'tab_diag',journal:'tab_journal',lab:'tab_lab'};
 let route='recipes';
 function readHash(){const h=location.hash.replace('#','');route=TABS.some(x=>x.id===h)?h:'recipes'}
-window.addEventListener('hashchange',()=>{readHash();render();window.scrollTo(0,0)});
+window.addEventListener('hashchange',()=>{ if(!$('#sheet').hidden) dropSheet(); readHash();render();window.scrollTo(0,0)});
 
 /* ---------- state ---------- */
 const st = {
@@ -485,14 +764,17 @@ const st = {
  calc:{method:'pour',mode:'coffee',amount:15,ratio:16,tds:'',bev:''},
  diag:{method:'pour',cell:null,extra:[]},
  jfilter:'all',
+ recog:{method:lsGet('bloom.rmethod')||lsGet('bloom.gear')||'v60',text:'',busy:false,msg:'',file:null,preview:''},
+ gear:lsGet('bloom.gear'),
+ lastAdvice:null,
 };
 const CALC_PRESETS={
- pour:{ratio:16,min:12,max:20,step:.5,temp:'92–96 °C',grind:'mfine',ret:2},
- immersion:{ratio:16,min:10,max:20,step:.5,temp:'94–100 °C',grind:'medium',ret:2},
+ pour:{ratio:16,min:12,max:20,step:.5,temp:'92–100 °C',grind:'mfine',ret:2},
+ immersion:{ratio:16,min:10,max:20,step:.5,temp:'93–100 °C',grind:'medium',ret:2},
  espresso:{ratio:2,min:1,max:3.5,step:.1,temp:'90–95 °C',grind:'fine',ret:0},
- moka:{ratio:10,min:7,max:12,step:.5,temp:'≈70 °C',grind:'mfine',ret:1},
- ibrik:{ratio:10,min:8,max:14,step:.5,temp:'rece / cold',grind:'xfine',ret:1},
- cold:{ratio:10,min:5,max:16,step:.5,temp:'4–20 °C',grind:'coarse',ret:2.5},
+ moka:{ratio:10,min:7,max:12,step:.5,temp:{ro:'apă fierbinte',en:'hot water'},grind:'mfine',ret:1},
+ ibrik:{ratio:10,min:8,max:14,step:.5,temp:{ro:'apă rece',en:'cold water'},grind:'xfine',ret:1},
+ cold:{ratio:10,min:4,max:16,step:.5,temp:'4–20 °C',grind:'coarse',ret:2.5},
 };
 
 /* ---------- render ---------- */
@@ -500,198 +782,401 @@ function render(){
  document.documentElement.lang=lang;
  $('#tagline').textContent=t('tagline');
  $('#lang-ro').setAttribute('aria-pressed',lang==='ro');$('#lang-en').setAttribute('aria-pressed',lang==='en');
- $('#tabs').innerHTML=TABS.map(x=>`<a href="#${x.id}" ${route===x.id?'aria-current="page"':''}><svg viewBox="0 0 24 24">${x.icon}</svg>${t(tabLabel[x.id])}</a>`).join('');
+ document.querySelector('.lang').setAttribute('aria-label',t('aria_lang'));
+ document.querySelector('nav.tabs').setAttribute('aria-label',t('aria_tabs'));
+ $('#tabs').innerHTML=TABS.map(x=>`<a href="#${x.id}" ${route===x.id?'aria-current="page"':''}><svg viewBox="0 0 24 24" aria-hidden="true">${x.icon}</svg>${t(tabLabel[x.id])}</a>`).join('');
  const v=$('#view');
  ({recipes:viewRecipes,calc:viewCalc,diag:viewDiag,journal:viewJournal,lab:viewLab})[route](v);
 }
 
 function specLine(r){
- const parts=[`${fmtG(r.dose)} g`,`${fmtG(r.water)} g`,ratioStr(r.dose,r.water)];
- if(r.temp!=null) parts.push(r.temp+' °C');
+ if(r.method==='lab'||r.dose==null){const tt=totalTime(r);return tt?`<span>${mmss(tt)}</span>`:''}
+ const esp=r.method==='espresso';
+ const parts=[`${fmtG(r.dose)} g ${t('u_coffee')}`,`${fmtG(r.water)} g ${t(esp?'u_cup':'u_water')}`,ratioStr(r.dose,r.water),tempStr(r)];
  const tt=totalTime(r); if(tt) parts.push(mmss(tt));
  return parts.map(p=>`<span>${esc(p)}</span>`).join('');
 }
 function recipeRow(r){
- const lab = r.method==='lab'||r.tagLab;
- return `<button class="row" data-open="${esc(r.id)}"><span class="name">${esc(L(r.name))}${lab?`<span class="tag lab">lab</span>`:''}${r.custom?`<span class="tag">${lang==='ro'?'a mea':'mine'}</span>`:''}</span>
+ const lab=r.method==='lab'||r.tagLab;
+ return `<button class="row" data-open="${esc(r.id)}"><span class="name">${esc(L(r.name))}${lab?`<span class="tag lab">lab</span>`:''}${r.custom?`<span class="tag">${t('mine_tag')}</span>`:''}</span>
   <span class="go" aria-hidden="true">›</span><span class="by">${esc(L(r.by))}</span><span class="spec">${specLine(r)}</span></button>`;
 }
-
+function activeBrew(){try{return JSON.parse(lsGet('bloom.active')||'null')}catch(e){return null}}
 function viewRecipes(v){
  const ms=['all','pour','immersion','espresso','moka','ibrik','cold','lab'];
  let list=st.filter==='all'?RECIPES:st.filter==='lab'?WEIRD.concat(RECIPES.filter(r=>r.tagLab)):RECIPES.filter(r=>r.method===st.filter);
  const mine=Store.data.recipes.filter(r=>st.filter==='all'||r.method===st.filter);
- v.innerHTML=`<h2 class="view-title">${t('rec_title')}</h2><p class="lede">${t('rec_lede')}</p>
- <div class="chips" role="group">${ms.map(m=>`<button class="chip" data-filter="${m}" aria-pressed="${st.filter===m}">${t(m==='all'?'all':'m_'+m)}</button>`).join('')}</div>
+ const a=activeBrew(), ar=a&&(a.gen||findRecipe(a.id));
+ const gm=st.gear&&RM.find(x=>x.k===st.gear), pin=gm&&findRecipe(gm.base);
+ v.innerHTML=`
+ ${ar?`<div class="banner"><div><b>${t('active_t')}</b><div class="note">${esc(L(ar.name))}${a.startedAt?' · '+t('started_at')+' '+new Date(a.startedAt).toLocaleTimeString(lang==='ro'?'ro-RO':'en-GB',{hour:'2-digit',minute:'2-digit'}):''}</div></div>
+   <div class="btnrow" style="flex:none"><button class="btn primary" id="ab_resume">${t('cont')}</button><button class="btn" id="ab_drop">${t('discard')}</button></div></div>`:''}
+ <h2 class="view-title">${t('rec_title')}</h2>
+ ${recogCard()}
+ ${pin?`<h3 class="sec">${t('pinned')} ${esc(L(gm))}</h3><div class="list" style="margin-top:0">${recipeRow(pin)}</div>`:''}
+ <div class="hrow"><h3 class="sec" style="margin:0">${t('all_recipes')}</h3><button class="btn" id="addRecipe">${t('add_recipe')}</button></div>
+ <div class="chips" role="group" style="margin-top:8px">${ms.map(m=>`<button class="chip" data-filter="${m}" aria-pressed="${st.filter===m}">${t(m==='all'?'all':'m_'+m)}</button>`).join('')}</div>
  ${mine.length?`<h3 class="sec">${t('mine')}</h3><div class="list" style="margin-top:0">${mine.map(recipeRow).join('')}</div><h3 class="sec">${t(st.filter==='all'?'all':'m_'+st.filter)}</h3>`:''}
  <div class="list" ${mine.length?'style="margin-top:0"':''}>${list.map(recipeRow).join('')}</div>`;
+ bindRecog();
+ $('#addRecipe').onclick=openAddRecipe;
+ if(ar){$('#ab_resume').onclick=()=>restoreActive();$('#ab_drop').onclick=()=>{lsSet('bloom.active',null);render()}}
 }
 
-/* ---------- recipe detail + brew guide ---------- */
-let brew=null; // {r, scale, running, start, elapsed, raf, idx, sound, exp, variant}
-function openRecipe(id,opts={}){
- const r=findRecipe(id); if(!r) return;
- stopBrew();
- brew={r,dose:opts.dose||r.dose,running:false,elapsed:0,start:0,idx:-1,sound:true,exp:opts.exp||null,variant:opts.variant||null,finished:false};
- renderBrew(); $('#sheet').hidden=false; document.body.style.overflow='hidden'; $('#sheet').scrollTop=0;
+/* ---------- recognizer card + result ---------- */
+function recogCard(){
+ const R=st.recog, beans=Store.data.beans||[];
+ return `<section class="recog" aria-labelledby="rg_h">
+  <h3 id="rg_h">${t('rg_title')}</h3><p class="note" style="margin:2px 0 12px">${t('rg_lede')}</p>
+  <div class="rgrow">
+   ${AI.images?`<label class="btn rgphoto" for="rg_file">${R.preview?`<img src="${R.preview}" alt="">`:'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h3l2-3h6l2 3h3v11H4z"/><circle cx="12" cy="13" r="3.5"/></svg>'}<span>${R.preview?t('rg_photo_change'):t('rg_photo')}</span></label>
+   <input type="file" id="rg_file" accept="${esc((AI.mediaTypes||['image/jpeg','image/png','image/webp']).join(','))}" hidden>`:''}
+   <label class="f rgtext"><span class="sr">${t('rg_text_l')}</span><textarea id="rg_text" rows="2" placeholder="${esc(t('rg_ph'))}">${esc(R.text)}</textarea></label>
+  </div>
+  <div class="f" style="margin-top:10px;font-size:12px;font-weight:600;color:var(--muted)">${t('rg_method')}
+   <div class="chips" style="margin-top:4px">${RM.map(m=>`<button class="chip" data-rm="${m.k}" aria-pressed="${st.gear?R.method===m.k:false}">${L(m)}</button>`).join('')}</div></div>
+  <button class="btn primary block" id="rg_go" style="margin-top:12px" ${R.busy?'disabled':''}>${R.busy?t('rg_busy'):t('rg_go')}</button>
+  <div class="note" id="rg_msg" style="margin-top:8px" aria-live="polite">${esc(R.msg)}</div>
+  ${!AI.images&&AI.checked?`<div class="note" style="margin-top:4px">${t(AI.sample?'rg_text_only':'rg_offline')}</div>`:''}
+  ${beans.length?`<div class="f" style="margin-top:12px;font-size:12px;font-weight:600;color:var(--muted)">${t('rg_mybeans')}<div class="chips" style="margin-top:4px">${beans.map(b=>`<button class="chip" data-bean="${esc(b.id)}">${esc(b.name||t('rg_unnamed'))}</button>`).join('')}</div></div>`:''}
+ </section>`;
 }
-function closeSheet(){stopBrew();brew=null;$('#sheet').hidden=true;document.body.style.overflow='';render()}
-function scale(){return brew.dose/brew.r.dose}
+function setGear(k){st.recog.method=k;st.gear=k;lsSet('bloom.rmethod',k);lsSet('bloom.gear',k)}
+function bindRecog(){
+ const R=st.recog;
+ const ta=$('#rg_text'); if(ta) ta.oninput=e=>{R.text=e.target.value};
+ document.querySelectorAll('[data-rm]').forEach(b=>b.onclick=()=>{const y=window.scrollY;setGear(b.dataset.rm);render();window.scrollTo(0,y)});
+ const fi=$('#rg_file'); if(fi) fi.onchange=e=>{const f=e.target.files&&e.target.files[0];if(!f)return;R.file=f;try{if(R.preview)URL.revokeObjectURL(R.preview)}catch(_){}R.preview=URL.createObjectURL(f);R.msg='';render()};
+ const go=$('#rg_go'); if(go) go.onclick=runRecognition;
+ document.querySelectorAll('[data-bean]').forEach(b=>b.onclick=()=>{const bean=(Store.data.beans||[]).find(x=>x.id===b.dataset.bean);if(bean)showRecognition(bean.profile,R.method,bean.id)});
+}
+async function runRecognition(){
+ const R=st.recog;
+ if(!R.file&&!R.text.trim()){R.msg=t('rg_need');render();const ta=$('#rg_text');ta&&ta.focus();return}
+ if(!st.gear) setGear(R.method);
+ R.busy=true;R.msg='';render();
+ let p=null;
+ try{
+  if(AI.sample) p=await aiProfile({text:R.text.trim(),file:R.file});
+  else p=parseBeanText(R.text);
+ }catch(e){
+  if(e&&e.code==='not_coffee') R.msg=t('rg_notcoffee');
+  else if(R.text.trim()){p=parseBeanText(R.text); if(e&&e.code==='not_granted'){AI.sample=null;AI.images=false;R.msg=t('rg_local')}}
+  else R.msg=e&&e.code==='rate_limited'?t('rg_rate'):t('rg_fail');
+ }
+ R.busy=false;
+ if(p){ if(!p.name&&R.text.trim()) p.name=R.text.trim().split(/[,;\n]/)[0].slice(0,40); showRecognition(p,R.method,null); }
+ else render();
+}
+function beanHistory(beanId){
+ if(!beanId) return null;
+ const b=Store.data.brews.filter(x=>x.beanId===beanId).slice(0,3);
+ return {n:b.length,sour:b.filter(x=>(x.tastes||[]).includes('sour')).length,bitter:b.filter(x=>(x.tastes||[]).includes('bitter')).length,avg:b.length?b.reduce((s,x)=>s+(x.rating||0),0)/b.length:0};
+}
+function showRecognition(p,mk,beanId){
+ stopBrew(); brew=null;
+ const hist=beanHistory(beanId);
+ const res=buildRecipe(p,mk,hist), r=res.recipe;
+ GENERATED=[r];
+ const o=ORIGINS[p.origin];
+ const conf={high:t('rg_c_high'),medium:t('rg_c_med'),low:t('rg_c_low')}[p.confidence||'low'];
+ const as=new Set((p.assumed||[]).map(a=>a.startsWith('day')||a.startsWith('roast_d')?'days':a));
+ const sc=r.water/r.dose, g=GRIND[r.grind];
+ const sel=(id,key,opts)=>`<label class="f ${as.has(key)?'guess':''}">${t('rg_k_'+key)}<select id="${id}"><option value="">${t('rg_unknown')}</option>${opts.map(([v,l])=>`<option value="${v}" ${String(p[key==='days'?'days':key]??'')===String(v)?'selected':''}>${l}</option>`).join('')}</select></label>`;
+ $('#sheetInner').innerHTML=`
+ <div class="sheethead"><span class="tag lab" style="margin:0">${t(p.source==='photo'?'rg_from_photo':'rg_from_text')}</span><button class="x" id="closeR" aria-label="${t('aria_close')}">✕</button></div>
+ <div class="brewname">${esc(p.name||(o?L(o.name):t('rg_unnamed')))}</div>
+ <div class="note">${esc([p.roaster,p.originLabel||(o?L(o.name):''),p.variety,p.altitude?p.altitude+' m':'',p.decaf?'decaf':'',p.blend?'blend':''].filter(Boolean).join(' · '))}</div>
+ <div class="conf ${p.confidence||'low'}">${conf}</div>
+ <details class="panel" style="margin-top:10px" ${as.size||p.confidence==='low'?'open':''}><summary>${t('rg_edit')}</summary>
+  <div class="grid3" style="margin-top:10px">
+   ${sel('pe_roast','roast',[['light',t('ro_light')],['medium',t('ro_medium')],['dark',t('ro_dark')]])}
+   ${sel('pe_process','process',[['washed',t('pr_washed')],['natural',t('pr_natural')],['honey',t('pr_honey')],['anaerobic',t('pr_anaerobic')]])}
+   <label class="f ${as.has('days')?'guess':''}">${t('rg_k_days')}<input id="pe_days" inputmode="numeric" placeholder="${t('rg_unknown')}" value="${p.days??''}"></label>
+  </div></details>
+ ${hist&&hist.n?`<div class="banner" style="margin-top:10px"><div><b>${t('rg_hist')}</b><div class="note">${hist.n} · ${t('avg')} ${fmtG(hist.avg)} ★${hist.sour?` · ${hist.sour}× ${t('t_sour')}`:''}${hist.bitter?` · ${hist.bitter}× ${t('t_bitter')}`:''}</div></div></div>`:''}
+ <h3 class="sec">${t('rg_expect')}</h3><p style="margin:0">${esc(res.expectation)}</p>
+ ${p.notes&&p.notes.length?`<div class="chips wrap" style="margin-top:8px">${p.notes.map(n=>`<span class="chip static">${esc(n)}</span>`).join('')}</div>`:''}
+ <h3 class="sec">${t('rg_recipe')}</h3>
+ <div class="chips">${RM.map(m=>`<button class="chip" data-rm2="${m.k}" aria-pressed="${mk===m.k}">${L(m)}</button>`).join('')}</div>
+ <div class="readouts" style="margin-top:10px">
+  <div><div class="k">${t('coffee')}</div><div class="v">${fmtG(r.dose)}<small>g</small></div><div class="s">${t('ratio')} 1:${fmtG(sc)}</div></div>
+  <div><div class="k">${t(mk==='espresso'?'yield':'water')}</div><div class="v">${fmtG(r.water)}<small>g</small></div><div class="s">${t('time')} ${mmss(totalTime(r))}</div></div>
+  <div><div class="k">${t('temp')}</div><div class="v" ${r.temp==null?'style="font-size:16px"':''}>${r.temp!=null?r.temp+'<small>°C</small>':esc(L(r.tempLabel))}</div></div>
+  <div><div class="k">${t('grind')}</div><div class="s" style="color:var(--ink);font-size:14px;margin-top:4px">${esc(L(g))}</div><div class="s" style="font-size:12px;color:var(--accent);font-weight:600">${grindAdjTxt(r.grindAdj)}</div></div>
+ </div>
+ <button class="btn primary block" id="rg_brew" style="margin-top:12px">${t('rg_brew')}</button>
+ <h3 class="sec">${t('rg_why')}</h3><ol class="advice">${res.why.map(s=>`<li>${esc(s)}</li>`).join('')}</ol>
+ ${res.tips.length?`<h3 class="sec">${t('rg_tips')}</h3><ol class="advice plain">${res.tips.map(s=>`<li>${esc(s)}</li>`).join('')}</ol>`:''}
+ <div class="btnrow" style="margin-top:18px"><button class="btn" id="rg_saveb" ${beanId?'disabled':''}>${beanId?t('rg_saved_b'):t('rg_save_bean')}</button><button class="btn" id="rg_saver">${t('rg_save_recipe')}</button></div>
+ ${beanId?`<button class="btn ghost block" id="rg_delb" style="margin-top:8px">${t('rg_del_bean')}</button><div id="rg_dc"></div>`:''}
+ <p class="note" style="margin-top:14px">${t('rg_disclaimer')}</p>`;
+ openSheet();
+ $('#closeR').onclick=()=>closeSheet(true);
+ const upd=(k,v)=>{const q={...p,assumed:(p.assumed||[]).filter(a=>!(a===k||(k==='days'&&a.startsWith('day'))))};q[k]=v;if(beanId){const b=Store.data.beans.find(x=>x.id===beanId);if(b)Store.put('beans',{...b,profile:q})}showRecognition(q,mk,beanId);$('#sheet').scrollTop=0};
+ $('#pe_roast').onchange=e=>upd('roast',e.target.value);
+ $('#pe_process').onchange=e=>upd('process',e.target.value);
+ $('#pe_days').onchange=e=>{const n=num(e.target.value);upd('days',n==null?null:Math.max(0,Math.round(n)))};
+ document.querySelectorAll('[data-rm2]').forEach(b=>b.onclick=()=>{setGear(b.dataset.rm2);showRecognition(p,b.dataset.rm2,beanId)});
+ $('#rg_brew').onclick=()=>openRecipe(r.id,{bean:{id:beanId,name:p.name||(o?L(o.name):'')}});
+ $('#rg_saveb').onclick=()=>{ if(beanId) return; const id=uid(); Store.put('beans',{id,name:p.name||(o?L(o.name):''),profile:p}); toast(t('rg_bean_ok')); showRecognition(p,mk,id); };
+ $('#rg_saver').onclick=()=>{const c=JSON.parse(JSON.stringify(r));c.id='c-'+uid();c.custom=true;delete c.generated;Store.put('recipes',c);toast(t('recipe_saved'))};
+ if(beanId) $('#rg_delb').onclick=()=>confirmBar('#rg_dc',t('del_q'),t('yes_del'),()=>{Store.del('beans',beanId);toast(t('deleted'));closeSheet(true)});
+}
+
+/* ---------- sheet plumbing ---------- */
+let sheetPushed=false;
+function openSheet(){ const sh=$('#sheet'); const was=sh.hidden; sh.hidden=false; document.body.style.overflow='hidden'; sh.scrollTop=0;
+ if(was&&!sheetPushed){try{history.pushState({sheet:1},'');sheetPushed=true}catch(e){}} }
+function dropSheet(){ // close without asking; a running brew stays saved and can be resumed
+ if(brew){stopLoop();brew=null} releaseWake(); $('#sheet').hidden=true; document.body.style.overflow=''; }
+function closeSheet(force,nav){
+ if(!force&&brew&&!brew.finished&&elapsedNow()>0){confirmBar('#brewConfirm',t('leave_q'),t('leave_yes'),()=>closeSheet(true));return}
+ if(brew) lsSet('bloom.active',null);
+ dropSheet();
+ if(nav){ // go somewhere else: reuse the sheet's history entry instead of going back
+  sheetPushed=false; try{history.replaceState(null,'',nav)}catch(e){location.hash=nav} readHash(); render(); window.scrollTo(0,0); return }
+ if(sheetPushed){sheetPushed=false;try{if(history.state&&history.state.sheet)history.back()}catch(e){}}
+ render();
+}
+window.addEventListener('popstate',()=>{ if(!$('#sheet').hidden){ sheetPushed=false; dropSheet(); render(); } });
+
+/* ---------- brew guide ---------- */
+let brew=null, audioCtx=null, wake=null;
+const prefs={sound:lsGet('bloom.sound')!=='0',voice:lsGet('bloom.voice')==='1'};
+function prepRecipe(base,ov){
+ const r=JSON.parse(JSON.stringify(base));
+ if(ov&&ov.temp!=null) r.temp=ov.temp;
+ if(ov&&ov.ratio!=null&&r.dose){const nw=Math.round(r.dose*ov.ratio),f=nw/r.water;r.steps=r.steps.map(s=>({...s,w:s.w==null?null:Math.round(s.w*f),ro:scaleGramsIn(s.ro,f),en:scaleGramsIn(s.en,f)}));r.water=nw}
+ return r;
+}
+function openRecipe(id,opts={}){
+ const base=opts.recipe||findRecipe(id); if(!base) return;
+ stopLoop();
+ const r=prepRecipe(base,opts.override);
+ brew={r,baseId:base.id,dose:opts.dose||r.dose,running:false,acc:opts.acc||0,startAt:0,startedAt:opts.startedAt||null,idx:-2,lastCount:null,finished:false,
+  exp:opts.exp||null,variant:opts.variant||null,override:opts.override||null,bean:opts.bean||null,change:opts.change||null};
+ openSheet(); renderBrew(); requestWake();
+ if(opts.running) startLoop();
+}
+function scale(){return brew.r.dose?brew.dose/brew.r.dose:1}
 function stepW(s){return s.w==null?null:s.w*scale()}
-function curIdx(el){const st_=brew.r.steps;let i=-1;for(let k=0;k<st_.length;k++){if(el>=st_[k].t) i=k}return i}
+function stepTxt(s){return scaleGramsIn(L(s),scale())}
+function curIdx(el){const S_=brew.r.steps;let i=-1;for(let k=0;k<S_.length;k++){if(el>=S_[k].t) i=k}return i}
+function elapsedNow(){return brew?brew.acc+(brew.running?(Date.now()-brew.startAt)/1000:0):0}
+function saveActive(){ if(!brew) return; const r=brew.r;
+ lsSet('bloom.active',JSON.stringify({id:brew.baseId,gen:r.generated?r:null,dose:brew.dose,acc:elapsedNow(),running:brew.running,startAt:brew.running?Date.now():0,startedAt:brew.startedAt,exp:brew.exp,variant:brew.variant,override:brew.override,bean:brew.bean,change:brew.change})) }
+function restoreActive(){ const a=activeBrew(); if(!a) return; const base=a.gen||findRecipe(a.id); if(!base){lsSet('bloom.active',null);render();return}
+ if(a.gen) GENERATED=[a.gen];
+ const acc=a.acc+(a.running&&a.startAt?(Date.now()-a.startAt)/1000:0);
+ openRecipe(base.id,{recipe:a.gen?base:null,dose:a.dose,acc,exp:a.exp,variant:a.variant,override:a.override,bean:a.bean,change:a.change,startedAt:a.startedAt,running:a.running}) }
+function lastLogFor(id){return Store.data.brews.find(b=>b.recipeId===id)}
 
 function renderBrew(){
- const r=brew.r, sc=scale(), tt=totalTime(r)||1, g=GRIND[r.grind]||{};
+ const r=brew.r, tt=totalTime(r)||1, g=GRIND[r.grind], hasDose=r.dose!=null, sc=scale();
  const exp=brew.exp?Store.data.exps.find(e=>e.id===brew.exp):null;
+ const last=lastLogFor(brew.baseId);
  $('#sheetInner').innerHTML=`
- <div class="sheethead"><span class="tag ${r.method==='lab'?'lab':''}" style="margin:0">${t('m_'+r.method)}${exp?` · ${t('ab_tag')} ${brew.variant}`:''}</span><button class="x" id="closeBrew" aria-label="Close">✕</button></div>
- <div class="brewname">${esc(L(r.name))}</div><div class="note">${esc(L(r.by))}</div>
- ${exp?`<div class="rule"><b>${esc(t('v_'+exp.variable))}:</b> ${esc(brew.variant==='A'?exp.a:exp.b)}</div>`:''}
- <div class="display" aria-live="polite">
-  <div class="ring"><svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="52" stroke="var(--line)" stroke-width="8" fill="none"/>
+ <div class="sheethead"><span class="tag ${r.method==='lab'?'lab':''}" style="margin:0">${t('m_'+r.method)}</span><button class="x" id="closeBrew" aria-label="${t('aria_close')}">✕</button></div>
+ <div id="brewConfirm"></div>
+ <div class="brewname">${esc(L(r.name))}</div><div class="note">${esc(L(r.by))}${brew.bean&&brew.bean.name?' · '+esc(brew.bean.name):''}</div>
+ ${exp?`<div class="banner"><div><b>${t('ab_tag')} ${brew.variant} · ${esc(L(ABVARS[exp.variable]||{ro:exp.variable}))}</b><div class="note">${esc(brew.variant==='A'?exp.a:exp.b)}${ABVARS[exp.variable]&&ABVARS[exp.variable].unit?' '+ABVARS[exp.variable].unit:''}</div></div></div>`:''}
+ ${brew.change?`<div class="banner"><div><b>${t('this_time')}</b><div class="note">${esc(brew.change)}</div></div></div>`:''}
+ ${r.safety?`<div class="banner warn"><div><b>${t('safety')}</b><div class="note">${esc(L(r.safety))}</div></div></div>`:''}
+ <div class="display" id="disp" role="button" tabindex="0" aria-label="${t('tap_hint')}">
+  <div class="ring"><svg viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="52" stroke="var(--line)" stroke-width="8" fill="none"/>
    <circle id="ringArc" cx="60" cy="60" r="52" stroke="var(--accent)" stroke-width="8" fill="none" stroke-linecap="round" stroke-dasharray="326.7" stroke-dashoffset="326.7"/></svg>
-   <div class="t"><b id="clock">0:00</b><span>/ ${mmss(tt)}</span></div></div>
-  <div class="target"><div class="k">${t('target')}</div><div class="big" id="tgt">–</div><div class="nx" id="nxt"></div></div>
+   <div class="t"><b id="clock" class="${tt>=3600?'long':''}">0:00</b><span>/ ${mmss(tt)}</span></div></div>
+  <div class="target"><div class="k">${t('target')}</div><div class="big" id="tgt">–</div><div class="cd" id="cd"></div></div>
  </div>
- <div class="nowstep" id="now">${t('ready')}</div>
+ <div class="nowstep" id="now" aria-live="polite">${t('ready')}</div>
  <div class="ctrls">
   <button class="btn primary" id="go">${t('start')}</button>
   <button class="btn" id="rst">${t('reset')}</button>
-  <button class="btn ghost" id="snd" aria-pressed="${brew.sound}" title="${t('sound')}">${brew.sound?'🔔':'🔕'}</button>
  </div>
- <button class="btn block" id="fin" style="margin-top:8px">${t('finish')}</button>
-
- <h3 class="sec">${t('dose')}</h3>
- <div class="grid2"><div class="stepper"><button id="dm" aria-label="-">−</button><input id="doseIn" class="mono" inputmode="decimal" value="${fmtG(brew.dose)}" aria-label="${t('dose')}"><button id="dp" aria-label="+">+</button></div>
+ <div class="toggles">
+  <button class="tg" id="snd" aria-pressed="${prefs.sound}">${t(prefs.sound?'sound_on':'sound_off')}</button>
+  <button class="tg" id="vce" aria-pressed="${prefs.voice}">${t(prefs.voice?'voice_on':'voice_off')}</button>
+  <span class="tg static" id="awake" ${wake?'':'hidden'}>${t('awake')}</span>
+ </div>
+ ${last?`<div class="lastlog"><b>${t('last_time')}</b> ${last.rating?stars(last.rating)+' · ':''}${esc([(last.tastes||[]).map(x=>t('t_'+x)).join(', '),last.grinder,last.notes].filter(Boolean).join(' · ')).slice(0,160)}</div>`:''}
+ ${hasDose?`<h3 class="sec">${t('dose')}</h3>
+ <div class="grid2"><div><div class="stepper"><button id="dm" aria-label="−">−</button><input id="doseIn" class="mono" inputmode="decimal" value="${fmtG(brew.dose)}" aria-label="${t('dose')}"><button id="dp" aria-label="+">+</button></div><div class="err" id="doseErr"></div></div>
  <div class="note" style="align-self:center">${t('scale_note')}</div></div>
  <div class="readouts" style="margin-top:10px">
   <div><div class="k">${t(r.method==='espresso'?'yield':'water')}</div><div class="v">${fmtG(r.water*sc)}<small>g</small></div><div class="s">${t('ratio')} ${ratioStr(r.dose,r.water)}</div></div>
-  <div><div class="k">${t('temp')}</div><div class="v">${r.temp}<small>°C</small></div><div class="s">${t('time')} ${mmss(tt)}</div></div>
-  <div class="wide"><div class="k">${t('grind')}</div><div class="s" style="color:var(--ink);font-size:15px;margin-top:2px">${esc(L(g))} <span class="mono" style="color:var(--muted);font-size:11px">${g.um||''}</span></div></div>
- </div>
+  <div><div class="k">${t('temp')}</div><div class="v" ${r.temp==null?'style="font-size:16px"':''}>${r.temp!=null?r.temp+'<small>°C</small>':esc(L(r.tempLabel)||'–')}</div><div class="s">${t('time')} ${mmss(tt)}</div></div>
+  ${g?`<div class="wide"><div class="k">${t('grind')}</div><div class="s" style="color:var(--ink);font-size:15px;margin-top:2px">${esc(L(g))} <span class="mono" style="color:var(--muted);font-size:11px">${g.um}</span></div>${r.grindAdj?`<div class="s" style="color:var(--accent);font-weight:600">${grindAdjTxt(r.grindAdj)}</div>`:''}</div>`:''}
+ </div>`:''}
  ${(r.extras||[]).length?`<div class="extras">${r.extras.map(x=>`<div><b class="mono">${fmtG(x.g*sc)} g</b> ${esc(L(x))}</div>`).join('')}</div>`:''}
  ${r.ingredients?`<h3 class="sec">${t('ingredients')}</h3><ul class="ing">${r.ingredients.map(i=>`<li>${esc(L(i))}</li>`).join('')}</ul>`:''}
  ${r.desc?`<p class="note" style="margin-top:12px">${esc(L(r.desc))}</p>`:''}
  ${r.note?`<p class="note" style="margin-top:12px">${esc(L(r.note))}</p>`:''}
  <h3 class="sec">${t('steps')}</h3>
- <ol class="steps" id="stepList">${r.steps.map((s,i)=>`<li data-i="${i}"><span class="tm">${mmss(s.t)}</span><span class="wg">${stepW(s)!=null?fmtG(stepW(s))+' g':''}</span><span>${esc(L(s))}</span></li>`).join('')}</ol>
- ${r.custom?`<div style="margin-top:16px"><button class="btn ghost" id="delRecipe">${t('delete')}</button><div id="delRecipeC"></div></div>`:''}
- `;
- $('#closeBrew').onclick=closeSheet;
- $('#go').onclick=toggleBrew; $('#rst').onclick=resetBrew; $('#fin').onclick=()=>finishBrew();
- $('#snd').onclick=()=>{brew.sound=!brew.sound;$('#snd').textContent=brew.sound?'🔔':'🔕';$('#snd').setAttribute('aria-pressed',brew.sound)};
- const setDose=d=>{d=Math.max(1,Math.min(2000,Math.round(d*10)/10));brew.dose=d;const el=brew.elapsed,run=brew.running;renderBrew();brew.elapsed=el;if(run){brew.running=true;$('#go').textContent=t('pause')}tick(true)};
- $('#dm').onclick=()=>setDose(brew.dose-(brew.r.dose>=50?5:1));
- $('#dp').onclick=()=>setDose(brew.dose+(brew.r.dose>=50?5:1));
- $('#doseIn').onchange=e=>{const n=parseFloat(String(e.target.value).replace(',','.'));if(n>0)setDose(n);else e.target.value=fmtG(brew.dose)};
- if(r.custom){$('#delRecipe').onclick=()=>{$('#delRecipeC').innerHTML=`<div class="confirm">${t('del_q')} <button class="btn primary" id="yd">${t('yes_del')}</button></div>`;$('#yd').onclick=()=>{Store.del('recipes',r.id);toast(t('deleted'));closeSheet()}}}
- tick(true);
+ <ol class="steps" id="stepList">${r.steps.map((s,i)=>`<li data-i="${i}"><span class="tm">${mmss(s.t)}</span><span class="wg">${stepW(s)!=null&&stepW(s)>0?fmtG(stepW(s))+' g':''}</span><span>${esc(stepTxt(s))}</span></li>`).join('')}</ol>
+ <button class="btn block" id="fin" style="margin-top:14px">${t('log_it')}</button>
+ ${r.custom?`<div style="margin-top:12px"><button class="btn ghost" id="delRecipe">${t('del_recipe')}</button><div id="delRecipeC"></div></div>`:''}`;
+ $('#closeBrew').onclick=()=>closeSheet();
+ $('#go').onclick=()=>{ if(brew.finished) finishBrew(); else toggleBrew(); };
+ $('#disp').onclick=()=>{ if(!brew.finished) toggleBrew(); };
+ $('#disp').onkeydown=e=>{ if((e.key===' '||e.key==='Enter')&&!brew.finished){e.preventDefault();toggleBrew()} };
+ $('#rst').onclick=()=>{ if(elapsedNow()>0&&!brew.finished) confirmBar('#brewConfirm',t('reset_q'),t('reset_yes'),resetBrew); else resetBrew(); };
+ $('#fin').onclick=()=>finishBrew();
+ $('#snd').onclick=()=>{prefs.sound=!prefs.sound;lsSet('bloom.sound',prefs.sound?'1':'0');$('#snd').textContent=t(prefs.sound?'sound_on':'sound_off');$('#snd').setAttribute('aria-pressed',prefs.sound)};
+ $('#vce').onclick=()=>{prefs.voice=!prefs.voice;lsSet('bloom.voice',prefs.voice?'1':'0');$('#vce').textContent=t(prefs.voice?'voice_on':'voice_off');$('#vce').setAttribute('aria-pressed',prefs.voice);if(prefs.voice)speak(t('voice_on'))};
+ if(hasDose){
+  const setDose=d=>{if(d==null||d<1||d>2000){$('#doseErr').textContent=t('bad_dose');$('#doseIn').value=fmtG(brew.dose);return}
+   brew.dose=Math.round(d*10)/10;const y=$('#sheet').scrollTop;renderBrew();$('#sheet').scrollTop=y;brew.idx=-2;tick(true);if(brew.running)saveActive()};
+  const stp=brew.r.dose>=50?5:1;
+  $('#dm').onclick=()=>setDose(brew.dose-stp); $('#dp').onclick=()=>setDose(brew.dose+stp);
+  $('#doseIn').onchange=e=>setDose(num(e.target.value));
+ }
+ if(r.custom) $('#delRecipe').onclick=()=>confirmBar('#delRecipeC',t('del_q'),t('yes_del'),()=>{Store.del('recipes',r.id);toast(t('deleted'));closeSheet(true)});
+ if(brew.running) $('#go').textContent=t('pause'); else if(elapsedNow()>0&&!brew.finished) $('#go').textContent=t('resume');
+ brew.idx=-2; tick(true);
 }
-let audioCtx=null, wake=null;
-function beep(final){
- if(!brew||!brew.sound) return;
- try{audioCtx=audioCtx||new (window.AudioContext||window.webkitAudioContext)();const o=audioCtx.createOscillator(),g=audioCtx.createGain();
-  o.frequency.value=final?660:880;g.gain.setValueAtTime(.0001,audioCtx.currentTime);g.gain.exponentialRampToValueAtTime(.25,audioCtx.currentTime+.02);g.gain.exponentialRampToValueAtTime(.0001,audioCtx.currentTime+(final?.7:.25));
-  o.connect(g).connect(audioCtx.destination);o.start();o.stop(audioCtx.currentTime+(final?.75:.3))}catch(e){}
- try{navigator.vibrate&&navigator.vibrate(final?[120,80,120]:80)}catch(e){}
+function ensureAudio(){try{audioCtx=audioCtx||new (window.AudioContext||window.webkitAudioContext)();audioCtx.resume&&audioCtx.resume()}catch(e){}}
+function tone(freq,dur,vol){
+ if(!prefs.sound||!audioCtx) return;
+ try{const o=audioCtx.createOscillator(),g=audioCtx.createGain(),n=audioCtx.currentTime;o.frequency.value=freq;g.gain.setValueAtTime(.0001,n);g.gain.exponentialRampToValueAtTime(vol||.25,n+.02);g.gain.exponentialRampToValueAtTime(.0001,n+dur);o.connect(g).connect(audioCtx.destination);o.start();o.stop(n+dur+.05)}catch(e){}
 }
+function speak(txt){ if(!prefs.voice) return; try{const u=new SpeechSynthesisUtterance(txt);u.lang=lang==='ro'?'ro-RO':'en-US';speechSynthesis.cancel();speechSynthesis.speak(u)}catch(e){} }
+function requestWake(){try{if(navigator.wakeLock&&!wake)navigator.wakeLock.request('screen').then(w=>{wake=w;const a=$('#awake');if(a)a.hidden=false;w.addEventListener&&w.addEventListener('release',()=>{wake=null;const a2=$('#awake');if(a2)a2.hidden=true})}).catch(()=>{})}catch(e){}}
+function releaseWake(){try{wake&&wake.release()}catch(e){}wake=null}
 function toggleBrew(){
  if(!brew) return;
- if(brew.running){brew.running=false;brew.elapsed+= (performance.now()-brew.start)/1000;cancelAnimationFrame(brew.raf);$('#go').textContent=t('resume');releaseWake();return}
- try{audioCtx=audioCtx||new (window.AudioContext||window.webkitAudioContext)();audioCtx.resume&&audioCtx.resume()}catch(e){}
- brew.running=true;brew.start=performance.now();$('#go').textContent=t('pause');
- try{navigator.wakeLock&&navigator.wakeLock.request('screen').then(w=>wake=w).catch(()=>{})}catch(e){}
- loop();
+ ensureAudio();
+ if(brew.running){brew.acc=elapsedNow();brew.running=false;stopLoop();$('#go').textContent=t('resume');saveActive();return}
+ if(!brew.startedAt) brew.startedAt=Date.now();
+ brew.running=true;brew.startAt=Date.now();$('#go').textContent=t('pause');requestWake();saveActive();startLoop();
 }
-function releaseWake(){try{wake&&wake.release()}catch(e){}wake=null}
-function loop(){tick();if(brew&&brew.running) brew.raf=requestAnimationFrame(loop)}
-function elapsedNow(){return brew.elapsed+(brew.running?(performance.now()-brew.start)/1000:0)}
+function startLoop(){ if(!brew) return; brew.running=true; if(!brew.startAt) brew.startAt=Date.now(); stopLoop(); brew.timer=setInterval(()=>tick(),200); tick(); }
+function stopLoop(){ if(brew&&brew.timer){clearInterval(brew.timer);brew.timer=null} }
 function tick(force){
  if(!brew||!$('#clock')) return;
- const r=brew.r, tt=totalTime(r)||1, el=elapsedNow();
- const i=curIdx(el), started=brew.running||el>0;
+ const r=brew.r, S_=r.steps, tt=totalTime(r)||1;
+ let el=elapsedNow();
+ if(el>=tt&&brew.running){ brew.acc=tt; brew.running=false; stopLoop(); brew.finished=true; el=tt; lsSet('bloom.active',null);
+  tone(660,.7,.3); speak(t('done')); $('#go').textContent=t('log_it'); }
+ const i=curIdx(el), started=el>0||brew.running, nx=S_[i+1];
  $('#clock').textContent=mmss(Math.floor(el));
- $('#ringArc').setAttribute('stroke-dashoffset',(326.7*(1-Math.min(1,el/tt))).toFixed(1));
+ // ring = progress inside the current step
+ let prog=0; if(started){ if(nx&&i>=0) prog=(el-S_[i].t)/Math.max(1,nx.t-S_[i].t); else if(!nx) prog=1; }
+ $('#ringArc').setAttribute('stroke-dashoffset',(326.7*(1-Math.min(1,Math.max(0,prog)))).toFixed(1));
+ // countdown + 3-2-1 ticks
+ const cd=$('#cd');
+ if(brew.finished){cd.innerHTML='';}
+ else if(started&&nx){const rem=Math.ceil(nx.t-el);
+  cd.innerHTML=`<span>${t('next_in')}</span> <b>${rem>=3600?mmss(rem):rem>=60?mmss(rem):rem+' s'}</b>${stepW(nx)!=null&&stepW(nx)>0?` <span>→ ${fmtG(stepW(nx))} g</span>`:''}`;
+  if(brew.running&&rem<=3&&rem>=1&&brew.lastCount!==rem){brew.lastCount=rem;tone(1040,.12,.18)} }
+ else if(!started&&S_[1]) cd.innerHTML=`<span>${t('first_at')}</span> <b>${mmss(S_[1].t)}</b>`;
+ else cd.innerHTML='';
  if(i!==brew.idx||force){
-  if(i!==brew.idx&&!force&&i>=0) beep(i===r.steps.length-1);
+  if(i!==brew.idx&&!force&&brew.idx!==-2&&i>=0&&brew.running){ tone(880,.3,.28); speak(stepTxt(S_[i])); }
   brew.idx=i;
-  document.querySelectorAll('#stepList li').forEach((li,k)=>{li.classList.toggle('done',started&&k<i);li.classList.toggle('cur',started&&k===i)});
-  const s=r.steps[Math.max(0,i)], nx=r.steps[i+1];
-  // target: the water mark for the current step, or the last known one
-  let w=null;for(let k=Math.max(0,i);k>=0;k--){if(r.steps[k].w!=null){w=stepW(r.steps[k]);break}}
-  if(!started){const f=r.steps.find(x=>x.w!=null);w=f?stepW(f):null}
+  document.querySelectorAll('#stepList li').forEach((li,k)=>{li.classList.toggle('done',started&&(k<i||brew.finished));li.classList.toggle('cur',started&&!brew.finished&&k===i)});
+  let w=null; const from=started?Math.max(0,i):0;
+  for(let k=from;k>=0;k--){const v=stepW(S_[k]);if(v!=null&&v>0){w=v;break}}
+  if(w==null){const fwd=S_.find(x=>x.w!=null&&x.w>0);if(fwd&&!started)w=stepW(fwd)}
   $('#tgt').innerHTML=w!=null?`${fmtG(w)}<small>g</small>`:'–';
-  $('#now').textContent=started?L(s):t('ready');
-  const nxs=started?nx:r.steps[1];
-  $('#nxt').textContent=nxs?`${t('next')} ${mmss(nxs.t)}${stepW(nxs)!=null?' → '+fmtG(stepW(nxs))+' g':''}`:'';
+  $('#now').textContent=brew.finished?t('done'):started?stepTxt(S_[Math.max(0,i)]):t('ready');
  }
- if(el>=tt&&brew.running&&!brew.finished){brew.finished=true;$('#now').textContent=t('done')}
 }
-function resetBrew(){if(!brew)return;cancelAnimationFrame(brew.raf);brew.running=false;brew.elapsed=0;brew.idx=-1;brew.finished=false;$('#go').textContent=t('start');releaseWake();tick(true)}
-function stopBrew(){if(brew){cancelAnimationFrame(brew.raf);brew.running=false}releaseWake()}
+function resetBrew(){ if(!brew)return; stopLoop(); brew.running=false; brew.acc=0; brew.startAt=0; brew.startedAt=null; brew.finished=false; brew.idx=-2; brew.lastCount=null; lsSet('bloom.active',null); $('#go').textContent=t('start'); tick(true); }
+function stopBrew(){ stopLoop(); if(brew) brew.running=false; }
 
 /* ---------- journal entry form ---------- */
 const TASTES=['sweet','bal','fruit','sour','bitter','weak','strong','astr'];
+const PROBLEM=['sour','bitter','weak','strong','astr'];
 function finishBrew(){
  const r=brew.r, el=Math.round(elapsedNow());
- stopBrew();
- entryForm({id:uid(),date:new Date().toISOString().slice(0,10),recipeId:r.id,recipeName:L(r.name),method:r.method,dose:brew.dose,water:Math.round(r.water*scale()*10)/10,temp:r.temp,time:el||totalTime(r),grind:L(GRIND[r.grind]||''),bean:lastBean(),rating:0,tastes:[],notes:'',exp:brew.exp,variant:brew.variant},true);
+ const prev=Store.data.brews.find(b=>b.recipeId===brew.baseId&&b.grinder);
+ const e={id:uid(),date:new Date().toISOString().slice(0,10),recipeId:brew.baseId,recipeName:L(r.name),method:r.method,dose:r.dose!=null?brew.dose:null,water:r.water!=null?Math.round(r.water*scale()*10)/10:null,temp:r.temp,time:el||totalTime(r),
+  grind:grindShort(r.grind)+(r.grindAdj?' ('+grindAdjTxt(r.grindAdj)+')':''),grinder:prev?prev.grinder:'',bean:brew.bean&&brew.bean.name?brew.bean.name:lastBean(),beanId:brew.bean&&brew.bean.id||null,rating:0,tastes:[],notes:'',exp:brew.exp,variant:brew.variant,change:brew.change||''};
+ stopBrew(); lsSet('bloom.active',null); brew=null; releaseWake();
+ entryForm(e,true);
 }
 function lastBean(){const b=Store.data.brews.find(x=>x.bean);return b?b.bean:''}
 function entryForm(e,isNew){
  brew=null;
  const methodOpts=METHODS.map(m=>`<option value="${m}" ${e.method===m?'selected':''}>${t('m_'+m)}</option>`).join('');
  $('#sheetInner').innerHTML=`
- <div class="sheethead"><h2 class="view-title" style="font-size:24px;margin:0">${isNew?t('save'):esc(e.recipeName||t('recipe'))}</h2><button class="x" id="closeE" aria-label="Close">✕</button></div>
- <form id="ef" style="display:flex;flex-direction:column;gap:12px;margin-top:8px">
-  <div class="grid2"><label class="f">${t('recipe')}<input id="e_rn" value="${esc(e.recipeName||'')}"></label><label class="f">${t('method')}<select id="e_m">${methodOpts}</select></label></div>
-  <label class="f">${t('bean')}<input id="e_bean" value="${esc(e.bean||'')}" placeholder="${t('bean_ph')}"></label>
-  <div class="grid3"><label class="f">${t('coffee')} (g)<input id="e_d" inputmode="decimal" value="${e.dose??''}"></label><label class="f">${t(e.method==='espresso'?'yield':'water')} (g)<input id="e_w" inputmode="decimal" value="${e.water??''}"></label><label class="f">${t('temp')} (°C)<input id="e_t" inputmode="decimal" value="${e.temp??''}"></label></div>
-  <div class="grid2"><label class="f">${t('grind')}<input id="e_g" value="${esc(e.grind||'')}"></label><label class="f">${t('time')} (m:ss)<input id="e_time" value="${e.time?mmss(e.time):''}"></label></div>
-  <div class="f" style="font-size:12px;font-weight:600;color:var(--muted)">${t('rating')}<div class="stars" id="e_st">${[1,2,3,4,5].map(n=>`<button type="button" data-n="${n}" class="${n<=e.rating?'on':''}" aria-label="${n}">★</button>`).join('')}</div></div>
+ <div class="sheethead"><h2 class="view-title" style="font-size:24px;margin:0">${isNew?t('log_title'):esc(e.recipeName||t('recipe'))}</h2><button class="x" id="closeE" aria-label="${t('aria_close')}">✕</button></div>
+ <form id="ef" style="display:flex;flex-direction:column;gap:12px;margin-top:8px" novalidate>
+  <div class="f" style="font-size:12px;font-weight:600;color:var(--muted)">${t('rating')}<div class="stars" id="e_st">${[1,2,3,4,5].map(n=>`<button type="button" data-n="${n}" class="${n<=e.rating?'on':''}" aria-label="${n}/5">★</button>`).join('')}</div></div>
   <div class="f" style="font-size:12px;font-weight:600;color:var(--muted)">${t('taste')}<div class="chips wrap" id="e_ta">${TASTES.map(x=>`<button type="button" class="chip" data-t="${x}" aria-pressed="${(e.tastes||[]).includes(x)}">${t('t_'+x)}</button>`).join('')}</div></div>
+  <div class="grid2"><label class="f">${t('recipe')}<input id="e_rn" value="${esc(e.recipeName||'')}"></label><label class="f">${t('method')}<select id="e_m">${methodOpts}</select></label></div>
+  <div class="grid2"><label class="f">${t('bean')}<input id="e_bean" value="${esc(e.bean||'')}" placeholder="${t('bean_ph')}"></label><label class="f">${t('date')}<input id="e_date" type="date" value="${esc(e.date||'')}"></label></div>
+  <div class="grid3"><label class="f">${t('coffee')} (g)<input id="e_d" inputmode="decimal" value="${e.dose??''}"></label><label class="f"><span id="e_wl">${t(e.method==='espresso'?'yield':'water')} (g)</span><input id="e_w" inputmode="decimal" value="${e.water??''}"></label><label class="f">${t('temp')} (°C)<input id="e_t" inputmode="decimal" value="${e.temp??''}"></label></div>
+  <div class="grid3"><label class="f">${t('grind')}<input id="e_g" value="${esc(e.grind||'')}"></label><label class="f">${t('grinder')}<input id="e_gr" value="${esc(e.grinder||'')}" placeholder="${t('grinder_ph')}"></label><label class="f">${t('time')}<input id="e_time" value="${e.time?mmss(e.time):''}" placeholder="3:00"></label></div>
+  <div class="err" id="e_err"></div>
   <label class="f">${t('notes')}<textarea id="e_n" placeholder="${t('notes_ph')}">${esc(e.notes||'')}</textarea></label>
   <div class="btnrow"><button type="submit" class="btn primary">${t('save')}</button>${isNew?`<button type="button" class="btn" id="e_c">${t('cancel')}</button>`:`<button type="button" class="btn" id="e_rep">${t('repeat')}</button>`}</div>
   ${!isNew?`<div class="btnrow"><button type="button" class="btn ghost" id="e_fix">${t('fix')}</button><button type="button" class="btn ghost" id="e_del">${t('delete')}</button></div><div id="e_dc"></div>`:''}
  </form>`;
- $('#sheet').hidden=false;document.body.style.overflow='hidden';$('#sheet').scrollTop=0;
+ openSheet();
  let rating=e.rating||0, tastes=[...(e.tastes||[])];
- $('#closeE').onclick=closeSheet;
+ $('#closeE').onclick=()=>closeSheet(true);
+ $('#e_m').onchange=ev=>{$('#e_wl').textContent=t(ev.target.value==='espresso'?'yield':'water')+' (g)'};
  $('#e_st').onclick=ev=>{const b=ev.target.closest('button');if(!b)return;rating=+b.dataset.n;[...$('#e_st').children].forEach(x=>x.classList.toggle('on',+x.dataset.n<=rating))};
  $('#e_ta').onclick=ev=>{const b=ev.target.closest('button');if(!b)return;const k=b.dataset.t;tastes=tastes.includes(k)?tastes.filter(x=>x!==k):[...tastes,k];b.setAttribute('aria-pressed',tastes.includes(k))};
- const num=id=>{const n=parseFloat(String($(id).value).replace(',','.'));return isNaN(n)?null:n};
- const collect=()=>{const tm=$('#e_time').value.trim().match(/^(\d+)(?::(\d{1,2}))?$/);return {...e,recipeName:$('#e_rn').value.trim(),method:$('#e_m').value,bean:$('#e_bean').value.trim(),dose:num('#e_d'),water:num('#e_w'),temp:num('#e_t'),grind:$('#e_g').value.trim(),time:tm?(tm[2]!=null?(+tm[1]*60+ +tm[2]):+tm[1]*60):e.time,rating,tastes,notes:$('#e_n').value.trim()}};
- $('#ef').onsubmit=ev=>{ev.preventDefault();Store.put('brews',collect());toast(t('saved'));
-  const done=collect(); closeSheet();
-  if(isNew&&done.tastes.some(x=>['sour','bitter','weak','strong','astr'].includes(x))) diagFromTastes(done);
+ const collect=()=>{const tm=$('#e_time').value.trim();return {...e,recipeName:$('#e_rn').value.trim(),method:$('#e_m').value,bean:$('#e_bean').value.trim(),date:$('#e_date').value||e.date,dose:num($('#e_d').value),water:num($('#e_w').value),temp:num($('#e_t').value),grind:$('#e_g').value.trim(),grinder:$('#e_gr').value.trim(),time:tm?parseTime(tm):null,rating,tastes,notes:$('#e_n').value.trim()}};
+ $('#ef').onsubmit=ev=>{ev.preventDefault();
+  const tm=$('#e_time').value.trim(); if(tm&&parseTime(tm)==null){$('#e_err').textContent=t('bad_time');return}
+  for(const id of ['#e_d','#e_w','#e_t']){const v=$(id).value.trim();if(v&&num(v)==null){$('#e_err').textContent=t('bad_num');$(id).focus();return}}
+  const done=collect(); Store.put('brews',done); toast(t('saved'));
+  if(done.beanId===undefined&&done.bean){const b=(Store.data.beans||[]).find(x=>x.name===done.bean);if(b){done.beanId=b.id;Store.put('brews',done)}}
+  st.lastAdvice=isNew&&done.tastes.some(x=>PROBLEM.includes(x))?adviceFor(done):null;
+  closeSheet(true,isNew?'#journal':null);
  };
- if(isNew) $('#e_c').onclick=closeSheet;
+ if(isNew) $('#e_c').onclick=()=>closeSheet(true);
  else{
-  $('#e_rep').onclick=()=>{const r=findRecipe(e.recipeId);if(r)openRecipe(r.id,{dose:e.dose||r.dose});};
-  $('#e_fix').onclick=()=>{diagFromTastes(collect());};
-  $('#e_del').onclick=()=>{$('#e_dc').innerHTML=`<div class="confirm">${t('del_q')} <button type="button" class="btn primary" id="e_yes">${t('yes_del')}</button></div>`;$('#e_yes').onclick=()=>{Store.del('brews',e.id);toast(t('deleted'));closeSheet()}};
+  $('#e_rep').onclick=()=>{const r=findRecipe(e.recipeId);if(r)openRecipe(r.id,{dose:e.dose||r.dose,bean:e.bean?{id:e.beanId||null,name:e.bean}:null});else toast(t('no_recipe'))};
+  $('#e_fix').onclick=()=>diagFromTastes(collect());
+  $('#e_del').onclick=()=>confirmBar('#e_dc',t('del_q'),t('yes_del'),()=>{Store.del('brews',e.id);toast(t('deleted'));closeSheet(true)});
  }
+}
+function adviceFor(e){
+ const T=e.tastes||[], m=diagMethod(e.method);
+ let label, change=null;
+ if(T.includes('sour')&&T.includes('bitter')){label=t('t_sour')+' + '+t('t_bitter');change=t('adv_both')}
+ else if(T.includes('sour')){label=t('t_sour');change=L(ADV.under[m])[0]}
+ else if(T.includes('bitter')){label=t('t_bitter');change=L(ADV.over[m])[0]}
+ else if(T.includes('weak')){label=t('t_weak');change=L(ADV.weak[m])[0]}
+ else if(T.includes('strong')){label=t('t_strong');change=L(ADV.strong[m])[0]}
+ else if(T.includes('astr')){label=t('t_astr');change=L(EXTRA.astr)[0]}
+ return {entry:e,label,change};
 }
 function diagFromTastes(e){
  const T=e.tastes||[];
- const x=T.includes('sour')?0:T.includes('bitter')?2:1;
+ const both=T.includes('sour')&&T.includes('bitter');
+ const x=both?1:T.includes('sour')?0:T.includes('bitter')?2:1;
  const y=T.includes('strong')?0:T.includes('weak')?2:1;
- st.diag={method:diagMethod(e.method),cell:[y,x],extra:T.includes('astr')?['astr']:[]};
- closeSheet();location.hash='#diag';
+ st.diag={method:diagMethod(e.method),cell:both&&y===1?null:[y,x],extra:both||T.includes('astr')?['astr']:[]};
+ closeSheet(true,'#diag');
 }
 
 /* ---------- calculator ---------- */
+function calcValues(){
+ const c=st.calc, p=CALC_PRESETS[c.method], isE=c.method==='espresso';
+ let dose,water;
+ if(c.mode==='coffee'){dose=c.amount;water=dose*c.ratio}
+ else if(isE){water=c.amount;dose=water/c.ratio}
+ else{dose=c.amount/(c.ratio-p.ret);water=dose*c.ratio}
+ return {dose,water,bev:isE?water:Math.max(0,water-dose*p.ret),p,isE};
+}
+function calcOutHTML(){
+ const {dose,water,bev,p,isE}=calcValues(), g=GRIND[p.grind];
+ return `<div><div class="k">${t('coffee')}</div><div class="v">${fmtG(dose)}<small>g</small></div></div>
+  <div><div class="k">${t(isE?'yield':'water')}</div><div class="v">${fmtG(water)}<small>g</small></div></div>
+  <div><div class="k">${t('bev')}</div><div class="v">${fmtG(bev)}<small>${isE?'g':'ml'}</small></div><div class="s">${isE?'':t('absorbed')}</div></div>
+  <div><div class="k">${t('temp')}</div><div class="v" style="font-size:17px">${esc(L(p.temp))}</div></div>
+  <div class="wide"><div class="k">${t('grind')}</div><div class="s" style="color:var(--ink);font-size:15px;margin-top:2px">${esc(L(g))} <span class="mono" style="color:var(--muted);font-size:11px">${g.um}</span></div></div>`;
+}
 function viewCalc(v){
  const c=st.calc, p=CALC_PRESETS[c.method];
  if(c.ratio<p.min||c.ratio>p.max) c.ratio=p.ratio;
  const isE=c.method==='espresso';
- let dose,water;
- if(c.mode==='coffee'){dose=c.amount;water=dose*c.ratio}
- else{ // drink wanted
-  if(isE){water=c.amount;dose=water/c.ratio}else{dose=c.amount/(c.ratio-p.ret);water=dose*c.ratio}
- }
- const bev=isE?water:Math.max(0,water-dose*p.ret);
- const g=GRIND[p.grind];
  const ms=['pour','immersion','espresso','moka','ibrik','cold'];
  v.innerHTML=`<h2 class="view-title">${t('calc_title')}</h2><p class="lede">${t('calc_lede')}</p>
  <div class="chips" role="group">${ms.map(m=>`<button class="chip" data-cm="${m}" aria-pressed="${c.method===m}">${t('m_'+m)}</button>`).join('')}</div>
@@ -700,82 +1185,83 @@ function viewCalc(v){
    <label class="f">${t('know')}<select id="c_mode"><option value="coffee" ${c.mode==='coffee'?'selected':''}>${t('know_coffee')}</option><option value="drink" ${c.mode==='drink'?'selected':''}>${isE?t('yield')+' (g)':t('know_drink')}</option></select></label>
    <label class="f">${t('amount')}<input id="c_amt" inputmode="decimal" value="${fmtG(c.amount)}"></label>
   </div>
-  <label class="f">${t('ratio')} <span class="mono" style="color:var(--ink);font-size:15px">1:${fmtG(c.ratio)}</span>
-   <input id="c_ratio" type="range" min="${p.min}" max="${p.max}" step="${p.step}" value="${c.ratio}" style="accent-color:var(--accent);padding:0;border:0;background:none"></label>
+  <div class="err" id="c_err"></div>
+  <label class="f">${t('ratio')} <span class="mono" id="c_rl" style="color:var(--ink);font-size:15px">1:${fmtG(c.ratio)}</span>
+   <input id="c_ratio" type="range" min="${p.min}" max="${p.max}" step="${p.step}" value="${c.ratio}"></label>
  </div>
- <div class="readouts" style="margin-top:12px">
-  <div><div class="k">${t('coffee')}</div><div class="v">${fmtG(dose)}<small>g</small></div></div>
-  <div><div class="k">${t(isE?'yield':'water')}</div><div class="v">${fmtG(water)}<small>g</small></div></div>
-  <div><div class="k">${t('bev')}</div><div class="v">${fmtG(bev)}<small>${isE?'g':'ml'}</small></div><div class="s">${isE?'':t('absorbed')}</div></div>
-  <div><div class="k">${t('temp')}</div><div class="v" style="font-size:18px">${p.temp}</div></div>
-  <div class="wide"><div class="k">${t('grind')}</div><div class="s" style="color:var(--ink);font-size:15px;margin-top:2px">${esc(L(g))} <span class="mono" style="color:var(--muted);font-size:11px">${g.um}</span></div></div>
- </div>
- <h3 class="sec">${t('ey_title')}</h3><p class="note" style="margin:0 0 10px">${t('ey_lede')}</p>
+ <div class="readouts" id="calcOut" style="margin-top:12px">${calcOutHTML()}</div>
+ <details class="panel" style="margin-top:16px" ${c.tds?'open':''}><summary>${t('ey_title')}</summary>
+ <p class="note" style="margin:8px 0 10px">${t('ey_lede')}${c.method==='immersion'||c.method==='cold'?' '+t('ey_imm'):''}</p>
  <div class="grid2"><label class="f">${t('tds')}<input id="c_tds" inputmode="decimal" placeholder="${isE?'9,5':'1,35'}" value="${esc(c.tds)}"></label>
- <label class="f">${t('bevw')}<input id="c_bev" inputmode="decimal" placeholder="${fmtG(bev)}" value="${esc(c.bev)}"></label></div>
- <div id="eyOut"></div>`;
- v.querySelectorAll('[data-cm]').forEach(b=>b.onclick=()=>{c.method=b.dataset.cm;const pp=CALC_PRESETS[c.method];c.ratio=pp.ratio;c.amount=c.method==='espresso'?18:c.method==='cold'?100:15;c.tds='';c.bev='';render()});
+ <label class="f">${t(c.method==='immersion'||c.method==='cold'?'water':'bevw')} (g)<input id="c_bev" inputmode="decimal" placeholder="" value="${esc(c.bev)}"></label></div>
+ <div id="eyOut"></div></details>`;
+ v.querySelectorAll('[data-cm]').forEach(b=>b.onclick=()=>{c.method=b.dataset.cm;const pp=CALC_PRESETS[c.method];c.ratio=pp.ratio;const e=c.method==='espresso';
+  c.amount=c.mode==='coffee'?(e?18:c.method==='cold'?100:15):(e?36:c.method==='cold'?1000:250);c.tds='';c.bev='';render()});
  $('#c_mode').onchange=e=>{c.mode=e.target.value;c.amount=c.mode==='coffee'?(isE?18:15):(isE?36:250);render()};
- $('#c_amt').onchange=e=>{const n=parseFloat(e.target.value.replace(',','.'));if(n>0)c.amount=n;render()};
- $('#c_ratio').oninput=e=>{c.ratio=+e.target.value;const y=window.scrollY;render();window.scrollTo(0,y);const el=$('#c_ratio');el&&el.focus()};
+ $('#c_amt').onchange=e=>{const n=num(e.target.value);if(n==null||n<=0||n>5000){$('#c_err').textContent=t('bad_num');e.target.value=fmtG(c.amount);return}$('#c_err').textContent='';c.amount=n;$('#calcOut').innerHTML=calcOutHTML();ey()};
+ $('#c_ratio').oninput=e=>{c.ratio=+e.target.value;$('#c_rl').textContent='1:'+fmtG(c.ratio);$('#calcOut').innerHTML=calcOutHTML();ey()};
  const ey=()=>{
   c.tds=$('#c_tds').value;c.bev=$('#c_bev').value;
-  const tds=parseFloat(c.tds.replace(',','.')), bw=parseFloat((c.bev||'').replace(',','.'))||bev;
-  $('#eyOut').innerHTML=controlChart(isE,tds>0?tds:null,tds>0?bw*tds/dose:null);
+  const {dose,water,bev}=calcValues(), imm=c.method==='immersion'||c.method==='cold';
+  $('#c_bev').placeholder=fmtG(imm?water:bev);
+  const tds=num(c.tds), bw=num(c.bev)||(imm?water:bev);
+  $('#eyOut').innerHTML=controlChart(isE,tds>0?tds:null,tds>0?bw*tds/dose:null,c.ratio);
  };
  $('#c_tds').oninput=ey;$('#c_bev').oninput=ey;ey();
 }
-function controlChart(isE,tds,eyv){
- const W=320,H=220,pl=38,pr=10,pt=10,pb=30;
- const x0=14,x1=26, y0=isE?6:.9, y1=isE?14:1.7, iy0=isE?8:1.15, iy1=isE?12:1.45;
+function controlChart(isE,tds,eyv,ratio){
+ const W=320,H=220,pl=38,pr=10,pt=14,pb=30;
+ const turbo=isE&&ratio>=2.6;
+ const x0=14,x1=26, y0=isE?4:.9, y1=isE?14:1.7, iy0=isE?(turbo?6:8):1.15, iy1=isE?(turbo?9:12):1.45;
  const X=v=>pl+(v-x0)/(x1-x0)*(W-pl-pr), Y=v=>H-pb-(v-y0)/(y1-y0)*(H-pt-pb);
  let g='';
  for(let v=x0;v<=x1;v+=2){g+=`<line x1="${X(v)}" x2="${X(v)}" y1="${pt}" y2="${H-pb}" stroke="var(--line)" stroke-width=".6"/><text x="${X(v)}" y="${H-pb+13}" text-anchor="middle">${v}%</text>`}
- const ys=isE?[6,8,10,12,14]:[.9,1.1,1.3,1.5,1.7];
+ const ys=isE?[4,6,8,10,12,14]:[.9,1.1,1.3,1.5,1.7];
  ys.forEach(v=>{g+=`<line x1="${pl}" x2="${W-pr}" y1="${Y(v)}" y2="${Y(v)}" stroke="var(--line)" stroke-width=".6"/><text x="${pl-5}" y="${Y(v)+3}" text-anchor="end">${String(v).replace('.',lang==='ro'?',':'.')}</text>`});
  g+=`<rect x="${X(18)}" y="${Y(iy1)}" width="${X(22)-X(18)}" height="${Y(iy0)-Y(iy1)}" fill="var(--good)" fill-opacity=".16" stroke="var(--good)" stroke-width="1" stroke-dasharray="3 2"/>`;
  g+=`<text x="${(X(18)+X(22))/2}" y="${Y(iy1)-4}" text-anchor="middle" style="fill:var(--good)">${t('ideal')}</text>`;
- g+=`<text x="${W-pr}" y="${H-3}" text-anchor="end">${t('ey')} →</text><text x="4" y="${pt+4}" transform="rotate(-90 4 ${pt+4})" text-anchor="end" dy="6">TDS ${t('strength').toLowerCase()} ↑</text>`;
+ g+=`<text x="${W-pr}" y="${H-3}" text-anchor="end">${t('ey')} →</text>`;
  let msg='';
  if(tds!=null&&eyv!=null){
+  const bad=eyv<8||eyv>30;
   const cx=X(Math.min(x1,Math.max(x0,eyv))), cy=Y(Math.min(y1,Math.max(y0,tds)));
-  g+=`<circle cx="${cx}" cy="${cy}" r="6" fill="var(--accent)" stroke="var(--surface)" stroke-width="2"/>`;
+  if(!bad) g+=`<circle cx="${cx}" cy="${cy}" r="6" fill="var(--accent)" stroke="var(--surface)" stroke-width="2"/>`;
   msg=`<div class="readouts" style="margin-top:10px"><div><div class="k">${t('ey')}</div><div class="v">${fmtG(eyv)}<small>%</small></div></div><div><div class="k">TDS</div><div class="v">${fmtG(tds)}<small>%</small></div></div>
-  <div class="wide s" style="color:var(--ink);font-size:14px">${eyv<18?t('ey_low'):eyv>22?t('ey_high'):t('ey_ok')}</div></div>`;
+  <div class="wide s" style="color:var(--ink);font-size:14px">${bad?t('ey_bad'):eyv<18?t('ey_low'):eyv>22?t('ey_high'):t('ey_ok')}</div></div>`;
  }
- return `<svg class="chart" viewBox="0 0 ${W} ${H}" role="img" aria-label="Brewing control chart">${g}</svg>${msg}`;
+ return `<svg class="chart" viewBox="0 0 ${W} ${H}" role="img" aria-label="${t('ey_title')}">${g}</svg><p class="note" style="margin:4px 0 0">${isE?(turbo?t('zone_turbo'):t('zone_esp')):t('zone_filter')}</p>${msg}`;
 }
 
 /* ---------- diagnostic ---------- */
 const ADV={
- under:{pour:{ro:["Macină mai fin, cu 1–2 trepte.","Apă mai fierbinte: 94–98 °C.","Rotește conul după ultima turnare, ca să se extragă uniform."],en:["Grind 1–2 steps finer.","Hotter water: 94–98 °C.","Swirl the cone after the last pour so it extracts evenly."]},
-  immersion:{ro:["Macină mai fin.","Lasă cu 30–60 s mai mult.","Folosește apă chiar de la fierbere."],en:["Grind finer.","Steep 30–60 s longer.","Use water right off the boil."]},
-  espresso:{ro:["Macină mai fin, ca extracția să dureze 27–32 s.","Lasă să curgă mai mult: 1:2,2 în loc de 1:2.","Crește temperatura cu 1–2 °C."],en:["Grind finer so the shot runs 27–32 s.","Pull longer: 1:2.2 instead of 1:2.","Raise the temperature 1–2 °C."]},
-  moka:{ro:["Macină puțin mai fin.","Nu lua de pe foc prea devreme: așteaptă să curgă constant.","Pornește cu apă fierbinte în rezervor."],en:["Grind slightly finer.","Don't pull it off too early: wait for a steady flow.","Start with hot water in the base."]},
-  ibrik:{ro:["Macină mai fin, ca făina.","Încălzește mai încet, pe foc minim.","Lasă spuma să urce de două ori."],en:["Grind finer, like flour.","Heat more slowly, lowest flame.","Let the foam rise twice."]},
+ under:{pour:{ro:["Macină mai fin, cu 1–2 trepte.","Apă mai fierbinte: 96–100 °C.","Rotește conul după ultima turnare, ca să se extragă uniform."],en:["Grind 1–2 steps finer.","Hotter water: 96–100 °C.","Swirl the cone after the last pour so it extracts evenly."]},
+  immersion:{ro:["Macină mai fin.","Folosește apă chiar de la fierbere.","Lasă cu 30–60 s mai mult."],en:["Grind finer.","Use water right off the boil.","Steep 30–60 s longer."]},
+  espresso:{ro:["Lasă să curgă mai mult: 1:2,2–2,5.","Macină mai fin, ca extracția să dureze 27–32 s.","Crește temperatura cu 1–2 °C."],en:["Pull longer: 1:2.2–2.5.","Grind finer so the shot runs 27–32 s.","Raise the temperature 1–2 °C."]},
+  moka:{ro:["Macină puțin mai fin.","Pornește cu apă chiar de la fierbere în rezervor.","Nu lua de pe foc prea devreme: așteaptă să curgă constant."],en:["Grind slightly finer.","Start with water right off the boil in the base.","Don't pull it off too early: wait for a steady flow."]},
+  ibrik:{ro:["Macină mai fin, ca făina.","Încălzește mai încet, pe foc minim.","O a doua ridicare blândă a spumei e în regulă, dar nu lăsa să clocotească."],en:["Grind finer, like flour.","Heat more slowly, lowest flame.","A second gentle rise of the foam is fine, but never a rolling boil."]},
   cold:{ro:["Lasă la infuzat 2–4 ore în plus.","Macină puțin mai fin."],en:["Steep 2–4 hours longer.","Grind slightly finer."]}},
  over:{pour:{ro:["Macină mai grosier, cu 1–2 trepte.","Apă mai rece: 88–92 °C, mai ales la prăjiri închise.","Toarnă mai blând. Nu trece de 3:30 total."],en:["Grind 1–2 steps coarser.","Cooler water: 88–92 °C, especially for dark roasts.","Pour more gently. Stay under 3:30 total."]},
-  immersion:{ro:["Macină mai grosier.","Scurtează timpul cu 30–60 s.","Separă imediat cafeaua de zaț după preparare."],en:["Grind coarser.","Cut 30–60 s off the steep.","Separate the coffee from the grounds right away."]},
-  espresso:{ro:["Macină mai grosier, ca extracția să dureze 25–28 s.","Oprește mai devreme: 1:1,8.","Scade temperatura cu 1–2 °C."],en:["Grind coarser so the shot runs 25–28 s.","Stop earlier: 1:1.8.","Lower the temperature 1–2 °C."]},
+  immersion:{ro:["Macină mai grosier.","Nu apăsa pistonul până la capăt și toarnă încet: lasă particulele fine în vas.","Scurtează timpul cu 30–60 s."],en:["Grind coarser.","Don't press all the way and pour slowly: leave the fines behind.","Cut 30–60 s off the steep."]},
+  espresso:{ro:["Oprește mai devreme: 1:1,8.","Macină mai grosier, ca extracția să dureze 25–28 s.","Scade temperatura cu 1–2 °C."],en:["Stop earlier: 1:1.8.","Grind coarser so the shot runs 25–28 s.","Lower the temperature 1–2 °C."]},
   moka:{ro:["Foc mai mic.","Ia de pe foc la primul gâlgâit și răcește baza sub apă rece.","Nu tasa cafeaua în coș."],en:["Lower the heat.","Pull it at the first gurgle and cool the base under cold water.","Don't tamp the basket."]},
-  ibrik:{ro:["Nu lăsa să fiarbă: ia de pe foc când urcă spuma.","Macină un pic mai grosier."],en:["Never let it boil: pull it as the foam rises.","Grind a touch coarser."]},
+  ibrik:{ro:["Nu lăsa să clocotească: ia de pe foc când urcă spuma.","Macină un pic mai grosier."],en:["Never let it boil: pull it as the foam rises.","Grind a touch coarser."]},
   cold:{ro:["Scurtează la 12 ore.","Macină mai grosier."],en:["Cut it to 12 hours.","Grind coarser."]}},
- weak:{pour:{ro:["Mai multă cafea pentru aceeași apă: de la 1:17 la 1:15."],en:["More coffee for the same water: from 1:17 to 1:15."]},
+ weak:{pour:{ro:["Mai multă cafea la aceeași apă: de la 1:17 la 1:15."],en:["More coffee for the same water: from 1:17 to 1:15."]},
   immersion:{ro:["Raport mai strâns: de la 1:17 la 1:15."],en:["Tighter ratio: from 1:17 to 1:15."]},
   espresso:{ro:["Oprește mai devreme (1:1,8) sau crește doza cu 1 g."],en:["Stop earlier (1:1.8) or add 1 g to the dose."]},
   moka:{ro:["Umple coșul complet, nivelat, fără tasare."],en:["Fill the basket fully, level, without tamping."]},
   ibrik:{ro:["O linguriță plină de cafea (7–8 g) la 70 ml apă."],en:["A heaped teaspoon (7–8 g) per 70 ml water."]},
-  cold:{ro:["Diluează mai puțin concentratul, sau folosește 1:8."],en:["Dilute the concentrate less, or brew at 1:8."]}},
+  cold:{ro:["Raport mai strâns: 1:8."],en:["Tighter ratio: 1:8."]}},
  strong:{pour:{ro:["Mai multă apă: de la 1:15 la 1:17, sau adaugă apă fierbinte în cană."],en:["More water: from 1:15 to 1:17, or add hot water to the cup."]},
   immersion:{ro:["Raport mai larg (1:17) sau diluează după preparare."],en:["Wider ratio (1:17) or dilute after brewing."]},
   espresso:{ro:["Lasă să curgă mai mult (1:2,5) sau fă un lungo."],en:["Pull longer (1:2.5) or make a lungo."]},
   moka:{ro:["Adaugă apă fierbinte în ceașcă, ca un americano."],en:["Add hot water to the cup, americano-style."]},
   ibrik:{ro:["Mai puțină cafea sau ceașcă mai mare."],en:["Less coffee or a bigger cup."]},
-  cold:{ro:["Diluează 1:2 în loc de 1:1."],en:["Dilute 1:2 instead of 1:1."]}},
+  cold:{ro:["Diluează cu apă sau lapte, 1:1."],en:["Dilute 1:1 with water or milk."]}},
 };
 const EXTRA={
  astr:{ro:["Astringența vine des din particule fine sau canale: toarnă mai blând, în centru.","La espresso: distribuie cafeaua cu un ac (WDT) înainte de tasare.","Încearcă o râșniță cu mai puțin praf fin sau cerne praful."],en:["Astringency often comes from fines or channeling: pour more gently, in the center.","For espresso: stir the bed with a needle (WDT) before tamping.","Try a grinder with fewer fines, or sift them out."]},
- flat:{ro:["Boabele pot fi vechi. Cel mai bine: între 5 zile și 6 săptămâni de la prăjire.","Macină chiar înainte de preparare, nu dinainte.","Încearcă apă filtrată: apa foarte dură „îngroapă” aromele."],en:["The beans may be stale. Best between 5 days and 6 weeks after roast.","Grind right before brewing, not ahead.","Try filtered water: very hard water buries the aromas."]},
+ flat:{ro:["Prospețime: la filtru e ideal între 4 și 30 de zile de la prăjire (prăjirile deschise după 7 zile); la espresso între 7 și 30.","Macină chiar înainte de preparare, nu dinainte.","Apa contează: ideal în jur de 150 mg/L reziduu fix (plată, slab mineralizată sau filtrată). Apa distilată sau foarte moale dă gust plat și acru; apa foarte dură estompează aromele."],en:["Freshness: for filter, 4 to 30 days after roast is ideal (light roasts from day 7); for espresso 7 to 30.","Grind right before brewing, not ahead.","Water matters: around 150 mg/L TDS is ideal (still, low-mineral or filtered). Distilled or very soft water tastes flat and sour; very hard water buries the aromas."]},
  paper:{ro:["Clătește filtrul de hârtie cu apă fierbinte înainte și arunc-o.","Încearcă filtre albite în loc de cele maro."],en:["Rinse the paper filter with hot water first and discard it.","Try bleached filters instead of brown ones."]},
  slow:{ro:["Macină puțin mai grosier.","Toarnă mai puțin agitat; prea multă agitare înfundă filtrul.","Verifică dacă râșnița face mult praf fin."],en:["Grind slightly coarser.","Pour with less agitation; too much clogs the filter.","Check whether your grinder makes lots of fines."]},
 };
@@ -789,8 +1275,7 @@ function viewDiag(v){
   if(x===2) items.push(...L(ADV.over[d.method]));
   if(y===2) items.push(...L(ADV.weak[d.method]));
   if(y===0) items.push(...L(ADV.strong[d.method]));
-  out = (x===1&&y===1&&!d.extra.length)?`<div class="panel" style="margin-top:10px">${t('perfect')}</div>`:
-   `${items.length?`<ol class="advice">${items.map(s=>`<li>${esc(s)}</li>`).join('')}</ol>`:''}`;
+  out=(x===1&&y===1&&!d.extra.length)?`<div class="panel" style="margin-top:10px">${t('perfect')}</div>`:(items.length?`<ol class="advice">${items.map(s=>`<li>${esc(s)}</li>`).join('')}</ol>`:'');
  } else out=`<p class="note">${t('pick')}</p>`;
  const extras=d.extra.map(k=>L(EXTRA[k])).flat();
  v.innerHTML=`<h2 class="view-title">${t('diag_title')}</h2><p class="lede">${t('diag_lede')}</p>
@@ -815,119 +1300,147 @@ function viewJournal(v){
  const avg=rated.length?rated.reduce((s,b)=>s+b.rating,0)/rated.length:0;
  const best=[...rated].sort((a,b)=>b.rating-a.rating||(b.ts||0)-(a.ts||0))[0];
  const used=['all',...METHODS.filter(m=>all.some(b=>b.method===m))];
+ const A=st.lastAdvice;
  v.innerHTML=`<h2 class="view-title">${t('j_title')}</h2><p class="lede">${t('j_lede')}</p>
+ ${A&&A.change?`<div class="advcard"><div class="note">${t('was')}: <b>${esc(A.label)}</b></div><div style="font-weight:600;margin:4px 0 10px"><span class="note">${t('adv_t')}:</span> ${esc(A.change)}</div>
+  <div class="btnrow"><button class="btn primary" id="adv_go">${t('adv_brew')}</button><button class="btn" id="adv_more">${t('adv_more')}</button></div><button class="x sm" id="adv_x" aria-label="${t('aria_close')}">✕</button></div>`:''}
  ${all.length?`<div class="stats"><div><b>${all.length}</b><span>${t('brews')}</span></div><div><b>${avg?fmtG(avg):'–'}</b><span>${t('avg')}</span></div><div style="min-width:0"><b style="font-size:13px;font-family:var(--f-body);font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${best?esc(best.recipeName):'–'}</b><span>${t('best')}</span></div></div>
  ${used.length>2?`<div class="chips" style="margin-top:12px">${used.map(m=>`<button class="chip" data-jf="${m}" aria-pressed="${st.jfilter===m}">${m==='all'?t('all_m'):t('m_'+m)}</button>`).join('')}</div>`:''}
  <div style="border-top:1px solid var(--line);margin-top:12px">${list.map(b=>`<button class="entry" data-e="${esc(b.id)}">
    <span class="t1">${esc(b.recipeName||t('m_'+b.method))}</span><span class="r" aria-label="${b.rating}/5">${b.rating?stars(b.rating):''}</span>
-   <span class="d">${esc(b.date)} · ${[b.dose!=null?fmtG(b.dose)+' g':'',b.water!=null?fmtG(b.water)+' g':'',b.temp!=null?b.temp+' °C':'',b.time?mmss(b.time):''].filter(Boolean).join(' · ')}</span><span></span>
-   <span class="t2">${[b.bean,(b.tastes||[]).map(x=>t('t_'+x)).join(', '),b.exp?t('ab_tag')+' '+b.variant:''].filter(Boolean).map(esc).join(' · ')}</span></button>`).join('')}</div>`
- :`<div class="empty"><b>${t('j_empty_t')}</b>${t('j_empty')}</div>`}
- <button class="btn block" id="j_add" style="margin-top:16px">${t('add_manual')}</button>
+   <span class="d">${esc(b.date)} · ${[b.dose!=null?fmtG(b.dose)+' g':'',b.water!=null?fmtG(b.water)+' g':'',b.temp!=null?b.temp+' °C':'',b.grinder||'',b.time?mmss(b.time):''].filter(Boolean).map(esc).join(' · ')}</span><span></span>
+   <span class="t2">${[b.bean,(b.tastes||[]).map(x=>t('t_'+x)).join(', '),b.exp?t('ab_tag')+' '+b.variant:''].filter(Boolean).map(esc).join(' · ')}</span></button>`).join('')}</div>
+ <button class="btn block" id="j_add" style="margin-top:16px">${t('add_manual')}</button>`
+ :`<div class="empty"><b>${t('j_empty_t')}</b>${t('j_empty')}<div class="btnrow" style="margin-top:14px;justify-content:center"><a class="btn primary" href="#recipes">${t('first_brew')}</a><button class="btn" id="j_add">${t('add_manual')}</button></div></div>`}
  <div class="storage"><span class="dot ${Store.cloud?'on':''}"></span>${Store.cloud?t('cloud'):t('local')}</div>`;
  v.querySelectorAll('[data-jf]').forEach(b=>b.onclick=()=>{st.jfilter=b.dataset.jf;render()});
  v.querySelectorAll('[data-e]').forEach(b=>b.onclick=()=>{const e=all.find(x=>x.id===b.dataset.e);if(e)entryForm(e,false)});
  $('#j_add').onclick=()=>entryForm({id:uid(),date:new Date().toISOString().slice(0,10),method:'pour',recipeName:'',bean:lastBean(),rating:0,tastes:[]},true);
+ if(A&&A.change){
+  $('#adv_x').onclick=()=>{st.lastAdvice=null;render()};
+  $('#adv_more').onclick=()=>{st.lastAdvice=null;diagFromTastes(A.entry)};
+  $('#adv_go').onclick=()=>{const e=A.entry,r=findRecipe(e.recipeId);st.lastAdvice=null;if(r)openRecipe(r.id,{dose:e.dose||r.dose,change:A.change,bean:e.bean?{id:e.beanId||null,name:e.bean}:null});else{toast(t('no_recipe'));render()}};
+ }
 }
 
-/* ---------- lab ---------- */
-let sampleFn=null;
+/* ---------- lab: A/B tests ---------- */
+const ABVARS={
+ grind:{ro:"Măcinarea",en:"Grind size",ph:{ro:["20 clicuri","24 clicuri"],en:["20 clicks","24 clicks"]}},
+ temp:{ro:"Temperatura apei",en:"Water temperature",unit:"°C",num:true,ph:{ro:["90","96"],en:["90","96"]}},
+ ratio:{ro:"Raportul (1:x)",en:"Ratio (1:x)",num:true,ph:{ro:["15","17"],en:["15","17"]}},
+ water:{ro:"Tipul de apă",en:"Water type",ph:{ro:["apă de la robinet","apă filtrată"],en:["tap water","filtered water"]}},
+ bloom:{ro:"Timpul de bloom",en:"Bloom time",ph:{ro:["30 s","90 s"],en:["30 s","90 s"]}},
+ agit:{ro:"Agitarea",en:"Agitation",ph:{ro:["fără rotire","cu rotire"],en:["no swirl","with swirl"]}},
+ bean:{ro:"Boabele",en:"Beans",ph:{ro:["Etiopia","Brazilia"],en:["Ethiopia","Brazil"]}},
+ paper:{ro:"Filtrul",en:"Filter",ph:{ro:["clătit","neclătit"],en:["rinsed","unrinsed"]}},
+};
+st.ab={variable:'grind'};
 function viewLab(v){
  const exps=Store.data.exps;
  const baseOpts=RECIPES.concat(Store.data.recipes).map(r=>`<option value="${esc(r.id)}">${esc(L(r.name))}</option>`).join('');
- const vars=['grind','temp','ratio','water','bloom','agit','bean','paper'];
+ const V=ABVARS[st.ab.variable];
  v.innerHTML=`<h2 class="view-title">${t('lab_title')}</h2><p class="lede">${t('lab_lede')}</p>
-
- <h3 class="sec">${t('ab_t')}</h3><p class="note" style="margin:0 0 8px">${t('ab_l')}</p>
- ${exps.map(e=>{const r=findRecipe(e.base);const A=Store.data.brews.filter(b=>b.exp===e.id&&b.variant==='A'),B=Store.data.brews.filter(b=>b.exp===e.id&&b.variant==='B');
+ ${exps.map(e=>{const r=findRecipe(e.base), VV=ABVARS[e.variable]||{ro:e.variable,en:e.variable};
+  const A=Store.data.brews.filter(b=>b.exp===e.id&&b.variant==='A'),B=Store.data.brews.filter(b=>b.exp===e.id&&b.variant==='B');
   const av=x=>x.length?x.reduce((s,b)=>s+(b.rating||0),0)/x.length:null;const a=av(A),b=av(B);
-  const win=a!=null&&b!=null?(a>b?'A':b>a?'B':'='):null;
-  return `<div class="labcard"><h4>${esc(t('v_'+e.variable))}: ${esc(e.a)} vs ${esc(e.b)}</h4><div class="o">${esc(r?L(r.name):'?')}${win?` · ${win==='='?t('tie'):win+' '+t('winner')}`:''}</div>
-  <div class="cmp"><div class="${win==='A'?'win':''}"><b>A · ${esc(e.a)}</b><div class="rr">${a!=null?stars(Math.round(a))+' <span class="mono" style="font-size:11px;color:var(--muted)">'+fmtG(a)+'</span>':`<span class="note">${t('ab_wait')}</span>`}</div><button class="btn" style="margin-top:8px;width:100%;padding:8px" data-ab="${e.id}" data-v="A">${t('brew_a')}</button></div>
-  <div class="${win==='B'?'win':''}"><b>B · ${esc(e.b)}</b><div class="rr">${b!=null?stars(Math.round(b))+' <span class="mono" style="font-size:11px;color:var(--muted)">'+fmtG(b)+'</span>':`<span class="note">${t('ab_wait')}</span>`}</div><button class="btn" style="margin-top:8px;width:100%;padding:8px" data-ab="${e.id}" data-v="B">${t('brew_b')}</button></div></div>
-  <button class="btn ghost" style="margin-top:6px;padding:6px 10px;font-size:13px" data-xdel="${e.id}">${t('delete')}</button></div>`}).join('')}
- <details class="panel" style="margin-top:12px" ${exps.length?'':'open'}><summary style="font-weight:600;cursor:pointer">${t('ab_new')}</summary>
-  <form id="abf" style="display:flex;flex-direction:column;gap:10px;margin-top:12px">
+  const enough=A.length>=2&&B.length>=2, win=enough?(a>b?'A':b>a?'B':'='):null;
+  const side=(k,val,list,avg)=>`<div class="${win===k?'win':''}"><b>${k} · ${esc(val)}${VV.unit?' '+VV.unit:''}</b><div class="rr">${avg!=null?stars(Math.round(avg))+' <span class="mono" style="font-size:11px;color:var(--muted)">'+fmtG(avg)+'</span>':`<span class="note">${t('ab_wait')}</span>`}</div><div class="note">${list.length} ${t('ab_runs')}</div><button class="btn" style="margin-top:8px;width:100%" data-ab="${e.id}" data-v="${k}">${t(k==='A'?'brew_a':'brew_b')}</button></div>`;
+  return `<div class="labcard"><h4>${esc(L(VV))}: ${esc(e.a)} vs ${esc(e.b)}</h4><div class="o">${esc(r?L(r.name):'?')}${win?` · ${win==='='?t('tie'):win+' '+t('winner')}`:` · ${t('ab_need')}`}</div>
+  <div class="cmp">${side('A',e.a,A,a)}${side('B',e.b,B,b)}</div>
+  <button class="btn ghost" style="margin-top:6px" data-xdel="${e.id}">${t('delete')}</button><div id="xd_${e.id}"></div></div>`}).join('')}
+ <details class="panel" style="margin-top:12px" ${exps.length?'':'open'}><summary>${t('ab_new')}</summary>
+  <form id="abf" style="display:flex;flex-direction:column;gap:10px;margin-top:12px" novalidate>
    <label class="f">${t('base')}<select id="ab_base">${baseOpts}</select></label>
-   <label class="f">${t('variable')}<select id="ab_var">${vars.map(x=>`<option value="${x}">${t('v_'+x)}</option>`).join('')}</select></label>
-   <div class="grid2"><label class="f">${t('va')}<input id="ab_a" placeholder="${lang==='ro'?'ex. apă de la robinet':'e.g. tap water'}" required></label><label class="f">${t('vb')}<input id="ab_b" placeholder="${lang==='ro'?'ex. apă filtrată':'e.g. filtered water'}" required></label></div>
+   <label class="f">${t('variable')}<select id="ab_var">${Object.keys(ABVARS).map(x=>`<option value="${x}" ${x===st.ab.variable?'selected':''}>${esc(L(ABVARS[x]))}</option>`).join('')}</select></label>
+   <div class="grid2"><label class="f">${t('va')}${V.unit?' ('+V.unit+')':''}<input id="ab_a" ${V.num?'inputmode="decimal"':''} placeholder="${esc(L(V.ph)[0])}"></label><label class="f">${t('vb')}${V.unit?' ('+V.unit+')':''}<input id="ab_b" ${V.num?'inputmode="decimal"':''} placeholder="${esc(L(V.ph)[1])}"></label></div>
+   ${V.num?`<p class="note" style="margin:0">${t('ab_applied')}</p>`:''}
+   <div class="err" id="ab_err"></div>
    <button class="btn primary" type="submit">${t('ab_create')}</button>
   </form></details>
+ <div class="rule">${t('ab_blind')}</div>
+ <p class="note" style="margin-top:16px">${t('ab_unusual')}</p>`;
+ v.querySelectorAll('[data-ab]').forEach(b=>b.onclick=()=>{const e=exps.find(x=>x.id===b.dataset.ab);if(!e)return;const VV=ABVARS[e.variable]||{};const val=b.dataset.v==='A'?e.a:e.b;
+  const ov=VV.num?(e.variable==='temp'?{temp:num(val)}:{ratio:num(val)}):null;openRecipe(e.base,{exp:e.id,variant:b.dataset.v,override:ov})});
+ v.querySelectorAll('[data-xdel]').forEach(b=>b.onclick=()=>{const id=b.dataset.xdel;confirmBar('#xd_'+id,t('del_q'),t('yes_del'),()=>{Store.del('exps',id);toast(t('deleted'));render()})});
+ $('#ab_var').onchange=e=>{st.ab.variable=e.target.value;const base=$('#ab_base').value;render();$('#ab_base').value=base};
+ $('#abf').onsubmit=ev=>{ev.preventDefault();const a=$('#ab_a').value.trim(),b=$('#ab_b').value.trim();
+  if(!a||!b){$('#ab_err').textContent=t('ab_fill');return}
+  if(V.num&&(num(a)==null||num(b)==null)){$('#ab_err').textContent=t('bad_num');return}
+  Store.put('exps',{id:uid(),base:$('#ab_base').value,variable:st.ab.variable,a,b});render()};
+}
 
+/* ---------- add recipe: import with Claude or write it ---------- */
+function openAddRecipe(){
+ stopBrew(); brew=null;
+ $('#sheetInner').innerHTML=`
+ <div class="sheethead"><h2 class="view-title" style="font-size:24px;margin:0">${t('add_title')}</h2><button class="x" id="closeA" aria-label="${t('aria_close')}">✕</button></div>
  <h3 class="sec">${t('import_t')}</h3>
  <div class="panel" style="display:flex;flex-direction:column;gap:10px">
   <p class="note" style="margin:0">${t('import_l')}</p>
-  <label class="f"><textarea id="imp_txt" placeholder="${esc(t('import_ph'))}"></textarea></label>
+  <label class="f"><span class="sr">${t('import_t')}</span><textarea id="imp_txt" placeholder="${esc(t('import_ph'))}"></textarea></label>
   <button class="btn primary" id="imp_go">${t('convert')}</button>
-  <div id="imp_msg" class="note"></div>
-  <details><summary style="font-weight:600;cursor:pointer;font-size:14px">${t('manual_t')}</summary>
-   <form id="mf" style="display:flex;flex-direction:column;gap:10px;margin-top:10px">
-    <div class="grid2"><label class="f">${t('name')}<input id="mf_name" required></label><label class="f">${t('method')}<select id="mf_m">${METHODS.map(m=>`<option value="${m}">${t('m_'+m)}</option>`).join('')}</select></label></div>
-    <div class="grid3"><label class="f">${t('coffee')} (g)<input id="mf_d" inputmode="decimal" required></label><label class="f">${t('water')} (g)<input id="mf_w" inputmode="decimal" required></label><label class="f">${t('temp')} (°C)<input id="mf_t" inputmode="decimal"></label></div>
-    <div class="grid2"><label class="f">${t('grind')}<select id="mf_g">${Object.keys(GRIND).map(k=>`<option value="${k}" ${k==='mfine'?'selected':''}>${esc(L(GRIND[k]))}</option>`).join('')}</select></label><label class="f">${t('origin')}<input id="mf_o"></label></div>
-    <label class="f">${t('steps_fmt')}<textarea id="mf_s" class="mono" style="font-family:var(--f-mono);font-size:13px" placeholder="${esc(t('steps_ex'))}"></textarea></label>
-    <button class="btn" type="submit">${t('save_recipe')}</button><div id="mf_msg" class="note"></div>
-   </form></details>
+  <div id="imp_msg" class="note" aria-live="polite">${AI.checked&&!AI.sample?t('ai_off'):''}</div>
  </div>
-
- <h3 class="sec">${t('weird')}</h3>
- <div class="list" style="margin-top:0">${WEIRD.map(recipeRow).join('')}</div>`;
-
- v.querySelectorAll('[data-ab]').forEach(b=>b.onclick=()=>{const e=exps.find(x=>x.id===b.dataset.ab);if(e)openRecipe(e.base,{exp:e.id,variant:b.dataset.v})});
- v.querySelectorAll('[data-xdel]').forEach(b=>b.onclick=()=>{const id=b.dataset.xdel;b.outerHTML=`<div class="confirm">${t('del_q')} <button class="btn primary" id="xy">${t('yes_del')}</button></div>`;$('#xy').onclick=()=>{Store.del('exps',id);toast(t('deleted'));render()}});
- $('#abf').onsubmit=ev=>{ev.preventDefault();Store.put('exps',{id:uid(),base:$('#ab_base').value,variable:$('#ab_var').value,a:$('#ab_a').value.trim(),b:$('#ab_b').value.trim()});render()};
+ <h3 class="sec">${t('manual_t')}</h3>
+ <form id="mf" class="panel" style="display:flex;flex-direction:column;gap:10px" novalidate>
+  <div class="grid2"><label class="f">${t('name')}<input id="mf_name"></label><label class="f">${t('method')}<select id="mf_m">${METHODS.map(m=>`<option value="${m}">${t('m_'+m)}</option>`).join('')}</select></label></div>
+  <div class="grid3"><label class="f">${t('coffee')} (g)<input id="mf_d" inputmode="decimal"></label><label class="f">${t('water')} (g)<input id="mf_w" inputmode="decimal"></label><label class="f">${t('temp')} (°C)<input id="mf_t" inputmode="decimal"></label></div>
+  <div class="grid2"><label class="f">${t('grind')}<select id="mf_g">${Object.keys(GRIND).map(k=>`<option value="${k}" ${k==='mfine'?'selected':''}>${esc(L(GRIND[k]))}</option>`).join('')}</select></label><label class="f">${t('origin')}<input id="mf_o"></label></div>
+  <label class="f">${t('steps_fmt')}<textarea id="mf_s" style="font-family:var(--f-mono);font-size:13px" placeholder="${esc(t('steps_ex'))}"></textarea></label>
+  <div class="err" id="mf_msg"></div>
+  <button class="btn" type="submit">${t('save_recipe')}</button>
+ </form>`;
+ openSheet();
+ $('#closeA').onclick=()=>closeSheet(true);
+ $('#imp_go').onclick=importWithClaude;
  $('#mf').onsubmit=ev=>{ev.preventDefault();
+  const name=$('#mf_name').value.trim(), d=num($('#mf_d').value), w=num($('#mf_w').value);
+  if(!name){$('#mf_msg').textContent=t('need_name');$('#mf_name').focus();return}
+  if(!(d>0)||!(w>0)){$('#mf_msg').textContent=t('bad_num');return}
   const steps=parseSteps($('#mf_s').value);
   if(!steps.length){$('#mf_msg').textContent=t('bad_steps');return}
-  const n=id=>parseFloat(String($(id).value).replace(',','.'));
-  saveCustom({name:$('#mf_name').value.trim(),method:$('#mf_m').value,dose:n('#mf_d'),water:n('#mf_w'),temp:isNaN(n('#mf_t'))?null:n('#mf_t'),grind:$('#mf_g').value,by:$('#mf_o').value.trim(),steps});
+  saveCustom({name,method:$('#mf_m').value,dose:d,water:w,temp:num($('#mf_t').value),grind:$('#mf_g').value,by:$('#mf_o').value.trim(),steps});
  };
- const goBtn=$('#imp_go');
- if(!sampleFn) goBtn.disabled=false;
- goBtn.onclick=importWithClaude;
 }
 function parseSteps(txt){
  const out=[];
  txt.split('\n').map(s=>s.trim()).filter(Boolean).forEach(line=>{
   const p=line.split('|').map(s=>s.trim()); if(p.length<2) return;
-  const m=p[0].match(/^(\d+)(?::(\d{1,2}))?$/); if(!m) return;
-  const tt=m[2]!=null?(+m[1]*60+ +m[2]):+m[1];
-  const w=p.length>=3&&p[1]!==''?parseFloat(p[1].replace(',','.')):null;
+  const tt=parseTime(p[0]); if(tt==null) return;
+  const w=p.length>=3&&p[1]!==''?num(p[1]):null;
   const text=p.length>=3?p.slice(2).join(' | '):p[1];
-  out.push({t:tt,w:isNaN(w)?null:w,ro:text,en:text});
+  out.push({t:tt,w,ro:text,en:text});
  });
  return out.sort((a,b)=>a.t-b.t);
 }
 function saveCustom(o){
  const id='c-'+uid();
- const r={id,custom:true,method:METHODS.includes(o.method)?o.method:'lab',name:{ro:o.name,en:o.name},by:o.by||(lang==='ro'?'rețeta mea':'my recipe'),
+ const r={id,custom:true,method:METHODS.includes(o.method)?o.method:'lab',name:{ro:o.name,en:o.name},by:o.by||{ro:'rețeta mea',en:'my recipe'},
   dose:+o.dose||15,water:+o.water||250,temp:o.temp??null,grind:GRIND[o.grind]?o.grind:'medium',steps:o.steps,
   ingredients:o.ingredients&&o.ingredients.length?o.ingredients.map(x=>({ro:x,en:x})):undefined,note:o.note?{ro:o.note,en:o.note}:undefined};
- Store.put('recipes',r);toast(t('recipe_saved'));openRecipe(id);
+ Store.put('recipes',r);toast(t('recipe_saved'));sheetPushed&&(sheetPushed=sheetPushed);openRecipe(id);
 }
 async function importWithClaude(){
  const txt=$('#imp_txt').value.trim(), msg=$('#imp_msg'), btn=$('#imp_go');
- if(!txt){$('#imp_txt').focus();return}
- if(!sampleFn){try{sampleFn=window.claude&&window.claude.use?await window.claude.use('sample'):null}catch(e){sampleFn=null}}
- if(!sampleFn){msg.textContent=t('ai_off');const d=document.querySelector('#mf')?.closest('details');if(d)d.open=true;return}
+ if(!txt){$('#imp_txt').focus();msg.textContent=t('imp_need');return}
+ if(!AI.sample){msg.textContent=t('ai_off');$('#mf_name').focus();return}
  btn.disabled=true;msg.textContent=t('converting');
  const langName=lang==='ro'?'Romanian':'English';
- const prompt=`You convert a coffee recipe found online into structured JSON for a brewing timer app. Reply with JSON only, no prose.
+ const prompt=`You convert a coffee recipe found online into structured JSON for a brewing timer app. Reply with JSON only.
 Schema: {"name": string, "by": string (author or source if mentioned, else ""), "method": one of "pour","immersion","espresso","moka","ibrik","cold","lab" ("immersion" covers AeroPress, French press, Clever; "lab" for unusual drinks), "dose": grams of coffee (number), "water": total grams of water, or espresso yield in grams (number), "temp": water temperature in °C (number or null), "grind": one of "xfine","fine","mfine","medium","mcoarse","coarse", "ingredients": array of strings for anything besides coffee and water (may be empty), "note": short tip string or "", "steps": array of {"t": seconds from start when this step begins (number), "w": cumulative total water on the scale in grams at the end of this step, or null if no water is added, "text": one short imperative instruction}}.
 Rules: convert ounces/ml/cups to grams (1 ml water = 1 g). If a quantity is missing, choose a sensible standard value. The last step's "t" is when the brew is finished. Write "name", "note", "ingredients" and step "text" in ${langName}.
 Recipe text:
 """${txt.slice(0,6000)}"""`;
  try{
-  const r=await sampleFn.json(prompt,{modelTier:'default'});
+  const r=await AI.sample.json(prompt,{modelTier:'default'});
   if(!r||!Array.isArray(r.steps)||!r.steps.length) throw {code:'shape'};
   const steps=r.steps.filter(s=>s&&typeof s.t==='number'&&s.text).map(s=>({t:Math.max(0,Math.round(s.t)),w:typeof s.w==='number'?s.w:null,ro:String(s.text),en:String(s.text)})).sort((a,b)=>a.t-b.t);
   if(!steps.length) throw {code:'shape'};
   msg.textContent='';
-  saveCustom({name:String(r.name||'Rețetă importată'),by:String(r.by||''),method:r.method,dose:r.dose,water:r.water,temp:typeof r.temp==='number'?r.temp:null,grind:r.grind,ingredients:Array.isArray(r.ingredients)?r.ingredients.map(String):[],note:r.note?String(r.note):'',steps});
+  saveCustom({name:String(r.name||t('imported')),by:String(r.by||''),method:r.method,dose:r.dose,water:r.water,temp:typeof r.temp==='number'?r.temp:null,grind:r.grind,ingredients:Array.isArray(r.ingredients)?r.ingredients.map(String):[],note:r.note?String(r.note):'',steps});
  }catch(e){
-  if(e&&e.code==='not_granted'){sampleFn=null;msg.textContent=t('ai_off')}
-  else if(e&&e.code==='rate_limited') msg.textContent=lang==='ro'?'Prea multe cereri. Mai încearcă peste un minut.':'Too many requests. Try again in a minute.';
-  else msg.textContent=lang==='ro'?'Nu am reușit să citesc rețeta. Încearcă un text mai clar sau scrie pașii manual.':"Couldn't read that recipe. Try clearer text or write the steps by hand.";
+  if(e&&e.code==='not_granted'){AI.sample=null;msg.textContent=t('ai_off')}
+  else msg.textContent=e&&e.code==='rate_limited'?t('rg_rate'):t('imp_fail');
  }finally{btn.disabled=false}
 }
 
@@ -935,14 +1448,15 @@ Recipe text:
 document.addEventListener('click',e=>{
  const o=e.target.closest('[data-open]'); if(o){openRecipe(o.dataset.open);return}
  const f=e.target.closest('[data-filter]'); if(f){st.filter=f.dataset.filter;render();return}
- const lb=e.target.closest('[data-lang]'); if(lb){lang=lb.dataset.lang;try{localStorage.setItem('bloom.lang',lang)}catch(_){}
-  render(); if(brew&&!$('#sheet').hidden){const el=elapsedNow(),run=brew.running;stopBrew();renderBrew();brew.elapsed=el;if(run){brew.running=false;toggleBrew()}else tick(true)}}
+ const lb=e.target.closest('[data-lang]'); if(lb){lang=lb.dataset.lang;lsSet('bloom.lang',lang);render()}
 });
-document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!$('#sheet').hidden)closeSheet()});
-document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible'&&brew&&brew.running){try{navigator.wakeLock&&navigator.wakeLock.request('screen').then(w=>wake=w).catch(()=>{})}catch(e){}}});
+document.addEventListener('keydown',e=>{ if(e.key==='Escape'&&!$('#sheet').hidden&&!$('#ef')&&!$('#mf')) closeSheet(); });
+document.addEventListener('visibilitychange',()=>{ if(document.visibilityState==='visible'&&brew){ requestWake(); tick(true); } });
 
-readHash(); Store.loadLocal(); render(); Store.connect();
+readHash(); Store.loadLocal(); render(); Store.connect(); initAI();
+if(activeBrew()&&location.hash==='') {/* banner on Recipes offers to resume */}
 </script>
+
 
 </body>
 </html>
