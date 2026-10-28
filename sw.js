@@ -1,5 +1,5 @@
 /* Bloom Lab service worker: app shell offline, fonts cached, page updates in the background */
-const VERSION = 'bloom-v3';
+const VERSION = 'bloom-v4';
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png', './icons/favicon-64.png'];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(VERSION).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));

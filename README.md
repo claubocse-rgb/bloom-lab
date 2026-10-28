@@ -7,6 +7,8 @@ Aplicație web (PWA) pentru cafea mai bună acasă, în română și engleză. L
 - **Ce cafea ai?** Scrii ce e pe pungă (origine, procesare, prăjire, data) și primești rețeta recomandată pentru metoda ta, plus la ce să te aștepți. Pungile salvate învață din jurnal.
 - **Manual**: 43 de capitole despre metode (filtru, imersie, hibride, la rece, tradiționale, espresso, lapte, băuturi), 44 de trenduri 2025–2026 și ghidul de piață pentru râșnițe.
 - **Râșnița mea**: 117 râșnițe (52 manuale, 65 electrice). Alegi râșnița ta și fiecare rețetă arată setarea exactă. Unde producătorul nu publică un tabel, îți salvezi propriile setări.
+- **Tutoriale**: 80 de videoclipuri YouTube verificate (22 în română), pe metode, espresso, lapte, echipament; apar și în capitolele și rețetele potrivite.
+- **Cost pe ceașcă**: prețul pungii, doza, lapte, filtru → cost pe ceașcă, pe lună și economia față de cafenea; pungile salvate își arată costul în rețetă.
 - **Diagnostic**, **Jurnal** (setare râșniță, notă, gust, „prepară din nou cu schimbarea”), **Calculator** (TDS → extracție) și **Teste A/B**.
 
 ## Planuri
@@ -19,7 +21,7 @@ index.html                    aplicația (generată de build.py din sursa artifa
 manifest.webmanifest, sw.js   PWA: instalare și offline
 icons/                        iconițe aplicație
 src/bloom-lab.artifact.html   sursa (varianta publicată ca artifact Claude)
-data/*.json                   datele de cercetare: râșnițe, metode, trenduri
+data/*.json                   datele de cercetare: râșnițe, metode, trenduri, tutoriale
 docs/research/*.md            studiile de piață și verificarea datelor
 docs/spec.md, docs/review-*.md
 ```
