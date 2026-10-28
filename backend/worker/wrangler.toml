@@ -1,0 +1,14 @@
+name = "bloom-lab-api"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+
+[vars]
+SUPABASE_URL = "https://YOUR-PROJECT.supabase.co"   # Supabase project in EU (Frankfurt)
+APP_ORIGIN = "https://claubocse-rgb.github.io"      # later: your own domain
+MODEL = "claude-haiku-5-5"
+PADDLE_PACK_PRICE_ID = ""                            # Paddle price id of the 50-read pack
+
+# Secrets (never in this file):
+#   npx wrangler secret put ANTHROPIC_API_KEY
+#   npx wrangler secret put SUPABASE_SERVICE_KEY
+#   npx wrangler secret put PADDLE_WEBHOOK_SECRET
