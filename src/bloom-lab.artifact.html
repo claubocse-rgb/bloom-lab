@@ -184,6 +184,11 @@ nav.tabs a[aria-current="page"]{color:var(--accent)}
 .toast{position:fixed;left:50%;bottom:calc(84px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:999px;font-size:14px;font-weight:600;z-index:60;max-width:calc(100% - 32px)}
 .confirm{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:8px;padding:10px;border-radius:10px;background:color-mix(in srgb,var(--accent) 10%,transparent)}
 /* v2 additions */
+.notice{margin-top:16px;padding:12px;border-radius:12px;background:var(--sunk);font-size:13px;color:var(--muted)}
+.notice p{margin:0 0 8px}
+.copyrow{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.copyrow .sel{user-select:all;-webkit-user-select:all;color:var(--ink);font-size:13px}
+.copyrow .btn{padding:6px 12px;font-size:13px}
 .vlist{display:flex;flex-direction:column;gap:10px;margin-top:10px}
 .vcard{border:1px solid var(--line);border-radius:12px;background:var(--surface);padding:10px 12px}
 .vcard p{margin:6px 0 0;font-size:13px;color:var(--muted)}
@@ -370,6 +375,7 @@ const UI = {
  }
 };
 Object.assign(UI.ro,{
+ vid_owned:"Videoclipurile aparțin autorilor lor. Bloom Lab nu este afiliat cu ei.",vid_takedown:"Ești autorul unui videoclip și vrei să-l scoatem din listă? Scrie-ne la adresa de mai jos.",copy:"Copiază",copied:"Adresă copiată",
  man_videos:"Tutoriale",vid_lede:"Tutoriale video alese pe metode. Se deschid pe YouTube.",vid_title:"Tutoriale video",vid_recipe:"Rețeta din aplicație",
  vt_method:"Metode",vt_espresso:"Espresso",vt_milk:"Lapte",vt_gear:"Echipament",vt_fundamentals:"Noțiuni de bază",vt_drinks:"Băuturi",vl_all:"Orice limbă",vl_ro:"În română",vl_en:"În engleză",
  tool_cost:"Cost",yes:"Da",cost_lede:"Cât te costă o cafea făcută acasă și cât economisești față de cafenea.",cost_from_bag:"Din pungile mele",cost_bagprice:"Preț pungă",cost_bagg:"Gramaj pungă",cost_dose:"Cafea pe ceașcă",cost_cupsday:"Cești pe zi",
@@ -415,6 +421,7 @@ Object.assign(UI.ro,{
  aria_close:"Închide",aria_lang:"Limbă",aria_tabs:"Secțiuni",rec_title:"Ce prepari azi?",
 });
 Object.assign(UI.en,{
+ vid_owned:"Videos belong to their creators. Bloom Lab is not affiliated with them.",vid_takedown:"Are you the creator of a video and want it removed from the list? Write to us at the address below.",copy:"Copy",copied:"Address copied",
  man_videos:"Tutorials",vid_lede:"Hand-picked video tutorials by method. They open on YouTube.",vid_title:"Video tutorials",vid_recipe:"The recipe in the app",
  vt_method:"Methods",vt_espresso:"Espresso",vt_milk:"Milk",vt_gear:"Gear",vt_fundamentals:"Fundamentals",vt_drinks:"Drinks",vl_all:"Any language",vl_ro:"In Romanian",vl_en:"In English",
  tool_cost:"Cost",yes:"Yes",cost_lede:"What a cup at home costs you and how much you save compared with a café.",cost_from_bag:"From my bags",cost_bagprice:"Bag price",cost_bagg:"Bag weight",cost_dose:"Coffee per cup",cost_cupsday:"Cups per day",
@@ -1668,6 +1675,11 @@ function videoCard(x){
   ${L(x.summary)?`<p>${esc(L(x.summary))}</p>`:''}
   ${rec?`<button class="linkbtn" data-open="${esc(rec.id)}">${t('vid_recipe')}: ${esc(L(rec.name))}</button>`:''}</article>`;
 }
+const CONTACT='contact@kromotec.com';
+function videoNotice(){return `<div class="notice"><p>${t('vid_owned')} ${t('vid_takedown')}</p>
+ <div class="copyrow"><span class="mono sel">${CONTACT}</span><button class="btn" data-copy="${CONTACT}">${t('copy')}</button></div></div>`}
+function bindNotice(root){root.querySelectorAll('[data-copy]').forEach(b=>b.onclick=()=>{const v=b.dataset.copy;try{navigator.clipboard.writeText(v).then(()=>toast(t('copied')),()=>selectText(b.previousElementSibling))}catch(e){selectText(b.previousElementSibling)}})}
+function selectText(el){try{const r=document.createRange();r.selectNodeContents(el);const sl=getSelection();sl.removeAllRanges();sl.addRange(r)}catch(e){}}
 const videosFor=(chId,rId)=>TUTORIALS.filter(v=>(chId&&(v.chapterIds||[]).includes(chId))||(rId&&(v.recipeIds||[]).includes(rId)));
 const CAT_LABEL={pourover:{ro:'Filtru',en:'Pour-over'},immersion:{ro:'Imersie',en:'Immersion'},hybrid:{ro:'Hibride',en:'Hybrid'},cold:{ro:'La rece',en:'Cold'},traditional:{ro:'Tradiționale',en:'Traditional'},
  espresso:{ro:'Espresso',en:'Espresso'},milk:{ro:'Lapte',en:'Milk'},drinks:{ro:'Băuturi',en:'Drinks'},gear:{ro:'Echipament',en:'Gear'}};
@@ -1695,7 +1707,9 @@ function viewManual(v){
   body.innerHTML=`<p class="note" style="margin:0 0 8px">${t('vid_lede')}</p>
   <div class="chips">${['all',...topics].map(c=>`<button class="chip" data-vt="${c}" aria-pressed="${M.vtopic===c}">${c==='all'?t('all'):t('vt_'+c)}</button>`).join('')}</div>
   ${TUTORIALS.some(x=>x.lang==='ro')?`<div class="chips" style="margin-top:6px">${['all','ro','en'].map(c=>`<button class="chip" data-vl="${c}" aria-pressed="${M.vlang===c}">${c==='all'?t('vl_all'):c==='ro'?t('vl_ro'):t('vl_en')}</button>`).join('')}</div>`:''}
-  ${list.length?`<div class="vlist">${list.map(videoCard).join('')}</div>`:`<div class="empty">${t('man_empty')}</div>`}`;
+  ${list.length?`<div class="vlist">${list.map(videoCard).join('')}</div>`:`<div class="empty">${t('man_empty')}</div>`}
+  ${videoNotice()}`;
+  bindNotice(body);
   body.querySelectorAll('[data-vt]').forEach(b=>b.onclick=()=>{M.vtopic=b.dataset.vt;render()});
   body.querySelectorAll('[data-vl]').forEach(b=>b.onclick=()=>{M.vlang=b.dataset.vl;render()});
  } else if(M.seg==='trends'){
@@ -1729,7 +1743,7 @@ function openChapter(id){
  ${L(c.gear)?`<h3 class="sec">${t('ch_gear')}</h3><p style="margin:0">${esc(L(c.gear))}</p>`:''}
  ${c.grindKey?`<h3 class="sec">${t('grind')}</h3><div class="lastlog" style="margin-top:0">${esc(L(GM_LABEL[c.grindKey]))} · ${gl}</div>`:''}
  ${recs.length?`<h3 class="sec">${t('ch_recipes')}</h3><div class="list" style="margin-top:0">${recs.map(recipeRow).join('')}</div>`:''}
- ${videosFor(c.id).length?`<h3 class="sec">${t('vid_title')}</h3><div class="vlist">${videosFor(c.id).slice(0,4).map(videoCard).join('')}</div>`:''}
+ ${videosFor(c.id).length?`<h3 class="sec">${t('vid_title')}</h3><div class="vlist">${videosFor(c.id).slice(0,4).map(videoCard).join('')}</div><p class="note" style="margin:6px 0 0">${t('vid_owned')}</p>`:''}
  ${(c.mistakes||[]).length?`<h3 class="sec">${t('ch_mistakes')}</h3><ol class="advice">${c.mistakes.map(m=>`<li>${esc(L(m))}</li>`).join('')}</ol>`:''}
  ${(c.tips||[]).length?`<h3 class="sec">${t('ch_tips')}</h3><ol class="advice plain">${c.tips.map(m=>`<li>${esc(L(m))}</li>`).join('')}</ol>`:''}
  ${(c.sources||[]).length?`<p class="note" style="margin-top:16px">${t('ch_sources')}: ${c.sources.slice(0,4).map((u,i)=>`<a href="${esc(u)}" target="_blank" rel="noopener">${i+1}</a>`).join(' · ')}</p>`:''}`;
