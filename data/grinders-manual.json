@@ -1,0 +1,3709 @@
+[
+  {
+    "id": "comandante-c40-mk4",
+    "brand": "Comandante",
+    "model": "C40 MK4 Nitro Blade",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": 39,
+      "material": "high-nitrogen martensitic steel (Nitro Blade)"
+    },
+    "adjust": {
+      "kind": "clicks",
+      "micronsPerStep": 30,
+      "notation": {
+        "ro": "clicuri numărate de la zero (cadranul nu e numerotat)",
+        "en": "clicks counted from zero (the dial is unnumbered)"
+      },
+      "zero": {
+        "ro": "Rotește rotița de sub freză în sensul acelor de ceasornic până se oprește (frezele se ating) = 0; numără clicurile în sens invers acelor de ceasornic.",
+        "en": "Turn the wheel under the burr clockwise until it stops (burrs touching) = 0; count clicks anticlockwise."
+      }
+    },
+    "priceEUR": [
+      250,
+      300
+    ],
+    "tier": "premium",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": [
+        2,
+        8
+      ],
+      "espresso": [
+        7,
+        13
+      ],
+      "moka": [
+        14,
+        24
+      ],
+      "aeropress": [
+        14,
+        25
+      ],
+      "pourover": [
+        18,
+        28
+      ],
+      "chemex": [
+        24,
+        35
+      ],
+      "french": [
+        25,
+        35
+      ],
+      "coldbrew": [
+        30,
+        40
+      ]
+    },
+    "settingsUnit": {
+      "ro": "clicuri de la zero",
+      "en": "clicks from zero"
+    },
+    "notes": {
+      "ro": "Espresso 7–13, filtru 18–35 și French press 25–35 sunt valorile din FAQ-ul Comandante (prin completehomebarista); turcească, moka și cold brew sunt din HCG (turcească 2–8, moka 14–24, cold brew 30–40). Pour-over 18–28 este zona V60 uzuală din intervalul oficial pentru filtru; Chemex folosește partea grosieră. Un click ≈ 30 µm, deci la espresso pasul e mare – mulți adaugă kitul Red Clix.",
+      "en": "Espresso 7–13, filter 18–35 and French press 25–35 are Comandante FAQ values (via completehomebarista); Turkish, moka and cold brew are HCG (Turkish 2–8, moka 14–24, cold brew 30–40). Pour-over 18–28 is the usual V60 band inside the official filter range; Chemex uses the coarse part. One click ≈ 30 µm, a big step for espresso – many add the Red Clix kit."
+    },
+    "sources": [
+      "https://honestcoffeeguide.com/comandante-c40-mk4-grind-settings/",
+      "https://completehomebarista.com/guides/comandante-c40-grind-settings/",
+      "https://prima-coffee.com/hand-grinder-grind-size-guide/"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "comandante-c40-mk4-red-clix",
+    "brand": "Comandante",
+    "model": "C40 MK4 + Red Clix (RX35)",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": 39,
+      "material": "high-nitrogen martensitic steel (Nitro Blade)"
+    },
+    "adjust": {
+      "kind": "clicks",
+      "micronsPerStep": 15,
+      "notation": {
+        "ro": "clicuri Red Clix de la zero (2 clicuri Red Clix = 1 click standard)",
+        "en": "Red Clix clicks from zero (2 Red Clix clicks = 1 standard click)"
+      },
+      "zero": {
+        "ro": "Ca la C40 standard: rotița în sensul acelor de ceasornic până frezele se ating = 0, apoi numără clicurile Red Clix în sens invers.",
+        "en": "Same as the standard C40: wheel clockwise until the burrs touch = 0, then count Red Clix clicks anticlockwise."
+      }
+    },
+    "priceEUR": [
+      290,
+      350
+    ],
+    "tier": "premium",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": [
+        4,
+        16
+      ],
+      "espresso": [
+        14,
+        26
+      ],
+      "moka": [
+        28,
+        48
+      ],
+      "aeropress": [
+        28,
+        50
+      ],
+      "pourover": [
+        36,
+        56
+      ],
+      "chemex": [
+        48,
+        70
+      ],
+      "french": [
+        50,
+        70
+      ],
+      "coldbrew": [
+        60,
+        80
+      ]
+    },
+    "settingsUnit": {
+      "ro": "clicuri Red Clix de la zero",
+      "en": "Red Clix clicks from zero"
+    },
+    "notes": {
+      "ro": "Valorile C40 standard × 2 (Red Clix are pas de ~15 µm); se potrivesc cu tabelul HCG pentru Red Clix (espresso 14–27, V60 30–51, French press 51–80, cold brew 59–80).",
+      "en": "Standard C40 values × 2 (Red Clix steps ~15 µm); consistent with the HCG Red Clix table (espresso 14–27, V60 30–51, French press 51–80, cold brew 59–80)."
+    },
+    "sources": [
+      "https://honestcoffeeguide.com/comandante-c40-mk4-with-red-clix-grind-settings/",
+      "https://completehomebarista.com/guides/comandante-c40-grind-settings/"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "1zpresso-j-max",
+    "brand": "1Zpresso",
+    "model": "J-Max / J-Max S",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": 48,
+      "material": "stainless steel (heptagonal espresso burr)"
+    },
+    "adjust": {
+      "kind": "rotations+numbers",
+      "micronsPerStep": 8.8,
+      "notation": {
+        "ro": "rotație.cifră+diviziune scrise ca zecimal: 1.52 = 1 rotație completă de la zero + cifra 5 + diviziunea 2 (9 cifre pe rotație, 10 diviziuni pe cifră, 90 clicuri pe rotație)",
+        "en": "rotation.number+tick written as a decimal: 1.52 = 1 full rotation from zero + number 5 + tick 2 (9 numbers per rotation, 10 ticks per number, 90 clicks per rotation)"
+      },
+      "zero": {
+        "ro": "Rotește cadranul în sensul acelor de ceasornic (fin) până frezele abia se ating / cadranul se oprește; punctul roșu indică atunci 0. Numără înapoi de acolo.",
+        "en": "Turn the dial clockwise (finer) until the burrs just touch / dial stops; the red dot then reads 0. Count back from there."
+      }
+    },
+    "priceEUR": [
+      180,
+      220
+    ],
+    "tier": "premium",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": [
+        0.16,
+        0.83
+      ],
+      "espresso": [
+        0.69,
+        1.53
+      ],
+      "moka": [
+        1.47,
+        2.69
+      ],
+      "aeropress": [
+        1.32,
+        2.84
+      ],
+      "pourover": [
+        1.62,
+        2.84
+      ],
+      "chemex": [
+        2.1,
+        3.25
+      ],
+      "french": [
+        2.6,
+        5.0
+      ],
+      "coldbrew": [
+        3.25,
+        5.0
+      ]
+    },
+    "settingsUnit": {
+      "ro": "rotații.cifră+diviziune de la zero (ex. 1.52)",
+      "en": "rotations.number+tick from zero (e.g. 1.52)"
+    },
+    "notes": {
+      "ro": "Gândită pentru espresso: 8,8 µm/click și 90 de clicuri pe rotație dau control fin. Pentru filtru trebuie multe rotații.",
+      "en": "Espresso-focused: 8.8 µm per click and 90 clicks per rotation give fine control. Filter needs many rotations."
+    },
+    "sources": [
+      "https://1zpresso.coffee/grindsetting",
+      "https://honestcoffeeguide.com/1zpresso-j-max-grind-settings/",
+      "https://prima-coffee.com/hand-grinder-grind-size-guide/"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "1zpresso-j-ultra",
+    "brand": "1Zpresso",
+    "model": "J-Ultra",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": 48,
+      "material": "stainless steel (heptagonal Ultra burr)"
+    },
+    "adjust": {
+      "kind": "rotations+numbers",
+      "micronsPerStep": 8,
+      "notation": {
+        "ro": "rotație.cifră+diviziune scrise ca zecimal: 1.52 = 1 rotație completă de la zero + cifra 5 + diviziunea 2 (10 cifre pe rotație, 10 diviziuni pe cifră, 100 clicuri pe rotație)",
+        "en": "rotation.number+tick written as a decimal: 1.52 = 1 full rotation from zero + number 5 + tick 2 (10 numbers per rotation, 10 ticks per number, 100 clicks per rotation)"
+      },
+      "zero": {
+        "ro": "Rotește cadranul în sensul acelor de ceasornic (fin) până frezele abia se ating / cadranul se oprește; punctul roșu indică atunci 0. Numără înapoi de acolo.",
+        "en": "Turn the dial clockwise (finer) until the burrs just touch / dial stops; the red dot then reads 0. Count back from there."
+      }
+    },
+    "priceEUR": [
+      190,
+      240
+    ],
+    "tier": "premium",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": [
+        0.17,
+        0.89
+      ],
+      "espresso": [
+        0.74,
+        1.54
+      ],
+      "moka": [
+        1.47,
+        2.68
+      ],
+      "aeropress": [
+        1.47,
+        2.84
+      ],
+      "pourover": [
+        1.63,
+        2.84
+      ],
+      "chemex": [
+        2.24,
+        3.78
+      ],
+      "french": [
+        2.81,
+        5.0
+      ],
+      "coldbrew": [
+        3.26,
+        5.0
+      ]
+    },
+    "settingsUnit": {
+      "ro": "rotații.cifră+diviziune de la zero (ex. 1.52)",
+      "en": "rotations.number+tick from zero (e.g. 1.52)"
+    },
+    "notes": {
+      "ro": "Valori HCG verificate (1Zpresso: 8 µm/click, 100 clicuri pe rotație). Reguli de mapare HCG: pour-over = V60; AeroPress = de la max(AeroPress, moka) până la limita V60; Chemex = de la mijlocul V60 până la limita „Pour Over”.",
+      "en": "HCG values verified (1Zpresso: 8 µm/click, 100 clicks per rotation). HCG mapping: pour-over = V60; AeroPress = from max(AeroPress, moka) low to the V60 high; Chemex = from the V60 midpoint to the \"Pour Over\" high."
+    },
+    "sources": [
+      "https://honestcoffeeguide.com/1zpresso-j-ultra-grind-settings/",
+      "https://1zpresso.coffee/grindsetting"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "1zpresso-jx",
+    "brand": "1Zpresso",
+    "model": "JX / JX S",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": 48,
+      "material": "stainless steel"
+    },
+    "adjust": {
+      "kind": "rotations+numbers",
+      "micronsPerStep": 25,
+      "notation": {
+        "ro": "rotație.cifră+diviziune scrise ca zecimal: 1.52 = 1 rotație completă de la zero + cifra 5 + diviziunea 2 (10 cifre pe rotație, 3 diviziuni pe cifră, 30 clicuri pe rotație)",
+        "en": "rotation.number+tick written as a decimal: 1.52 = 1 full rotation from zero + number 5 + tick 2 (10 numbers per rotation, 3 ticks per number, 30 clicks per rotation)"
+      },
+      "zero": {
+        "ro": "Scoate manivela și recipientul, rotește cadranul intern în sensul acelor de ceasornic până se oprește (frezele se ating) – acesta e 0; numără clicurile/rotațiile înapoi.",
+        "en": "Remove handle and catch cup, turn the internal dial clockwise until it stops (burrs touch) – that is 0; count clicks/rotations back."
+      }
+    },
+    "priceEUR": [
+      110,
+      150
+    ],
+    "tier": "mid",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": [
+        0.12,
+        0.8
+      ],
+      "espresso": [
+        0.62,
+        1.4
+      ],
+      "moka": [
+        1.31,
+        2.41
+      ],
+      "aeropress": [
+        1.2,
+        2.52
+      ],
+      "pourover": [
+        1.5,
+        2.52
+      ],
+      "chemex": [
+        2.01,
+        3.41
+      ],
+      "french": [
+        2.52,
+        4.0
+      ],
+      "coldbrew": [
+        2.92,
+        4.0
+      ]
+    },
+    "settingsUnit": {
+      "ro": "rotații.cifră+diviziune de la zero (ex. 1.52)",
+      "en": "rotations.number+tick from zero (e.g. 1.52)"
+    },
+    "notes": {
+      "ro": "Burr mare de 48 mm la preț mediu, rapidă pentru filtru. Reglaj intern (trebuie scoasă manivela); espresso posibil, dar pașii de 25 µm sunt grosieri.",
+      "en": "Big 48 mm burr at a mid price, fast for filter. Internal adjustment (handle must come off); espresso is possible but 25 µm steps are coarse."
+    },
+    "sources": [
+      "https://1zpresso.coffee/grindsetting",
+      "https://honestcoffeeguide.com/1zpresso-jx-grind-settings/"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "1zpresso-jx-pro",
+    "brand": "1Zpresso",
+    "model": "JX-Pro / JX-Pro S",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": 48,
+      "material": "stainless steel"
+    },
+    "adjust": {
+      "kind": "rotations+numbers",
+      "micronsPerStep": 12.5,
+      "notation": {
+        "ro": "rotație.cifră+diviziune scrise ca zecimal: 1.52 = 1 rotație completă de la zero + cifra 5 + diviziunea 2 (10 cifre pe rotație, 4 diviziuni pe cifră, 40 clicuri pe rotație)",
+        "en": "rotation.number+tick written as a decimal: 1.52 = 1 full rotation from zero + number 5 + tick 2 (10 numbers per rotation, 4 ticks per number, 40 clicks per rotation)"
+      },
+      "zero": {
+        "ro": "Rotește cadranul de sus în sensul acelor de ceasornic până se oprește (frezele se ating) = 0; numără rotațiile/cifrele înapoi.",
+        "en": "Turn the top dial clockwise until it stops (burrs touch) = 0; count rotations/numbers back."
+      }
+    },
+    "priceEUR": [
+      150,
+      185
+    ],
+    "tier": "mid",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": [
+        0.21,
+        1.2
+      ],
+      "espresso": [
+        1.0,
+        2.03
+      ],
+      "moka": [
+        1.93,
+        3.6
+      ],
+      "aeropress": [
+        1.93,
+        3.81
+      ],
+      "pourover": [
+        2.2,
+        3.81
+      ],
+      "chemex": [
+        3.0,
+        5.0
+      ],
+      "french": [
+        3.73,
+        5.0
+      ],
+      "coldbrew": [
+        4.33,
+        5.0
+      ]
+    },
+    "settingsUnit": {
+      "ro": "rotații.cifră+diviziune de la zero (ex. 1.52)",
+      "en": "rotations.number+tick from zero (e.g. 1.52)"
+    },
+    "notes": {
+      "ro": "Valori din tabelul HCG pentru JX-Pro S (același cadran superior, 12,5 µm/click, 40 clicuri pe rotație); pagina HCG pentru JX-Pro original nu are tabel extras. Valorile vechi erau extrapolate din JX și au fost înlocuite. Reguli de mapare HCG: pour-over = V60; AeroPress = de la max(AeroPress, moka) până la limita V60; Chemex = de la mijlocul V60 până la limita „Pour Over”.",
+      "en": "Values from the HCG JX-Pro S table (same top dial, 12.5 µm/click, 40 clicks per rotation); the HCG page for the original JX-Pro has no extractable table. The old values were extrapolated from the JX and were replaced. HCG mapping: pour-over = V60; AeroPress = from max(AeroPress, moka) low to the V60 high; Chemex = from the V60 midpoint to the \"Pour Over\" high."
+    },
+    "sources": [
+      "https://honestcoffeeguide.com/1zpresso-jx-pro-s-grind-settings/",
+      "https://1zpresso.coffee/grindsetting"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "1zpresso-k-plus",
+    "brand": "1Zpresso",
+    "model": "K-Plus",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": 48,
+      "material": "stainless steel (K burr)"
+    },
+    "adjust": {
+      "kind": "rotations+numbers",
+      "micronsPerStep": 22,
+      "notation": {
+        "ro": "notația 1Zpresso „numbers”: cifra.click, 10 clicuri pe cifră, 100 clicuri pe tură; valoarea × 10 = clicuri de la zero (ex. 4.7 = 47 clicuri; 12.3 = o tură completă + cifra 2 + 3 clicuri)",
+        "en": "1Zpresso \"numbers\" notation: number.click, 10 clicks per number, 100 clicks per turn; value × 10 = clicks from zero (e.g. 4.7 = 47 clicks; 12.3 = one full turn + number 2 + 3 clicks)"
+      },
+      "zero": {
+        "ro": "Rotește cadranul exterior în sensul acelor de ceasornic (fin) până frezele se ating; punctul roșu indică 0. Numără înapoi de acolo.",
+        "en": "Turn the external dial clockwise (finer) until the burrs touch; the red dot then reads 0. Count back from there."
+      }
+    },
+    "priceEUR": [
+      170,
+      210
+    ],
+    "tier": "mid",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": [
+        0.5,
+        2.7
+      ],
+      "espresso": [
+        2.3,
+        4.7
+      ],
+      "moka": [
+        4.5,
+        8.2
+      ],
+      "aeropress": [
+        4.5,
+        8.7
+      ],
+      "pourover": [
+        5.0,
+        8.7
+      ],
+      "chemex": [
+        6.8,
+        12.5
+      ],
+      "french": [
+        8.6,
+        17.1
+      ],
+      "coldbrew": [
+        11.0,
+        18.4
+      ]
+    },
+    "settingsUnit": {
+      "ro": "cifră.click pe cadranul exterior (ex. 4.7 = cifra 4 + 7 clicuri; peste 10 = a doua tură)",
+      "en": "number.click on the external dial (e.g. 4.7 = number 4 + 7 clicks; above 10 = second turn)"
+    },
+    "notes": {
+      "ro": "Valori HCG (tabel K-Max; K-Plus are aceleași freze și cadran, 22 µm/click) convertite în notația oficială 1Zpresso „numbers” (cifră.click). Înainte erau scrise greșit ca fracțiuni de rotație (ex. 0.23 în loc de 2.3). Reguli de mapare HCG: pour-over = V60; AeroPress = de la max(AeroPress, moka) până la limita V60; Chemex = de la mijlocul V60 până la limita „Pour Over”.",
+      "en": "HCG values (K-Max table; the K-Plus shares burrs and dial, 22 µm/click) converted to the official 1Zpresso \"numbers\" notation (number.click). They were previously written as fractions of a rotation (e.g. 0.23 instead of 2.3). HCG mapping: pour-over = V60; AeroPress = from max(AeroPress, moka) low to the V60 high; Chemex = from the V60 midpoint to the \"Pour Over\" high."
+    },
+    "sources": [
+      "https://honestcoffeeguide.com/1zpresso-k-max-grind-settings/",
+      "https://1zpresso.coffee/grindsetting"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "1zpresso-k-max",
+    "brand": "1Zpresso",
+    "model": "K-Max",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": 48,
+      "material": "stainless steel (K burr)"
+    },
+    "adjust": {
+      "kind": "rotations+numbers",
+      "micronsPerStep": 22,
+      "notation": {
+        "ro": "notația 1Zpresso „numbers”: cifra.click, 10 clicuri pe cifră, 100 clicuri pe tură; valoarea × 10 = clicuri de la zero (ex. 4.7 = 47 clicuri; 12.3 = o tură completă + cifra 2 + 3 clicuri)",
+        "en": "1Zpresso \"numbers\" notation: number.click, 10 clicks per number, 100 clicks per turn; value × 10 = clicks from zero (e.g. 4.7 = 47 clicks; 12.3 = one full turn + number 2 + 3 clicks)"
+      },
+      "zero": {
+        "ro": "Rotește cadranul exterior în sensul acelor de ceasornic (fin) până frezele se ating; punctul roșu indică 0. Numără înapoi de acolo.",
+        "en": "Turn the external dial clockwise (finer) until the burrs touch; the red dot then reads 0. Count back from there."
+      }
+    },
+    "priceEUR": [
+      160,
+      200
+    ],
+    "tier": "mid",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": [
+        0.5,
+        2.7
+      ],
+      "espresso": [
+        2.3,
+        4.7
+      ],
+      "moka": [
+        4.5,
+        8.2
+      ],
+      "aeropress": [
+        4.5,
+        8.7
+      ],
+      "pourover": [
+        5.0,
+        8.7
+      ],
+      "chemex": [
+        6.8,
+        12.5
+      ],
+      "french": [
+        8.6,
+        17.1
+      ],
+      "coldbrew": [
+        11.0,
+        18.4
+      ]
+    },
+    "settingsUnit": {
+      "ro": "cifră.click pe cadranul exterior (ex. 4.7 = cifra 4 + 7 clicuri; peste 10 = a doua tură)",
+      "en": "number.click on the external dial (e.g. 4.7 = number 4 + 7 clicks; above 10 = second turn)"
+    },
+    "notes": {
+      "ro": "Valori HCG (tabel K-Max; K-Plus are aceleași freze și cadran, 22 µm/click) convertite în notația oficială 1Zpresso „numbers” (cifră.click). Înainte erau scrise greșit ca fracțiuni de rotație (ex. 0.23 în loc de 2.3). Reguli de mapare HCG: pour-over = V60; AeroPress = de la max(AeroPress, moka) până la limita V60; Chemex = de la mijlocul V60 până la limita „Pour Over”.",
+      "en": "HCG values (K-Max table; the K-Plus shares burrs and dial, 22 µm/click) converted to the official 1Zpresso \"numbers\" notation (number.click). They were previously written as fractions of a rotation (e.g. 0.23 instead of 2.3). HCG mapping: pour-over = V60; AeroPress = from max(AeroPress, moka) low to the V60 high; Chemex = from the V60 midpoint to the \"Pour Over\" high."
+    },
+    "sources": [
+      "https://honestcoffeeguide.com/1zpresso-k-max-grind-settings/",
+      "https://1zpresso.coffee/grindsetting"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "1zpresso-k-ultra",
+    "brand": "1Zpresso",
+    "model": "K-Ultra",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": 48,
+      "material": "stainless steel (K-Ultra burr)"
+    },
+    "adjust": {
+      "kind": "rotations+numbers",
+      "micronsPerStep": 20,
+      "notation": {
+        "ro": "notația 1Zpresso „numbers”: cifra.click, 10 clicuri pe cifră, 100 clicuri pe tură; valoarea × 10 = clicuri de la zero (ex. 4.7 = 47 clicuri; 12.3 = o tură completă + cifra 2 + 3 clicuri)",
+        "en": "1Zpresso \"numbers\" notation: number.click, 10 clicks per number, 100 clicks per turn; value × 10 = clicks from zero (e.g. 4.7 = 47 clicks; 12.3 = one full turn + number 2 + 3 clicks)"
+      },
+      "zero": {
+        "ro": "Rotește cadranul exterior în sensul acelor de ceasornic (fin) până frezele se ating; punctul roșu indică 0. Numără înapoi de acolo.",
+        "en": "Turn the external dial clockwise (finer) until the burrs touch; the red dot then reads 0. Count back from there."
+      }
+    },
+    "priceEUR": [
+      220,
+      260
+    ],
+    "tier": "premium",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": [
+        0.6,
+        2.8
+      ],
+      "espresso": [
+        2.4,
+        5.0
+      ],
+      "moka": [
+        4.8,
+        8.6
+      ],
+      "aeropress": [
+        4.8,
+        9.2
+      ],
+      "pourover": [
+        5.3,
+        9.2
+      ],
+      "chemex": [
+        7.2,
+        13.8
+      ],
+      "french": [
+        9.5,
+        18.8
+      ],
+      "coldbrew": [
+        12.1,
+        20.2
+      ]
+    },
+    "settingsUnit": {
+      "ro": "cifră.click pe cadranul exterior (ex. 4.7 = cifra 4 + 7 clicuri; peste 10 = a doua tură)",
+      "en": "number.click on the external dial (e.g. 4.7 = number 4 + 7 clicks; above 10 = second turn)"
+    },
+    "notes": {
+      "ro": "Turcească–V60 din HCG K-Ultra (20 µm/click), convertite în notația 1Zpresso „numbers”. Graficul HCG se oprește la o tură (10.0), așa că limita de sus pentru Chemex, French press și cold brew e derivată din K-Max × 22/20. Reguli de mapare HCG: pour-over = V60; AeroPress = de la max(AeroPress, moka) până la limita V60; Chemex = de la mijlocul V60 până la limita „Pour Over”.",
+      "en": "Turkish–V60 from the HCG K-Ultra table (20 µm/click), converted to 1Zpresso \"numbers\" notation. The HCG chart stops at one turn (10.0), so the Chemex high, French press and cold brew are derived from the K-Max × 22/20. HCG mapping: pour-over = V60; AeroPress = from max(AeroPress, moka) low to the V60 high; Chemex = from the V60 midpoint to the \"Pour Over\" high."
+    },
+    "sources": [
+      "https://honestcoffeeguide.com/1zpresso-k-ultra-grind-settings/",
+      "https://honestcoffeeguide.com/1zpresso-k-max-grind-settings/",
+      "https://1zpresso.coffee/product/kultra"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "1zpresso-q2",
+    "brand": "1Zpresso",
+    "model": "Q2 / Q2 S (heptagonal)",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": 38,
+      "material": "stainless steel (heptagonal)"
+    },
+    "adjust": {
+      "kind": "rotations+numbers",
+      "micronsPerStep": 25,
+      "notation": {
+        "ro": "rotație.cifră+diviziune scrise ca zecimal: 1.52 = 1 rotație completă de la zero + cifra 5 + diviziunea 2 (10 cifre pe rotație, 3 diviziuni pe cifră, 30 clicuri pe rotație)",
+        "en": "rotation.number+tick written as a decimal: 1.52 = 1 full rotation from zero + number 5 + tick 2 (10 numbers per rotation, 3 ticks per number, 30 clicks per rotation)"
+      },
+      "zero": {
+        "ro": "Scoate manivela și recipientul, rotește cadranul intern în sensul acelor de ceasornic până se oprește (frezele se ating) – acesta e 0; numără clicurile/rotațiile înapoi.",
+        "en": "Remove handle and catch cup, turn the internal dial clockwise until it stops (burrs touch) – that is 0; count clicks/rotations back."
+      }
+    },
+    "priceEUR": [
+      95,
+      130
+    ],
+    "tier": "mid",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": [
+        0.11,
+        0.61
+      ],
+      "espresso": [
+        0.51,
+        1.1
+      ],
+      "moka": [
+        1.02,
+        1.91
+      ],
+      "aeropress": [
+        0.92,
+        2.01
+      ],
+      "pourover": [
+        1.2,
+        2.01
+      ],
+      "chemex": [
+        1.6,
+        2.71
+      ],
+      "french": [
+        2.01,
+        3.8
+      ],
+      "coldbrew": [
+        2.32,
+        4.0
+      ]
+    },
+    "settingsUnit": {
+      "ro": "rotații.cifră+diviziune de la zero (ex. 1.52)",
+      "en": "rotations.number+tick from zero (e.g. 1.52)"
+    },
+    "notes": {
+      "ro": "Compactă, intră în AeroPress – ideală pentru călătorii. Espresso doar ca opțiune (pas 25 µm); excelentă pentru V60/AeroPress.",
+      "en": "Compact, nests inside an AeroPress – great for travel. Espresso only as a stretch (25 µm steps); excellent for V60/AeroPress."
+    },
+    "sources": [
+      "https://1zpresso.coffee/grindsetting",
+      "https://honestcoffeeguide.com/1zpresso-q2-heptagonal-burrs-grind-settings/"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "1zpresso-q-air",
+    "brand": "1Zpresso",
+    "model": "Q Air",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": 38,
+      "material": "stainless steel (heptagonal)"
+    },
+    "adjust": {
+      "kind": "rotations+numbers",
+      "micronsPerStep": 25,
+      "notation": {
+        "ro": "rotație.cifră+diviziune scrise ca zecimal: 1.52 = 1 rotație completă de la zero + cifra 5 + diviziunea 2 (10 cifre pe rotație, 3 diviziuni pe cifră, 30 clicuri pe rotație)",
+        "en": "rotation.number+tick written as a decimal: 1.52 = 1 full rotation from zero + number 5 + tick 2 (10 numbers per rotation, 3 ticks per number, 30 clicks per rotation)"
+      },
+      "zero": {
+        "ro": "Scoate manivela și recipientul, rotește cadranul intern în sensul acelor de ceasornic până se oprește (frezele se ating) – acesta e 0; numără clicurile/rotațiile înapoi.",
+        "en": "Remove handle and catch cup, turn the internal dial clockwise until it stops (burrs touch) – that is 0; count clicks/rotations back."
+      }
+    },
+    "priceEUR": [
+      65,
+      90
+    ],
+    "tier": "budget",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": [
+        0.11,
+        0.61
+      ],
+      "espresso": [
+        0.51,
+        1.1
+      ],
+      "moka": [
+        1.02,
+        1.91
+      ],
+      "aeropress": [
+        1.02,
+        2.01
+      ],
+      "pourover": [
+        1.2,
+        2.01
+      ],
+      "chemex": [
+        1.6,
+        2.71
+      ],
+      "french": [
+        2.01,
+        3.8
+      ],
+      "coldbrew": [
+        2.32,
+        4.0
+      ]
+    },
+    "settingsUnit": {
+      "ro": "rotații.cifră+diviziune de la zero (ex. 1.52)",
+      "en": "rotations.number+tick from zero (e.g. 1.52)"
+    },
+    "notes": {
+      "ro": "Valori HCG verificate; cadran intern (25 µm/click, 30 clicuri pe rotație, 3 diviziuni pe cifră). Reguli de mapare HCG: pour-over = V60; AeroPress = de la max(AeroPress, moka) până la limita V60; Chemex = de la mijlocul V60 până la limita „Pour Over”.",
+      "en": "HCG values verified; internal dial (25 µm/click, 30 clicks per rotation, 3 ticks per number). HCG mapping: pour-over = V60; AeroPress = from max(AeroPress, moka) low to the V60 high; Chemex = from the V60 midpoint to the \"Pour Over\" high."
+    },
+    "sources": [
+      "https://honestcoffeeguide.com/1zpresso-q-air-grind-settings/",
+      "https://1zpresso.coffee/grindsetting"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "1zpresso-x-pro",
+    "brand": "1Zpresso",
+    "model": "X-Pro / X-Pro S",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": 48,
+      "material": "stainless steel (heptagonal)"
+    },
+    "adjust": {
+      "kind": "rotations+numbers",
+      "micronsPerStep": 12.5,
+      "notation": {
+        "ro": "rotație.cifră+diviziune scrise ca zecimal: 1.52 = 1 rotație completă de la zero + cifra 5 + diviziunea 2 (6 cifre pe rotație, 10 diviziuni pe cifră, 60 clicuri pe rotație)",
+        "en": "rotation.number+tick written as a decimal: 1.52 = 1 full rotation from zero + number 5 + tick 2 (6 numbers per rotation, 10 ticks per number, 60 clicks per rotation)"
+      },
+      "zero": {
+        "ro": "Rotește cadranul în sensul acelor de ceasornic (fin) până frezele abia se ating / cadranul se oprește; punctul roșu indică atunci 0. Numără înapoi de acolo.",
+        "en": "Turn the dial clockwise (finer) until the burrs just touch / dial stops; the red dot then reads 0. Count back from there."
+      }
+    },
+    "priceEUR": [
+      150,
+      180
+    ],
+    "tier": "mid",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": [
+        0.08,
+        0.42
+      ],
+      "espresso": [
+        0.35,
+        1.13
+      ],
+      "moka": [
+        1.1,
+        2.07
+      ],
+      "aeropress": [
+        1.1,
+        2.15
+      ],
+      "pourover": [
+        1.18,
+        2.15
+      ],
+      "chemex": [
+        1.46,
+        3.0
+      ],
+      "french": [
+        2.14,
+        4.0
+      ],
+      "coldbrew": [
+        2.35,
+        4.0
+      ]
+    },
+    "settingsUnit": {
+      "ro": "rotații.cifră+diviziune de la zero (ex. 1.52)",
+      "en": "rotations.number+tick from zero (e.g. 1.52)"
+    },
+    "notes": {
+      "ro": "Valori HCG pentru X-Pro S; cadran exterior cu 60 de clicuri pe rotație (6 cifre × 10 diviziuni, 12,5 µm/click, conform 1Zpresso: 1.4 rotații = 100 clicuri). Limita fină Chemex a fost corectată (calcul pe clicuri). Reguli de mapare HCG: pour-over = V60; AeroPress = de la max(AeroPress, moka) până la limita V60; Chemex = de la mijlocul V60 până la limita „Pour Over”.",
+      "en": "HCG X-Pro S values; external dial with 60 clicks per rotation (6 numbers × 10 ticks, 12.5 µm/click, per 1Zpresso: 1.4 rotations = 100 clicks). Chemex low bound corrected (computed in clicks). HCG mapping: pour-over = V60; AeroPress = from max(AeroPress, moka) low to the V60 high; Chemex = from the V60 midpoint to the \"Pour Over\" high."
+    },
+    "sources": [
+      "https://honestcoffeeguide.com/1zpresso-x-pro-s-grind-settings",
+      "https://1zpresso.coffee/grindsetting"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "1zpresso-x-ultra",
+    "brand": "1Zpresso",
+    "model": "X-Ultra",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": 48,
+      "material": "stainless steel (heptagonal)"
+    },
+    "adjust": {
+      "kind": "rotations+numbers",
+      "micronsPerStep": 12.5,
+      "notation": {
+        "ro": "rotație.cifră+diviziune scrise ca zecimal: 1.52 = 1 rotație completă de la zero + cifra 5 + diviziunea 2 (6 cifre pe rotație, 10 diviziuni pe cifră, 60 clicuri pe rotație)",
+        "en": "rotation.number+tick written as a decimal: 1.52 = 1 full rotation from zero + number 5 + tick 2 (6 numbers per rotation, 10 ticks per number, 60 clicks per rotation)"
+      },
+      "zero": {
+        "ro": "Rotește cadranul în sensul acelor de ceasornic (fin) până frezele abia se ating / cadranul se oprește; punctul roșu indică atunci 0. Numără înapoi de acolo.",
+        "en": "Turn the dial clockwise (finer) until the burrs just touch / dial stops; the red dot then reads 0. Count back from there."
+      }
+    },
+    "priceEUR": [
+      160,
+      200
+    ],
+    "tier": "mid",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": [
+        0.08,
+        0.42
+      ],
+      "espresso": [
+        0.35,
+        1.13
+      ],
+      "moka": [
+        1.1,
+        2.07
+      ],
+      "aeropress": [
+        1.1,
+        2.15
+      ],
+      "pourover": [
+        1.18,
+        2.15
+      ],
+      "chemex": [
+        1.46,
+        3.0
+      ],
+      "french": [
+        2.14,
+        4.0
+      ],
+      "coldbrew": [
+        2.35,
+        4.0
+      ]
+    },
+    "settingsUnit": {
+      "ro": "rotații.cifră+diviziune de la zero (ex. 1.52)",
+      "en": "rotations.number+tick from zero (e.g. 1.52)"
+    },
+    "notes": {
+      "ro": "Valori HCG pentru X-Pro S; cadran exterior cu 60 de clicuri pe rotație (6 cifre × 10 diviziuni, 12,5 µm/click, conform 1Zpresso: 1.4 rotații = 100 clicuri). Limita fină Chemex a fost corectată (calcul pe clicuri). Reguli de mapare HCG: pour-over = V60; AeroPress = de la max(AeroPress, moka) până la limita V60; Chemex = de la mijlocul V60 până la limita „Pour Over”. X-Ultra: presupus același cadran și aceleași freze.",
+      "en": "HCG X-Pro S values; external dial with 60 clicks per rotation (6 numbers × 10 ticks, 12.5 µm/click, per 1Zpresso: 1.4 rotations = 100 clicks). Chemex low bound corrected (computed in clicks). HCG mapping: pour-over = V60; AeroPress = from max(AeroPress, moka) low to the V60 high; Chemex = from the V60 midpoint to the \"Pour Over\" high. X-Ultra: same dial and burrs assumed."
+    },
+    "sources": [
+      "https://honestcoffeeguide.com/1zpresso-x-pro-s-grind-settings",
+      "https://1zpresso.coffee/grindsetting"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "1zpresso-zp6-special",
+    "brand": "1Zpresso",
+    "model": "ZP6 Special",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": 48,
+      "material": "stainless steel (ZP6 hexagonal, filter-only)"
+    },
+    "adjust": {
+      "kind": "rotations+numbers",
+      "micronsPerStep": 22,
+      "notation": {
+        "ro": "notația 1Zpresso „numbers”: cifra.click, 10 clicuri pe cifră, 100 clicuri pe tură; valoarea × 10 = clicuri de la zero (ex. 4.7 = 47 clicuri; 12.3 = o tură completă + cifra 2 + 3 clicuri)",
+        "en": "1Zpresso \"numbers\" notation: number.click, 10 clicks per number, 100 clicks per turn; value × 10 = clicks from zero (e.g. 4.7 = 47 clicks; 12.3 = one full turn + number 2 + 3 clicks)"
+      },
+      "zero": {
+        "ro": "Rotește cadranul exterior în sensul acelor de ceasornic (fin) până frezele se ating; punctul roșu indică 0. Numără înapoi de acolo.",
+        "en": "Turn the external dial clockwise (finer) until the burrs touch; the red dot then reads 0. Count back from there."
+      }
+    },
+    "priceEUR": [
+      170,
+      210
+    ],
+    "tier": "premium",
+    "espressoCapable": false,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": [
+        2.0,
+        4.6
+      ],
+      "aeropress": [
+        2.0,
+        5.1
+      ],
+      "pourover": [
+        2.0,
+        5.1
+      ],
+      "chemex": [
+        3.5,
+        7.6
+      ],
+      "french": [
+        5.0,
+        9.0
+      ],
+      "coldbrew": [
+        6.3,
+        9.0
+      ]
+    },
+    "settingsUnit": {
+      "ro": "cifră.click pe cadranul exterior (ex. 4.7 = cifra 4 + 7 clicuri; peste 10 = a doua tură)",
+      "en": "number.click on the external dial (e.g. 4.7 = number 4 + 7 clicks; above 10 = second turn)"
+    },
+    "notes": {
+      "ro": "Tabelul HCG e deja în notația 1Zpresso „numbers” (V60 1.8–5.1, French press 5.0–9.0); valorile vechi erau împărțite greșit la 10. HCG spune că zona 0–~2 freacă frezele după calibrare, deci limitele de jos au fost ridicate la 2.0. Fără espresso și turcească.",
+      "en": "The HCG table is already in 1Zpresso \"numbers\" notation (V60 1.8–5.1, French press 5.0–9.0); the old values were wrongly divided by 10. HCG says 0–~2 rubs the burrs after calibration, so low bounds were raised to 2.0. No espresso or Turkish."
+    },
+    "sources": [
+      "https://honestcoffeeguide.com/1zpresso-zp6-special-grind-settings/",
+      "https://1zpresso.coffee/grindsetting"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "timemore-c2",
+    "brand": "Timemore",
+    "model": "Chestnut C2 / C2S",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": 38,
+      "material": "stainless steel"
+    },
+    "adjust": {
+      "kind": "clicks",
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "clicuri de la zero (~36 utilizabile)",
+        "en": "clicks from zero (~36 usable)"
+      },
+      "zero": {
+        "ro": "Rotește butonul de sub freză în sensul acelor de ceasornic până se oprește = 0; numără clicurile în sens invers. Evită sub 6 clicuri.",
+        "en": "Turn the knob under the burr clockwise until it stops = 0; count clicks anticlockwise. Avoid <6 clicks."
+      }
+    },
+    "priceEUR": [
+      50,
+      80
+    ],
+    "tier": "budget",
+    "espressoCapable": false,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": [
+        12,
+        20
+      ],
+      "aeropress": [
+        11,
+        22
+      ],
+      "pourover": [
+        13,
+        22
+      ],
+      "chemex": [
+        18,
+        29
+      ],
+      "french": [
+        22,
+        30
+      ],
+      "coldbrew": [
+        26,
+        30
+      ]
+    },
+    "settingsUnit": {
+      "ro": "clicuri de la zero",
+      "en": "clicks from zero"
+    },
+    "notes": {
+      "ro": "Cea mai vândută râșniță „prima râșniță bună”; foarte bună pentru filtru la ~60 €. Poate măcina fin pentru coșuri presurizate (~7–9 clicuri), dar nu e gândită pentru espresso.",
+      "en": "The classic 'first good grinder'; very good for filter at ~€60. Can go fine enough for pressurised baskets (~7–9 clicks) but isn't built for espresso."
+    },
+    "sources": [
+      "https://honestcoffeeguide.com/timemore-c2-grind-settings/",
+      "https://prima-coffee.com/hand-grinder-grind-size-guide/"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "timemore-c3",
+    "brand": "Timemore",
+    "model": "Chestnut C3 / C3S",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": 38,
+      "material": "stainless steel (S2C)"
+    },
+    "adjust": {
+      "kind": "clicks",
+      "micronsPerStep": 83,
+      "notation": {
+        "ro": "clicuri de la zero",
+        "en": "clicks from zero"
+      },
+      "zero": {
+        "ro": "Butonul de sub freză în sensul acelor de ceasornic până la capăt = 0; numără clicurile în sens invers. Evită sub 5–6 clicuri.",
+        "en": "Knob under the burr clockwise to stop = 0; count clicks anticlockwise. Avoid <5–6 clicks."
+      }
+    },
+    "priceEUR": [
+      65,
+      100
+    ],
+    "tier": "budget",
+    "espressoCapable": false,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": [
+        10,
+        17
+      ],
+      "aeropress": [
+        9,
+        18
+      ],
+      "pourover": [
+        11,
+        18
+      ],
+      "chemex": [
+        14,
+        24
+      ],
+      "french": [
+        19,
+        25
+      ],
+      "coldbrew": [
+        22,
+        25
+      ]
+    },
+    "settingsUnit": {
+      "ro": "clicuri de la zero",
+      "en": "clicks from zero"
+    },
+    "notes": {
+      "ro": "Burr S2C mai rapid decât la C2, pentru filtru. Click-urile sunt mari (~83 µm după Basic Barista) – pentru espresso alege C3 ESP Pro.",
+      "en": "S2C burr, faster than the C2, for filter. Clicks are big (~83 µm per Basic Barista) – for espresso pick the C3 ESP Pro."
+    },
+    "sources": [
+      "https://honestcoffeeguide.com/timemore-c3-grind-settings/",
+      "https://thebasicbarista.com/blogs/article/timemore-c3-grind-size-chart"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "timemore-c3-esp-pro",
+    "brand": "Timemore",
+    "model": "Chestnut C3 ESP / C3 ESP Pro",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": 38,
+      "material": "stainless steel (S2C660 espresso)"
+    },
+    "adjust": {
+      "kind": "rotations+numbers",
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "rotație.cifră+diviziune scrise ca zecimal: 1.52 = 1 rotație completă de la zero + cifra 5 + diviziunea 2 (10 cifre pe rotație, 3 diviziuni pe cifră, 30 clicuri pe rotație)",
+        "en": "rotation.number+tick written as a decimal: 1.52 = 1 full rotation from zero + number 5 + tick 2 (10 numbers per rotation, 3 ticks per number, 30 clicks per rotation)"
+      },
+      "zero": {
+        "ro": "Rotește cadranul în sensul acelor de ceasornic până se oprește = 0; numără rotațiile/cifrele înapoi.",
+        "en": "Turn the dial clockwise until it stops = 0; count rotations/numbers back."
+      }
+    },
+    "priceEUR": [
+      60,
+      95
+    ],
+    "tier": "budget",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": [
+        0.11,
+        0.61
+      ],
+      "espresso": [
+        0.52,
+        1.1
+      ],
+      "moka": [
+        1.1,
+        1.91
+      ],
+      "aeropress": [
+        0.92,
+        2.02
+      ],
+      "pourover": [
+        1.2,
+        2.02
+      ],
+      "chemex": [
+        1.61,
+        2.71
+      ],
+      "french": [
+        2.02,
+        3.0
+      ],
+      "coldbrew": [
+        2.4,
+        3.0
+      ]
+    },
+    "settingsUnit": {
+      "ro": "rotații.cifră+diviziune de la zero (ex. 1.52)",
+      "en": "rotations.number+tick from zero (e.g. 1.52)"
+    },
+    "notes": {
+      "ro": "Valori HCG verificate (tabelele C3 ESP și C3 ESP Pro sunt identice). Cadran intern rotație.cifră.diviziune. Reguli de mapare HCG: pour-over = V60; AeroPress = de la max(AeroPress, moka) până la limita V60; Chemex = de la mijlocul V60 până la limita „Pour Over”.",
+      "en": "HCG values verified (the C3 ESP and C3 ESP Pro tables are identical). Internal rotation.number.tick dial. HCG mapping: pour-over = V60; AeroPress = from max(AeroPress, moka) low to the V60 high; Chemex = from the V60 midpoint to the \"Pour Over\" high."
+    },
+    "sources": [
+      "https://honestcoffeeguide.com/timemore-c3-esp-pro-grind-settings/",
+      "https://honestcoffeeguide.com/timemore-c3-esp-grind-settings/"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "timemore-chestnut-x",
+    "brand": "Timemore",
+    "model": "Chestnut X / X Lite",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": 42,
+      "material": "stainless steel (E&B)"
+    },
+    "adjust": {
+      "kind": "clicks",
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "clicuri de la zero (cadran exterior)",
+        "en": "clicks from zero (external dial)"
+      },
+      "zero": {
+        "ro": "Cadranul rotit complet în sensul acelor de ceasornic = clicul 0 (cel mai fin). Manualul: evită clicurile 0–3.",
+        "en": "Dial fully clockwise = click 0 (finest). Manual: avoid 0–3 clicks."
+      }
+    },
+    "priceEUR": [
+      200,
+      330
+    ],
+    "tier": "premium",
+    "espressoCapable": true,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": [
+        5,
+        7
+      ],
+      "moka": [
+        8,
+        11
+      ],
+      "aeropress": [
+        10,
+        16
+      ],
+      "pourover": [
+        13,
+        16
+      ],
+      "chemex": [
+        15,
+        19
+      ],
+      "french": [
+        17,
+        22
+      ],
+      "coldbrew": [
+        20,
+        24
+      ]
+    },
+    "settingsUnit": {
+      "ro": "clicuri de la zero",
+      "en": "clicks from zero"
+    },
+    "notes": {
+      "ro": "Manualul Timemore: espresso 5–7, pour-over 13–16 (recomandat 15), French press 17–22 clicuri; evitați 0–3. Moka, AeroPress, Chemex și cold brew sunt interpolate între aceste puncte (tabelul HCG nu a putut fi extras).",
+      "en": "Timemore manual: espresso 5–7, pour-over 13–16 (15 recommended), French press 17–22 clicks; avoid 0–3. Moka, AeroPress, Chemex and cold brew are interpolated between these points (the HCG table could not be extracted)."
+    },
+    "sources": [
+      "https://cdn.shopify.com/s/files/1/0642/9153/7138/files/Manual-Chestnut_X_20220425-2.pdf",
+      "https://honestcoffeeguide.com/timemore-chestnut-x-grind-settings/"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "timemore-nano",
+    "brand": "Timemore",
+    "model": "Nano / Nano Plus",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": 38,
+      "material": "stainless steel"
+    },
+    "adjust": {
+      "kind": "clicks",
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "clicuri de la zero (~36)",
+        "en": "clicks from zero (~36)"
+      },
+      "zero": {
+        "ro": "Rotița de la bază în sensul acelor de ceasornic până se oprește = 0; numără clicurile în sens invers.",
+        "en": "Wheel at the base clockwise until it stops = 0; count clicks anticlockwise."
+      }
+    },
+    "priceEUR": [
+      100,
+      160
+    ],
+    "tier": "mid",
+    "espressoCapable": false,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": [
+        10,
+        14
+      ],
+      "aeropress": [
+        13,
+        18
+      ],
+      "pourover": [
+        15,
+        22
+      ],
+      "chemex": [
+        18,
+        24
+      ],
+      "french": [
+        24,
+        30
+      ],
+      "coldbrew": [
+        26,
+        32
+      ]
+    },
+    "settingsUnit": {
+      "ro": "clicuri de la zero",
+      "en": "clicks from zero"
+    },
+    "notes": {
+      "ro": "Râșniță de călătorie cu manivelă pliabilă. Espresso posibil doar cu coș presurizat (7–12 clicuri, foarte lent cu burr-ul standard).",
+      "en": "Travel grinder with folding crank. Espresso only with pressurised baskets (7–12 clicks, very slow with the standard burr)."
+    },
+    "sources": [
+      "https://www.brewcoffeehome.com/?p=6606",
+      "https://prima-coffee.com/hand-grinder-grind-size-guide/",
+      "https://honestcoffeeguide.com/timemore-nano-grind-settings"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "kingrinder-k6",
+    "brand": "KINGrinder",
+    "model": "K6",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": 48,
+      "material": "stainless steel (heptagonal)"
+    },
+    "adjust": {
+      "kind": "clicks",
+      "micronsPerStep": 16,
+      "notation": {
+        "ro": "clicuri totale de la zero: 60 pe tură, 240 în total (16 µm/click); cifra de pe inel NU este numărul total de clicuri – adaugă 60 pentru fiecare tură completă",
+        "en": "total clicks from zero: 60 per turn, 240 in total (16 µm/click); the number on the ring is NOT the total – add 60 for every full turn"
+      },
+      "zero": {
+        "ro": "Rotește ușor piulița de reglaj de sus în sensul acelor de ceasornic până se oprește = 0; numără clicurile totale înapoi (în sens invers acelor de ceasornic). Nu porni râșnița pe zero.",
+        "en": "Gently turn the top adjustment nut clockwise until it stops = 0; count total clicks back (anticlockwise). Do not grind at zero."
+      }
+    },
+    "priceEUR": [
+      95,
+      140
+    ],
+    "tier": "mid",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": [
+        5,
+        26
+      ],
+      "espresso": [
+        22,
+        45
+      ],
+      "moka": [
+        43,
+        78
+      ],
+      "aeropress": [
+        43,
+        82
+      ],
+      "pourover": [
+        48,
+        82
+      ],
+      "chemex": [
+        65,
+        110
+      ],
+      "french": [
+        82,
+        154
+      ],
+      "coldbrew": [
+        95,
+        160
+      ]
+    },
+    "settingsUnit": {
+      "ro": "clicuri totale de la zero",
+      "en": "total clicks from zero"
+    },
+    "notes": {
+      "ro": "Valori HCG (notate rotație.clicuri, ex. 1.22 = 82 clicuri) convertite în clicuri totale. Compatibile cu tabelul KINGrinder pe categorii: extra-fin 15–25, fin 25–60, mediu-fin 60–90, mediu 90–120, grosier 150. Reguli de mapare HCG: pour-over = V60; AeroPress = de la max(AeroPress, moka) până la limita V60; Chemex = de la mijlocul V60 până la limita „Pour Over”.",
+      "en": "HCG values (written rotation.clicks, e.g. 1.22 = 82 clicks) converted to total clicks. Consistent with KINGrinder's category chart: extra fine 15–25, fine 25–60, medium-fine 60–90, medium 90–120, coarse 150. HCG mapping: pour-over = V60; AeroPress = from max(AeroPress, moka) low to the V60 high; Chemex = from the V60 midpoint to the \"Pour Over\" high."
+    },
+    "sources": [
+      "https://honestcoffeeguide.com/kingrinder-k6-grind-settings/",
+      "https://completehomebarista.com/guides/kingrinder-k6-grind-settings/",
+      "https://cdn.shopify.com/s/files/1/0294/5679/3675/files/Kingrinder_Manual_-_Exterior_Adjustment_-_V3.pdf"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "kingrinder-k4",
+    "brand": "KINGrinder",
+    "model": "K4",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": 48,
+      "material": "stainless steel (heptagonal)"
+    },
+    "adjust": {
+      "kind": "clicks",
+      "micronsPerStep": 16,
+      "notation": {
+        "ro": "clicuri totale de la zero: 60 pe tură, 240 în total (16 µm/click); cifra de pe inel NU este numărul total de clicuri – adaugă 60 pentru fiecare tură completă",
+        "en": "total clicks from zero: 60 per turn, 240 in total (16 µm/click); the number on the ring is NOT the total – add 60 for every full turn"
+      },
+      "zero": {
+        "ro": "Rotește ușor piulița de reglaj de sus în sensul acelor de ceasornic până se oprește = 0; numără clicurile totale înapoi (în sens invers acelor de ceasornic). Nu porni râșnița pe zero.",
+        "en": "Gently turn the top adjustment nut clockwise until it stops = 0; count total clicks back (anticlockwise). Do not grind at zero."
+      }
+    },
+    "priceEUR": [
+      80,
+      110
+    ],
+    "tier": "mid",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": [
+        15,
+        30
+      ],
+      "espresso": [
+        30,
+        50
+      ],
+      "moka": [
+        50,
+        65
+      ],
+      "aeropress": [
+        60,
+        90
+      ],
+      "pourover": [
+        60,
+        90
+      ],
+      "chemex": [
+        90,
+        120
+      ],
+      "french": [
+        120,
+        150
+      ],
+      "coldbrew": [
+        140,
+        160
+      ]
+    },
+    "settingsUnit": {
+      "ro": "clicuri totale de la zero",
+      "en": "total clicks from zero"
+    },
+    "notes": {
+      "ro": "Manualul KINGrinder dă pentru K4 doar categorii: extra-fin 15–50, fin 50–60, mediu-fin 60–90, mediu 90–120, grosier 150 clicuri. Metodele sunt mapate pe aceste categorii (cold brew peste 150 e estimat); tabelul HCG nu a putut fi extras.",
+      "en": "The KINGrinder manual gives only categories for the K4: extra fine 15–50, fine 50–60, medium-fine 60–90, medium 90–120, coarse 150 clicks. Methods are mapped onto these categories (cold brew above 150 is an estimate); the HCG table could not be extracted."
+    },
+    "sources": [
+      "https://cdn.shopify.com/s/files/1/0294/5679/3675/files/Kingrinder_Manual_-_Exterior_Adjustment_-_V3.pdf",
+      "https://honestcoffeeguide.com/kingrinder-k4-grind-settings/"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "kingrinder-k2",
+    "brand": "KINGrinder",
+    "model": "K2",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": 48,
+      "material": "stainless steel"
+    },
+    "adjust": {
+      "kind": "clicks",
+      "micronsPerStep": 18,
+      "notation": {
+        "ro": "clicuri de la zero (cadran intern, sub freză)",
+        "en": "clicks from zero (internal dial under the burr)"
+      },
+      "zero": {
+        "ro": "Scoate manivela și recipientul, rotește cadranul intern în sensul acelor de ceasornic până se oprește (frezele se ating) – acesta e 0; numără clicurile/rotațiile înapoi.",
+        "en": "Remove handle and catch cup, turn the internal dial clockwise until it stops (burrs touch) – that is 0; count clicks/rotations back."
+      }
+    },
+    "priceEUR": [
+      65,
+      95
+    ],
+    "tier": "budget",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": [
+        13,
+        27
+      ],
+      "espresso": [
+        27,
+        50
+      ],
+      "moka": [
+        49,
+        71
+      ],
+      "aeropress": [
+        49,
+        71
+      ],
+      "pourover": [
+        71,
+        89
+      ],
+      "chemex": [
+        80,
+        98
+      ],
+      "french": [
+        107,
+        124
+      ],
+      "coldbrew": [
+        107,
+        124
+      ]
+    },
+    "settingsUnit": {
+      "ro": "clicuri totale de la zero",
+      "en": "total clicks from zero"
+    },
+    "notes": {
+      "ro": "Reglaj intern, orientată spre filtru și călătorii. Valori DERIVATE din K6 prin microni (16→18 µm), burr diferit – tratează-le ca punct de pornire.",
+      "en": "Internal adjustment, filter/travel oriented. Values DERIVED from the K6 via microns (16→18 µm) with a different burr – treat as a starting point."
+    },
+    "sources": [
+      "https://completehomebarista.com/guides/kingrinder-k2-vs-k6-adjustment-espresso-and-daily-use/",
+      "https://honestcoffeeguide.com/kingrinder-k2-grind-settings/"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "kingrinder-p1",
+    "brand": "KINGrinder",
+    "model": "P1",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": 38,
+      "material": "stainless steel"
+    },
+    "adjust": {
+      "kind": "clicks",
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "clicuri de la zero (cadran intern)",
+        "en": "clicks from zero (internal dial)"
+      },
+      "zero": {
+        "ro": "Scoate manivela și recipientul, rotește cadranul intern în sensul acelor de ceasornic până se oprește (frezele se ating) – acesta e 0; numără clicurile/rotațiile înapoi.",
+        "en": "Remove handle and catch cup, turn the internal dial clockwise until it stops (burrs touch) – that is 0; count clicks/rotations back."
+      }
+    },
+    "priceEUR": [
+      35,
+      55
+    ],
+    "tier": "budget",
+    "espressoCapable": false,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": [
+        34,
+        61
+      ],
+      "aeropress": [
+        34,
+        65
+      ],
+      "pourover": [
+        38,
+        65
+      ],
+      "chemex": [
+        52,
+        86
+      ],
+      "french": [
+        65,
+        120
+      ],
+      "coldbrew": [
+        75,
+        130
+      ]
+    },
+    "settingsUnit": {
+      "ro": "clicuri de la zero",
+      "en": "clicks from zero"
+    },
+    "notes": {
+      "ro": "Cea mai ieftină râșniță cu burr de oțel decentă (~40 €) – alternativă reală la râșnițele ceramice generice. Doar filtru.",
+      "en": "Cheapest decent steel-burr grinder (~€40) – a real alternative to generic ceramic mills. Filter only."
+    },
+    "sources": [
+      "https://honestcoffeeguide.com/kingrinder-p1-grind-settings/"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "kingrinder-p2",
+    "brand": "KINGrinder",
+    "model": "P2",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": 38,
+      "material": "stainless steel"
+    },
+    "adjust": {
+      "kind": "clicks",
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "clicuri de la zero (cadran intern)",
+        "en": "clicks from zero (internal dial)"
+      },
+      "zero": {
+        "ro": "Scoate manivela și recipientul, rotește cadranul intern în sensul acelor de ceasornic până se oprește (frezele se ating) – acesta e 0; numără clicurile/rotațiile înapoi.",
+        "en": "Remove handle and catch cup, turn the internal dial clockwise until it stops (burrs touch) – that is 0; count clicks/rotations back."
+      }
+    },
+    "priceEUR": [
+      50,
+      75
+    ],
+    "tier": "budget",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": [
+        4,
+        20
+      ],
+      "espresso": [
+        17,
+        35
+      ],
+      "moka": [
+        34,
+        61
+      ],
+      "aeropress": [
+        34,
+        65
+      ],
+      "pourover": [
+        38,
+        65
+      ],
+      "chemex": [
+        52,
+        86
+      ],
+      "french": [
+        65,
+        120
+      ],
+      "coldbrew": [
+        75,
+        130
+      ]
+    },
+    "settingsUnit": {
+      "ro": "clicuri de la zero",
+      "en": "clicks from zero"
+    },
+    "notes": {
+      "ro": "Valori HCG verificate (clicuri de la zero). Reguli de mapare HCG: pour-over = V60; AeroPress = de la max(AeroPress, moka) până la limita V60; Chemex = de la mijlocul V60 până la limita „Pour Over”.",
+      "en": "HCG values verified (clicks from zero). HCG mapping: pour-over = V60; AeroPress = from max(AeroPress, moka) low to the V60 high; Chemex = from the V60 midpoint to the \"Pour Over\" high."
+    },
+    "sources": [
+      "https://honestcoffeeguide.com/kingrinder-p2-grind-settings/"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "hario-skerton-pro",
+    "brand": "Hario",
+    "model": "Skerton Pro",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": null,
+      "material": "ceramic"
+    },
+    "adjust": {
+      "kind": "clicks",
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "crestături (clicuri) ale piuliței de sub mâner, numărate de la zero",
+        "en": "notches (clicks) of the nut under the handle, counted from zero"
+      },
+      "zero": {
+        "ro": "Strânge piulița de reglaj de sub mâner până frezele se ating = 0; numără crestăturile în sens invers acelor de ceasornic.",
+        "en": "Tighten the adjustment nut under the handle until the burrs touch = 0; count notches anticlockwise."
+      }
+    },
+    "priceEUR": [
+      50,
+      75
+    ],
+    "tier": "budget",
+    "espressoCapable": false,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": [
+        2,
+        3
+      ],
+      "aeropress": [
+        2,
+        3
+      ],
+      "pourover": [
+        2,
+        3
+      ],
+      "chemex": [
+        3,
+        5
+      ],
+      "french": [
+        4,
+        8
+      ],
+      "coldbrew": [
+        5,
+        9
+      ]
+    },
+    "settingsUnit": {
+      "ro": "crestături de la zero",
+      "en": "notches from zero"
+    },
+    "notes": {
+      "ro": "Valori HCG (crestături: V60 2–3, AeroPress 1–5, moka 2–3, French press 4–8, cold brew 5–9); valorile vechi erau decalate cu 1–3 crestături spre grosier. Hario nu publică tabel. HCG listează espresso la 1, dar râșnița nu e potrivită pentru espresso real. Fiecare crestătură e un pas mare (~100 µm).",
+      "en": "HCG values (notches: V60 2–3, AeroPress 1–5, moka 2–3, French press 4–8, cold brew 5–9); the old values were shifted 1–3 notches coarser. Hario publishes no chart. HCG lists espresso at 1, but the grinder is not suited to real espresso. Each notch is a big step (~100 µm)."
+    },
+    "sources": [
+      "https://honestcoffeeguide.com/hario-skerton-pro-grind-settings/"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "hario-mini-mill-plus",
+    "brand": "Hario",
+    "model": "Mini Mill Plus (MSS-1DTB)",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": null,
+      "material": "ceramic"
+    },
+    "adjust": {
+      "kind": "clicks",
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "clicuri de la zero",
+        "en": "clicks from zero"
+      },
+      "zero": {
+        "ro": "Rotește rotița de reglaj de sub freză în sensul acelor de ceasornic până se oprește = 0; numără clicurile înapoi.",
+        "en": "Turn the adjustment wheel under the burr clockwise until it stops = 0; count clicks back."
+      }
+    },
+    "priceEUR": [
+      30,
+      45
+    ],
+    "tier": "budget",
+    "espressoCapable": false,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": [
+        4,
+        8
+      ],
+      "aeropress": [
+        4,
+        8
+      ],
+      "pourover": [
+        5,
+        8
+      ],
+      "chemex": [
+        6,
+        12
+      ],
+      "french": [
+        9,
+        18
+      ],
+      "coldbrew": [
+        11,
+        20
+      ]
+    },
+    "settingsUnit": {
+      "ro": "clicuri de la zero",
+      "en": "clicks from zero"
+    },
+    "notes": {
+      "ro": "Valori HCG verificate (clicuri de la zero; turcească 1 și espresso 1–3 omise – râșnița nu le face bine). Reguli de mapare HCG: pour-over = V60; AeroPress = de la max(AeroPress, moka) până la limita V60; Chemex = de la mijlocul V60 până la limita „Pour Over”.",
+      "en": "HCG values verified (clicks from zero; Turkish 1 and espresso 1–3 omitted – the grinder does not do them well). HCG mapping: pour-over = V60; AeroPress = from max(AeroPress, moka) low to the V60 high; Chemex = from the V60 midpoint to the \"Pour Over\" high."
+    },
+    "sources": [
+      "https://honestcoffeeguide.com/hario-mini-mill-plus-grind-settings/"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "hario-mini-mill-slim",
+    "brand": "Hario",
+    "model": "Mini Mill Slim Plus / Slim Pro",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": null,
+      "material": "ceramic"
+    },
+    "adjust": {
+      "kind": "clicks",
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "clicuri de la zero",
+        "en": "clicks from zero"
+      },
+      "zero": {
+        "ro": "Strânge piulița de sub freză până se oprește = 0; numără clicurile în sens invers acelor de ceasornic.",
+        "en": "Tighten the nut under the burr until it stops = 0; count clicks anticlockwise."
+      }
+    },
+    "priceEUR": [
+      30,
+      50
+    ],
+    "tier": "budget",
+    "espressoCapable": false,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": [
+        2,
+        4
+      ],
+      "aeropress": [
+        3,
+        5
+      ],
+      "pourover": [
+        4,
+        6
+      ],
+      "chemex": [
+        5,
+        8
+      ],
+      "french": [
+        6,
+        9
+      ],
+      "coldbrew": [
+        8,
+        12
+      ]
+    },
+    "settingsUnit": {
+      "ro": "clicuri de la zero",
+      "en": "clicks from zero"
+    },
+    "notes": {
+      "ro": "Model subțire, popular și clonat masiv pe eMAG. Prima Coffee îl grupează cu Skerton Pro (AeroPress 3, V60 5, French 7) – valori orientative.",
+      "en": "Slim model, popular and heavily cloned on eMAG. Prima Coffee groups it with the Skerton Pro (AeroPress 3, V60 5, French 7) – indicative values."
+    },
+    "sources": [
+      "https://prima-coffee.com/hand-grinder-grind-size-guide/",
+      "https://honestcoffeeguide.com/hario-mini-mill-slim-grind-settings"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "porlex-mini-ii",
+    "brand": "Porlex",
+    "model": "Mini II",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": null,
+      "material": "ceramic"
+    },
+    "adjust": {
+      "kind": "clicks",
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "clicuri de la zero",
+        "en": "clicks from zero"
+      },
+      "zero": {
+        "ro": "Rotește reglajul de sub freză în sensul acelor de ceasornic până frezele se ating = 0; numără clicurile în sens invers.",
+        "en": "Turn the adjuster under the burr clockwise until burrs touch = 0; count clicks anticlockwise."
+      }
+    },
+    "priceEUR": [
+      50,
+      70
+    ],
+    "tier": "budget",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": [
+        1,
+        1
+      ],
+      "espresso": [
+        2,
+        3
+      ],
+      "moka": [
+        4,
+        5
+      ],
+      "aeropress": [
+        4,
+        6
+      ],
+      "pourover": [
+        4,
+        6
+      ],
+      "chemex": [
+        5,
+        7
+      ],
+      "french": [
+        6,
+        11
+      ],
+      "coldbrew": [
+        7,
+        12
+      ]
+    },
+    "settingsUnit": {
+      "ro": "clicuri de la zero",
+      "en": "clicks from zero"
+    },
+    "notes": {
+      "ro": "Valori din tabelul HCG pentru Porlex Mini (pagina Mini II are doar grafic); mecanismul de reglaj e același. Un click e un pas mare (~60 µm), espresso doar aproximativ. Reguli de mapare HCG: pour-over = V60; AeroPress = de la max(AeroPress, moka) până la limita V60; Chemex = de la mijlocul V60 până la limita „Pour Over”.",
+      "en": "Values from the HCG Porlex Mini table (the Mini II page only has a chart); the adjustment mechanism is the same. One click is a big step (~60 µm); espresso only approximate. HCG mapping: pour-over = V60; AeroPress = from max(AeroPress, moka) low to the V60 high; Chemex = from the V60 midpoint to the \"Pour Over\" high."
+    },
+    "sources": [
+      "https://honestcoffeeguide.com/porlex-mini-grind-settings/",
+      "https://honestcoffeeguide.com/porlex-mini-ii-grind-settings"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "porlex-tall-ii",
+    "brand": "Porlex",
+    "model": "Tall II",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": null,
+      "material": "ceramic"
+    },
+    "adjust": {
+      "kind": "clicks",
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "clicuri de la zero",
+        "en": "clicks from zero"
+      },
+      "zero": {
+        "ro": "Rotește reglajul de sub freză în sensul acelor de ceasornic până frezele se ating = 0; numără clicurile în sens invers.",
+        "en": "Turn the adjuster under the burr clockwise until burrs touch = 0; count clicks anticlockwise."
+      }
+    },
+    "priceEUR": [
+      60,
+      85
+    ],
+    "tier": "budget",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": [
+        1,
+        2
+      ],
+      "espresso": [
+        2,
+        3
+      ],
+      "moka": [
+        4,
+        5
+      ],
+      "aeropress": [
+        3,
+        6
+      ],
+      "pourover": [
+        4,
+        6
+      ],
+      "chemex": [
+        5,
+        7
+      ],
+      "french": [
+        6,
+        11
+      ],
+      "coldbrew": [
+        7,
+        12
+      ]
+    },
+    "settingsUnit": {
+      "ro": "clicuri de la zero",
+      "en": "clicks from zero"
+    },
+    "notes": {
+      "ro": "Corp de inox japonez, ultra-robust, intră în AeroPress (Mini). Ceramica merge bine la turcească; valori HCG pentru Porlex Mini original – Mini/Tall II au pași mai fini, deci verifică.",
+      "en": "Japanese stainless body, very durable; the Mini nests in an AeroPress. Ceramic burr handles Turkish well; HCG values for the original Mini – II versions have finer steps, so verify."
+    },
+    "sources": [
+      "https://honestcoffeeguide.com/porlex-mini-grind-settings/",
+      "https://honestcoffeeguide.com/porlex-mini-ii-grind-settings"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "kinu-m47-classic",
+    "brand": "Kinu",
+    "model": "M47 Classic",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": 47,
+      "material": "hardened steel"
+    },
+    "adjust": {
+      "kind": "stepless",
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "rotații de la zero, scrise zecimal (ex. 2.3); cadranul are repere numerotate",
+        "en": "rotations from zero as decimal (e.g. 2.3); dial has numbered marks"
+      },
+      "zero": {
+        "ro": "Rotește cadranul de sus în sensul acelor de ceasornic până frezele se ating = 0; numără înapoi turele complete + reperele.",
+        "en": "Turn the top dial clockwise until the burrs touch = 0; count full turns + marks back."
+      }
+    },
+    "priceEUR": [
+      320,
+      400
+    ],
+    "tier": "premium",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": [
+        0.3,
+        1.3
+      ],
+      "espresso": [
+        1.1,
+        2.3
+      ],
+      "moka": [
+        2.2,
+        4.0
+      ],
+      "aeropress": [
+        2.0,
+        4.2
+      ],
+      "pourover": [
+        2.5,
+        4.2
+      ],
+      "chemex": [
+        3.4,
+        5.6
+      ],
+      "french": [
+        4.2,
+        7.8
+      ],
+      "coldbrew": [
+        4.9,
+        8.5
+      ]
+    },
+    "settingsUnit": {
+      "ro": "ture de la zero (zecimal)",
+      "en": "turns from zero (decimal)"
+    },
+    "notes": {
+      "ro": "Tanc german de 1,3 kg cu burr de 47 mm din oțel călit; reglaj fără trepte foarte fin, excelentă la espresso. Valori HCG; Prima: espresso ≈ 2 ture + 15 linii, V60 ≈ 3 ture + 45 linii.",
+      "en": "1.3 kg German tank with a 47 mm hardened-steel burr; very fine stepless adjustment, excellent for espresso. HCG values; Prima: espresso ≈ 2 turns + 15 lines, V60 ≈ 3 turns + 45 lines."
+    },
+    "sources": [
+      "https://honestcoffeeguide.com/kinu-m47-classic-grind-settings/",
+      "https://prima-coffee.com/hand-grinder-grind-size-guide/"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "kinu-m47-simplicity",
+    "brand": "Kinu",
+    "model": "M47 Simplicity",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": 47,
+      "material": "hardened steel"
+    },
+    "adjust": {
+      "kind": "stepless",
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "rotații de la zero, scrise zecimal (ex. 2.3); cadranul are repere numerotate",
+        "en": "rotations from zero as decimal (e.g. 2.3); dial has numbered marks"
+      },
+      "zero": {
+        "ro": "Rotește cadranul de sus în sensul acelor de ceasornic până frezele se ating = 0; numără înapoi turele complete + reperele.",
+        "en": "Turn the top dial clockwise until the burrs touch = 0; count full turns + marks back."
+      }
+    },
+    "priceEUR": [
+      250,
+      300
+    ],
+    "tier": "premium",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": [
+        0.3,
+        1.3
+      ],
+      "espresso": [
+        1.1,
+        2.3
+      ],
+      "moka": [
+        2.2,
+        4.0
+      ],
+      "aeropress": [
+        2.0,
+        4.2
+      ],
+      "pourover": [
+        2.5,
+        4.2
+      ],
+      "chemex": [
+        3.4,
+        5.6
+      ],
+      "french": [
+        4.2,
+        7.8
+      ],
+      "coldbrew": [
+        4.9,
+        8.5
+      ]
+    },
+    "settingsUnit": {
+      "ro": "ture de la zero (zecimal)",
+      "en": "turns from zero (decimal)"
+    },
+    "notes": {
+      "ro": "Același burr ca Classic, finisaj mai simplu și preț mai mic; aceleași setări. Valori HCG; Prima: espresso ≈ 2 ture + 15 linii, V60 ≈ 3 ture + 45 linii.",
+      "en": "Same burr as the Classic with simpler finishing and a lower price; same settings. HCG values; Prima: espresso ≈ 2 turns + 15 lines, V60 ≈ 3 turns + 45 lines."
+    },
+    "sources": [
+      "https://honestcoffeeguide.com/kinu-m47-simplicity-grind-settings/",
+      "https://prima-coffee.com/hand-grinder-grind-size-guide/"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "kinu-m47-phoenix",
+    "brand": "Kinu",
+    "model": "M47 Phoenix",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": 47,
+      "material": "hardened steel"
+    },
+    "adjust": {
+      "kind": "stepless",
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "rotații de la zero, scrise zecimal (ex. 2.3); cadranul are repere numerotate",
+        "en": "rotations from zero as decimal (e.g. 2.3); dial has numbered marks"
+      },
+      "zero": {
+        "ro": "Rotește cadranul de sus în sensul acelor de ceasornic până frezele se ating = 0; numără înapoi turele complete + reperele.",
+        "en": "Turn the top dial clockwise until the burrs touch = 0; count full turns + marks back."
+      }
+    },
+    "priceEUR": [
+      190,
+      240
+    ],
+    "tier": "premium",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": [
+        0.3,
+        1.3
+      ],
+      "espresso": [
+        1.1,
+        2.3
+      ],
+      "moka": [
+        2.2,
+        4.0
+      ],
+      "aeropress": [
+        2.0,
+        4.2
+      ],
+      "pourover": [
+        2.5,
+        4.2
+      ],
+      "chemex": [
+        3.4,
+        5.6
+      ],
+      "french": [
+        4.2,
+        7.8
+      ],
+      "coldbrew": [
+        4.9,
+        8.5
+      ]
+    },
+    "settingsUnit": {
+      "ro": "ture de la zero (zecimal)",
+      "en": "turns from zero (decimal)"
+    },
+    "notes": {
+      "ro": "Kinu „accesibil”: burr M47 identic, corp mai ușor; aceleași setări. Valori HCG; Prima: espresso ≈ 2 ture + 15 linii, V60 ≈ 3 ture + 45 linii.",
+      "en": "The 'affordable' Kinu: identical M47 burr, lighter body; same settings. HCG values; Prima: espresso ≈ 2 turns + 15 lines, V60 ≈ 3 turns + 45 lines."
+    },
+    "sources": [
+      "https://honestcoffeeguide.com/kinu-m47-phoenix-grind-settings/",
+      "https://prima-coffee.com/hand-grinder-grind-size-guide/"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "lido-3",
+    "brand": "Orphan Espresso",
+    "model": "LIDO 3",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": 48,
+      "material": "steel (Etzinger)"
+    },
+    "adjust": {
+      "kind": "stepless",
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "ture ale inelului de reglaj de la zero, scrise zecimal (0.75 = trei sferturi de tură; 1.25 = o tură + un sfert); inelul nu e marcat – lipește o bandă ca reper",
+        "en": "turns of the adjustment collar from zero as a decimal (0.75 = three quarters of a turn; 1.25 = one turn + a quarter); the collar is unmarked – add tape as a reference"
+      },
+      "zero": {
+        "ro": "Rotește inelul spre fin până frezele abia se ating = 0; numără fracțiunile de tură înapoi.",
+        "en": "Turn the collar finer until the burrs just touch = 0; count fractions of a turn back."
+      }
+    },
+    "priceEUR": [
+      250,
+      310
+    ],
+    "tier": "premium",
+    "espressoCapable": false,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": [
+        0.25,
+        0.25
+      ],
+      "moka": null,
+      "aeropress": [
+        0.25,
+        0.25
+      ],
+      "pourover": [
+        0.625,
+        0.75
+      ],
+      "chemex": [
+        0.75,
+        0.75
+      ],
+      "french": [
+        0.75,
+        1.25
+      ],
+      "coldbrew": [
+        1.25,
+        1.25
+      ]
+    },
+    "settingsUnit": {
+      "ro": "fracțiuni de tură de la zero (0.25 = un sfert de tură)",
+      "en": "fraction of a turn from zero (0.25 = a quarter turn)"
+    },
+    "notes": {
+      "ro": "Prima dă doar puncte: espresso ¼ tură, AeroPress ¼, V60-01 ⅝, V60-02 ¾, Chemex 3 căni ¾ (Chemex mare, 45 g: 1¼), cold brew prin imersie 1¼. Prima trece French press la 60% dintr-o tură (rețetă fină, mai fină decât pour-over), ceea ce inversa ordinea; intervalul French press este deci între Chemex și cold brew (derivat). Moka și turcească: fără sursă.",
+      "en": "Prima gives only points: espresso ¼ turn, AeroPress ¼, V60-01 ⅝, V60-02 ¾, 3-cup Chemex ¾ (large 45 g Chemex: 1¼), immersion cold brew 1¼. Prima lists French press at 60% of a turn (a fine recipe, finer than its pour-over), which inverted the order; the French press range is therefore set between Chemex and cold brew (derived). Moka and Turkish: no source."
+    },
+    "sources": [
+      "https://prima-coffee.com/hand-grinder-grind-size-guide/"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "lido-e",
+    "brand": "Orphan Espresso",
+    "model": "LIDO E",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": 48,
+      "material": "steel (Etzinger)"
+    },
+    "adjust": {
+      "kind": "stepless",
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "ture complete + fracțiune de tură de la zero, scrise zecimal (0.35 = 35% dintr-o tură; 2.75 = două ture + trei sferturi)",
+        "en": "full turns + fraction of a turn from zero, written as a decimal (0.35 = 35% of a turn; 2.75 = two turns + three quarters)"
+      },
+      "zero": {
+        "ro": "Rotește spre fin până frezele abia se ating = 0; numără turele și fracțiunile înapoi.",
+        "en": "Turn finer until the burrs just touch = 0; count turns and fractions back."
+      }
+    },
+    "priceEUR": [
+      280,
+      330
+    ],
+    "tier": "premium",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": null,
+      "espresso": [
+        0.35,
+        0.35
+      ],
+      "moka": null,
+      "aeropress": [
+        0.75,
+        0.75
+      ],
+      "pourover": [
+        1.0,
+        1.25
+      ],
+      "chemex": [
+        1.25,
+        1.25
+      ],
+      "french": [
+        1.25,
+        2.75
+      ],
+      "coldbrew": [
+        2.75,
+        2.75
+      ]
+    },
+    "settingsUnit": {
+      "ro": "ture de la zero, zecimal (1.25 = o tură + un sfert)",
+      "en": "turns from zero as a decimal (1.25 = one turn + a quarter)"
+    },
+    "notes": {
+      "ro": "Valori Prima pentru Lido-ET (Lido E are aceleași freze): espresso 35% tură, AeroPress ¾, V60-01 1 tură, V60-02 1¼, Chemex 3 căni 1¼ (Chemex mare 45 g: 2¾), cold brew prin imersie 2¾. Prima pune French press la 1 tură + 20% (rețetă fină, sub pour-over), deci intervalul French press e derivat între Chemex și cold brew. Moka și turcească: fără sursă.",
+      "en": "Prima values for the Lido-ET (the Lido E shares burrs): espresso 35% of a turn, AeroPress ¾, V60-01 1 turn, V60-02 1¼, 3-cup Chemex 1¼ (large 45 g Chemex: 2¾), immersion cold brew 2¾. Prima puts French press at 1 turn + 20% (a fine recipe, below pour-over), so the French press range is derived between Chemex and cold brew. Moka and Turkish: no source."
+    },
+    "sources": [
+      "https://prima-coffee.com/hand-grinder-grind-size-guide/"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "lido-et",
+    "brand": "Orphan Espresso",
+    "model": "LIDO ET",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": 48,
+      "material": "steel (Etzinger)"
+    },
+    "adjust": {
+      "kind": "stepless",
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "ture complete + fracțiune de tură de la zero, scrise zecimal (0.35 = 35% dintr-o tură; 2.75 = două ture + trei sferturi)",
+        "en": "full turns + fraction of a turn from zero, written as a decimal (0.35 = 35% of a turn; 2.75 = two turns + three quarters)"
+      },
+      "zero": {
+        "ro": "Rotește spre fin până frezele abia se ating = 0; numără turele și fracțiunile înapoi.",
+        "en": "Turn finer until the burrs just touch = 0; count turns and fractions back."
+      }
+    },
+    "priceEUR": [
+      300,
+      350
+    ],
+    "tier": "premium",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": null,
+      "espresso": [
+        0.35,
+        0.35
+      ],
+      "moka": null,
+      "aeropress": [
+        0.75,
+        0.75
+      ],
+      "pourover": [
+        1.0,
+        1.25
+      ],
+      "chemex": [
+        1.25,
+        1.25
+      ],
+      "french": [
+        1.25,
+        2.75
+      ],
+      "coldbrew": [
+        2.75,
+        2.75
+      ]
+    },
+    "settingsUnit": {
+      "ro": "ture de la zero, zecimal (1.25 = o tură + un sfert)",
+      "en": "turns from zero as a decimal (1.25 = one turn + a quarter)"
+    },
+    "notes": {
+      "ro": "Valori Prima pentru Lido-ET (Lido E are aceleași freze): espresso 35% tură, AeroPress ¾, V60-01 1 tură, V60-02 1¼, Chemex 3 căni 1¼ (Chemex mare 45 g: 2¾), cold brew prin imersie 2¾. Prima pune French press la 1 tură + 20% (rețetă fină, sub pour-over), deci intervalul French press e derivat între Chemex și cold brew. Moka și turcească: fără sursă.",
+      "en": "Prima values for the Lido-ET (the Lido E shares burrs): espresso 35% of a turn, AeroPress ¾, V60-01 1 turn, V60-02 1¼, 3-cup Chemex 1¼ (large 45 g Chemex: 2¾), immersion cold brew 2¾. Prima puts French press at 1 turn + 20% (a fine recipe, below pour-over), so the French press range is derived between Chemex and cold brew. Moka and Turkish: no source."
+    },
+    "sources": [
+      "https://prima-coffee.com/hand-grinder-grind-size-guide/"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "fiorenzato-pietro",
+    "brand": "Fiorenzato",
+    "model": "Pietro (Multipurpose / Pro Brewing)",
+    "type": "manual",
+    "burr": {
+      "type": "flat",
+      "size_mm": 58,
+      "material": "M340 steel (vertical flat)"
+    },
+    "adjust": {
+      "kind": "numbered",
+      "micronsPerStep": 15,
+      "notation": {
+        "ro": "cifră.treaptă pe cadran (ex. 3.2 = cifra 3, treapta 2), plajă ~0–10",
+        "en": "dial number.step (e.g. 3.2 = number 3, step 2), range ~0–10"
+      },
+      "zero": {
+        "ro": "Rotește cadranul spre fin până frezele se ating și aliniază-l la 0 (calibrare conform manualului).",
+        "en": "Turn the dial finer until the burrs touch and align to 0 (calibrate per manual)."
+      }
+    },
+    "priceEUR": [
+      299,
+      449
+    ],
+    "tier": "premium",
+    "espressoCapable": true,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": [
+        0.2,
+        2.8
+      ],
+      "moka": [
+        2.6,
+        6.5
+      ],
+      "aeropress": [
+        2.0,
+        7.0
+      ],
+      "pourover": [
+        3.1,
+        7.0
+      ],
+      "chemex": [
+        5.0,
+        10.0
+      ],
+      "french": [
+        7.0,
+        10.0
+      ],
+      "coldbrew": [
+        8.4,
+        10.0
+      ]
+    },
+    "settingsUnit": {
+      "ro": "număr pe cadran",
+      "en": "dial number"
+    },
+    "notes": {
+      "ro": "Singura râșniță manuală italiană cu burr plat de 58 mm (vertical) – profil limpede la filtru. Espresso doar cu burr-ul Multipurpose (din 2025 se vinde standard Pro Brewing).",
+      "en": "The only Italian manual grinder with a 58 mm (vertical) flat burr – very clear filter cups. Espresso only with the Multipurpose burr (Pro Brewing is standard since 2025)."
+    },
+    "sources": [
+      "https://honestcoffeeguide.com/fiorenzato-pietro-grind-settings",
+      "https://www.espressoparts.com/blogs/news/all-about-the-pietro-manual-coffee-grinder",
+      "https://djjondent.blogspot.com/2024/12/fiorenzato-pietro-hand-grinder.html"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "rok-grindergc",
+    "brand": "ROK",
+    "model": "GrinderGC",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": 48,
+      "material": "stainless steel"
+    },
+    "adjust": {
+      "kind": "clicks",
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "clicuri de la zero",
+        "en": "clicks from zero"
+      },
+      "zero": {
+        "ro": "Rotește inelul de reglaj spre fin până frezele se ating = 0; numără clicurile înapoi.",
+        "en": "Turn the adjustment collar finer until the burrs touch = 0; count clicks back."
+      }
+    },
+    "priceEUR": [
+      190,
+      250
+    ],
+    "tier": "premium",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": [
+        1,
+        2
+      ],
+      "espresso": [
+        1,
+        6
+      ],
+      "moka": [
+        6,
+        14
+      ],
+      "aeropress": [
+        5,
+        15
+      ],
+      "pourover": [
+        8,
+        15
+      ],
+      "chemex": [
+        12,
+        22
+      ],
+      "french": [
+        16,
+        25
+      ],
+      "coldbrew": [
+        19,
+        25
+      ]
+    },
+    "settingsUnit": {
+      "ro": "clicuri de la zero",
+      "en": "clicks from zero"
+    },
+    "notes": {
+      "ro": "Râșniță de masă din aluminiu turnat, făcută pentru espresso (pereche cu ROK Presso); intervalul util e îngust (~195–1010 µm).",
+      "en": "Cast-aluminium tabletop grinder made for espresso (pairs with ROK Presso); usable range is narrow (~195–1010 µm)."
+    },
+    "sources": [
+      "https://honestcoffeeguide.com/rok-grindergc-grind-settings/"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "helor-101",
+    "brand": "Helor",
+    "model": "101",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": null,
+      "material": "steel (interchangeable burr sets)"
+    },
+    "adjust": {
+      "kind": "clicks",
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "clicuri de la zero (cadran cu 12 puncte, unul plin ca reper)",
+        "en": "clicks from zero (12-dot dial, one solid reference dot)"
+      },
+      "zero": {
+        "ro": "Rotește spre fin până frezele se ating = 0; numără clicurile de acolo, chiar dacă punctul plin nu se aliniază.",
+        "en": "Turn finer until the burrs touch = 0; count clicks from there even if the solid dot doesn't line up."
+      }
+    },
+    "priceEUR": [
+      220,
+      300
+    ],
+    "tier": "premium",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": [
+        3,
+        12
+      ],
+      "espresso": [
+        11,
+        21
+      ],
+      "moka": [
+        21,
+        37
+      ],
+      "aeropress": [
+        19,
+        40
+      ],
+      "pourover": [
+        23,
+        40
+      ],
+      "chemex": [
+        32,
+        53
+      ],
+      "french": [
+        40,
+        74
+      ],
+      "coldbrew": [
+        46,
+        80
+      ]
+    },
+    "settingsUnit": {
+      "ro": "clicuri de la zero",
+      "en": "clicks from zero"
+    },
+    "notes": {
+      "ro": "Râșniță de nișă din Hong Kong, foarte apreciată de entuziaști; se importă (rar în magazinele UE).",
+      "en": "Niche Hong Kong grinder loved by enthusiasts; mostly imported (rare in EU shops)."
+    },
+    "sources": [
+      "https://honestcoffeeguide.com/helor-101-grind-settings"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "weber-hg-2",
+    "brand": "Weber Workshops",
+    "model": "HG-2",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": 83,
+      "material": "hardened steel"
+    },
+    "adjust": {
+      "kind": "stepless",
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "ture ale inelului de blocare de la contactul frezelor (zecimal)",
+        "en": "turns of the locking ring from burr contact (decimal)"
+      },
+      "zero": {
+        "ro": "Ridică inelul de blocare, rotește suportul frezei în sensul acelor de ceasornic până frezele se ating = 0 (nu învârti manivela pe zero).",
+        "en": "Lift the locking ring, rotate the burr mount clockwise until the burrs touch = 0 (don't crank at zero)."
+      }
+    },
+    "priceEUR": [
+      2000,
+      2600
+    ],
+    "tier": "premium",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": [
+        1.0,
+        1.5
+      ],
+      "espresso": [
+        1.5,
+        2.0
+      ],
+      "moka": [
+        2.0,
+        2.4
+      ],
+      "aeropress": [
+        2.2,
+        2.8
+      ],
+      "pourover": [
+        2.5,
+        3.0
+      ],
+      "chemex": [
+        2.75,
+        3.25
+      ],
+      "french": [
+        3.0,
+        3.75
+      ],
+      "coldbrew": [
+        3.25,
+        4.0
+      ]
+    },
+    "settingsUnit": {
+      "ro": "ture de la zero (zecimal)",
+      "en": "turns from zero (decimal)"
+    },
+    "notes": {
+      "ro": "Râșniță manuală de masă, ultra-premium, cu burr conic de 83 mm și volant cu 2 viteze. Ghidul oficial: espresso 1,75 ture, pour-over +1 tură; restul interpolat.",
+      "en": "Ultra-premium tabletop manual grinder with an 83 mm conical burr and 2-speed flywheel. Official guide: espresso 1.75 turns, pour-over +1 turn; the rest interpolated."
+    },
+    "sources": [
+      "https://manuals.plus/weber-workshops/hg-2-grinder-manual",
+      "https://eightouncecoffee.ca/products/weber-workshops-hg-2-coffee-grinder"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "mazzer-omega",
+    "brand": "Mazzer",
+    "model": "Omega (manual)",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": null,
+      "material": "steel"
+    },
+    "adjust": {
+      "kind": "numbered",
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "cifra de pe cadran + linii suplimentare, scrise zecimal (4.4 = cifra 4 + 4 linii); valorile sunt puncte de pornire Prima în prima tură de la zero",
+        "en": "dial number + extra lines, written as a decimal (4.4 = number 4 + 4 lines); values are Prima starting points within the first turn from zero"
+      },
+      "zero": {
+        "ro": "Rotește cadranul spre fin până frezele se ating și aliniază-l la 0 (calibrare conform manualului).",
+        "en": "Turn the dial finer until the burrs touch and align it to 0 (calibrate per the manual)."
+      }
+    },
+    "priceEUR": [
+      180,
+      240
+    ],
+    "tier": "mid",
+    "espressoCapable": true,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": [
+        4.4,
+        4.4
+      ],
+      "moka": null,
+      "aeropress": [
+        6.0,
+        6.0
+      ],
+      "pourover": [
+        7.2,
+        8.0
+      ],
+      "chemex": [
+        8.0,
+        8.0
+      ],
+      "french": null,
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "cifră.linie pe cadran în prima tură (4.4 = cifra 4 + 4 linii)",
+      "en": "number.line on the dial within the first turn (4.4 = number 4 + 4 lines)"
+    },
+    "notes": {
+      "ro": "Puncte Prima: espresso 4+4, AeroPress 6, V60-01 7+2, V60-02 8, Chemex 3 căni 8. Prima dă French press 7+5 linii (mai fin decât pour-over) și cold brew/Chemex mare „1 tură + 4 cifre”; numărul de cifre pe tură nu e documentat, deci French press și cold brew sunt lăsate null. Moka: fără sursă.",
+      "en": "Prima points: espresso 4+4, AeroPress 6, V60-01 7+2, V60-02 8, 3-cup Chemex 8. Prima gives French press as 7+5 lines (finer than pour-over) and cold brew/large Chemex as \"1 rev + 4 numbers\"; the numbers per turn are not documented, so French press and cold brew are left null. Moka: no source."
+    },
+    "sources": [
+      "https://prima-coffee.com/hand-grinder-grind-size-guide/"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "knock-aergrind",
+    "brand": "Knock",
+    "model": "Aergrind",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": 38,
+      "material": "stainless steel"
+    },
+    "adjust": {
+      "kind": "stepless",
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "ture complete + linii pe cadran, scrise R.LL (1.12 = 1 tură + 12 linii; 4.00 = 4 ture). Valorile sunt puncte de pornire Prima, nu intervale.",
+        "en": "full turns + lines on the dial, written R.LL (1.12 = 1 turn + 12 lines; 4.00 = 4 turns). Values are Prima starting points, not ranges."
+      },
+      "zero": {
+        "ro": "Rotește cadranul în sensul acelor de ceasornic până frezele se ating = 0; numără turele complete și liniile înapoi.",
+        "en": "Turn the dial clockwise until the burrs touch = 0; count full turns and lines back."
+      }
+    },
+    "priceEUR": [
+      120,
+      155
+    ],
+    "tier": "mid",
+    "espressoCapable": true,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": [
+        1.12,
+        1.12
+      ],
+      "moka": null,
+      "aeropress": [
+        1.15,
+        1.15
+      ],
+      "pourover": [
+        1.24,
+        2.03
+      ],
+      "chemex": [
+        2.03,
+        2.03
+      ],
+      "french": [
+        2.21,
+        2.21
+      ],
+      "coldbrew": [
+        4.0,
+        4.0
+      ]
+    },
+    "settingsUnit": {
+      "ro": "ture.linii de la zero (2.21 = 2 ture + 21 de linii)",
+      "en": "turns.lines from zero (2.21 = 2 turns + 21 lines)"
+    },
+    "notes": {
+      "ro": "Puncte Prima: espresso 1+12, AeroPress 1+15, V60-01 1+24, V60-02 2+3, Chemex 3 căni 2+3, French press 2+21, cold brew prin imersie 4 ture. Chemex mare (45 g) e 4 ture la Prima – asta făcea ca Chemex să pară mai grosier decât French press; acum se folosește Chemex de 3 căni. Moka: fără sursă (null).",
+      "en": "Prima points: espresso 1+12, AeroPress 1+15, V60-01 1+24, V60-02 2+3, 3-cup Chemex 2+3, French press 2+21, immersion cold brew 4 turns. Prima's large (45 g) Chemex is 4 turns – that made Chemex look coarser than French press; the 3-cup Chemex is used now. Moka: no source (null)."
+    },
+    "sources": [
+      "https://prima-coffee.com/hand-grinder-grind-size-guide/"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "knock-feld2",
+    "brand": "Knock",
+    "model": "Feld2 (Feldgrind)",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": 38,
+      "material": "stainless steel"
+    },
+    "adjust": {
+      "kind": "stepless",
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "ture complete + linii pe cadran, scrise R.LL (1.02 = 1 tură + 2 linii). Valorile sunt puncte de pornire Prima, nu intervale.",
+        "en": "full turns + lines on the dial, written R.LL (1.02 = 1 turn + 2 lines). Values are Prima starting points, not ranges."
+      },
+      "zero": {
+        "ro": "Rotește cadranul în sensul acelor de ceasornic până frezele se ating = 0; numără turele complete și liniile înapoi.",
+        "en": "Turn the dial clockwise until the burrs touch = 0; count full turns and lines back."
+      }
+    },
+    "priceEUR": [
+      140,
+      180
+    ],
+    "tier": "mid",
+    "espressoCapable": true,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": [
+        1.02,
+        1.02
+      ],
+      "moka": null,
+      "aeropress": [
+        1.16,
+        1.16
+      ],
+      "pourover": [
+        1.15,
+        2.04
+      ],
+      "chemex": [
+        2.04,
+        2.04
+      ],
+      "french": [
+        2.3,
+        2.3
+      ],
+      "coldbrew": [
+        4.0,
+        4.0
+      ]
+    },
+    "settingsUnit": {
+      "ro": "ture.linii de la zero (2.21 = 2 ture + 21 de linii)",
+      "en": "turns.lines from zero (2.21 = 2 turns + 21 lines)"
+    },
+    "notes": {
+      "ro": "Prima listează „Feldgrind”; presupunem același reglaj pentru Feld2. Puncte: espresso 1+2, AeroPress 1+16, V60-01 1+15, V60-02 2+4, Chemex 3 căni 2+4 (Chemex mare 45 g: 4 ture), French press 2+30, cold brew prin imersie 4 ture. Moka: fără sursă.",
+      "en": "Prima lists the \"Feldgrind\"; the Feld2 is assumed to share its adjustment. Points: espresso 1+2, AeroPress 1+16, V60-01 1+15, V60-02 2+4, 3-cup Chemex 2+4 (large 45 g Chemex: 4 turns), French press 2+30, immersion cold brew 4 turns. Moka: no source."
+    },
+    "sources": [
+      "https://prima-coffee.com/hand-grinder-grind-size-guide/"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "vssl-java",
+    "brand": "VSSL",
+    "model": "Java (G25 / standard)",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": null,
+      "material": "stainless steel"
+    },
+    "adjust": {
+      "kind": "clicks",
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "scală inversă: clicuri în sensul acelor de ceasornic (mai fin) de la poziția implicită „flush” (cadranul la nivel cu capătul șurubului de măcinare); număr mai mare = măcinătură mai fină",
+        "en": "reverse scale: clicks clockwise (finer) from the default \"flush\" position (dial level with the top of the grinding bolt); higher number = finer grind"
+      },
+      "zero": {
+        "ro": "Poziția implicită „flush” = cadranul aliniat cu capătul șurubului. Pentru espresso: strânge complet în sensul acelor de ceasornic, apoi slăbește până la finețea dorită.",
+        "en": "Default \"flush\" = dial aligned with the top of the grinding bolt. For espresso: turn fully clockwise, then back off to the fineness you need."
+      }
+    },
+    "priceEUR": [
+      150,
+      200
+    ],
+    "tier": "mid",
+    "espressoCapable": true,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": null,
+      "aeropress": [
+        18,
+        22
+      ],
+      "pourover": [
+        8,
+        12
+      ],
+      "chemex": null,
+      "french": null,
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "clicuri spre fin de la poziția „flush” (scală inversă: număr mai mare = mai fin)",
+      "en": "clicks finer from the \"flush\" position (reverse scale: higher number = finer)"
+    },
+    "notes": {
+      "ro": "Ghidul VSSL: pour-over ~10 clicuri spre fin de la „flush”, AeroPress ~20, „cowboy coffee” 10 clicuri spre grosier; pentru French press și restul nu dă clicuri, deci sunt null. Scala merge invers (număr mai mare = mai fin).",
+      "en": "VSSL guide: pour-over ~10 clicks finer from \"flush\", AeroPress ~20, cowboy coffee 10 clicks coarser; it gives no clicks for French press and the rest, so they are null. The scale runs in reverse (higher number = finer)."
+    },
+    "sources": [
+      "https://cdn.shopify.com/s/files/1/1566/4409/files/VSSL_JAVA_Grind_Guide.pdf"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "zassenhaus-santiago",
+    "brand": "Zassenhaus",
+    "model": "Santiago",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": null,
+      "material": "hardened steel"
+    },
+    "adjust": {
+      "kind": "stepless",
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "ture ale piuliței de reglaj (nemarcată) de la punctul de contact al frezelor, scrise zecimal: 0.25 = un sfert de tură spre grosier, 1.0 = o tură completă",
+        "en": "turns of the (unmarked) adjustment nut from burr contact, written as a decimal: 0.25 = a quarter turn coarser, 1.0 = one full turn"
+      },
+      "zero": {
+        "ro": "Strânge piulița până frezele freacă ușor în timp ce învârți manivela = 0 (turcească); slăbește-o pentru mai grosier.",
+        "en": "Tighten the nut until the burrs lightly rub while cranking = 0 (Turkish); loosen it for coarser."
+      }
+    },
+    "priceEUR": [
+      80,
+      130
+    ],
+    "tier": "mid",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": [
+        0.0,
+        0.05
+      ],
+      "espresso": null,
+      "moka": null,
+      "aeropress": null,
+      "pourover": [
+        0.1,
+        0.5
+      ],
+      "chemex": null,
+      "french": [
+        0.75,
+        1.25
+      ],
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "ture ale piuliței de la punctul în care frezele se ating (0.5 = jumătate de tură)",
+      "en": "turns of the nut from burr contact (0.5 = half a turn)"
+    },
+    "notes": {
+      "ro": "Sweet Maria's: turcească = frezele freacă continuu; filtru = frezele abia nu se mai ating, până la +½ tură; French press = încă ¾ tură față de filtru. Pentru celelalte metode nu există valori publicate, deci sunt null.",
+      "en": "Sweet Maria's: Turkish = burrs rub continuously; filter = burrs just clear, up to +½ turn; French press = a further ¾ turn from filter. No published values for the other methods, so they are null."
+    },
+    "sources": [
+      "https://library.sweetmarias.com/zassenhaus-hand-crank-mills-use-and-care-instructions/"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "zassenhaus-brasilia",
+    "brand": "Zassenhaus",
+    "model": "Brasilia",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": null,
+      "material": "hardened steel"
+    },
+    "adjust": {
+      "kind": "stepless",
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "ture ale piuliței de reglaj (nemarcată) de la punctul de contact al frezelor, scrise zecimal: 0.25 = un sfert de tură spre grosier, 1.0 = o tură completă",
+        "en": "turns of the (unmarked) adjustment nut from burr contact, written as a decimal: 0.25 = a quarter turn coarser, 1.0 = one full turn"
+      },
+      "zero": {
+        "ro": "Strânge piulița până frezele freacă ușor în timp ce învârți manivela = 0 (turcească); slăbește-o pentru mai grosier.",
+        "en": "Tighten the nut until the burrs lightly rub while cranking = 0 (Turkish); loosen it for coarser."
+      }
+    },
+    "priceEUR": [
+      75,
+      120
+    ],
+    "tier": "mid",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": [
+        0.0,
+        0.05
+      ],
+      "espresso": null,
+      "moka": null,
+      "aeropress": null,
+      "pourover": [
+        0.1,
+        0.5
+      ],
+      "chemex": null,
+      "french": [
+        0.75,
+        1.25
+      ],
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "ture ale piuliței de la punctul în care frezele se ating (0.5 = jumătate de tură)",
+      "en": "turns of the nut from burr contact (0.5 = half a turn)"
+    },
+    "notes": {
+      "ro": "Sweet Maria's: turcească = frezele freacă continuu; filtru = frezele abia nu se mai ating, până la +½ tură; French press = încă ¾ tură față de filtru. Pentru celelalte metode nu există valori publicate, deci sunt null.",
+      "en": "Sweet Maria's: Turkish = burrs rub continuously; filter = burrs just clear, up to +½ turn; French press = a further ¾ turn from filter. No published values for the other methods, so they are null."
+    },
+    "sources": [
+      "https://library.sweetmarias.com/zassenhaus-hand-crank-mills-use-and-care-instructions/"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "zassenhaus-havanna",
+    "brand": "Zassenhaus",
+    "model": "Havanna",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": null,
+      "material": "hardened steel"
+    },
+    "adjust": {
+      "kind": "stepless",
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "ture ale piuliței de reglaj (nemarcată) de la punctul de contact al frezelor, scrise zecimal: 0.25 = un sfert de tură spre grosier, 1.0 = o tură completă",
+        "en": "turns of the (unmarked) adjustment nut from burr contact, written as a decimal: 0.25 = a quarter turn coarser, 1.0 = one full turn"
+      },
+      "zero": {
+        "ro": "Strânge piulița până frezele freacă ușor în timp ce învârți manivela = 0 (turcească); slăbește-o pentru mai grosier.",
+        "en": "Tighten the nut until the burrs lightly rub while cranking = 0 (Turkish); loosen it for coarser."
+      }
+    },
+    "priceEUR": [
+      90,
+      140
+    ],
+    "tier": "mid",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": [
+        0.0,
+        0.05
+      ],
+      "espresso": null,
+      "moka": null,
+      "aeropress": null,
+      "pourover": [
+        0.1,
+        0.5
+      ],
+      "chemex": null,
+      "french": [
+        0.75,
+        1.25
+      ],
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "ture ale piuliței de la punctul în care frezele se ating (0.5 = jumătate de tură)",
+      "en": "turns of the nut from burr contact (0.5 = half a turn)"
+    },
+    "notes": {
+      "ro": "Sweet Maria's: turcească = frezele freacă continuu; filtru = frezele abia nu se mai ating, până la +½ tură; French press = încă ¾ tură față de filtru. Pentru celelalte metode nu există valori publicate, deci sunt null.",
+      "en": "Sweet Maria's: Turkish = burrs rub continuously; filter = burrs just clear, up to +½ turn; French press = a further ¾ turn from filter. No published values for the other methods, so they are null."
+    },
+    "sources": [
+      "https://library.sweetmarias.com/zassenhaus-hand-crank-mills-use-and-care-instructions/"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "peugeot-nostalgie",
+    "brand": "Peugeot",
+    "model": "Nostalgie",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": null,
+      "material": "case-hardened steel"
+    },
+    "adjust": {
+      "kind": "stepless",
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "ture ale piuliței de reglaj (nemarcată) de la punctul de contact al frezelor, scrise zecimal: 0.25 = un sfert de tură spre grosier, 1.0 = o tură completă",
+        "en": "turns of the (unmarked) adjustment nut from burr contact, written as a decimal: 0.25 = a quarter turn coarser, 1.0 = one full turn"
+      },
+      "zero": {
+        "ro": "Strânge piulița până frezele freacă ușor în timp ce învârți manivela = 0 (turcească); slăbește-o pentru mai grosier.",
+        "en": "Tighten the nut until the burrs lightly rub while cranking = 0 (Turkish); loosen it for coarser."
+      }
+    },
+    "priceEUR": [
+      70,
+      110
+    ],
+    "tier": "mid",
+    "espressoCapable": false,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": [
+        0.0,
+        0.05
+      ],
+      "espresso": null,
+      "moka": null,
+      "aeropress": null,
+      "pourover": [
+        0.1,
+        0.5
+      ],
+      "chemex": null,
+      "french": [
+        0.75,
+        1.25
+      ],
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "ture ale piuliței de la punctul în care frezele se ating (0.5 = jumătate de tură)",
+      "en": "turns of the nut from burr contact (0.5 = half a turn)"
+    },
+    "notes": {
+      "ro": "Prin analogie cu ghidul Sweet Maria's pentru Zassenhaus (aceeași piuliță de reglaj fără repere). Sweet Maria's: turcească = frezele freacă continuu; filtru = frezele abia nu se mai ating, până la +½ tură; French press = încă ¾ tură față de filtru. Pentru celelalte metode nu există valori publicate, deci sunt null.",
+      "en": "By analogy with Sweet Maria's Zassenhaus guide (same unmarked adjustment nut). Sweet Maria's: Turkish = burrs rub continuously; filter = burrs just clear, up to +½ turn; French press = a further ¾ turn from filter. No published values for the other methods, so they are null."
+    },
+    "sources": [
+      "https://library.sweetmarias.com/zassenhaus-hand-crank-mills-use-and-care-instructions/"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "peugeot-bresil",
+    "brand": "Peugeot",
+    "model": "Bresil",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": null,
+      "material": "case-hardened steel"
+    },
+    "adjust": {
+      "kind": "stepless",
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "ture ale piuliței de reglaj (nemarcată) de la punctul de contact al frezelor, scrise zecimal: 0.25 = un sfert de tură spre grosier, 1.0 = o tură completă",
+        "en": "turns of the (unmarked) adjustment nut from burr contact, written as a decimal: 0.25 = a quarter turn coarser, 1.0 = one full turn"
+      },
+      "zero": {
+        "ro": "Strânge piulița până frezele freacă ușor în timp ce învârți manivela = 0 (turcească); slăbește-o pentru mai grosier.",
+        "en": "Tighten the nut until the burrs lightly rub while cranking = 0 (Turkish); loosen it for coarser."
+      }
+    },
+    "priceEUR": [
+      50,
+      85
+    ],
+    "tier": "mid",
+    "espressoCapable": false,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": [
+        0.0,
+        0.05
+      ],
+      "espresso": null,
+      "moka": null,
+      "aeropress": null,
+      "pourover": [
+        0.1,
+        0.5
+      ],
+      "chemex": null,
+      "french": [
+        0.75,
+        1.25
+      ],
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "ture ale piuliței de la punctul în care frezele se ating (0.5 = jumătate de tură)",
+      "en": "turns of the nut from burr contact (0.5 = half a turn)"
+    },
+    "notes": {
+      "ro": "Prin analogie cu ghidul Sweet Maria's pentru Zassenhaus (aceeași piuliță de reglaj fără repere). Sweet Maria's: turcească = frezele freacă continuu; filtru = frezele abia nu se mai ating, până la +½ tură; French press = încă ¾ tură față de filtru. Pentru celelalte metode nu există valori publicate, deci sunt null.",
+      "en": "By analogy with Sweet Maria's Zassenhaus guide (same unmarked adjustment nut). Sweet Maria's: Turkish = burrs rub continuously; filter = burrs just clear, up to +½ turn; French press = a further ¾ turn from filter. No published values for the other methods, so they are null."
+    },
+    "sources": [
+      "https://library.sweetmarias.com/zassenhaus-hand-crank-mills-use-and-care-instructions/"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "turkish-brass-mill",
+    "brand": "Generic (Atlas-style, Greece/Turkey)",
+    "model": "Classic brass Turkish hand mill",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": null,
+      "material": "steel"
+    },
+    "adjust": {
+      "kind": "stepless",
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "ture ale piuliței de jos de la strângerea completă (zecimal)",
+        "en": "turns of the bottom nut from fully tight (decimal)"
+      },
+      "zero": {
+        "ro": "Strânge complet piulița de sub manivelă/de la bază în sensul acelor de ceasornic = cel mai fin (turcească).",
+        "en": "Tighten the nut under the crank/at the base fully clockwise = finest (Turkish)."
+      }
+    },
+    "priceEUR": [
+      25,
+      60
+    ],
+    "tier": "budget",
+    "espressoCapable": false,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": [
+        0.0,
+        0.1
+      ],
+      "espresso": null,
+      "moka": null,
+      "aeropress": null,
+      "pourover": null,
+      "chemex": null,
+      "french": null,
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "ture de la zero (zecimal)",
+      "en": "turns from zero (decimal)"
+    },
+    "notes": {
+      "ro": "Râșnița clasică de alamă pentru cafea turcească/grecească – singura țintă reală e pudra fină. La setări grosiere măcinarea e neuniformă, deci nu dăm valori.",
+      "en": "The classic brass Turkish/Greek mill – the only real target is fine powder. Coarse settings are very uneven, so no values are given."
+    },
+    "sources": [
+      "https://www.homegrounds.co/turkish-coffee-grinder/"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "bodum-bistro-manual",
+    "brand": "Bodum",
+    "model": "Bistro manual burr grinder",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": null,
+      "material": "ceramic"
+    },
+    "adjust": {
+      "kind": "clicks",
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "clicuri de la zero (nemarcate)",
+        "en": "clicks from zero (unmarked)"
+      },
+      "zero": {
+        "ro": "Rotește reglajul spre fin până se oprește = 0.",
+        "en": "Turn the adjuster finer until it stops = 0."
+      }
+    },
+    "priceEUR": [
+      25,
+      40
+    ],
+    "tier": "budget",
+    "espressoCapable": false,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": null,
+      "aeropress": null,
+      "pourover": null,
+      "chemex": null,
+      "french": null,
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "fără scală numerică – reglaj vizual",
+      "en": "no numeric scale – adjust by eye"
+    },
+    "notes": {
+      "ro": "Râșniță manuală ceramică de supermarket; nu am găsit niciun grafic de setări credibil – reglează vizual (zahăr = V60, sare grunjoasă = French press).",
+      "en": "Supermarket ceramic hand mill; no credible settings chart found – adjust by eye (sugar = V60, coarse salt = French press)."
+    },
+    "sources": [
+      "https://www.coffeeness.de/en/bodum-bistro-review/"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "generic-ceramic-hand-grinder",
+    "brand": "Generic (eMAG marketplace)",
+    "model": "Stainless/wood ceramic-burr hand grinder",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": null,
+      "material": "ceramic"
+    },
+    "adjust": {
+      "kind": "clicks",
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "clicuri ale piuliței de sub freză, de la zero",
+        "en": "clicks of the nut under the burr from zero"
+      },
+      "zero": {
+        "ro": "Strânge piulița de sub freză până se blochează axul = 0; numără clicurile în sens invers acelor de ceasornic.",
+        "en": "Tighten the nut under the burr until the shaft stops = 0; count clicks anticlockwise."
+      }
+    },
+    "priceEUR": [
+      10,
+      30
+    ],
+    "tier": "budget",
+    "espressoCapable": false,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": null,
+      "aeropress": null,
+      "pourover": null,
+      "chemex": null,
+      "french": null,
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "fără scală numerică – reglaj vizual",
+      "en": "no numeric scale – adjust by eye"
+    },
+    "notes": {
+      "ro": "Clone Hario Slim/„corp lemn, sistem ceramic” (50–150 lei) – cele mai vândute pe eMAG. Pași inconsistenți de la un exemplar la altul; aplicația ar trebui să ghideze vizual.",
+      "en": "Hario-Slim clones / 'wooden body, ceramic burr' mills (50–150 RON) – eMAG best sellers. Steps vary unit to unit; the app should guide visually."
+    },
+    "sources": [
+      "https://www.emag.ro/rasnita-manuala-de-cafea-corp-lemn-sistem-macinare-ceramic-maro-2043/pd/D7G054MBM/",
+      "https://www.fruugo.ro/rasnita-de-cafea-manuala-cu-miez-ceramic/p-292264388"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "generic-wooden-box-mill",
+    "brand": "Generic",
+    "model": "Wooden box mill (vintage style, cast-iron burr)",
+    "type": "manual",
+    "burr": {
+      "type": "conical",
+      "size_mm": null,
+      "material": "cast iron / steel"
+    },
+    "adjust": {
+      "kind": "stepless",
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "ture ale piuliței de sus de la strângerea completă",
+        "en": "turns of the top nut from fully tight"
+      },
+      "zero": {
+        "ro": "Strânge complet piulița de sus = cel mai fin.",
+        "en": "Tighten the top nut fully = finest."
+      }
+    },
+    "priceEUR": [
+      15,
+      35
+    ],
+    "tier": "budget",
+    "espressoCapable": false,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": null,
+      "aeropress": null,
+      "pourover": null,
+      "chemex": null,
+      "french": null,
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "fără scală numerică – reglaj vizual",
+      "en": "no numeric scale – adjust by eye"
+    },
+    "notes": {
+      "ro": "Râșnițe decorative din lemn, frecvente la târguri și pe eMAG; burr-uri cu joc mare, rezultat neuniform. Utile doar pentru French press/cold brew, reglate vizual.",
+      "en": "Decorative wooden mills common at fairs and on eMAG; wobbly burrs, uneven grind. Only useful for French press/cold brew, adjusted by eye."
+    },
+    "sources": [
+      "https://www.emag.ro/vendors/rasnite/vendor/alzamhcy/c"
+    ],
+    "confidence": "low"
+  }
+]

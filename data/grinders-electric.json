@@ -1,0 +1,4316 @@
+[
+  {
+    "id": "bosch-tsm6a013b",
+    "brand": "Bosch",
+    "model": "TSM6A013B (blade)",
+    "type": "electric",
+    "subtype": "blade",
+    "burr": {
+      "type": "blade",
+      "size_mm": null,
+      "material": "oțel inoxidabil / stainless steel"
+    },
+    "adjust": {
+      "kind": "stepless",
+      "range": null,
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "Fără reglaj: finețea depinde de durata apăsării",
+        "en": "No setting: fineness depends on press time"
+      },
+      "zero": {
+        "ro": "nu se aplică",
+        "en": "n/a"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      20,
+      30
+    ],
+    "tier": "budget",
+    "espressoCapable": false,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": null,
+      "aeropress": null,
+      "pourover": null,
+      "chemex": null,
+      "french": null,
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "secunde de măcinare (nu are trepte)",
+      "en": "grinding seconds (no steps)"
+    },
+    "notes": {
+      "ro": "Râșniță cu cuțit (180 W, ~75 g): orientativ 8–12 s pentru filtru/French press, 15–20 s pentru moka; măcinătura e neuniformă, scuturați în timpul măcinării. Nu e potrivită pentru espresso sau cafea turcească.",
+      "en": "Blade grinder (180 W, ~75 g): roughly 8–12 s for filter/French press, 15–20 s for moka; grind is uneven, shake while grinding. Not suitable for espresso or Turkish. Times are a general blade-grinder rule of thumb, not a Bosch chart."
+    },
+    "sources": [
+      "https://media3.bosch-home.com/Documents/specsheet/ro-RO/TSM6A013B.pdf",
+      "https://www.alza.at/EN/bosch-tsm6a013b-d5497609.htm"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "delonghi-kg200",
+    "brand": "De'Longhi",
+    "model": "KG200 (blade)",
+    "type": "electric",
+    "subtype": "blade",
+    "burr": {
+      "type": "blade",
+      "size_mm": null,
+      "material": "oțel inoxidabil / stainless steel"
+    },
+    "adjust": {
+      "kind": "stepless",
+      "range": null,
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "Fără reglaj: durata apăsării",
+        "en": "No setting: press time"
+      },
+      "zero": {
+        "ro": "nu se aplică",
+        "en": "n/a"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      25,
+      45
+    ],
+    "tier": "budget",
+    "espressoCapable": false,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": null,
+      "aeropress": null,
+      "pourover": null,
+      "chemex": null,
+      "french": null,
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "secunde de măcinare (nu are trepte)",
+      "en": "grinding seconds (no steps)"
+    },
+    "notes": {
+      "ro": "Râșniță cu cuțit ieftină, vândută direct de De'Longhi România (~169–220 lei). Controlul se face doar din timp (câteva secunde pentru filtru, mai mult pentru moka); rezultat neuniform.",
+      "en": "Cheap blade grinder sold directly by De'Longhi Romania (~169–220 RON). Control is by time only (a few seconds for filter, longer for moka); uneven result."
+    },
+    "sources": [
+      "https://www.delonghi.com/ro-ro/c/cafea/accesorii/rasnite-de-cafea"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "delonghi-kg79",
+    "brand": "De'Longhi",
+    "model": "KG79",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "flat",
+      "size_mm": null,
+      "material": "oțel / steel"
+    },
+    "adjust": {
+      "kind": "steps",
+      "range": [
+        0,
+        16
+      ],
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "clicuri 0 (fin) – 16 (grosier)",
+        "en": "clicks 0 (fine) – 16 (coarse)"
+      },
+      "zero": {
+        "ro": "0 = cea mai fină treaptă de fabrică",
+        "en": "0 = finest factory click"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      45,
+      70
+    ],
+    "tier": "budget",
+    "espressoCapable": false,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": [
+        0,
+        5
+      ],
+      "aeropress": [
+        0,
+        6
+      ],
+      "pourover": [
+        1,
+        6
+      ],
+      "chemex": [
+        4,
+        10
+      ],
+      "french": [
+        6,
+        16
+      ],
+      "coldbrew": [
+        8,
+        16
+      ]
+    },
+    "settingsUnit": {
+      "ro": "treapta de pe cadran",
+      "en": "dial setting"
+    },
+    "notes": {
+      "ro": "Valori HCG verificate (365–1250 µm): moka 0–5, V60 1–6, French press 6–16, cold brew 8–16. HCG pune espresso la 0, dar râșnița nu macină destul de fin pentru espresso real. Reguli de mapare HCG: pour-over = V60; AeroPress = de la max(AeroPress, moka) până la limita V60; Chemex = de la mijlocul V60 până la limita „Pour Over”. ~349 lei la De'Longhi RO.",
+      "en": "HCG values verified (365–1250 µm): moka 0–5, V60 1–6, French press 6–16, cold brew 8–16. HCG puts espresso at 0, but the grinder cannot grind fine enough for real espresso. HCG mapping: pour-over = V60; AeroPress = from max(AeroPress, moka) low to the V60 high; Chemex = from the V60 midpoint to the \"Pour Over\" high. ~349 RON at De'Longhi RO."
+    },
+    "sources": [
+      "https://honestcoffeeguide.com/delonghi-kg79-grind-settings/",
+      "https://www.manualslib.com/manual/562285/Delonghi-Kg-79.html"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "delonghi-kg89",
+    "brand": "De'Longhi",
+    "model": "KG89",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "flat",
+      "size_mm": null,
+      "material": "oțel / steel"
+    },
+    "adjust": {
+      "kind": "steps",
+      "range": [
+        0,
+        16
+      ],
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "clicuri 0–16, ca la KG79",
+        "en": "clicks 0–16, as on the KG79"
+      },
+      "zero": {
+        "ro": "0 = cea mai fină treaptă",
+        "en": "0 = finest click"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      55,
+      85
+    ],
+    "tier": "budget",
+    "espressoCapable": false,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": [
+        0,
+        5
+      ],
+      "aeropress": [
+        0,
+        6
+      ],
+      "pourover": [
+        1,
+        6
+      ],
+      "chemex": [
+        4,
+        10
+      ],
+      "french": [
+        6,
+        16
+      ],
+      "coldbrew": [
+        8,
+        16
+      ]
+    },
+    "settingsUnit": {
+      "ro": "treapta de pe cadran",
+      "en": "dial setting"
+    },
+    "notes": {
+      "ro": "Derivat din KG79 (același mecanism cu 16 clicuri, după manual); neverificat separat.",
+      "en": "Derived from the KG79 (same 16-click mechanism per the manual); not verified separately."
+    },
+    "sources": [
+      "https://manualmachine.com/delonghi/gb1771015idl/1980787-owners-manual",
+      "https://honestcoffeeguide.com/delonghi-kg79-grind-settings/"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "krups-gvx231",
+    "brand": "Krups",
+    "model": "GVX231 Expert",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "flat",
+      "size_mm": null,
+      "material": "oțel inoxidabil / stainless steel"
+    },
+    "adjust": {
+      "kind": "steps",
+      "range": [
+        1,
+        17
+      ],
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "17 trepte, fin → grosier",
+        "en": "17 steps, fine → coarse"
+      },
+      "zero": {
+        "ro": "treapta 1 = cea mai fină",
+        "en": "step 1 = finest"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      45,
+      70
+    ],
+    "tier": "budget",
+    "espressoCapable": false,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": null,
+      "aeropress": null,
+      "pourover": null,
+      "chemex": null,
+      "french": null,
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "treapta de pe cadran",
+      "en": "dial setting"
+    },
+    "notes": {
+      "ro": "Râșniță plată ieftină cu 17 trepte; Krups nu publică un tabel pe metode. Folosiți treptele din prima treime pentru moka/filtru fin, mijlocul pentru filtru, capătul grosier pentru French press.",
+      "en": "Cheap flat-burr grinder with 17 steps; Krups publishes no per-method chart, so settings are left null. Use the fine third for moka, the middle for filter, the coarse end for French press."
+    },
+    "sources": [
+      "https://www.krups.co.uk/p/1500813215"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "melitta-molino",
+    "brand": "Melitta",
+    "model": "Molino",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "flat",
+      "size_mm": null,
+      "material": "oțel / steel"
+    },
+    "adjust": {
+      "kind": "steps",
+      "range": [
+        1,
+        17
+      ],
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "17 trepte",
+        "en": "17 steps"
+      },
+      "zero": {
+        "ro": "treapta 1 = fin",
+        "en": "step 1 = fine"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      35,
+      55
+    ],
+    "tier": "budget",
+    "espressoCapable": false,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": null,
+      "aeropress": null,
+      "pourover": null,
+      "chemex": null,
+      "french": null,
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "treapta de pe cadran",
+      "en": "dial setting"
+    },
+    "notes": {
+      "ro": "Râșniță plată de supermarket cu 17 trepte, gândită pentru filtru. Fără tabel oficial pe metode.",
+      "en": "Supermarket flat-burr grinder with 17 steps, aimed at filter coffee. No official per-method chart."
+    },
+    "sources": [
+      "https://international.melitta.de/en/Melitta-Molino-735,70649.html",
+      "https://www.coffeedesk.com/product/6966/Melitta-Molino-Automatic-Grinder-Black"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "melitta-calibra",
+    "brand": "Melitta",
+    "model": "Calibra",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "conical",
+      "size_mm": null,
+      "material": "oțel inoxidabil / stainless steel"
+    },
+    "adjust": {
+      "kind": "steps",
+      "range": [
+        1,
+        39
+      ],
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "39 trepte, cântar integrat",
+        "en": "39 steps, built-in scale"
+      },
+      "zero": {
+        "ro": "treapta 1 = fin",
+        "en": "step 1 = fine"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      110,
+      160
+    ],
+    "tier": "mid",
+    "espressoCapable": false,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": null,
+      "aeropress": null,
+      "pourover": null,
+      "chemex": null,
+      "french": null,
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "treapta de pe cadran",
+      "en": "dial setting"
+    },
+    "notes": {
+      "ro": "Conică, 39 trepte și cântar integrat (dozare la gram). HCG îi dă 390–1400 µm, deci nu e râșniță de espresso adevărat; tabelul HCG nu a putut fi extras.",
+      "en": "Conical, 39 steps with integrated scale (dose by weight). HCG lists 390–1400 µm, so it is not a true espresso grinder; the HCG per-method table could not be extracted."
+    },
+    "sources": [
+      "https://honestcoffeeguide.com/melitta-calibra-grind-settings/",
+      "https://www.coolblue.be/en/product/859805/melitta-calibra-1027-01-stainless-steel.html"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "bodum-bistro-10903",
+    "brand": "Bodum",
+    "model": "Bistro electric burr grinder (10903)",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "conical",
+      "size_mm": null,
+      "material": "oțel inoxidabil / stainless steel"
+    },
+    "adjust": {
+      "kind": "numbered",
+      "range": [
+        1,
+        12
+      ],
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "FINE (=1), 2–5, MEDIUM (=6), 7–11, COARSE (=12) – etichetele de pe cadran",
+        "en": "FINE (=1), 2–5, MEDIUM (=6), 7–11, COARSE (=12) – dial labels"
+      },
+      "zero": {
+        "ro": "FINE = cea mai fină poziție",
+        "en": "FINE = finest position"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      80,
+      130
+    ],
+    "tier": "mid",
+    "espressoCapable": false,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": [
+        1,
+        4
+      ],
+      "aeropress": [
+        1,
+        7
+      ],
+      "pourover": [
+        2,
+        7
+      ],
+      "chemex": null,
+      "french": [
+        5,
+        11
+      ],
+      "coldbrew": [
+        6,
+        12
+      ]
+    },
+    "settingsUnit": {
+      "ro": "treapta de pe cadran",
+      "en": "dial setting"
+    },
+    "notes": {
+      "ro": "Cadranul are FINE–2…5–MEDIUM–7…11–COARSE; am codificat FINE=1, MEDIUM=6, COARSE=12. Gama 365–1390 µm: nu face espresso real (HCG trece «FINE» la espresso doar orientativ).",
+      "en": "Dial reads FINE–2…5–MEDIUM–7…11–COARSE; encoded as FINE=1, MEDIUM=6, COARSE=12. Range 365–1390 µm: no real espresso (HCG lists FINE for espresso only nominally). Settings from HCG."
+    },
+    "sources": [
+      "https://honestcoffeeguide.com/bodum-bistro-10903-grind-settings/"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "graef-cm702",
+    "brand": "Graef",
+    "model": "CM 702",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "conical",
+      "size_mm": null,
+      "material": "oțel inoxidabil / stainless steel"
+    },
+    "adjust": {
+      "kind": "steps",
+      "range": [
+        1,
+        24
+      ],
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "24 trepte pe inel",
+        "en": "24 collar steps"
+      },
+      "zero": {
+        "ro": "treapta 1 = fin",
+        "en": "step 1 = fine"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      80,
+      130
+    ],
+    "tier": "mid",
+    "espressoCapable": false,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": null,
+      "aeropress": null,
+      "pourover": null,
+      "chemex": null,
+      "french": null,
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "treapta de pe cadran",
+      "en": "dial setting"
+    },
+    "notes": {
+      "ro": "Conică, carcasă din plastic, 24 trepte (Graef: 129,99 € preț de listă). Graef indică doar fin/mediu/grosier, fără cifre pe metode.",
+      "en": "Conical, plastic housing, 24 steps (Graef list price €129.99). Graef only says fine/medium/coarse, no per-method numbers."
+    },
+    "sources": [
+      "https://www.graef.de/en/p/coffee-grinder-cm702"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "graef-cm800",
+    "brand": "Graef",
+    "model": "CM 800",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "conical",
+      "size_mm": null,
+      "material": "oțel inoxidabil / stainless steel"
+    },
+    "adjust": {
+      "kind": "macro+micro",
+      "range": [
+        1,
+        40
+      ],
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "40 trepte + reglaj fin al conului superior",
+        "en": "40 steps + upper-burr fine adjustment"
+      },
+      "zero": {
+        "ro": "treapta 1 = fin; conul superior poate fi recalibrat",
+        "en": "step 1 = fine; upper burr re-calibratable"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      130,
+      190
+    ],
+    "tier": "mid",
+    "espressoCapable": true,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": null,
+      "aeropress": null,
+      "pourover": null,
+      "chemex": null,
+      "french": null,
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "treapta de pe cadran",
+      "en": "dial setting"
+    },
+    "notes": {
+      "ro": "Conică lentă, 40 trepte plus reglaj fin; cu reglajul fin dus spre fin poate face espresso pentru coșuri presurizate și unele nepresurizate. Graef nu dă cifre pe metode (doar fin = espresso, mediu = filtru, grosier = French press).",
+      "en": "Slow conical, 40 steps plus fine adjustment; with the fine adjustment pushed finer it can feed pressurised and some unpressurised baskets. Graef gives no per-method numbers (fine = espresso, medium = filter, coarse = French press)."
+    },
+    "sources": [
+      "https://www.graef.de/en/p/coffee-grinder-cm800",
+      "https://kaffeemacher.de/en/blogs/espressomuhlen/graef-cm800-im-test"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "graef-cm850",
+    "brand": "Graef",
+    "model": "CM 850",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "conical",
+      "size_mm": null,
+      "material": "oțel inoxidabil / stainless steel"
+    },
+    "adjust": {
+      "kind": "macro+micro",
+      "range": [
+        1,
+        40
+      ],
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "40 trepte + reglaj fin",
+        "en": "40 steps + fine adjustment"
+      },
+      "zero": {
+        "ro": "treapta 1 = fin",
+        "en": "step 1 = fine"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      140,
+      200
+    ],
+    "tier": "mid",
+    "espressoCapable": true,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": null,
+      "aeropress": null,
+      "pourover": null,
+      "chemex": null,
+      "french": null,
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "treapta de pe cadran",
+      "en": "dial setting"
+    },
+    "notes": {
+      "ro": "Varianta neagră mat a CM 800 (aceeași platformă conică cu 40 trepte, ~199,99 € listă). Comportament identic cu CM 800 – derivat.",
+      "en": "Matte-black variant of the CM 800 (same 40-step conical platform, ~€199.99 list). Behaves like the CM 800 – derived."
+    },
+    "sources": [
+      "https://www.graef.de/en/p/coffee-grinder-cm800"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "graef-cm900",
+    "brand": "Graef",
+    "model": "CM 900 / CM 902",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "conical",
+      "size_mm": null,
+      "material": "oțel inoxidabil / stainless steel"
+    },
+    "adjust": {
+      "kind": "stepless",
+      "range": null,
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "Reglaj variabil cu porționare automată programabilă",
+        "en": "variable setting with programmable auto-dosing"
+      },
+      "zero": {
+        "ro": "nedocumentat",
+        "en": "undocumented"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      180,
+      240
+    ],
+    "tier": "mid",
+    "espressoCapable": true,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": null,
+      "aeropress": null,
+      "pourover": null,
+      "chemex": null,
+      "french": null,
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "treapta de pe cadran",
+      "en": "dial setting"
+    },
+    "notes": {
+      "ro": "Model cu porționare automată programabilă și suporturi pentru portafiltru; testele menționează zgomot ridicat. Date tehnice puține – încredere scăzută.",
+      "en": "Model with programmable auto-dosing and portafilter holders; tests mention high noise. Sparse technical data – low confidence."
+    },
+    "sources": [
+      "https://www.graef.de/en/p/coffee-grinder-cm800",
+      "https://www.testsieger.de/elektrische-kaffeemuehlen/1A5T11EBVPGJ8-graef-cm-900-.html"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "delonghi-kg521-dedica",
+    "brand": "De'Longhi",
+    "model": "Dedica KG521.M",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "conical",
+      "size_mm": null,
+      "material": "oțel inoxidabil / stainless steel"
+    },
+    "adjust": {
+      "kind": "numbered",
+      "range": [
+        1,
+        18
+      ],
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "18 trepte grupate pe cadran în trei zone: ESPRESSO (1–6) / DRIP–POUR OVER (7–12) / FRENCH PRESS (13–18)",
+        "en": "18 steps grouped on the dial in three zones: ESPRESSO (1–6) / DRIP–POUR OVER (7–12) / FRENCH PRESS (13–18)"
+      },
+      "zero": {
+        "ro": "treapta 1 = cea mai fină",
+        "en": "step 1 = finest"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      130,
+      180
+    ],
+    "tier": "mid",
+    "espressoCapable": true,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": [
+        1,
+        6
+      ],
+      "moka": null,
+      "aeropress": null,
+      "pourover": [
+        7,
+        12
+      ],
+      "chemex": null,
+      "french": [
+        13,
+        18
+      ],
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "treapta de pe cadran",
+      "en": "dial setting"
+    },
+    "notes": {
+      "ro": "Manualul De'Longhi: espresso 1–6 în zona „ESPRESSO” (cu adaptorul pentru suport; potrivit pentru coșuri presurizate). Filtru 7–12 și French press 13–18 urmează zonele marcate pe cadran; nu există valori pentru moka, AeroPress sau cold brew.",
+      "en": "De'Longhi manual: espresso 1–6 in the \"ESPRESSO\" zone (with the portafilter adapter; suited to pressurised baskets). Filter 7–12 and French press 13–18 follow the zones marked on the dial; there are no values for moka, AeroPress or cold brew."
+    },
+    "sources": [
+      "https://manualmachine.com/delonghi/dedicaconicalburrgrinderlcddisplaykg521m/26715636-user-manual",
+      "https://www.wholelattelove.com/delonghi-dedica-kg521m-coffee-grinder"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "delonghi-kg520-dedica",
+    "brand": "De'Longhi",
+    "model": "Dedica KG520.M",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "conical",
+      "size_mm": null,
+      "material": "oțel inoxidabil / stainless steel"
+    },
+    "adjust": {
+      "kind": "numbered",
+      "range": [
+        1,
+        18
+      ],
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "18 trepte grupate pe cadran în trei zone: ESPRESSO (1–6) / DRIP–POUR OVER (7–12) / FRENCH PRESS (13–18)",
+        "en": "18 steps grouped on the dial in three zones: ESPRESSO (1–6) / DRIP–POUR OVER (7–12) / FRENCH PRESS (13–18)"
+      },
+      "zero": {
+        "ro": "treapta 1 = cea mai fină",
+        "en": "step 1 = finest"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      130,
+      240
+    ],
+    "tier": "mid",
+    "espressoCapable": true,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": [
+        1,
+        6
+      ],
+      "moka": null,
+      "aeropress": null,
+      "pourover": [
+        7,
+        12
+      ],
+      "chemex": null,
+      "french": [
+        13,
+        18
+      ],
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "treapta de pe cadran",
+      "en": "dial setting"
+    },
+    "notes": {
+      "ro": "Manualul De'Longhi: espresso 1–6 în zona „ESPRESSO” (cu adaptorul pentru suport; potrivit pentru coșuri presurizate). Filtru 7–12 și French press 13–18 urmează zonele marcate pe cadran; nu există valori pentru moka, AeroPress sau cold brew.",
+      "en": "De'Longhi manual: espresso 1–6 in the \"ESPRESSO\" zone (with the portafilter adapter; suited to pressurised baskets). Filter 7–12 and French press 13–18 follow the zones marked on the dial; there are no values for moka, AeroPress or cold brew."
+    },
+    "sources": [
+      "https://www.delonghi.com/ro-ro/c/cafea/accesorii/rasnite-de-cafea",
+      "https://www.cremashop.eu/en/products/delonghi/kg520-m-coffee-grinder/2944"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "cuisinart-dbm8",
+    "brand": "Cuisinart",
+    "model": "DBM8 Professional Burr Mill",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "flat",
+      "size_mm": null,
+      "material": "oțel / steel"
+    },
+    "adjust": {
+      "kind": "steps",
+      "range": [
+        1,
+        18
+      ],
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "18 poziții",
+        "en": "18 positions"
+      },
+      "zero": {
+        "ro": "1 = fin",
+        "en": "1 = fine"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      60,
+      90
+    ],
+    "tier": "budget",
+    "espressoCapable": false,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": [
+        1,
+        3
+      ],
+      "aeropress": [
+        1,
+        6
+      ],
+      "pourover": [
+        1,
+        6
+      ],
+      "chemex": null,
+      "french": [
+        5,
+        10
+      ],
+      "coldbrew": [
+        6,
+        12
+      ]
+    },
+    "settingsUnit": {
+      "ro": "treapta de pe cadran",
+      "en": "dial setting"
+    },
+    "notes": {
+      "ro": "Plată, 420–1400 µm (HCG): nu face espresso. Peste treapta 12 măcinătura depășește 1400 µm.",
+      "en": "Flat burr, 420–1400 µm (HCG): no espresso. Above setting 12 the grind exceeds 1400 µm. Settings from HCG."
+    },
+    "sources": [
+      "https://honestcoffeeguide.com/cuisinart-dbm-8-grind-settings/",
+      "https://www.cuisinart.co.uk/professional-burr-mill-DBM8U.html"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "gaggia-md15",
+    "brand": "Gaggia",
+    "model": "MD15",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "conical",
+      "size_mm": null,
+      "material": "oțel inoxidabil / stainless steel"
+    },
+    "adjust": {
+      "kind": "steps",
+      "range": [
+        1,
+        15
+      ],
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "15 trepte, de la espresso la filtru",
+        "en": "15 steps, espresso to filter"
+      },
+      "zero": {
+        "ro": "1 = fin",
+        "en": "1 = fine"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      90,
+      130
+    ],
+    "tier": "mid",
+    "espressoCapable": true,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": null,
+      "aeropress": null,
+      "pourover": null,
+      "chemex": null,
+      "french": null,
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "treapta de pe cadran",
+      "en": "dial setting"
+    },
+    "notes": {
+      "ro": "Conică, 15 trepte, timer digital pentru doze presetate. Gaggia nu publică cifre pe metode; capătul fin e pentru espresso (coșuri presurizate), capătul grosier pentru filtru.",
+      "en": "Conical, 15 steps, digital timer for preset doses. Gaggia publishes no per-method numbers; fine end for espresso (pressurised baskets), coarse end for filter."
+    },
+    "sources": [
+      "https://www.gaggia.com/grinders/grinder-md15/"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "solis-scala-plus",
+    "brand": "Solis",
+    "model": "Scala Plus (1661)",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "conical",
+      "size_mm": 40,
+      "material": "oțel / steel"
+    },
+    "adjust": {
+      "kind": "steps",
+      "range": null,
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "Număr de trepte raportat diferit de retaileri",
+        "en": "step count reported inconsistently"
+      },
+      "zero": {
+        "ro": "nedocumentat",
+        "en": "undocumented"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      90,
+      130
+    ],
+    "tier": "mid",
+    "espressoCapable": false,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": null,
+      "aeropress": null,
+      "pourover": null,
+      "chemex": null,
+      "french": null,
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "treapta de pe cadran",
+      "en": "dial setting"
+    },
+    "notes": {
+      "ro": "Conică de 40 mm, populară în DACH; un retailer indică 14 trepte, alții mai multe – nu am putut confirma. Recomandată mai ales pentru filtru.",
+      "en": "40 mm conical, popular in DACH; one retailer lists 14 steps, others more – could not confirm. Best for filter."
+    },
+    "sources": [
+      "https://homecoffeesolutions.com/products/solis-scala-plus-coffee-grinder?country=US",
+      "https://galaxus.at/en/s2/product/solis-scale-plus-coffee-grinders-8617931"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "smeg-cgf01",
+    "brand": "Smeg",
+    "model": "CGF01 (succesor CGF11)",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "conical",
+      "size_mm": null,
+      "material": "oțel inoxidabil / stainless steel"
+    },
+    "adjust": {
+      "kind": "steps",
+      "range": [
+        0,
+        30
+      ],
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "30 trepte",
+        "en": "30 steps"
+      },
+      "zero": {
+        "ro": "0 = fin",
+        "en": "0 = fine"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      180,
+      250
+    ],
+    "tier": "mid",
+    "espressoCapable": true,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": [
+        0,
+        4
+      ],
+      "moka": [
+        4,
+        13
+      ],
+      "aeropress": [
+        3,
+        23
+      ],
+      "pourover": [
+        6,
+        22
+      ],
+      "chemex": null,
+      "french": [
+        15,
+        30
+      ],
+      "coldbrew": [
+        19,
+        30
+      ]
+    },
+    "settingsUnit": {
+      "ro": "treapta de pe cadran",
+      "en": "dial setting"
+    },
+    "notes": {
+      "ro": "Design retro anii '50, conică, 30 trepte (255–1143 µm după HCG). Espresso doar cu coșuri presurizate/indulgente. CGF11 este succesorul actual.",
+      "en": "50s retro design, conical, 30 steps (255–1143 µm per HCG). Espresso only with pressurised/forgiving baskets. CGF11 is the current successor. Settings from HCG."
+    },
+    "sources": [
+      "https://honestcoffeeguide.com/smeg-cgf01-grind-settings",
+      "https://www.crema.fi/en/products/smeg/cgf01-coffee-grinder"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "kitchenaid-5kcg8433",
+    "brand": "KitchenAid",
+    "model": "Artisan Burr Grinder 5KCG8433",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "conical",
+      "size_mm": null,
+      "material": "oțel inoxidabil / stainless steel"
+    },
+    "adjust": {
+      "kind": "steps",
+      "range": [
+        1,
+        70
+      ],
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "70 trepte",
+        "en": "70 steps"
+      },
+      "zero": {
+        "ro": "1 = fin",
+        "en": "1 = fine"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      140,
+      230
+    ],
+    "tier": "mid",
+    "espressoCapable": true,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": null,
+      "aeropress": null,
+      "pourover": null,
+      "chemex": null,
+      "french": null,
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "treapta de pe cadran",
+      "en": "dial setting"
+    },
+    "notes": {
+      "ro": "Conică, 70 trepte, 240–1130 µm (HCG). Espresso posibil cu coșuri presurizate; tabelul HCG nu a putut fi extras, deci treptele lipsesc.",
+      "en": "Conical, 70 steps, 240–1130 µm (HCG). Espresso possible with pressurised baskets; HCG table could not be extracted, so settings are null."
+    },
+    "sources": [
+      "https://kitchenaid.co.uk/coffee-machines/859711594830/coffee-grinder-artisan-5kcg8433-matte-black",
+      "https://honestcoffeeguide.com/kitchenaid-coffee-grinder-5kcg8433-grind-settings"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "oxo-conical-burr",
+    "brand": "OXO",
+    "model": "Brew Conical Burr Grinder",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "conical",
+      "size_mm": 40,
+      "material": "oțel inoxidabil / stainless steel"
+    },
+    "adjust": {
+      "kind": "numbered",
+      "range": [
+        1,
+        15
+      ],
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "15 trepte cu sub-trepte (ex. 3.2)",
+        "en": "15 settings with sub-steps (e.g. 3.2)"
+      },
+      "zero": {
+        "ro": "1 = fin",
+        "en": "1 = fine"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      90,
+      150
+    ],
+    "tier": "mid",
+    "espressoCapable": false,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": [
+        3.2,
+        8
+      ],
+      "aeropress": [
+        3,
+        12.2
+      ],
+      "pourover": [
+        4.1,
+        12.1
+      ],
+      "chemex": null,
+      "french": [
+        8.2,
+        15
+      ],
+      "coldbrew": [
+        10.2,
+        15
+      ]
+    },
+    "settingsUnit": {
+      "ro": "treapta de pe cadran",
+      "en": "dial setting"
+    },
+    "notes": {
+      "ro": "Conică 40 mm, 195–1100 µm (HCG). HCG listează și espresso 1–3.2, dar e potrivită realist doar pentru filtru; disponibilitate limitată în UE.",
+      "en": "40 mm conical, 195–1100 µm (HCG). HCG also lists espresso 1–3.2, but realistically it is a filter grinder; limited EU availability. Settings from HCG."
+    },
+    "sources": [
+      "https://honestcoffeeguide.com/oxo-conical-burr-coffee-grinder-grind-settings"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "moccamaster-km5",
+    "brand": "Moccamaster",
+    "model": "KM5 Burr Grinder",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "flat",
+      "size_mm": 50,
+      "material": "oțel / steel"
+    },
+    "adjust": {
+      "kind": "stepless",
+      "range": null,
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "Buton fără trepte, marcaje de la cold brew/French press la pour over",
+        "en": "stepless knob, labelled cold brew…pour over"
+      },
+      "zero": {
+        "ro": "nedocumentat",
+        "en": "undocumented"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      280,
+      350
+    ],
+    "tier": "premium",
+    "espressoCapable": false,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": null,
+      "aeropress": null,
+      "pourover": null,
+      "chemex": null,
+      "french": null,
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "treapta de pe cadran",
+      "en": "dial setting"
+    },
+    "notes": {
+      "ro": "Plată 50 mm, reglaj continuu, construită pentru filtru și cafetiere Moccamaster; nu pentru espresso. Producătorul nu publică cifre pe metode.",
+      "en": "50 mm flat, stepless, built for filter and Moccamaster brewers; not for espresso. No per-method numbers published."
+    },
+    "sources": [
+      "https://www.wholelattelove.com/products/moccamaster-km5-burr-grinder",
+      "https://www.techadvisor.com/article/2038732/moccamaster-km5-burr-grinder-review.html"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "wilfa-svart-uniform",
+    "brand": "Wilfa",
+    "model": "Svart Uniform (WSFB-100)",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "flat",
+      "size_mm": 58,
+      "material": "oțel / steel"
+    },
+    "adjust": {
+      "kind": "steps",
+      "range": [
+        1,
+        41
+      ],
+      "micronsPerStep": 20,
+      "notation": {
+        "ro": "41 trepte",
+        "en": "41 steps"
+      },
+      "zero": {
+        "ro": "1 = cea mai fină",
+        "en": "1 = finest"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      200,
+      280
+    ],
+    "tier": "mid",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": null,
+      "espresso": [
+        3,
+        7
+      ],
+      "moka": [
+        9,
+        23
+      ],
+      "aeropress": [
+        14,
+        26
+      ],
+      "pourover": [
+        14,
+        28
+      ],
+      "chemex": [
+        21,
+        36
+      ],
+      "french": [
+        30,
+        38
+      ],
+      "coldbrew": [
+        39,
+        41
+      ]
+    },
+    "settingsUnit": {
+      "ro": "treapta de pe cadran",
+      "en": "dial setting"
+    },
+    "notes": {
+      "ro": "Manualul Wilfa: espresso 3–7 (start 5), AeroPress 14–26, filtru 14–28, French press 30–38, infuzie lungă 39–41 (tabelul din PDF e greu lizibil). Moka din HCG (9–23); Chemex = mijlocul filtrului până la limita HCG „Pour Over” (36). Turcească scoasă: râșnița nu coboară sub ~220 µm.",
+      "en": "Wilfa manual: espresso 3–7 (start 5), AeroPress 14–26, filter 14–28, French press 30–38, steep 39–41 (the PDF chart is hard to read). Moka from HCG (9–23); Chemex = filter midpoint to the HCG \"Pour Over\" high (36). Turkish removed: the grinder does not go below ~220 µm."
+    },
+    "sources": [
+      "https://www.manualslib.com/manual/2797625/Wilfa-Uniform.html?page=10",
+      "https://honestcoffeeguide.com/wilfa-uniform-grind-settings"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "wilfa-uniform-plus",
+    "brand": "Wilfa",
+    "model": "Uniform+",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "flat",
+      "size_mm": 58,
+      "material": "oțel inoxidabil / stainless steel"
+    },
+    "adjust": {
+      "kind": "steps",
+      "range": [
+        1,
+        41
+      ],
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "41 trepte, cântar integrat 0,1 g",
+        "en": "41 steps, built-in 0.1 g scale"
+      },
+      "zero": {
+        "ro": "1 = cea mai fină",
+        "en": "1 = finest"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      300,
+      380
+    ],
+    "tier": "premium",
+    "espressoCapable": false,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": [
+        3,
+        7
+      ],
+      "moka": [
+        9,
+        23
+      ],
+      "aeropress": [
+        14,
+        26
+      ],
+      "pourover": [
+        14,
+        28
+      ],
+      "chemex": [
+        21,
+        36
+      ],
+      "french": [
+        30,
+        38
+      ],
+      "coldbrew": [
+        39,
+        41
+      ]
+    },
+    "settingsUnit": {
+      "ro": "treapta de pe cadran",
+      "en": "dial setting"
+    },
+    "notes": {
+      "ro": "Derivat din Wilfa Svart Uniform (același set de freze și scală de 41 de trepte); neverificat separat.",
+      "en": "Derived from the Wilfa Svart Uniform (same burr set and 41-step scale); not verified separately."
+    },
+    "sources": [
+      "https://hamletwokingham.store/blogs/coffee-equipment-reviews/wilfa-uniform-coffee-grinder-review",
+      "https://clumsygoat.co.uk/products/wilfa-uniform-coffee-grinder-black"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "wilfa-svart-aroma",
+    "brand": "Wilfa",
+    "model": "Svart Aroma / Classic Aroma (CGWS-130B)",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "flat",
+      "size_mm": null,
+      "material": "oțel / steel"
+    },
+    "adjust": {
+      "kind": "numbered",
+      "range": [
+        1,
+        18
+      ],
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "18 puncte pe cadran, etichetate ESPRESSO–FILTER–AEROPRESS–PRESS",
+        "en": "18 dots labelled ESPRESSO–FILTER–AEROPRESS–PRESS"
+      },
+      "zero": {
+        "ro": "1 = fin; cadran rotit invers față de etichete",
+        "en": "1 = fine; dial runs opposite to labels"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      60,
+      100
+    ],
+    "tier": "budget",
+    "espressoCapable": false,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": null,
+      "aeropress": null,
+      "pourover": null,
+      "chemex": null,
+      "french": null,
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "treapta de pe cadran",
+      "en": "dial setting"
+    },
+    "notes": {
+      "ro": "Notă: «Wilfa Classic+» este o cafetieră, nu o râșniță; râșnița asociată este Svart/Classic Aroma. Square Mile recomandă pozițiile pe litere (ex. AeroPress la litera R din AEROPRESS, French press la O). 310–1100 µm.",
+      "en": "Note: 'Wilfa Classic+' is a drip brewer, not a grinder; the matching grinder is the Svart/Classic Aroma. Square Mile maps settings to letters (e.g. AeroPress at the R of AEROPRESS, French press at the O). 310–1100 µm."
+    },
+    "sources": [
+      "https://squaremileblog.com/2018/06/26/wilfa-grind-size-guide/",
+      "https://honestcoffeeguide.com/wilfa-svart-grind-settings/",
+      "https://www.cremashop.dk/en/products/wilfa/svart-aroma-cgws-130b"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "baratza-encore",
+    "brand": "Baratza",
+    "model": "Encore",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "conical",
+      "size_mm": 40,
+      "material": "oțel / steel"
+    },
+    "adjust": {
+      "kind": "steps",
+      "range": [
+        1,
+        40
+      ],
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "40 trepte",
+        "en": "40 steps"
+      },
+      "zero": {
+        "ro": "1 = cea mai fină",
+        "en": "1 = finest"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      150,
+      180
+    ],
+    "tier": "mid",
+    "espressoCapable": false,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": [
+        5,
+        17
+      ],
+      "aeropress": [
+        12,
+        12
+      ],
+      "pourover": [
+        15,
+        15
+      ],
+      "chemex": [
+        20,
+        20
+      ],
+      "french": [
+        28,
+        28
+      ],
+      "coldbrew": [
+        24,
+        40
+      ]
+    },
+    "settingsUnit": {
+      "ro": "treapta de pe cadran",
+      "en": "dial setting"
+    },
+    "notes": {
+      "ro": "Valorile punctuale sunt punctele de pornire Baratza (AeroPress 12, V60 15, cafetieră 18, Chemex 20, French press 28). Moka (5–17) și cold brew (24–40) sunt din HCG. Baratza nu o consideră râșniță de espresso (în tabel apare 8 doar ca punct pentru coș presurizat).",
+      "en": "Single values are Baratza starting points (AeroPress 12, V60 15, auto-drip 18, Chemex 20, French press 28). Moka (5–17) and cold brew (24–40) are HCG. Baratza does not position it for espresso (its chart lists 8 only as a pressurised-basket start)."
+    },
+    "sources": [
+      "https://support.clivecoffee.com/baratza-recommended-grinder-settings",
+      "https://honestcoffeeguide.com/baratza-encore-grind-settings/",
+      "https://cdn.shopify.com/s/files/1/1656/1527/files/Choose_your_grinder_-_Baratza.pdf"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "baratza-encore-esp",
+    "brand": "Baratza",
+    "model": "Encore ESP",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "conical",
+      "size_mm": 40,
+      "material": "oțel / steel"
+    },
+    "adjust": {
+      "kind": "steps",
+      "range": [
+        1,
+        40
+      ],
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "1–20 zonă espresso (pași mici), 21–40 zonă filtru (pași mari)",
+        "en": "1–20 espresso zone (small steps), 21–40 filter zone (large steps)"
+      },
+      "zero": {
+        "ro": "1 = cea mai fină",
+        "en": "1 = finest"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      200,
+      240
+    ],
+    "tier": "mid",
+    "espressoCapable": true,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": [
+        1,
+        20
+      ],
+      "moka": [
+        12,
+        20
+      ],
+      "aeropress": [
+        22,
+        22
+      ],
+      "pourover": [
+        25,
+        25
+      ],
+      "chemex": [
+        30,
+        30
+      ],
+      "french": [
+        32,
+        32
+      ],
+      "coldbrew": [
+        32,
+        40
+      ]
+    },
+    "settingsUnit": {
+      "ro": "treapta de pe cadran",
+      "en": "dial setting"
+    },
+    "notes": {
+      "ro": "Manualul Encore ESP: zona espresso 1–20 (pași mici; start 15 pentru 18 g, mediu prăjit), AeroPress 22, V60 25, cafetieră 28, Chemex 30, French press 32. Moka din HCG (12–24, limitat la zona espresso); cold brew = de la French press până la 40 (HCG 27–40).",
+      "en": "Encore ESP manual: espresso zone 1–20 (small steps; start 15 for 18 g, medium roast), AeroPress 22, V60 25, auto-drip 28, Chemex 30, French press 32. Moka from HCG (12–24, capped at the espresso zone); cold brew = French press up to 40 (HCG 27–40)."
+    },
+    "sources": [
+      "https://cdn.shopify.com/s/files/1/1656/1527/files/manual-encore-esp-v1-0-en.pdf",
+      "https://honestcoffeeguide.com/baratza-encore-esp-grind-settings/",
+      "https://www.seattlecoffeegear.com/pages/product-resources/baratza-encore-esp-coffee-and-espresso-grinder-product-guide"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "baratza-virtuoso-plus",
+    "brand": "Baratza",
+    "model": "Virtuoso+",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "conical",
+      "size_mm": 40,
+      "material": "oțel / steel"
+    },
+    "adjust": {
+      "kind": "steps",
+      "range": [
+        0,
+        40
+      ],
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "40 trepte + timer digital",
+        "en": "40 steps + digital timer"
+      },
+      "zero": {
+        "ro": "0/1 = cea mai fină",
+        "en": "0/1 = finest"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      260,
+      300
+    ],
+    "tier": "mid",
+    "espressoCapable": false,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": [
+        7,
+        15
+      ],
+      "aeropress": [
+        12,
+        12
+      ],
+      "pourover": [
+        15,
+        15
+      ],
+      "chemex": [
+        20,
+        20
+      ],
+      "french": [
+        28,
+        28
+      ],
+      "coldbrew": [
+        24,
+        40
+      ]
+    },
+    "settingsUnit": {
+      "ro": "treapta de pe cadran",
+      "en": "dial setting"
+    },
+    "notes": {
+      "ro": "Valorile punctuale sunt punctele de pornire Baratza pentru Virtuoso (AeroPress 12, V60 15, cafetieră 18, Chemex 20, French press 28). Moka din HCG (7–18, limitat la 15 ca să rămână sub AeroPress); cold brew din HCG (24–40). Fără espresso real.",
+      "en": "Single values are Baratza's Virtuoso starting points (AeroPress 12, V60 15, auto-drip 18, Chemex 20, French press 28). Moka from HCG (7–18, capped at 15 to stay below AeroPress); cold brew from HCG (24–40). No real espresso."
+    },
+    "sources": [
+      "https://support.clivecoffee.com/baratza-recommended-grinder-settings",
+      "https://honestcoffeeguide.com/baratza-virtuoso-plus-grind-settings/"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "baratza-sette-270",
+    "brand": "Baratza",
+    "model": "Sette 270",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "conical",
+      "size_mm": 40,
+      "material": "oțel / steel"
+    },
+    "adjust": {
+      "kind": "macro+micro",
+      "range": [
+        1,
+        30
+      ],
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "30 macro (cifre) × 9 micro (litere A–I) = 270",
+        "en": "30 macro (numbers) × 9 micro (letters A–I)"
+      },
+      "zero": {
+        "ro": "1A = cel mai fin",
+        "en": "1A = finest"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      380,
+      450
+    ],
+    "tier": "premium",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": null,
+      "espresso": [
+        1,
+        10
+      ],
+      "moka": [
+        7,
+        18
+      ],
+      "aeropress": [
+        9,
+        20
+      ],
+      "pourover": [
+        9,
+        20
+      ],
+      "chemex": [
+        20,
+        28
+      ],
+      "french": [
+        28,
+        31
+      ],
+      "coldbrew": [
+        28,
+        31
+      ]
+    },
+    "settingsUnit": {
+      "ro": "treapta macro (cifra; litera micro se reglează fin)",
+      "en": "macro step (number; fine-tune with micro letter)"
+    },
+    "notes": {
+      "ro": "Baratza: espresso 9E, AeroPress 13E, V60 16E, cafetieră 26E, Chemex 28E, French press N/A (litera E = micro din mijloc). HCG: espresso 1–7, moka 7–18, V60 9–20, French press 21–31, cold brew 25–31. Capătul grosier e limitat (~950 µm), deci French press și cold brew stau la 28–31; Chemex e plafonat la 28 conform Baratza.",
+      "en": "Baratza: espresso 9E, AeroPress 13E, V60 16E, auto-drip 26E, Chemex 28E, French press N/A (letter E = middle micro step). HCG: espresso 1–7, moka 7–18, V60 9–20, French press 21–31, cold brew 25–31. The coarse end is limited (~950 µm), so French press and cold brew sit at 28–31; Chemex is capped at 28 per Baratza."
+    },
+    "sources": [
+      "https://support.clivecoffee.com/baratza-recommended-grinder-settings",
+      "https://honestcoffeeguide.com/baratza-sette-270-grind-settings/",
+      "https://cdn.shopify.com/s/files/1/1656/1527/files/Choose_your_grinder_-_Baratza.pdf"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "baratza-sette-30",
+    "brand": "Baratza",
+    "model": "Sette 30 AP",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "conical",
+      "size_mm": 40,
+      "material": "oțel / steel"
+    },
+    "adjust": {
+      "kind": "steps",
+      "range": [
+        1,
+        30
+      ],
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "30 trepte macro, fără micro",
+        "en": "30 macro steps, no micro"
+      },
+      "zero": {
+        "ro": "1 = cea mai fină",
+        "en": "1 = finest"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      270,
+      320
+    ],
+    "tier": "mid",
+    "espressoCapable": true,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": [
+        9,
+        9
+      ],
+      "moka": null,
+      "aeropress": [
+        14,
+        14
+      ],
+      "pourover": [
+        17,
+        17
+      ],
+      "chemex": [
+        28,
+        28
+      ],
+      "french": null,
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "treapta de pe cadran",
+      "en": "dial setting"
+    },
+    "notes": {
+      "ro": "Baratza: espresso 9, AeroPress 14, V60 17, cafetieră 26, Chemex 28; French press «N/A» (gama 230–950 µm).",
+      "en": "Baratza: espresso 9, AeroPress 14, V60 17, auto-drip 26, Chemex 28; French press 'N/A' (range 230–950 µm)."
+    },
+    "sources": [
+      "https://support.clivecoffee.com/baratza-recommended-grinder-settings",
+      "https://cdn.shopify.com/s/files/1/1656/1527/files/Choose_your_grinder_-_Baratza.pdf"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "baratza-vario-plus",
+    "brand": "Baratza",
+    "model": "Vario+",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "flat",
+      "size_mm": 54,
+      "material": "ceramică / ceramic"
+    },
+    "adjust": {
+      "kind": "macro+micro",
+      "range": [
+        1,
+        10
+      ],
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "10 macro (cifre) × micro (litere A–W)",
+        "en": "10 macro (numbers) × micro (letters A–W)"
+      },
+      "zero": {
+        "ro": "1A = cel mai fin",
+        "en": "1A = finest"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      500,
+      600
+    ],
+    "tier": "premium",
+    "espressoCapable": true,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": [
+        2,
+        2
+      ],
+      "moka": null,
+      "aeropress": [
+        4,
+        4
+      ],
+      "pourover": [
+        5,
+        6
+      ],
+      "chemex": [
+        9,
+        9
+      ],
+      "french": [
+        10,
+        10
+      ],
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "treapta macro (cifra; litera micro se reglează fin)",
+      "en": "macro step (number; fine-tune with micro letter)"
+    },
+    "notes": {
+      "ro": "Baratza (freze ceramice): espresso 2Q, AeroPress 4M, V60 5M–6M, cafetieră 7M, Chemex 9M, French press 10M. Cu freze de oțel valorile scad cu ~1–2 trepte macro.",
+      "en": "Baratza (ceramic burrs): espresso 2Q, AeroPress 4M, V60 5M–6M, auto-drip 7M, Chemex 9M, French press 10M. With steel burrs values drop ~1–2 macro steps."
+    },
+    "sources": [
+      "https://cdn.shopify.com/s/files/1/1189/2380/files/Baratza_Vario_Plus.pdf",
+      "https://support.clivecoffee.com/baratza-recommended-grinder-settings",
+      "https://cdn.shopify.com/s/files/1/1656/1527/files/Choose_your_grinder_-_Baratza.pdf"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "baratza-forte-ap",
+    "brand": "Baratza",
+    "model": "Forté AP",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "flat",
+      "size_mm": 54,
+      "material": "ceramică (Ditting) / ceramic (Ditting)"
+    },
+    "adjust": {
+      "kind": "macro+micro",
+      "range": [
+        1,
+        10
+      ],
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "10 macro × 26 micro (A–Z) = 260",
+        "en": "10 macro × 26 micro (A–Z)"
+      },
+      "zero": {
+        "ro": "1A = cel mai fin",
+        "en": "1A = finest"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      900,
+      1100
+    ],
+    "tier": "prosumer",
+    "espressoCapable": true,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": [
+        2,
+        2
+      ],
+      "moka": null,
+      "aeropress": [
+        4,
+        4
+      ],
+      "pourover": [
+        5,
+        5
+      ],
+      "chemex": [
+        9,
+        9
+      ],
+      "french": [
+        10,
+        10
+      ],
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "treapta macro (cifra; litera micro se reglează fin)",
+      "en": "macro step (number; fine-tune with micro letter)"
+    },
+    "notes": {
+      "ro": "Râșniță semi-comercială cu dozare pe greutate. Tabelul Baratza «Forte/Vario Ceramic»: espresso 2Q, AeroPress 4M, V60 5M, cafetieră 7M, Chemex 9M, French press 10M.",
+      "en": "Semi-commercial grinder with grind-by-weight. Baratza 'Forte/Vario Ceramic' chart: espresso 2Q, AeroPress 4M, V60 5M, auto-drip 7M, Chemex 9M, French press 10M."
+    },
+    "sources": [
+      "https://support.clivecoffee.com/baratza-recommended-grinder-settings",
+      "https://cdn.shopify.com/s/files/1/1189/2380/files/Baratza_Forte_AP.pdf"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "fellow-ode-gen2",
+    "brand": "Fellow",
+    "model": "Ode Brew Grinder Gen 2",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "flat",
+      "size_mm": 64,
+      "material": "oțel inoxidabil / stainless steel"
+    },
+    "adjust": {
+      "kind": "numbered",
+      "range": [
+        1,
+        11
+      ],
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "cadran 1–11, cu 2 clicuri nenumerotate între cifre (31 de poziții); notat 4.1, 4.2 pentru clicurile dintre 4 și 5",
+        "en": "dial 1–11 with 2 unnumbered clicks between numbers (31 positions); written 4.1, 4.2 for the clicks between 4 and 5"
+      },
+      "zero": {
+        "ro": "1 = cea mai fină",
+        "en": "1 = finest"
+      }
+    },
+    "singleDose": true,
+    "priceEUR": [
+      330,
+      380
+    ],
+    "tier": "premium",
+    "espressoCapable": false,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": [
+        2,
+        5
+      ],
+      "aeropress": [
+        3,
+        6
+      ],
+      "pourover": [
+        4,
+        8
+      ],
+      "chemex": [
+        5,
+        8
+      ],
+      "french": [
+        8,
+        10
+      ],
+      "coldbrew": [
+        9,
+        11
+      ]
+    },
+    "settingsUnit": {
+      "ro": "treapta de pe cadran",
+      "en": "dial setting"
+    },
+    "notes": {
+      "ro": "Ghidul Fellow (manual Gen 2): AeroPress 3–6, pour-over 4–8, cafetieră 7–9, French press 8–10, cold brew 9–11 (Prismo 1–3). Moka din HCG (2–5.1). Chemex 5–8 = partea grosieră a intervalului pour-over (derivat). Nu e făcută pentru espresso.",
+      "en": "Fellow guide (Gen 2 manual): AeroPress 3–6, pour-over 4–8, auto-drip 7–9, French press 8–10, cold brew 9–11 (Prismo 1–3). Moka from HCG (2–5.1). Chemex 5–8 = coarse part of the pour-over range (derived). Not made for espresso."
+    },
+    "sources": [
+      "https://www.rigtigkaffe.dk/themes/rigtigkaffev2/manualer/Fellow_Ode%20Grinder_Gen_2_Manual_EN.pdf",
+      "https://honestcoffeeguide.com/fellow-ode-brew-grinder-gen-2-grind-settings/",
+      "https://www.seattlecoffeegear.com/pages/product-resources/fellow-ode-coffee-grinder-gen-2-product-guide"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "fellow-opus",
+    "brand": "Fellow",
+    "model": "Opus",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "conical",
+      "size_mm": 40,
+      "material": "oțel inoxidabil / stainless steel"
+    },
+    "adjust": {
+      "kind": "macro+micro",
+      "range": [
+        1,
+        11
+      ],
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "inel exterior 1–11 cu 3 clicuri între cifre (41 de trepte; notat 4.25, 4.5, 4.75) + inel interior pentru micro-reglaj la espresso",
+        "en": "outer ring 1–11 with 3 clicks between numbers (41 steps; written 4.25, 4.5, 4.75) + inner ring for espresso micro-adjustment"
+      },
+      "zero": {
+        "ro": "1 = cea mai fină",
+        "en": "1 = finest"
+      }
+    },
+    "singleDose": true,
+    "priceEUR": [
+      200,
+      230
+    ],
+    "tier": "mid",
+    "espressoCapable": true,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": [
+        1,
+        2.5
+      ],
+      "moka": [
+        2.5,
+        5.5
+      ],
+      "aeropress": [
+        2.5,
+        6
+      ],
+      "pourover": [
+        3,
+        6
+      ],
+      "chemex": [
+        4.5,
+        8.5
+      ],
+      "french": [
+        6,
+        11
+      ],
+      "coldbrew": [
+        7.25,
+        11
+      ]
+    },
+    "settingsUnit": {
+      "ro": "treapta de pe cadran",
+      "en": "dial setting"
+    },
+    "notes": {
+      "ro": "Valori HCG (230–1160 µm): espresso 1–2.5, moka 2.5–5.5, V60 3–6, French press 6–11, cold brew 7.25–11. Manualul Fellow are grafic pe metode, dar fără cifre extractibile. Reguli de mapare HCG: pour-over = V60; AeroPress = de la max(AeroPress, moka) până la limita V60; Chemex = de la mijlocul V60 până la limita „Pour Over”.",
+      "en": "HCG values (230–1160 µm): espresso 1–2.5, moka 2.5–5.5, V60 3–6, French press 6–11, cold brew 7.25–11. The Fellow manual has a per-method chart but no extractable numbers. HCG mapping: pour-over = V60; AeroPress = from max(AeroPress, moka) low to the V60 high; Chemex = from the V60 midpoint to the \"Pour Over\" high."
+    },
+    "sources": [
+      "https://www.seattlecoffeegear.com/assets/user-manuals/fellow/Fellow-opus-user-manual.pdf",
+      "https://honestcoffeeguide.com/fellow-opus-grind-settings/",
+      "https://www.maxicoffee.com/images/pdf/Opus_notice.pdf"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "sage-smart-grinder-pro",
+    "brand": "Sage (Breville)",
+    "model": "the Smart Grinder Pro (SCG820/BCG820)",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "conical",
+      "size_mm": null,
+      "material": "oțel inoxidabil călit / hardened stainless steel"
+    },
+    "adjust": {
+      "kind": "macro+micro",
+      "range": [
+        1,
+        60
+      ],
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "60 trepte + reglaj al frezei superioare",
+        "en": "60 steps + upper-burr adjustment"
+      },
+      "zero": {
+        "ro": "1 = cea mai fină; freza superioară poate muta toată scala",
+        "en": "1 = finest; upper burr shifts the whole scale"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      180,
+      250
+    ],
+    "tier": "mid",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": [
+        1,
+        2
+      ],
+      "espresso": [
+        1,
+        30
+      ],
+      "moka": [
+        17,
+        44
+      ],
+      "aeropress": [
+        17,
+        45
+      ],
+      "pourover": [
+        31,
+        45
+      ],
+      "chemex": [
+        38,
+        54
+      ],
+      "french": [
+        55,
+        60
+      ],
+      "coldbrew": [
+        59,
+        60
+      ]
+    },
+    "settingsUnit": {
+      "ro": "treapta de pe cadran",
+      "en": "dial setting"
+    },
+    "notes": {
+      "ro": "Manual Sage: espresso 1–30, filtru 31–45, percolator 46–54, plunger (French press) 55–60. Din HCG: turcească 1–2, moka 17–44, cold brew 59–60 (HCG dă espresso realist 1–18). AeroPress = de la moka până la limita filtrului; Chemex = mijlocul filtrului până la limita percolatorului (derivat). Freza superioară poate muta toată scala.",
+      "en": "Sage manual: espresso 1–30, filter 31–45, percolator 46–54, plunger (French press) 55–60. From HCG: Turkish 1–2, moka 17–44, cold brew 59–60 (HCG gives a realistic espresso range of 1–18). AeroPress = from moka to the filter high; Chemex = filter midpoint to the percolator high (derived). The upper burr can shift the whole scale."
+    },
+    "sources": [
+      "https://manualmachine.com/sage/smartgrinderprobcg820/20460696-quick-manual",
+      "https://honestcoffeeguide.com/breville-sage-the-smart-grinder-pro-grind-settings/"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "sage-dose-control-pro",
+    "brand": "Sage (Breville)",
+    "model": "the Dose Control Pro (BCG600)",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "conical",
+      "size_mm": null,
+      "material": "oțel inoxidabil călit / hardened stainless steel"
+    },
+    "adjust": {
+      "kind": "macro+micro",
+      "range": [
+        1,
+        60
+      ],
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "60 trepte + freză superioară reglabilă (implicit 6)",
+        "en": "60 steps + adjustable upper burr (default 6)"
+      },
+      "zero": {
+        "ro": "1 = cea mai fină",
+        "en": "1 = finest"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      130,
+      180
+    ],
+    "tier": "mid",
+    "espressoCapable": true,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": [
+        1,
+        25
+      ],
+      "moka": null,
+      "aeropress": null,
+      "pourover": [
+        35,
+        45
+      ],
+      "chemex": null,
+      "french": [
+        46,
+        55
+      ],
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "treapta de pe cadran",
+      "en": "dial setting"
+    },
+    "notes": {
+      "ro": "Manual Sage: espresso 1–25, percolator 26–34, filtru 35–45, French press/plunger 46–55 (start 50). Moka nu e listat.",
+      "en": "Sage manual: espresso 1–25, percolator 26–34, drip 35–45, French press/plunger 46–55 (start 50). Moka not listed."
+    },
+    "sources": [
+      "https://manuals.online/sage/coffee-grinder/the-dose-control-pro/user-manual/1htas",
+      "https://sageappliances.com/fi/en/products/coffee-grinders/bcg600.html"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "sage-barista-express-builtin",
+    "brand": "Sage (Breville)",
+    "model": "the Barista Express BES875 (râșniță integrată / built-in grinder)",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "conical",
+      "size_mm": null,
+      "material": "oțel inoxidabil / stainless steel"
+    },
+    "adjust": {
+      "kind": "macro+micro",
+      "range": [
+        1,
+        16
+      ],
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "Cadran 1–16 + freză superioară internă",
+        "en": "dial 1–16 + internal upper burr"
+      },
+      "zero": {
+        "ro": "1 = cea mai fină",
+        "en": "1 = finest"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      500,
+      700
+    ],
+    "tier": "premium",
+    "espressoCapable": true,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": [
+        1,
+        16
+      ],
+      "moka": null,
+      "aeropress": null,
+      "pourover": null,
+      "chemex": null,
+      "french": null,
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "treapta de pe cadran",
+      "en": "dial setting"
+    },
+    "notes": {
+      "ro": "Râșniță integrată în espressor, doar pentru espresso. Manualul recomandă start la treapta 8; dacă nu ajungeți la fin, reglați freza superioară. Prețul este al întregului espressor. (Barista Express Impress are 25 trepte.)",
+      "en": "Built into the espresso machine, espresso only. Manual says start at 8; if you can't go fine enough, adjust the upper burr. Price is for the whole machine. (Barista Express Impress has 25 steps.)"
+    },
+    "sources": [
+      "https://manualmachine.com/sage/bes875/2562757-user-manual",
+      "https://sageappliances.com/inspiration/en-gb/tutorials/the-barista-express-impress/first-time-setup/how-to-adjust-grind-size"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "eureka-mignon-silenzio",
+    "brand": "Eureka",
+    "model": "Mignon Silenzio",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "flat",
+      "size_mm": 50,
+      "material": "oțel călit / hardened steel"
+    },
+    "adjust": {
+      "kind": "stepless",
+      "range": null,
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "cadran micrometric fără trepte; numără rotațiile complete de la punctul de atingere a frezelor, apoi cifra de pe cadran. Scris R + cifră/10: „1+4” = 1.40, „2+2,5” = 2.25",
+        "en": "stepless micrometric dial; count full rotations from burr touch, then the dial mark. Written R + mark/10: \"1+4\" = 1.40, \"2+2.5\" = 2.25"
+      },
+      "zero": {
+        "ro": "Închide reglajul până frezele abia se ating (cu motorul pornit, fără boabe) = 0; numără rotațiile înapoi.",
+        "en": "Close the adjustment until the burrs just touch (motor running, no beans) = 0; count rotations back."
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      300,
+      380
+    ],
+    "tier": "premium",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": [
+        0.0,
+        0.0
+      ],
+      "espresso": [
+        0.0,
+        0.35
+      ],
+      "moka": [
+        0.35,
+        1.3
+      ],
+      "aeropress": [
+        0.35,
+        1.4
+      ],
+      "pourover": [
+        0.45,
+        1.4
+      ],
+      "chemex": [
+        1.0,
+        2.25
+      ],
+      "french": [
+        1.4,
+        3.4
+      ],
+      "coldbrew": [
+        2.05,
+        4.0
+      ]
+    },
+    "settingsUnit": {
+      "ro": "rotații + cifră de la zero, scrise R.M (1.40 = 1 rotație + cifra 4; 0.35 = cifra 3,5 în prima rotație)",
+      "en": "rotations + mark from zero, written R.M (1.40 = 1 rotation + mark 4; 0.35 = mark 3.5 in the first rotation)"
+    },
+    "notes": {
+      "ro": "Valori HCG (notate „1+4”, convertite în 1.40): turcească 0, espresso 0–3,5, moka 3,5–1+3, V60 4,5–1+4, French press 1+4–3+4, cold brew 2+0,5–4+0. Chemex începe la 1+0 (estimat; numărul de cifre pe rotație nu e documentat). Eureka nu publică tabel.",
+      "en": "HCG values (written \"1+4\", converted to 1.40): Turkish 0, espresso 0–3.5, moka 3.5–1+3, V60 4.5–1+4, French press 1+4–3+4, cold brew 2+0.5–4+0. Chemex starts at 1+0 (estimate; marks per rotation are not documented). Eureka publishes no chart."
+    },
+    "sources": [
+      "https://honestcoffeeguide.com/eureka-mignon-silenzio-grind-settings/",
+      "https://support.clivecoffee.com/grinders/eureka/eureka-mignon-user-manual"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "eureka-mignon-specialita",
+    "brand": "Eureka",
+    "model": "Mignon Specialità",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "flat",
+      "size_mm": 55,
+      "material": "oțel călit / hardened steel"
+    },
+    "adjust": {
+      "kind": "stepless",
+      "range": null,
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "cadran micrometric fără trepte; numără rotațiile complete de la punctul de atingere a frezelor, apoi cifra de pe cadran. Scris R + cifră/10: „1+4” = 1.40, „2+2,5” = 2.25",
+        "en": "stepless micrometric dial; count full rotations from burr touch, then the dial mark. Written R + mark/10: \"1+4\" = 1.40, \"2+2.5\" = 2.25"
+      },
+      "zero": {
+        "ro": "Închide reglajul până frezele abia se ating (cu motorul pornit, fără boabe) = 0; numără rotațiile înapoi.",
+        "en": "Close the adjustment until the burrs just touch (motor running, no beans) = 0; count rotations back."
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      380,
+      480
+    ],
+    "tier": "premium",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": [
+        0.0,
+        0.0
+      ],
+      "espresso": [
+        0.0,
+        0.35
+      ],
+      "moka": [
+        0.35,
+        1.3
+      ],
+      "aeropress": [
+        0.35,
+        1.4
+      ],
+      "pourover": [
+        0.45,
+        1.4
+      ],
+      "chemex": [
+        1.0,
+        2.25
+      ],
+      "french": [
+        1.4,
+        3.4
+      ],
+      "coldbrew": [
+        2.05,
+        4.0
+      ]
+    },
+    "settingsUnit": {
+      "ro": "rotații + cifră de la zero, scrise R.M (1.40 = 1 rotație + cifra 4; 0.35 = cifra 3,5 în prima rotație)",
+      "en": "rotations + mark from zero, written R.M (1.40 = 1 rotation + mark 4; 0.35 = mark 3.5 in the first rotation)"
+    },
+    "notes": {
+      "ro": "Tabelul HCG pentru Specialità nu a putut fi extras; valorile sunt preluate de la Mignon Silenzio (același cadran micrometric, aceeași plajă 195–1400 µm). Verifică pe propriul exemplar. ~2.284 lei pe skroutz.ro.",
+      "en": "The HCG Specialità table could not be extracted; values are taken from the Mignon Silenzio (same micrometric dial, same 195–1400 µm range). Verify on your own unit. ~2,284 RON on skroutz.ro."
+    },
+    "sources": [
+      "https://support.clivecoffee.com/grinders/eureka/eureka-mignon-user-manual",
+      "https://cliffandpebble.com/pages/best-eureka-coffee-grinder",
+      "https://honestcoffeeguide.com/eureka-mignon-specialita-grind-settings",
+      "https://skroutz.ro/s/27628841/Eureka-Mignon-Specialita-16CR-Molin-de-cafea-comercial-310W-cu-capacitate-de-retinere-a-cafelei-300gr-White.html",
+      "https://honestcoffeeguide.com/eureka-mignon-silenzio-grind-settings/"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "eureka-mignon-notte",
+    "brand": "Eureka",
+    "model": "Mignon Notte",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "flat",
+      "size_mm": 50,
+      "material": "oțel / steel"
+    },
+    "adjust": {
+      "kind": "stepless",
+      "range": null,
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "Rotații + cifră de la zero (ex. 1+4)",
+        "en": "rotations + mark from zero (e.g. 1+4)"
+      },
+      "zero": {
+        "ro": "punctul de atingere a frezelor",
+        "en": "burr-touch point"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      230,
+      290
+    ],
+    "tier": "mid",
+    "espressoCapable": true,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": null,
+      "aeropress": null,
+      "pourover": null,
+      "chemex": null,
+      "french": null,
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "rotații de la zero + diviziune",
+      "en": "rotations from zero + mark"
+    },
+    "notes": {
+      "ro": "Cea mai ieftină Mignon cu motor, 50 mm, fără izolație fonică completă. Reglaj micrometric fără trepte; cifrele de pe cadran sunt doar repere, iar setarea se notează ca rotații + cifră de la punctul zero (atingerea frezelor). Eureka nu publică tabel pe metode.",
+      "en": "Entry Mignon, 50 mm, without the full sound insulation. Stepless micrometric dial; numbers are reference marks only and settings are written as rotations + mark from zero (burr touch). Eureka publishes no per-method chart."
+    },
+    "sources": [
+      "https://www.seattlecoffeegear.com/products/eureka-mignon-notte-espresso-grinder",
+      "https://completehomebarista.com/guides/eureka-mignon-notte-grind-settings/"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "eureka-mignon-manuale",
+    "brand": "Eureka",
+    "model": "Mignon Manuale",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "flat",
+      "size_mm": 50,
+      "material": "oțel / steel"
+    },
+    "adjust": {
+      "kind": "stepless",
+      "range": null,
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "Rotații + cifră de la zero (ex. 1+4)",
+        "en": "rotations + mark from zero (e.g. 1+4)"
+      },
+      "zero": {
+        "ro": "punctul de atingere a frezelor",
+        "en": "burr-touch point"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      290,
+      360
+    ],
+    "tier": "premium",
+    "espressoCapable": true,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": null,
+      "aeropress": null,
+      "pourover": null,
+      "chemex": null,
+      "french": null,
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "rotații de la zero + diviziune",
+      "en": "rotations from zero + mark"
+    },
+    "notes": {
+      "ro": "Mignon cu pornire manuală (fără timer), 50 mm, bună și pentru filtru dacă se notează rotațiile. Reglaj micrometric fără trepte; cifrele de pe cadran sunt doar repere, iar setarea se notează ca rotații + cifră de la punctul zero (atingerea frezelor). Eureka nu publică tabel pe metode.",
+      "en": "Mignon with manual start (no timer), 50 mm; fine for filter too if you log rotations. Stepless micrometric dial; numbers are reference marks only and settings are written as rotations + mark from zero (burr touch). Eureka publishes no per-method chart."
+    },
+    "sources": [
+      "https://completehomebarista.com/guides/eureka-mignon-grind-settings"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "eureka-mignon-libra",
+    "brand": "Eureka",
+    "model": "Mignon Libra (55/65)",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "flat",
+      "size_mm": 55,
+      "material": "oțel / steel"
+    },
+    "adjust": {
+      "kind": "stepless",
+      "range": null,
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "Rotații + cifră de la zero (ex. 1+4)",
+        "en": "rotations + mark from zero (e.g. 1+4)"
+      },
+      "zero": {
+        "ro": "punctul de atingere a frezelor",
+        "en": "burr-touch point"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      550,
+      700
+    ],
+    "tier": "premium",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": null,
+      "aeropress": null,
+      "pourover": null,
+      "chemex": null,
+      "french": null,
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "rotații de la zero + diviziune",
+      "en": "rotations from zero + mark"
+    },
+    "notes": {
+      "ro": "Mignon cu dozare pe greutate (cântar integrat), 2 profiluri; există și Libra 65 cu freze de 65 mm. Reglaj micrometric fără trepte; cifrele de pe cadran sunt doar repere, iar setarea se notează ca rotații + cifră de la punctul zero (atingerea frezelor). Eureka nu publică tabel pe metode.",
+      "en": "Mignon with grind-by-weight (built-in scale), 2 profiles; a Libra 65 with 65 mm burrs also exists. Stepless micrometric dial; numbers are reference marks only and settings are written as rotations + mark from zero (burr touch). Eureka publishes no per-method chart."
+    },
+    "sources": [
+      "https://cliffandpebble.com/pages/best-eureka-coffee-grinder",
+      "https://clumsygoat.co.uk/products/new-eureka-mignon-libra-65-all-purpose-grind-by-weight-coffee-grinder"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "eureka-oro-single-dose",
+    "brand": "Eureka",
+    "model": "Oro Mignon Single Dose",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "flat",
+      "size_mm": 65,
+      "material": "oțel / steel"
+    },
+    "adjust": {
+      "kind": "stepless",
+      "range": null,
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "Rotații + cifră de la zero (ex. 1+4)",
+        "en": "rotations + mark from zero (e.g. 1+4)"
+      },
+      "zero": {
+        "ro": "punctul de atingere a frezelor",
+        "en": "burr-touch point"
+      }
+    },
+    "singleDose": true,
+    "priceEUR": [
+      700,
+      900
+    ],
+    "tier": "prosumer",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": null,
+      "aeropress": null,
+      "pourover": null,
+      "chemex": null,
+      "french": null,
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "rotații de la zero + diviziune",
+      "en": "rotations from zero + mark"
+    },
+    "notes": {
+      "ro": "Single dose cu freze de 65 mm (există și versiune Pro), retenție mică, pentru espresso și filtru. Reglaj micrometric fără trepte; cifrele de pe cadran sunt doar repere, iar setarea se notează ca rotații + cifră de la punctul zero (atingerea frezelor). Eureka nu publică tabel pe metode.",
+      "en": "Single-dose with 65 mm burrs (Pro version exists), low retention, espresso and filter. Stepless micrometric dial; numbers are reference marks only and settings are written as rotations + mark from zero (burr touch). Eureka publishes no per-method chart."
+    },
+    "sources": [
+      "https://cliffandpebble.com/pages/best-eureka-coffee-grinder",
+      "https://new.seattlecoffeegear.com/products/eureka-oro-single-dose-espresso-grinder"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "niche-zero",
+    "brand": "Niche",
+    "model": "Zero",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "conical",
+      "size_mm": 63,
+      "material": "oțel / steel"
+    },
+    "adjust": {
+      "kind": "stepless",
+      "range": [
+        0,
+        50
+      ],
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "cadran fără trepte cu cifre tipărite 0–50; după 50 urmează o zonă nemarcată în care se continuă numărătoarea (marchează 60, 70 cu un autocolant)",
+        "en": "stepless dial with printed marks 0–50; past 50 an unmarked zone continues the count (mark 60, 70 with a sticker)"
+      },
+      "zero": {
+        "ro": "0 = punctul de calibrare din fabrică",
+        "en": "0 = factory-calibrated zero"
+      }
+    },
+    "singleDose": true,
+    "priceEUR": [
+      600,
+      700
+    ],
+    "tier": "premium",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": [
+        4,
+        17
+      ],
+      "espresso": [
+        10,
+        20
+      ],
+      "moka": [
+        30,
+        40
+      ],
+      "aeropress": [
+        26,
+        45
+      ],
+      "pourover": [
+        35,
+        50
+      ],
+      "chemex": [
+        35,
+        45
+      ],
+      "french": [
+        45,
+        56
+      ],
+      "coldbrew": [
+        50,
+        65
+      ]
+    },
+    "settingsUnit": {
+      "ro": "cifra de pe cadran (0–50 tipărit; peste 50 = zona nemarcată)",
+      "en": "dial mark (0–50 printed; above 50 = unmarked zone)"
+    },
+    "notes": {
+      "ro": "Unitatea era greșită (0.1–0.9); acum e cifra de pe cadran. Niche: espresso 10–20 (start 15), V60 35–50. Completehomebarista: AeroPress 20–28, Chemex 35–45, French press 45–55, cold brew 50–60. HCG (notat rotație.pas): turcească 4–17, moka 30–53, French press de la 56, cold brew de la 65 – valorile HCG peste o tură (1.14) nu au fost preluate. Intervalele combină sursele.",
+      "en": "The unit was wrong (0.1–0.9); it is now the dial mark. Niche: espresso 10–20 (start 15), V60 35–50. Completehomebarista: AeroPress 20–28, Chemex 35–45, French press 45–55, cold brew 50–60. HCG (written rotation.step): Turkish 4–17, moka 30–53, French press from 56, cold brew from 65 – HCG values past one turn (1.14) were not used. Ranges combine the sources."
+    },
+    "sources": [
+      "https://www.nichecoffee.co.uk/blogs/exploring-coffee/how-to-dial-in-your-niche-zero",
+      "https://honestcoffeeguide.com/niche-zero-grind-settings",
+      "https://completehomebarista.com/guides/niche-zero-grind-settings/"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "niche-duo",
+    "brand": "Niche",
+    "model": "Duo",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "flat",
+      "size_mm": 83,
+      "material": "oțel; set espresso sau filtru / steel; espresso or filter burr set"
+    },
+    "adjust": {
+      "kind": "stepless",
+      "range": null,
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "Cadran infinit fără trepte",
+        "en": "infinite stepless dial"
+      },
+      "zero": {
+        "ro": "punctul zero al setului de freze montat",
+        "en": "zero of the fitted burr set"
+      }
+    },
+    "singleDose": true,
+    "priceEUR": [
+      750,
+      900
+    ],
+    "tier": "prosumer",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": null,
+      "aeropress": null,
+      "pourover": null,
+      "chemex": null,
+      "french": null,
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "treapta de pe cadran",
+      "en": "dial setting"
+    },
+    "notes": {
+      "ro": "Flat 83 mm cu seturi de freze interschimbabile (espresso inclus, filtru separat); 649 £ în UK. Niche nu publică cifre pe metode.",
+      "en": "83 mm flat with swappable burr sets (espresso included, filter sold separately); £649 in UK. Niche publishes no per-method numbers."
+    },
+    "sources": [
+      "https://nichecoffee.co.uk/products/niche-duo",
+      "https://pullandpourcoffee.com/niche-zero-and-niche-duo-comparison/"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "turin-df54",
+    "brand": "Turin (DF)",
+    "model": "DF54",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "flat",
+      "size_mm": 54,
+      "material": "oțel / steel"
+    },
+    "adjust": {
+      "kind": "stepless",
+      "range": null,
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "Cadran fără trepte",
+        "en": "stepless dial"
+      },
+      "zero": {
+        "ro": "atingerea frezelor (recalibrabil)",
+        "en": "burr touch (re-calibratable)"
+      }
+    },
+    "singleDose": true,
+    "priceEUR": [
+      220,
+      300
+    ],
+    "tier": "mid",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": null,
+      "aeropress": null,
+      "pourover": null,
+      "chemex": null,
+      "french": null,
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "cifra de pe cadran, numărată de la zero (punctul de atingere)",
+      "en": "dial number counted from zero (burr-touch point)"
+    },
+    "notes": {
+      "ro": "Single dose ieftină cu flat 54 mm; 110–900 µm (HCG), deci foarte bună la espresso/Turkish, limitată la French press. Tabelul HCG nu a putut fi extras.",
+      "en": "Budget single-dose 54 mm flat; 110–900 µm (HCG), so strong for espresso/Turkish, limited for French press. HCG table could not be extracted."
+    },
+    "sources": [
+      "https://honestcoffeeguide.com/turin-df54-grind-settings/",
+      "https://www.coffeeness.de/en/df54-grinder-review/"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "turin-df64-gen2",
+    "brand": "Turin (DF)",
+    "model": "DF64 Gen 2",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "flat",
+      "size_mm": 64,
+      "material": "oțel (opțional SSP/Red Burr) / steel (SSP/Red Burr options)"
+    },
+    "adjust": {
+      "kind": "stepless",
+      "range": [
+        0,
+        90
+      ],
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "cadran numerotat 0–90, fără trepte, o singură tură; cifra se citește de la zero-ul calibrat",
+        "en": "stepless dial numbered 0–90, single turn; read the number from the calibrated zero"
+      },
+      "zero": {
+        "ro": "0 = atingerea frezelor; recalibrați după montaj",
+        "en": "0 = burr touch; re-zero after service"
+      }
+    },
+    "singleDose": true,
+    "priceEUR": [
+      400,
+      550
+    ],
+    "tier": "premium",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": [
+        0,
+        4
+      ],
+      "espresso": [
+        0,
+        20
+      ],
+      "moka": [
+        19,
+        49
+      ],
+      "aeropress": [
+        19,
+        53
+      ],
+      "pourover": [
+        23,
+        53
+      ],
+      "chemex": [
+        38,
+        77
+      ],
+      "french": [
+        53,
+        90
+      ],
+      "coldbrew": [
+        65,
+        90
+      ]
+    },
+    "settingsUnit": {
+      "ro": "cifra de pe cadran, numărată de la zero (punctul de atingere)",
+      "en": "dial number counted from zero (burr-touch point)"
+    },
+    "notes": {
+      "ro": "Valori HCG verificate (180–1050 µm). Reguli de mapare HCG: pour-over = V60; AeroPress = de la max(AeroPress, moka) până la limita V60; Chemex = de la mijlocul V60 până la limita „Pour Over”. Zero-ul variază între exemplare, deci intervalele sunt late. barshaker.ro ~2.749 lei.",
+      "en": "HCG values verified (180–1050 µm). HCG mapping: pour-over = V60; AeroPress = from max(AeroPress, moka) low to the V60 high; Chemex = from the V60 midpoint to the \"Pour Over\" high. Zero varies between units, so the ranges are wide. barshaker.ro ~2,749 RON."
+    },
+    "sources": [
+      "https://honestcoffeeguide.com/turin-df64-gen-2-grind-settings/",
+      "https://barshaker.ro/df64-gen-2-5-2025-red-burr-white-resigilat-bstock"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "turin-df83",
+    "brand": "Turin (DF)",
+    "model": "DF83 / DF83V",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "flat",
+      "size_mm": 83,
+      "material": "oțel / steel"
+    },
+    "adjust": {
+      "kind": "stepless",
+      "range": null,
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "Fără trepte; DF83V are turație variabilă 300–1600 rpm",
+        "en": "stepless; DF83V has 300–1600 rpm variable speed"
+      },
+      "zero": {
+        "ro": "atingerea frezelor",
+        "en": "burr touch"
+      }
+    },
+    "singleDose": true,
+    "priceEUR": [
+      700,
+      900
+    ],
+    "tier": "prosumer",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": null,
+      "aeropress": null,
+      "pourover": null,
+      "chemex": null,
+      "french": null,
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "cifra de pe cadran, numărată de la zero (punctul de atingere)",
+      "en": "dial number counted from zero (burr-touch point)"
+    },
+    "notes": {
+      "ro": "Flat 83 mm (110–950 µm după HCG); varianta V cu motor 680 W și turație variabilă. Fără tabel de setări disponibil.",
+      "en": "83 mm flat (110–950 µm per HCG); V version with 680 W motor and variable speed. No settings table available."
+    },
+    "sources": [
+      "https://honestcoffeeguide.com/turin-df83-grind-settings/",
+      "https://kaffeemacher.de/en/blogs/kaffeewissen/df83-v-2"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "timemore-sculptor-064s",
+    "brand": "Timemore",
+    "model": "Sculptor 064S",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "flat",
+      "size_mm": 64,
+      "material": "oțel / steel"
+    },
+    "adjust": {
+      "kind": "stepless",
+      "range": [
+        0,
+        16
+      ],
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "16 cifre × 10 diviziuni, fără trepte",
+        "en": "16 numbers × 10 marks, stepless"
+      },
+      "zero": {
+        "ro": "indicator magnetic, zero resetabil",
+        "en": "magnetic indicator, resettable zero"
+      }
+    },
+    "singleDose": true,
+    "priceEUR": [
+      450,
+      550
+    ],
+    "tier": "premium",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": null,
+      "espresso": [
+        0,
+        2.9
+      ],
+      "moka": [
+        2.5,
+        8.5
+      ],
+      "aeropress": [
+        1.7,
+        14.5
+      ],
+      "pourover": [
+        3.5,
+        13.9
+      ],
+      "chemex": null,
+      "french": [
+        9.1,
+        16
+      ],
+      "coldbrew": [
+        11.3,
+        16
+      ]
+    },
+    "settingsUnit": {
+      "ro": "cifra de pe cadran, numărată de la zero (punctul de atingere)",
+      "en": "dial number counted from zero (burr-touch point)"
+    },
+    "notes": {
+      "ro": "Flat 64 mm all-round, 800–1200 rpm. Cadranul marchează 1–4 ca zonă de espresso; intervalele sunt HCG (preluate prin completehomebarista).",
+      "en": "64 mm flat all-rounder, 800–1200 rpm. Dial marks 1–4 as espresso zone; ranges are HCG (via completehomebarista)."
+    },
+    "sources": [
+      "https://completehomebarista.com/comparisons/timemore-sculptor-064s-grind-settings-for-espresso-and-filter/",
+      "https://honestcoffeeguide.com/timemore-sculptor-064s-grind-settings/"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "timemore-sculptor-064",
+    "brand": "Timemore",
+    "model": "Sculptor 064 (filter)",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "flat",
+      "size_mm": 64,
+      "material": "oțel, freze «turbo» de filtru / steel, filter 'turbo' burrs"
+    },
+    "adjust": {
+      "kind": "stepless",
+      "range": [
+        0,
+        16
+      ],
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "cadran fără trepte 0–16, citit de la zero-ul calibrat",
+        "en": "stepless dial 0–16, read from the calibrated zero"
+      },
+      "zero": {
+        "ro": "zero resetabil",
+        "en": "resettable zero"
+      }
+    },
+    "singleDose": true,
+    "priceEUR": [
+      400,
+      500
+    ],
+    "tier": "premium",
+    "espressoCapable": false,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": [
+        0,
+        5
+      ],
+      "aeropress": [
+        0,
+        5.5
+      ],
+      "pourover": [
+        1,
+        5.5
+      ],
+      "chemex": [
+        3.2,
+        10
+      ],
+      "french": [
+        6,
+        16
+      ],
+      "coldbrew": [
+        8,
+        16
+      ]
+    },
+    "settingsUnit": {
+      "ro": "cifra de pe cadran, numărată de la zero (punctul de atingere)",
+      "en": "dial number counted from zero (burr-touch point)"
+    },
+    "notes": {
+      "ro": "Valori HCG (370–1260 µm). HCG pune espresso la 0 (limita fină) – versiunea 064 e pentru filtru, deci espresso e null; setările 064S nu se transferă. Reguli de mapare HCG: pour-over = V60; AeroPress = de la max(AeroPress, moka) până la limita V60; Chemex = de la mijlocul V60 până la limita „Pour Over”.",
+      "en": "HCG values (370–1260 µm). HCG puts espresso at 0 (the fine limit) – the 064 is the filter version, so espresso is null; 064S settings do not transfer. HCG mapping: pour-over = V60; AeroPress = from max(AeroPress, moka) low to the V60 high; Chemex = from the V60 midpoint to the \"Pour Over\" high."
+    },
+    "sources": [
+      "https://honestcoffeeguide.com/timemore-sculptor-064-grind-settings/",
+      "https://sigmacoffee.co.uk/products/timemore-sculptor-064"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "timemore-sculptor-078",
+    "brand": "Timemore",
+    "model": "Sculptor 078 / 078S",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "flat",
+      "size_mm": 78,
+      "material": "oțel / steel"
+    },
+    "adjust": {
+      "kind": "stepless",
+      "range": null,
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "Fără trepte, turație variabilă",
+        "en": "stepless, variable speed"
+      },
+      "zero": {
+        "ro": "zero resetabil",
+        "en": "resettable zero"
+      }
+    },
+    "singleDose": true,
+    "priceEUR": [
+      600,
+      800
+    ],
+    "tier": "prosumer",
+    "espressoCapable": false,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": null,
+      "aeropress": null,
+      "pourover": null,
+      "chemex": null,
+      "french": null,
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "cifra de pe cadran, numărată de la zero (punctul de atingere)",
+      "en": "dial number counted from zero (burr-touch point)"
+    },
+    "notes": {
+      "ro": "Flat 78 mm, motor 400 W cu turație variabilă; 078 e orientată spre filtru, 078S are freze pentru espresso (atunci espressoCapable = da). Vândută în RO via naturbohne.de.",
+      "en": "78 mm flat, 400 W variable-speed motor; 078 is filter-oriented, 078S has espresso-capable burrs. Sold to Romania via naturbohne.de."
+    },
+    "sources": [
+      "https://naturbohne.de/ro-ro/products/timemore-sculptor-078",
+      "https://honestcoffeeguide.com/timemore-sculptor-078-grind-settings",
+      "https://www.baristamagazine.com/test-drive-timemore-sculptor-078s-grinder"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "varia-vs3-gen2",
+    "brand": "Varia",
+    "model": "VS3 (Gen 2)",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "conical",
+      "size_mm": 38,
+      "material": "oțel inoxidabil «Supernova» / stainless steel 'Supernova'"
+    },
+    "adjust": {
+      "kind": "stepless",
+      "range": [
+        0,
+        19
+      ],
+      "micronsPerStep": 20,
+      "notation": {
+        "ro": "cifre 0–10 pe cadran, pași de 0,1 (~20 µm); peste 10 se continuă în a doua tură (12.5 = o tură completă + 2.5)",
+        "en": "dial numbers 0–10 in 0.1 steps (~20 µm); above 10 continue into a second turn (12.5 = one full turn + 2.5)"
+      },
+      "zero": {
+        "ro": "0 = setarea de fabrică; sub ea se poate merge doar până la strângere",
+        "en": "factory 0; only the tightest point lies below it"
+      }
+    },
+    "singleDose": true,
+    "priceEUR": [
+      250,
+      330
+    ],
+    "tier": "mid",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": [
+        0,
+        0.7
+      ],
+      "espresso": [
+        0.2,
+        3.3
+      ],
+      "moka": [
+        3.1,
+        7.8
+      ],
+      "aeropress": [
+        3.1,
+        8.4
+      ],
+      "pourover": [
+        3.7,
+        8.4
+      ],
+      "chemex": [
+        6.1,
+        12.1
+      ],
+      "french": [
+        8.3,
+        18
+      ],
+      "coldbrew": [
+        10.1,
+        19.6
+      ]
+    },
+    "settingsUnit": {
+      "ro": "cifra de pe cadran, numărată de la zero (punctul de atingere)",
+      "en": "dial number counted from zero (burr-touch point)"
+    },
+    "notes": {
+      "ro": "Valori HCG Gen 2 (170–1400 µm); manualul Varia confirmă scala 0–10 cu pași de 0,1 = 0,02 mm. Reguli de mapare HCG: pour-over = V60; AeroPress = de la max(AeroPress, moka) până la limita V60; Chemex = de la mijlocul V60 până la limita „Pour Over”.",
+      "en": "HCG Gen 2 values (170–1400 µm); the Varia manual confirms the 0–10 scale in 0.1 steps = 0.02 mm. HCG mapping: pour-over = V60; AeroPress = from max(AeroPress, moka) low to the V60 high; Chemex = from the V60 midpoint to the \"Pour Over\" high."
+    },
+    "sources": [
+      "https://honestcoffeeguide.com/varia-vs3-gen-2-grind-settings/",
+      "https://cdn.shopify.com/s/files/1/0590/4865/7063/files/Varia-Vs3-user-manual.pdf"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "varia-vs6",
+    "brand": "Varia",
+    "model": "VS6",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "conical",
+      "size_mm": null,
+      "material": "oțel; freze conice sau plate interschimbabile / steel; swappable conical or flat burrs"
+    },
+    "adjust": {
+      "kind": "stepless",
+      "range": [
+        1,
+        24
+      ],
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "Cadran 01–24",
+        "en": "dial 01–24"
+      },
+      "zero": {
+        "ro": "punctul zero al frezelor",
+        "en": "burr zero"
+      }
+    },
+    "singleDose": true,
+    "priceEUR": [
+      450,
+      600
+    ],
+    "tier": "premium",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": null,
+      "aeropress": null,
+      "pourover": null,
+      "chemex": null,
+      "french": null,
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "cifra de pe cadran, numărată de la zero (punctul de atingere)",
+      "en": "dial number counted from zero (burr-touch point)"
+    },
+    "notes": {
+      "ro": "Single dose cu freze interschimbabile (conice Supernova sau plate Kilonova/Hypernova); 130–1400 µm (HCG). Tabelul HCG nu a putut fi extras.",
+      "en": "Single-doser with swappable burrs (Supernova conical or Kilonova/Hypernova flat); 130–1400 µm (HCG). HCG table could not be extracted."
+    },
+    "sources": [
+      "https://honestcoffeeguide.com/varia-vs6-grind-settings/",
+      "https://sigmacoffee.co.uk/products/varia-vs6"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "option-o-lagom-mini",
+    "brand": "Option-O",
+    "model": "Lagom Mini (2)",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "conical",
+      "size_mm": 48,
+      "material": "oțel «Moonshine» / steel 'Moonshine'"
+    },
+    "adjust": {
+      "kind": "stepless",
+      "range": [
+        0,
+        50
+      ],
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "Inel cu 50 de marcaje, se poate roti peste 360°",
+        "en": "50-mark collar, can turn past 360°"
+      },
+      "zero": {
+        "ro": "atingerea frezelor",
+        "en": "burr touch"
+      }
+    },
+    "singleDose": true,
+    "priceEUR": [
+      350,
+      450
+    ],
+    "tier": "premium",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": null,
+      "aeropress": null,
+      "pourover": null,
+      "chemex": null,
+      "french": [
+        75,
+        80
+      ],
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "cifra de pe cadran, numărată de la zero (punctul de atingere)",
+      "en": "dial number counted from zero (burr-touch point)"
+    },
+    "notes": {
+      "ro": "Conică 48 mm compactă. Singura cifră documentată: French press ~75–80 (o rotație + 25 marcaje, raportat de CoffeeGeek). Pentru restul nu există tabel fiabil.",
+      "en": "Compact 48 mm conical. Only documented number: French press ~75–80 (one turn + 25 marks, reported by CoffeeGeek). No reliable table for the rest."
+    },
+    "sources": [
+      "https://www.coffeegeek.com/new-products/lagom-mini-grinder-a-diminutive-wonder/",
+      "https://honestcoffeeguide.com/option-o-lagom-mini-moonshine-burrs-grind-settings/"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "option-o-lagom-p64",
+    "brand": "Option-O",
+    "model": "Lagom P64",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "flat",
+      "size_mm": 64,
+      "material": "oțel (Mizen/SSP opțional) / steel (Mizen/SSP options)"
+    },
+    "adjust": {
+      "kind": "stepless",
+      "range": null,
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "Fără trepte",
+        "en": "stepless"
+      },
+      "zero": {
+        "ro": "atingerea frezelor",
+        "en": "burr touch"
+      }
+    },
+    "singleDose": true,
+    "priceEUR": [
+      1300,
+      1600
+    ],
+    "tier": "prosumer",
+    "espressoCapable": true,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": null,
+      "aeropress": null,
+      "pourover": null,
+      "chemex": null,
+      "french": null,
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "cifra de pe cadran, numărată de la zero (punctul de atingere)",
+      "en": "dial number counted from zero (burr-touch point)"
+    },
+    "notes": {
+      "ro": "Flat 64 mm de referință pentru single dose, turație variabilă; 245–1245 µm (HCG). Tabelul HCG nu a putut fi extras.",
+      "en": "Reference 64 mm flat single-doser, variable speed; 245–1245 µm (HCG). HCG table could not be extracted."
+    },
+    "sources": [
+      "https://honestcoffeeguide.com/option-o-lagom-p64-grind-settings"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "mazzer-philos",
+    "brand": "Mazzer",
+    "model": "Philos",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "flat",
+      "size_mm": 64,
+      "material": "oțel; freze I200D (deschis) sau I189D (închis) / steel; I200D (light) or I189D (dark) burrs"
+    },
+    "adjust": {
+      "kind": "steps",
+      "range": null,
+      "micronsPerStep": 6,
+      "notation": {
+        "ro": "Inel gradat, 6 µm pe treaptă; convertibil la fără trepte",
+        "en": "graduated ring, 6 µm per notch; convertible to stepless"
+      },
+      "zero": {
+        "ro": "o rotație acoperă espresso → batch brew",
+        "en": "one turn covers espresso → batch brew"
+      }
+    },
+    "singleDose": true,
+    "priceEUR": [
+      1265,
+      1500
+    ],
+    "tier": "prosumer",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": null,
+      "aeropress": null,
+      "pourover": null,
+      "chemex": null,
+      "french": null,
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "treapta de pe cadran",
+      "en": "dial setting"
+    },
+    "notes": {
+      "ro": "Single dose 64 mm, 1.265 € pe shop.mazzer.com. Mazzer dă 6 µm/treaptă, dar fără tabel pe metode.",
+      "en": "64 mm single-doser, €1,265 on shop.mazzer.com. Mazzer states 6 µm per notch, but no per-method chart."
+    },
+    "sources": [
+      "https://shop.mazzer.com/products/philos",
+      "https://www.home-barista.com/blog/mazzer-philos-grinder-review-t93436.html"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "mazzer-mini",
+    "brand": "Mazzer",
+    "model": "Mini (A / Electronic)",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "flat",
+      "size_mm": 64,
+      "material": "oțel / steel"
+    },
+    "adjust": {
+      "kind": "stepless",
+      "range": null,
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "Melc micrometric fără trepte",
+        "en": "stepless worm-drive collar"
+      },
+      "zero": {
+        "ro": "nedocumentat",
+        "en": "undocumented"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      800,
+      1100
+    ],
+    "tier": "prosumer",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": null,
+      "aeropress": null,
+      "pourover": null,
+      "chemex": null,
+      "french": null,
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "treapta de pe cadran",
+      "en": "dial setting"
+    },
+    "notes": {
+      "ro": "Clasica râșniță de espresso semi-comercială (64 mm flat). Fără tabel pe metode; se reglează la gust/timp de extracție.",
+      "en": "Classic semi-commercial espresso grinder (64 mm flat). No per-method chart; dial in by taste/shot time."
+    },
+    "sources": [
+      "https://procoffeegear.com/products/mazzer-mini-electronic",
+      "https://clivecoffee.com/collections/grinders/products/mazzer-mini-espresso-grinder"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "rancilio-rocky",
+    "brand": "Rancilio",
+    "model": "Rocky (SD)",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "flat",
+      "size_mm": 50,
+      "material": "oțel călit / tempered steel"
+    },
+    "adjust": {
+      "kind": "steps",
+      "range": [
+        0,
+        55
+      ],
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "55 trepte",
+        "en": "55 steps"
+      },
+      "zero": {
+        "ro": "0 = spre fin; fără zero calibrat",
+        "en": "0 = towards fine; no calibrated zero"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      350,
+      450
+    ],
+    "tier": "premium",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": null,
+      "espresso": [
+        1,
+        10
+      ],
+      "moka": null,
+      "aeropress": [
+        10,
+        20
+      ],
+      "pourover": [
+        10,
+        20
+      ],
+      "chemex": null,
+      "french": [
+        40,
+        55
+      ],
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "treapta de pe cadran",
+      "en": "dial setting"
+    },
+    "notes": {
+      "ro": "Plată 50 mm, 195–1110 µm (HCG). Intervale după ghidul Seattle Coffee Gear (espresso 1–10, start 8–10; AeroPress/pour over 10–20; cafetieră 25–35; French press 40+), sursă de retailer, nu Rancilio.",
+      "en": "50 mm flat, 195–1110 µm (HCG). Ranges from Seattle Coffee Gear's guide (espresso 1–10, start 8–10; AeroPress/pour-over 10–20; auto-drip 25–35; French press 40+) – retailer source, not Rancilio."
+    },
+    "sources": [
+      "https://www.seattlecoffeegear.com/pages/product-resources/rancilio-rocky-coffee-grinder-product-guide",
+      "https://honestcoffeeguide.com/rancilio-rocky-grind-settings"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "rocket-faustino",
+    "brand": "Rocket Espresso",
+    "model": "Faustino 3.1",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "flat",
+      "size_mm": 50,
+      "material": "oțel inoxidabil / stainless steel"
+    },
+    "adjust": {
+      "kind": "stepless",
+      "range": [
+        0,
+        9
+      ],
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "Cadran cu repere 0–9, o singură rotație",
+        "en": "0–9 reference marks, single turn"
+      },
+      "zero": {
+        "ro": "nedocumentat",
+        "en": "undocumented"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      600,
+      800
+    ],
+    "tier": "prosumer",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": null,
+      "aeropress": null,
+      "pourover": null,
+      "chemex": null,
+      "french": null,
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "treapta de pe cadran",
+      "en": "dial setting"
+    },
+    "notes": {
+      "ro": "Râșniță de espresso 50 mm cu reglaj fără trepte într-o singură rotație; reperele 0–9 sunt orientative. Fără tabel pe metode.",
+      "en": "50 mm espresso grinder with single-revolution stepless adjustment; 0–9 marks are a guide only. No per-method chart."
+    },
+    "sources": [
+      "https://www.coffeeness.de/en/rocket-grinder-review/",
+      "https://www.espressocoffeeshop.com/en/coffee-grinders/484-1041-0-rocket-faustino-31-coffee-grinder-8050506336143.html"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "lelit-fred",
+    "brand": "Lelit",
+    "model": "Fred PL043MMI / PL044MMT",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "conical",
+      "size_mm": 38,
+      "material": "oțel / steel"
+    },
+    "adjust": {
+      "kind": "stepless",
+      "range": null,
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "Cadran fără trepte, multiple rotații",
+        "en": "stepless, multi-turn dial"
+      },
+      "zero": {
+        "ro": "nedocumentat",
+        "en": "undocumented"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      180,
+      260
+    ],
+    "tier": "mid",
+    "espressoCapable": true,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": null,
+      "aeropress": null,
+      "pourover": null,
+      "chemex": null,
+      "french": null,
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "rotații de la zero + diviziune",
+      "en": "rotations from zero + mark"
+    },
+    "notes": {
+      "ro": "Râșniță de espresso conică compactă (38 mm); Kaffeemacher notează că sunt necesare 2–3 rotații pentru o schimbare vizibilă. Fără tabel pe metode.",
+      "en": "Compact conical espresso grinder (38 mm); Kaffeemacher notes 2–3 full turns for a noticeable change. No per-method chart."
+    },
+    "sources": [
+      "https://kaffeemacher.ch/en/blogs/kaffeewissen/lelit-espressomuehlen",
+      "https://1st-line.com/buy/lelit-pl044mm-fred-espresso-coffee-grinder/"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "lelit-william",
+    "brand": "Lelit",
+    "model": "William PL72",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "flat",
+      "size_mm": 64,
+      "material": "oțel / steel"
+    },
+    "adjust": {
+      "kind": "steps",
+      "range": null,
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "Reglaj în trepte micrometrice",
+        "en": "micrometric stepped adjustment"
+      },
+      "zero": {
+        "ro": "nedocumentat",
+        "en": "undocumented"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      550,
+      700
+    ],
+    "tier": "prosumer",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": null,
+      "aeropress": null,
+      "pourover": null,
+      "chemex": null,
+      "french": null,
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "treapta de pe cadran",
+      "en": "dial setting"
+    },
+    "notes": {
+      "ro": "Flat 64 mm, pentru espresso și filtru. Fără tabel public pe metode.",
+      "en": "64 mm flat for espresso and filter. No public per-method chart."
+    },
+    "sources": [
+      "https://cdn.shopify.com/s/files/1/1566/4409/files/LELIT-William-PL72-120-EN.pdf",
+      "https://galaxus.fr/en/s2/product/lelit-william-coffee-grinders-10210598"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "macap-m2m",
+    "brand": "Macap",
+    "model": "M2M",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "flat",
+      "size_mm": 58,
+      "material": "oțel / steel"
+    },
+    "adjust": {
+      "kind": "stepless",
+      "range": null,
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "Fără trepte",
+        "en": "stepless"
+      },
+      "zero": {
+        "ro": "nedocumentat",
+        "en": "undocumented"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      450,
+      600
+    ],
+    "tier": "premium",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": null,
+      "aeropress": null,
+      "pourover": null,
+      "chemex": null,
+      "french": null,
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "treapta de pe cadran",
+      "en": "dial setting"
+    },
+    "notes": {
+      "ro": "Râșniță de espresso italiană pentru acasă; disponibilitatea în UE pare limitată (pagina aromatico.de e retrasă). Specificațiile nu au putut fi confirmate – încredere scăzută.",
+      "en": "Italian home espresso grinder; EU availability seems limited (aromatico.de page withdrawn). Specs could not be confirmed – low confidence."
+    },
+    "sources": [
+      "https://www.choice.com.au/products/home-and-living/kitchen/coffee-machines/macap-m2m-v2",
+      "https://www.aromatico.de/en/p/macap-m2m-black"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "ascaso-i-mini",
+    "brand": "Ascaso",
+    "model": "i-Mini (i1)",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "flat",
+      "size_mm": 54,
+      "material": "oțel inoxidabil / stainless steel"
+    },
+    "adjust": {
+      "kind": "stepless",
+      "range": null,
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "Cadran fără trepte cu limitator la grosier",
+        "en": "stepless dial with coarse stop"
+      },
+      "zero": {
+        "ro": "nedocumentat",
+        "en": "undocumented"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      400,
+      500
+    ],
+    "tier": "premium",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": null,
+      "aeropress": null,
+      "pourover": null,
+      "chemex": null,
+      "french": null,
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "treapta de pe cadran",
+      "en": "dial setting"
+    },
+    "notes": {
+      "ro": "Flat 54 mm cu suport de alamă, compactă, orientată spre espresso. Fără tabel pe metode.",
+      "en": "54 mm flat in a brass holder, compact, espresso-oriented. No per-method chart."
+    },
+    "sources": [
+      "https://www.coffeeness.de/en/ascaso-i-mini-review/",
+      "https://www.espressoparts.com/pages/ascaso-grinder-tech-resources"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "ascaso-i-steel",
+    "brand": "Ascaso",
+    "model": "i-Steel",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "flat",
+      "size_mm": null,
+      "material": "oțel / steel"
+    },
+    "adjust": {
+      "kind": "stepless",
+      "range": null,
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "Fără trepte",
+        "en": "stepless"
+      },
+      "zero": {
+        "ro": "nedocumentat",
+        "en": "undocumented"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      500,
+      650
+    ],
+    "tier": "premium",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": null,
+      "aeropress": null,
+      "pourover": null,
+      "chemex": null,
+      "french": null,
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "treapta de pe cadran",
+      "en": "dial setting"
+    },
+    "notes": {
+      "ro": "Râșniță Ascaso mai mare decât i-Mini; dimensiunea frezelor nu a putut fi confirmată din surse.",
+      "en": "Larger Ascaso grinder than the i-Mini; burr size could not be confirmed from sources."
+    },
+    "sources": [
+      "https://www.seattlecoffeegear.com/products/ascaso-i-steel-espresso-grinder",
+      "https://www.espressoparts.com/pages/ascaso-grinder-tech-resources"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "mahlkonig-x54",
+    "brand": "Mahlkönig",
+    "model": "X54 Allround",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "flat",
+      "size_mm": 54,
+      "material": "oțel / steel"
+    },
+    "adjust": {
+      "kind": "steps",
+      "range": [
+        1,
+        35
+      ],
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "35 trepte + reglaj fin",
+        "en": "35 steps + fine adjustment"
+      },
+      "zero": {
+        "ro": "nedocumentat",
+        "en": "undocumented"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      800,
+      1000
+    ],
+    "tier": "prosumer",
+    "espressoCapable": true,
+    "turkishCapable": false,
+    "settings": {
+      "turkish": null,
+      "espresso": null,
+      "moka": null,
+      "aeropress": null,
+      "pourover": null,
+      "chemex": null,
+      "french": null,
+      "coldbrew": null
+    },
+    "settingsUnit": {
+      "ro": "treapta de pe cadran",
+      "en": "dial setting"
+    },
+    "notes": {
+      "ro": "Râșniță all-round pentru acasă de la Mahlkönig (243–905 µm după HCG), 4 rețete pe timp (ex. 20 s dublu espresso). Tabelul HCG nu a putut fi extras.",
+      "en": "Mahlkönig's home all-rounder (243–905 µm per HCG), 4 timed recipes (e.g. 20 s double espresso). HCG table could not be extracted."
+    },
+    "sources": [
+      "https://www.manualslib.com/manual/2575283/Mahlkonig-X54.html?page=21",
+      "https://honestcoffeeguide.com/mahlkonig-x54-grind-settings/"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "mahlkonig-ek43",
+    "brand": "Mahlkönig",
+    "model": "EK43 / EK43 S (referință / reference)",
+    "type": "electric",
+    "subtype": "burr",
+    "burr": {
+      "type": "flat",
+      "size_mm": 98,
+      "material": "oțel / steel"
+    },
+    "adjust": {
+      "kind": "numbered",
+      "range": [
+        0,
+        16
+      ],
+      "micronsPerStep": null,
+      "notation": {
+        "ro": "Cadran 0–16 (versiunea veche 1–11)",
+        "en": "dial 0–16 (older 1–11)"
+      },
+      "zero": {
+        "ro": "0 = cel mai fin, calibrat la service",
+        "en": "0 = finest, service-calibrated"
+      }
+    },
+    "singleDose": false,
+    "priceEUR": [
+      2200,
+      3000
+    ],
+    "tier": "prosumer",
+    "espressoCapable": true,
+    "turkishCapable": true,
+    "settings": {
+      "turkish": [
+        0,
+        1
+      ],
+      "espresso": [
+        0,
+        5.1
+      ],
+      "moka": [
+        4.7,
+        12.3
+      ],
+      "aeropress": [
+        3.6,
+        16
+      ],
+      "pourover": [
+        6,
+        16
+      ],
+      "chemex": null,
+      "french": [
+        13.1,
+        16
+      ],
+      "coldbrew": [
+        16,
+        16
+      ]
+    },
+    "settingsUnit": {
+      "ro": "treapta de pe cadran",
+      "en": "dial setting"
+    },
+    "notes": {
+      "ro": "Râșniță comercială de referință (98 mm), folosită ca etalon în specialty. Intervale HCG pentru cadranul 0–16 (180–803 µm). Nu e un produs pentru acasă.",
+      "en": "Commercial reference grinder (98 mm), the specialty benchmark. HCG ranges for the 0–16 dial (180–803 µm). Not a home product."
+    },
+    "sources": [
+      "https://honestcoffeeguide.com/mahlkonig-ek43-0-16-grind-settings"
+    ],
+    "confidence": "medium"
+  }
+]

@@ -1,0 +1,2944 @@
+{
+ "chapters": [
+  {
+   "id": "hario-v60",
+   "name": {
+    "ro": "Hario V60",
+    "en": "Hario V60"
+   },
+   "category": "pourover",
+   "difficulty": 2,
+   "gear": {
+    "ro": "V60 (plastic, ceramică sau sticlă), filtre V60, ibric cu cioc de gâscă, cântar",
+    "en": "V60 (plastic, ceramic or glass), V60 filters, gooseneck kettle, scale"
+   },
+   "history": {
+    "ro": "Lansat de Hario în 2004, numele vine de la unghiul conului de 60°. A devenit simbolul valului trei de cafea de specialitate.",
+    "en": "Launched by Hario in 2004, named after its 60° cone angle. It became the icon of third-wave specialty coffee."
+   },
+   "howItWorks": {
+    "ro": "Conul are o singură gaură mare și nervuri spiralate, deci viteza de curgere depinde aproape în întregime de tine și de măcinare. Torni în etape, iar apa trece o singură dată prin cafea.",
+    "en": "The cone has one large hole and spiral ribs, so flow rate depends almost entirely on you and the grind. You pour in stages and water passes through the coffee once."
+   },
+   "profile": {
+    "ro": "Limpede, aromat, aciditate vie; scoate în evidență notele florale și fructate ale prăjirilor deschise.",
+    "en": "Clean, aromatic, lively acidity; highlights the floral and fruity notes of light roasts."
+   },
+   "grindKey": "pourover",
+   "mistakes": [
+    {
+     "ro": "Torni prea repede pe margini și apa ocolește cafeaua.",
+     "en": "Pouring too fast on the edges so water bypasses the coffee."
+    },
+    {
+     "ro": "Bloom prea scurt: cafeaua proaspătă are nevoie de 30–45 s ca să elibereze CO₂.",
+     "en": "Too short a bloom: fresh coffee needs 30–45 s to release CO₂."
+    },
+    {
+     "ro": "Schimbi trei variabile deodată când gustul nu iese.",
+     "en": "Changing three variables at once when the cup is off."
+    }
+   ],
+   "tips": [
+    {
+     "ro": "Rotește ușor dripperul după ultima turnare ca patul de cafea să se niveleze.",
+     "en": "Swirl the dripper gently after the last pour to flatten the bed."
+    },
+    {
+     "ro": "Clătește filtrul cu apă fierbinte ca să scapi de gustul de hârtie.",
+     "en": "Rinse the filter with hot water to remove paper taste."
+    },
+    {
+     "ro": "Dacă durează peste 3:30, macină mai grosier; sub 2:30, mai fin.",
+     "en": "If it runs past 3:30, grind coarser; under 2:30, finer."
+    }
+   ],
+   "recipeIds": [
+    "v60-hoffmann",
+    "v60-46",
+    "v60-iced",
+    "april-pulse"
+   ],
+   "sources": [
+    "https://www.hario-europe.com/",
+    "https://www.jameshoffmann.co.uk/",
+    "https://honestcoffeeguide.com/brew-recipes"
+   ]
+  },
+  {
+   "id": "kalita-wave",
+   "name": {
+    "ro": "Kalita Wave",
+    "en": "Kalita Wave"
+   },
+   "category": "pourover",
+   "difficulty": 1,
+   "gear": {
+    "ro": "Kalita Wave 155/185, filtre ondulate Wave, ibric, cântar",
+    "en": "Kalita Wave 155/185, Wave filters, kettle, scale"
+   },
+   "history": {
+    "ro": "Kalita, firmă japoneză fondată în 1958, a lansat Wave în 2010. Fundul plat și filtrul cu 20 de pliuri au făcut-o favorita barurilor și a concursurilor.",
+    "en": "Kalita, a Japanese company founded in 1958, released the Wave in 2010. Its flat bottom and 20-fold filter made it a bar and competition favourite."
+   },
+   "howItWorks": {
+    "ro": "Trei găuri mici și filtrul ondulat, care atinge pereții doar în câteva puncte, încetinesc și uniformizează curgerea. Patul plat de cafea se extrage mai egal decât într-un con.",
+    "en": "Three small holes and a wavy filter that touches the walls only at a few points slow and even out the flow. The flat coffee bed extracts more evenly than a cone."
+   },
+   "profile": {
+    "ro": "Dulce, echilibrat, corp mediu; mai iertător și mai rotund decât V60.",
+    "en": "Sweet, balanced, medium body; more forgiving and rounder than a V60."
+   },
+   "grindKey": "pourover",
+   "mistakes": [
+    {
+     "ro": "Torni direct pe pliurile filtrului și le turtești.",
+     "en": "Pouring straight onto the filter folds and flattening them."
+    },
+    {
+     "ro": "Clătești filtrul și îl lași să se lipească de pereți.",
+     "en": "Rinsing the filter and letting it stick to the walls."
+    },
+    {
+     "ro": "Măcinare prea fină: fundul plat se înfundă ușor.",
+     "en": "Grinding too fine: the flat bed clogs easily."
+    }
+   ],
+   "tips": [
+    {
+     "ro": "Toarnă în cercuri mici, în interiorul unui cerc de 3–4 cm.",
+     "en": "Pour in small circles inside a 3–4 cm ring."
+    },
+    {
+     "ro": "Turnările în pulsuri țin nivelul apei constant și extracția egală.",
+     "en": "Pulse pours keep the water level steady and extraction even."
+    },
+    {
+     "ro": "Varianta din oțel păstrează mai bine căldura decât sticla.",
+     "en": "The steel version holds heat better than glass."
+    }
+   ],
+   "recipeIds": [
+    "kalita"
+   ],
+   "sources": [
+    "https://www.kalita.co.jp/",
+    "https://cdn.shopify.com/s/files/1/0081/4854/9694/files/Brew_Guides_-_Kalita.pdf",
+    "https://honestcoffeeguide.com/brew-recipes"
+   ]
+  },
+  {
+   "id": "chemex",
+   "name": {
+    "ro": "Chemex",
+    "en": "Chemex"
+   },
+   "category": "pourover",
+   "difficulty": 2,
+   "gear": {
+    "ro": "Chemex 6 sau 8 căni, filtre Chemex groase, ibric, cântar",
+    "en": "Chemex 6 or 8 cup, thick Chemex filters, kettle, scale"
+   },
+   "history": {
+    "ro": "Inventat în 1941 de chimistul Peter Schlumbohm, Chemex se află în colecția permanentă MoMA. Forma de clepsidră e și dripper, și carafă.",
+    "en": "Invented in 1941 by chemist Peter Schlumbohm, the Chemex is in MoMA's permanent collection. The hourglass is both dripper and carafe."
+   },
+   "howItWorks": {
+    "ro": "Filtrul de hârtie e cu 20–30% mai gros decât altele și reține uleiurile și particulele fine. Curgerea e lentă, așa că macini mai grosier decât la V60.",
+    "en": "The paper filter is 20–30% thicker than others and holds back oils and fines. Flow is slow, so you grind coarser than for a V60."
+   },
+   "profile": {
+    "ro": "Foarte curat, corp ușor, aproape ca un ceai; ideal pentru cafele florale.",
+    "en": "Very clean, light body, almost tea-like; ideal for floral coffees."
+   },
+   "grindKey": "chemex",
+   "mistakes": [
+    {
+     "ro": "Pui partea simplă a filtrului spre cioc și blochezi ieșirea aerului.",
+     "en": "Placing the single-layer side toward the spout and blocking the air channel."
+    },
+    {
+     "ro": "Măcinare de V60: curge prea încet și iese amar.",
+     "en": "Using a V60 grind: it drains too slowly and turns bitter."
+    },
+    {
+     "ro": "Faci o singură cană în Chemex de 8: patul e prea subțire.",
+     "en": "Brewing a single cup in an 8-cup Chemex: the bed is too shallow."
+    }
+   ],
+   "tips": [
+    {
+     "ro": "Partea triplă a filtrului merge spre cioc.",
+     "en": "The triple-fold side of the filter goes on the spout."
+    },
+    {
+     "ro": "Dacă scurgerea se blochează, ridică puțin filtrul ca să intre aer.",
+     "en": "If drawdown stalls, lift the filter slightly to let air in."
+    },
+    {
+     "ro": "Folosește minim 30 g cafea în modelul de 6 căni.",
+     "en": "Use at least 30 g of coffee in the 6-cup model."
+    }
+   ],
+   "recipeIds": [
+    "chemex",
+    "chemex-iced"
+   ],
+   "sources": [
+    "https://www.chemexcoffeemaker.com/",
+    "https://honestcoffeeguide.com/brew-recipes"
+   ]
+  },
+  {
+   "id": "origami",
+   "name": {
+    "ro": "Origami Dripper",
+    "en": "Origami Dripper"
+   },
+   "category": "pourover",
+   "difficulty": 2,
+   "gear": {
+    "ro": "Origami S sau M, filtre conice (V60) sau Wave (Kalita), suport din lemn, ibric, cântar",
+    "en": "Origami S or M, cone (V60) or Wave (Kalita) filters, wooden holder, kettle, scale"
+   },
+   "history": {
+    "ro": "Creat în Japonia, la Gifu, din porțelan Mino, și popularizat după ce campionul mondial Du Jianing l-a folosit în 2019.",
+    "en": "Made in Gifu, Japan, from Mino porcelain, and popularised after World Brewers Cup champion Du Jianing used it in 2019."
+   },
+   "howItWorks": {
+    "ro": "Cele 20 de caneluri adânci lasă filtrul să stea departe de pereți, deci aerul circulă și apa curge repede. Același dripper se poartă ca un V60 cu filtru conic sau ca o Kalita cu filtru Wave.",
+    "en": "Twenty deep ribs keep the filter off the walls, so air flows and water drains fast. The same dripper behaves like a V60 with a cone filter or like a Kalita with a Wave filter."
+   },
+   "profile": {
+    "ro": "Cu filtru conic: luminos și delicat. Cu Wave: mai dulce și mai rotund.",
+    "en": "With a cone filter: bright and delicate. With a Wave: sweeter and rounder."
+   },
+   "grindKey": "pourover",
+   "mistakes": [
+    {
+     "ro": "Nu adaptezi măcinarea la filtrul ales.",
+     "en": "Not adjusting the grind for the filter you chose."
+    },
+    {
+     "ro": "Nu preîncălzești porțelanul, care absoarbe multă căldură.",
+     "en": "Not preheating the porcelain, which soaks up a lot of heat."
+    },
+    {
+     "ro": "Torni prea mult deodată și apa se scurge pe lângă filtru.",
+     "en": "Pouring too much at once so water runs around the filter."
+    }
+   ],
+   "tips": [
+    {
+     "ro": "Începe cu filtrul Wave: e mai iertător.",
+     "en": "Start with the Wave filter: it's more forgiving."
+    },
+    {
+     "ro": "Varianta din rășină AS păstrează căldura aproape la fel de bine și nu se sparge.",
+     "en": "The AS resin version holds heat nearly as well and won't break."
+    },
+    {
+     "ro": "Ține suportul din lemn uscat după fiecare folosire.",
+     "en": "Dry the wooden holder after each use."
+    }
+   ],
+   "recipeIds": [
+    "origami-wave"
+   ],
+   "sources": [
+    "https://kaffeemacher.de/en/blogs/kaffeewissen/origami-dripper-recipe-and-tips",
+    "https://field-guides.vercel.app/pour-over/official-brewer-recipes.html",
+    "https://fivesenses.com.au/blogs/news/origami-brewer-brew-guide"
+   ]
+  },
+  {
+   "id": "orea",
+   "name": {
+    "ro": "Orea",
+    "en": "Orea"
+   },
+   "category": "pourover",
+   "difficulty": 2,
+   "gear": {
+    "ro": "Orea V3/V4 (sticlă sau porcelan), filtre Wave sau Sibarist, ibric, cântar",
+    "en": "Orea V3/V4 (glass or porcelain), Wave or Sibarist filters, kettle, scale"
+   },
+   "history": {
+    "ro": "Proiectat în Marea Britanie de Ryan Wilbur și lansat prin crowdfunding în 2020. A devenit rapid un preferat al concurenților Brewers Cup.",
+    "en": "Designed in the UK by Ryan Wilbur and crowdfunded in 2020. It quickly became a Brewers Cup competitor favourite."
+   },
+   "howItWorks": {
+    "ro": "Fund plat cu o singură gaură centrală mare și pereți care țin filtrul la distanță: curge foarte repede. Bazele interschimbabile (Open, Fast, Classic) schimbă viteza.",
+    "en": "A flat bottom with one big central hole and walls that hold the filter away: it drains very fast. Swappable bases (Open, Fast, Classic) change the speed."
+   },
+   "profile": {
+    "ro": "Claritate mare și dulceață, extracție uniformă chiar la măcinare fină.",
+    "en": "High clarity and sweetness, even extraction even at finer grinds."
+   },
+   "grindKey": "pourover",
+   "mistakes": [
+    {
+     "ro": "Folosești măcinarea de V60: la Orea curge prea repede și iese apos.",
+     "en": "Using a V60 grind: the Orea drains too fast and tastes watery."
+    },
+    {
+     "ro": "Torni puternic în centru și sapi un crater în cafea.",
+     "en": "Pouring hard in the centre and digging a crater."
+    },
+    {
+     "ro": "Ignori ce bază ai montat.",
+     "en": "Forgetting which base you have fitted."
+    }
+   ],
+   "tips": [
+    {
+     "ro": "Macină cu 1–2 trepte mai fin decât la V60.",
+     "en": "Grind 1–2 steps finer than for a V60."
+    },
+    {
+     "ro": "Turnări multe și mici țin temperatura și nivelul stabile.",
+     "en": "Many small pours keep temperature and level steady."
+    },
+    {
+     "ro": "Filtrele Sibarist Fast scurtează timpul și cresc claritatea.",
+     "en": "Sibarist Fast filters shorten time and boost clarity."
+    }
+   ],
+   "recipeIds": [
+    "orea-fast"
+   ],
+   "sources": [
+    "https://pullandpourcoffee.com/?p=10527",
+    "https://field-guides.vercel.app/pour-over/recipes-and-methods.html",
+    "https://europeancoffeetrip.com/?p=41654"
+   ]
+  },
+  {
+   "id": "nextlevel-pulsar",
+   "name": {
+    "ro": "NextLevel Pulsar",
+    "en": "NextLevel Pulsar"
+   },
+   "category": "pourover",
+   "difficulty": 3,
+   "gear": {
+    "ro": "Pulsar, filtre plate Pulsar, ibric, cântar, opțional unealtă WDT",
+    "en": "Pulsar, flat Pulsar filters, kettle, scale, optional WDT tool"
+   },
+   "history": {
+    "ro": "Creat de NextLevel Brewer Co. împreună cu Scott Rao și lansat în 2023, ca dripper „fără bypass”.",
+    "en": "Created by NextLevel Brewer Co. with Scott Rao and launched in 2023 as a 'no-bypass' dripper."
+   },
+   "howItWorks": {
+    "ro": "Pereți drepți și un filtru plat lipit de ei fac ca toată apa să treacă prin cafea, fără să ocolească patul. Un robinet la bază îți permite bloom în infuzie și control al curgerii, iar dispersorul împrăștie apa ca la un aparat de batch.",
+    "en": "Straight walls and a flat filter sealed against them force all water through the coffee, none around it. A valve at the base allows an immersion bloom and flow control, and a dispersion screen spreads water like a batch brewer."
+   },
+   "profile": {
+    "ro": "Dulce, cu corp și foarte curat; extracție ridicată fără astringență, mai ales la doze mari.",
+    "en": "Sweet, full and very clean; high extraction without astringency, especially at larger doses."
+   },
+   "grindKey": "chemex",
+   "mistakes": [
+    {
+     "ro": "Doze sub 20 g: patul e prea subțire și apare astringența.",
+     "en": "Doses under 20 g: the bed is too thin and astringency appears."
+    },
+    {
+     "ro": "Lași robinetul deschis la bloom.",
+     "en": "Leaving the valve open during the bloom."
+    },
+    {
+     "ro": "Măcinare fină de V60 care înfundă filtrul plat.",
+     "en": "A fine V60 grind that clogs the flat filter."
+    }
+   ],
+   "tips": [
+    {
+     "ro": "Folosește 25–30 g și măcinare între pour-over și batch brew.",
+     "en": "Use 25–30 g and a grind between pour-over and batch brew."
+    },
+    {
+     "ro": "Ține apa la 1–2 cm deasupra cafelei pe toată durata.",
+     "en": "Keep water 1–2 cm above the coffee throughout."
+    },
+    {
+     "ro": "Un bloom scurt aduce claritate, unul lung aduce corp.",
+     "en": "A short bloom brings clarity, a long one brings body."
+    }
+   ],
+   "recipeIds": [
+    "pulsar-rao"
+   ],
+   "sources": [
+    "https://www.scottrao.com/blog/pulsar-recipe",
+    "https://coffeegeek.com/blog/new-products/theres-no-bypassing-the-nextlevel-brewers/",
+    "https://kaldiscoffee.com/blogs/recipes/nextlevel-pulsar-dripper-brew-recipe"
+   ]
+  },
+  {
+   "id": "april-brewer",
+   "name": {
+    "ro": "April Brewer",
+    "en": "April Brewer"
+   },
+   "category": "pourover",
+   "difficulty": 2,
+   "gear": {
+    "ro": "Dripper April (plastic sau porțelan), filtre Wave/April, ibric, cântar",
+    "en": "April brewer (plastic or porcelain), Wave/April filters, kettle, scale"
+   },
+   "history": {
+    "ro": "Proiectat de prăjitoria daneză April Coffee și de Patrik Rolf, finalist la Brewers Cup, lansat în 2019.",
+    "en": "Designed by Danish roaster April Coffee and Brewers Cup finalist Patrik Rolf, released in 2019."
+   },
+   "howItWorks": {
+    "ro": "Fund plat cu trei găuri și pereți cu nervuri care țin filtrul ridicat; e gândit pentru turnări rapide, egale, de câte 50 g. Patul plat se extrage uniform fără să amesteci.",
+    "en": "A flat bottom with three holes and ribbed walls holding the filter up; it's built for fast, equal 50 g pours. The flat bed extracts evenly without stirring."
+   },
+   "profile": {
+    "ro": "Fructat și transparent, cu corp delicat; pune în valoare prăjirile nordice foarte deschise.",
+    "en": "Fruity and transparent with a delicate body; flatters very light Nordic roasts."
+   },
+   "grindKey": "pourover",
+   "mistakes": [
+    {
+     "ro": "Amesteci sau rotești: rețeta April se bazează pe turnări, nu pe agitare.",
+     "en": "Stirring or swirling: the April method relies on pours, not agitation."
+    },
+    {
+     "ro": "Torni următoarea porție înainte să se usuce suprafața.",
+     "en": "Pouring the next pulse before the surface drains."
+    },
+    {
+     "ro": "Măcinare prea fină pentru prăjiri deschise dense.",
+     "en": "Grinding too fine for dense light roasts."
+    }
+   ],
+   "tips": [
+    {
+     "ro": "Toarnă rapid și „agresiv”, în cercuri concentrice.",
+     "en": "Pour quickly and 'aggressively' in concentric circles."
+    },
+    {
+     "ro": "Ținta e 3:20–3:30 pentru 20 g.",
+     "en": "Aim for 3:20–3:30 for 20 g."
+    },
+    {
+     "ro": "Rețeta merge și pe Kalita sau Orea.",
+     "en": "The recipe also works on a Kalita or Orea."
+    }
+   ],
+   "recipeIds": [
+    "april-pulse"
+   ],
+   "sources": [
+    "https://www.aprilcoffeeroasters.com/pages/coffee-inf-recipes",
+    "https://honestcoffeeguide.com/brew-recipes/april-coffee-roasters/",
+    "https://klatchcoffee.com/brew-guides/april-brewer"
+   ]
+  },
+  {
+   "id": "melitta",
+   "name": {
+    "ro": "Melitta (con trapezoidal)",
+    "en": "Melitta cone"
+   },
+   "category": "pourover",
+   "difficulty": 1,
+   "gear": {
+    "ro": "Suport Melitta 1x2 sau 1x4, filtre Melitta, ibric, cântar",
+    "en": "Melitta 1x2 or 1x4 holder, Melitta filters, kettle, scale"
+   },
+   "history": {
+    "ro": "Melitta Bentz a inventat filtrul de cafea din hârtie în 1908, la Dresda, folosind hârtia din caietul fiului ei. Conul trapezoidal apare în anii '30.",
+    "en": "Melitta Bentz invented the paper coffee filter in Dresden in 1908 using her son's school blotting paper. The wedge cone came in the 1930s."
+   },
+   "howItWorks": {
+    "ro": "Forma de pană și găurile mici (una sau trei) frânează scurgerea, deci rezultatul depinde mai puțin de tehnica de turnare. E un pour-over foarte iertător.",
+    "en": "The wedge shape and small holes (one or three) slow the drawdown, so the result depends less on pouring technique. It's a very forgiving pour-over."
+   },
+   "profile": {
+    "ro": "Rotund, cu corp, dulce; mai „clasic” decât V60, bun pentru prăjiri medii.",
+    "en": "Round, full-bodied, sweet; more 'classic' than a V60, great for medium roasts."
+   },
+   "grindKey": "pourover",
+   "mistakes": [
+    {
+     "ro": "Măcinare fină de espresso: înfundă găurile mici.",
+     "en": "Espresso-fine grind: it clogs the small holes."
+    },
+    {
+     "ro": "Nu îndoi cusăturile filtrului și hârtia se rupe.",
+     "en": "Not folding the filter seams so the paper tears."
+    },
+    {
+     "ro": "Torni toată apa deodată.",
+     "en": "Pouring all the water at once."
+    }
+   ],
+   "tips": [
+    {
+     "ro": "Îndoaie marginea de jos și cea laterală în direcții opuse.",
+     "en": "Fold the bottom and side seams in opposite directions."
+    },
+    {
+     "ro": "Filtrele Melitta se găsesc în orice supermarket din România.",
+     "en": "Melitta filters are sold in any Romanian supermarket."
+    },
+    {
+     "ro": "Ideal pentru începători sau dimineți grăbite.",
+     "en": "Ideal for beginners or rushed mornings."
+    }
+   ],
+   "recipeIds": [
+    "melitta-classic"
+   ],
+   "sources": [
+    "https://www.melitta.com/"
+   ]
+  },
+  {
+   "id": "clever-dripper",
+   "name": {
+    "ro": "Clever Dripper",
+    "en": "Clever Dripper"
+   },
+   "category": "hybrid",
+   "difficulty": 1,
+   "gear": {
+    "ro": "Clever Dripper (mic sau mare), filtre conice 1x4 sau Clever, cântar",
+    "en": "Clever Dripper (small or large), 1x4 cone or Clever filters, scale"
+   },
+   "history": {
+    "ro": "Inventat în Taiwan de Abid Corporation la începutul anilor 2000. Vreme de ani a fost secretul baristilor pentru o cafea bună fără tehnică.",
+    "en": "Invented in Taiwan by Abid Corporation in the early 2000s. For years it was baristas' secret for great coffee with no technique."
+   },
+   "howItWorks": {
+    "ro": "O supapă la bază ține cafeaua în infuzie cât stă pe masă și se deschide când pui dripperul pe cană. Combini infuzia completă a presei cu filtrarea prin hârtie.",
+    "en": "A base valve holds the coffee in immersion while it sits on the counter and opens when you set it on a mug. You get press-style full immersion with paper filtration."
+   },
+   "profile": {
+    "ro": "Dulce, cu corp, dar fără zaț; foarte consecvent de la o zi la alta.",
+    "en": "Sweet and full-bodied, but sediment-free; very consistent day to day."
+   },
+   "grindKey": "pourover",
+   "mistakes": [
+    {
+     "ro": "Pui cafeaua prima: se formează un strat care înfundă filtrul.",
+     "en": "Adding coffee first: it forms a layer that clogs the filter."
+    },
+    {
+     "ro": "Măcinare prea fină: scurgerea durează minute.",
+     "en": "Grinding too fine: drawdown takes minutes."
+    },
+    {
+     "ro": "Îl pui pe o cană prea îngustă și supapa nu se deschide.",
+     "en": "Setting it on a narrow mug so the valve doesn't open."
+    }
+   ],
+   "tips": [
+    {
+     "ro": "Toarnă apa întâi, apoi cafeaua.",
+     "en": "Water first, then the coffee."
+    },
+    {
+     "ro": "Infuzie de 2–4 minute; mai lung pentru mai mult corp.",
+     "en": "Steep 2–4 minutes; longer for more body."
+    },
+    {
+     "ro": "Cel mai bun dripper pentru începători.",
+     "en": "The best dripper for beginners."
+    }
+   ],
+   "recipeIds": [
+    "clever-classic"
+   ],
+   "sources": [
+    "https://field-guides.vercel.app/pour-over/official-brewer-recipes.html",
+    "https://commonmancoffeeroasters.com/blogs/news-2/74430852-clever-coffee-dripper-brew-guide",
+    "https://honestcoffeeguide.com/brew-recipes"
+   ]
+  },
+  {
+   "id": "hario-switch",
+   "name": {
+    "ro": "Hario Switch",
+    "en": "Hario Switch"
+   },
+   "category": "hybrid",
+   "difficulty": 2,
+   "gear": {
+    "ro": "Hario Switch 02 (sau 03), filtre V60, ibric cu reglaj de temperatură, cântar",
+    "en": "Hario Switch 02 (or 03), V60 filters, temperature-control kettle, scale"
+   },
+   "history": {
+    "ro": "Lansat de Hario în 2019: un con V60 de sticlă pe o bază cu bilă de oțel. Tetsu Kasuya i-a dat faima cu rețeta sa hibridă.",
+    "en": "Released by Hario in 2019: a glass V60 cone on a base with a steel-ball valve. Tetsu Kasuya made it famous with his hybrid recipe."
+   },
+   "howItWorks": {
+    "ro": "O pârghie închide sau deschide scurgerea oricând vrei. Poți face pour-over, infuzie completă sau orice combinație, în aceeași rețetă.",
+    "en": "A lever closes or opens the outlet whenever you want. You can do pour-over, full immersion or any combination within one recipe."
+   },
+   "profile": {
+    "ro": "Între V60 și Clever: claritate cu mai multă dulceață și corp.",
+    "en": "Between a V60 and a Clever: clarity with more sweetness and body."
+   },
+   "grindKey": "pourover",
+   "mistakes": [
+    {
+     "ro": "Uiți Switch-ul deschis la începutul infuziei.",
+     "en": "Leaving the Switch open at the start of immersion."
+    },
+    {
+     "ro": "Aceeași măcinare ca la V60 pentru infuzie lungă: iese supraextras.",
+     "en": "Same grind as V60 for a long steep: it over-extracts."
+    },
+    {
+     "ro": "Nu preîncălzești sticla.",
+     "en": "Not preheating the glass."
+    }
+   ],
+   "tips": [
+    {
+     "ro": "Închide Switch-ul la clătire ca să încălzești tot vasul.",
+     "en": "Close the Switch while rinsing to heat the whole vessel."
+    },
+    {
+     "ro": "Apa mai rece în faza de infuzie reduce amăreala.",
+     "en": "Cooler water in the immersion phase reduces bitterness."
+    },
+    {
+     "ro": "Poți folosi conul V60 obișnuit pe baza Switch.",
+     "en": "Your regular V60 cone fits on the Switch base."
+    }
+   ],
+   "recipeIds": [
+    "switch-kasuya"
+   ],
+   "sources": [
+    "https://honestcoffeeguide.com/brew-recipes/tetsu-kasuya-hybrid-method/",
+    "https://outpostcoffee.com/blogs/brew-at-home/tetsu-kasuyas-hario-switch-recipe-for-perfect-coffee",
+    "https://prima-coffee.com/blog/hario-switch-brewing-guide"
+   ]
+  },
+  {
+   "id": "aeropress",
+   "name": {
+    "ro": "AeroPress",
+    "en": "AeroPress"
+   },
+   "category": "hybrid",
+   "difficulty": 1,
+   "gear": {
+    "ro": "AeroPress (Original, Go sau XL), filtre de hârtie sau metal, paletă, cântar",
+    "en": "AeroPress (Original, Go or XL), paper or metal filters, paddle, scale"
+   },
+   "history": {
+    "ro": "Inventat în 2005 de Alan Adler, creatorul frisbee-ului Aerobie. Are propriul campionat mondial din 2008; în 2024 l-a câștigat românul George Stanica.",
+    "en": "Invented in 2005 by Alan Adler, creator of the Aerobie frisbee. It has had its own world championship since 2008; Romanian George Stanica won it in 2024."
+   },
+   "howItWorks": {
+    "ro": "Cafeaua stă în infuzie în cilindru, apoi o presezi cu pistonul printr-un filtru. Presiunea ușoară și timpul scurt permit rețete foarte diferite: concentrate, diluate, inversate.",
+    "en": "Coffee steeps in the chamber, then you press it through a filter with the plunger. Light pressure and short contact time allow wildly different recipes: concentrated, diluted, inverted."
+   },
+   "profile": {
+    "ro": "Curat, dulce, corp mediu; de la ceașcă delicată la concentrat aproape de espresso.",
+    "en": "Clean, sweet, medium body; from a delicate cup to a near-espresso concentrate."
+   },
+   "grindKey": "aeropress",
+   "mistakes": [
+    {
+     "ro": "Apeși cu forță: canalizezi apa și extragi amăreală.",
+     "en": "Pressing hard: you channel the water and extract bitterness."
+    },
+    {
+     "ro": "Presezi până strivești zațul după șuierat.",
+     "en": "Pressing past the hiss and squeezing the puck."
+    },
+    {
+     "ro": "Inversat pe o suprafață instabilă: se poate răsturna.",
+     "en": "Inverted on an unstable surface: it can tip over."
+    }
+   ],
+   "tips": [
+    {
+     "ro": "Pune pistonul puțin în cilindru ca să creeze vid și să nu picure.",
+     "en": "Seat the plunger slightly to create a vacuum and stop dripping."
+    },
+    {
+     "ro": "Două filtre de hârtie dau o ceașcă și mai curată.",
+     "en": "Two paper filters give an even cleaner cup."
+    },
+    {
+     "ro": "Rețetele de concurs se termină adesea cu diluare: gustă înainte să adaugi apă.",
+     "en": "Competition recipes often end with dilution: taste before adding water."
+    }
+   ],
+   "recipeIds": [
+    "aero-hoffmann",
+    "aero-inverted",
+    "aero-stanica-2024",
+    "aero-nemo-2025",
+    "aero-flash"
+   ],
+   "sources": [
+    "https://aeropress.com/blogs/w-a-c-aeropress-recipes/1st-george-stanica-romania-2024",
+    "https://aeropress.com/blogs/w-a-c-aeropress-recipes/1st-nemo-pop-australia-2025",
+    "https://perfectdailygrind.com/2025/02/aeropress-revisited-coffee-brew-guide/"
+   ]
+  },
+  {
+   "id": "french-press",
+   "name": {
+    "ro": "Presa franceză",
+    "en": "French press"
+   },
+   "category": "immersion",
+   "difficulty": 1,
+   "gear": {
+    "ro": "Presă franceză (sticlă sau inox), cântar, lingură, opțional termometru",
+    "en": "French press (glass or steel), scale, spoon, optional thermometer"
+   },
+   "history": {
+    "ro": "Patentată în forma actuală de italianul Attilio Calimani în 1929 și popularizată în Franța de fabrica Melior. În România e adesea numită simplu „presă”.",
+    "en": "Patented in its modern form by Italian Attilio Calimani in 1929 and popularised in France by the Melior factory. Romanians often just call it 'presa'."
+   },
+   "howItWorks": {
+    "ro": "Infuzie completă: cafeaua grosieră stă în apă câteva minute, apoi o sită metalică o separă. Sita lasă să treacă uleiurile și puține particule fine.",
+    "en": "Full immersion: coarse coffee steeps for a few minutes, then a metal mesh separates it. The mesh lets oils and some fines through."
+   },
+   "profile": {
+    "ro": "Corp plin, textură uleioasă, dulceață și note de ciocolată; mai puțin limpede.",
+    "en": "Full body, oily texture, sweetness and chocolate notes; less clean."
+   },
+   "grindKey": "french",
+   "mistakes": [
+    {
+     "ro": "Apeși sita până la fund și răscolești zațul.",
+     "en": "Plunging to the bottom and stirring up the grounds."
+    },
+    {
+     "ro": "Lași cafeaua în presă după infuzie: continuă să se extragă.",
+     "en": "Leaving coffee in the press after steeping: it keeps extracting."
+    },
+    {
+     "ro": "Măcinare fină: ceașca e nămoloasă și amară.",
+     "en": "Fine grind: the cup is muddy and bitter."
+    }
+   ],
+   "tips": [
+    {
+     "ro": "Lasă zațul să se așeze 4–5 minute după ce spargi crusta.",
+     "en": "Let grounds settle 4–5 minutes after breaking the crust."
+    },
+    {
+     "ro": "Coboară sita doar până la suprafață, ca filtru, nu ca piston.",
+     "en": "Lower the mesh only to the surface, as a strainer, not a plunger."
+    },
+    {
+     "ro": "Lasă ultimii 20 g în presă, acolo e zațul.",
+     "en": "Leave the last 20 g in the press, that's where the silt is."
+    }
+   ],
+   "recipeIds": [
+    "french-hoffmann",
+    "french-press-big"
+   ],
+   "sources": [
+    "https://www.jameshoffmann.co.uk/",
+    "https://sca.coffee/research/coffee-standards",
+    "https://honestcoffeeguide.com/brew-recipes"
+   ]
+  },
+  {
+   "id": "siphon",
+   "name": {
+    "ro": "Sifon (vacuum pot)",
+    "en": "Siphon (vacuum pot)"
+   },
+   "category": "immersion",
+   "difficulty": 3,
+   "gear": {
+    "ro": "Sifon Hario Technica sau Yama, arzător cu butan/halogen sau spirt, filtru din pânză, paletă de bambus, cântar",
+    "en": "Hario Technica or Yama siphon, butane/halogen or spirit burner, cloth filter, bamboo paddle, scale"
+   },
+   "history": {
+    "ro": "Inventat în anii 1830 în Germania (Loeff) și perfecționat în Franța de Madame Vassieux. Japonia l-a transformat într-o artă de bar.",
+    "en": "Invented in the 1830s in Germany (Loeff) and refined in France by Madame Vassieux. Japan turned it into a bar art form."
+   },
+   "howItWorks": {
+    "ro": "Vaporii din balonul de jos împing apa în vasul de sus, unde se face infuzia. Când iei căldura, vidul format trage cafeaua înapoi prin filtru.",
+    "en": "Vapour in the lower bowl pushes water into the upper chamber, where it steeps. When you remove the heat, the vacuum pulls the coffee back down through the filter."
+   },
+   "profile": {
+    "ro": "Foarte curat, aromat și fierbinte, cu corp mătăsos; ceva între pour-over și presă.",
+    "en": "Very clean, aromatic and hot, with a silky body; somewhere between pour-over and press."
+   },
+   "grindKey": "pourover",
+   "mistakes": [
+    {
+     "ro": "Fierbi cafeaua prea tare în vasul de sus: devine amară.",
+     "en": "Boiling the coffee hard in the upper chamber: it turns bitter."
+    },
+    {
+     "ro": "Filtru de pânză nespălat și mirositor.",
+     "en": "An unwashed, smelly cloth filter."
+    },
+    {
+     "ro": "Încălzești balonul de jos ud pe exterior: sticla poate crăpa.",
+     "en": "Heating a lower bowl wet on the outside: the glass can crack."
+    }
+   ],
+   "tips": [
+    {
+     "ro": "Păstrează filtrul de pânză în apă, la frigider.",
+     "en": "Store the cloth filter in water in the fridge."
+    },
+    {
+     "ro": "Pornește cu apă fierbinte din ibric ca să scurtezi timpul.",
+     "en": "Start with hot kettle water to save time."
+    },
+    {
+     "ro": "Ține flacăra mică după ce urcă apa, doar cât s-o menții sus.",
+     "en": "Keep the flame low once the water rises, just enough to hold it up."
+    }
+   ],
+   "recipeIds": [
+    "siphon-classic"
+   ],
+   "sources": [
+    "https://www.hario-europe.com/collections/siphons/products/hario-coffee-siphon-technica",
+    "https://baristalife.co/blogs/blog/how-to-make-siphon",
+    "https://noblecoffeeroasting.squarespace.com/siphon"
+   ]
+  },
+  {
+   "id": "vietnamese-phin",
+   "name": {
+    "ro": "Phin vietnamez",
+    "en": "Vietnamese phin"
+   },
+   "category": "traditional",
+   "difficulty": 1,
+   "gear": {
+    "ro": "Phin din inox sau aluminiu (cu presă și capac), lapte condensat îndulcit, gheață",
+    "en": "Steel or aluminium phin (with press and lid), sweetened condensed milk, ice"
+   },
+   "history": {
+    "ro": "Adus de francezi în Vietnam în secolul al XIX-lea, phin-ul a devenit simbolul cafenelelor de pe stradă. Laptele condensat a înlocuit laptele proaspăt, greu de găsit.",
+    "en": "Brought to Vietnam by the French in the 19th century, the phin became the symbol of street cafés. Condensed milk replaced scarce fresh milk."
+   },
+   "howItWorks": {
+    "ro": "O cupă mică cu găuri, cu o presă metalică așezată peste cafea, care stă pe pahar. Apa picură lent prin gravitație, 4–5 minute.",
+    "en": "A small perforated cup with a metal press on the coffee, sitting on the glass. Water drips slowly by gravity over 4–5 minutes."
+   },
+   "profile": {
+    "ro": "Foarte tare, amărui, ciocolatos; cu lapte condensat devine dulce și cremos.",
+    "en": "Very strong, bitter-sweet, chocolatey; with condensed milk it turns sweet and creamy."
+   },
+   "grindKey": "moka",
+   "mistakes": [
+    {
+     "ro": "Măcinare prea fină: nu mai picură deloc.",
+     "en": "Grinding too fine: it stops dripping."
+    },
+    {
+     "ro": "Strângi presa prea tare sau deloc.",
+     "en": "Screwing the press too tight or not at all."
+    },
+    {
+     "ro": "Torni toată apa fără bloom: cafeaua se ridică și curge prea repede.",
+     "en": "Pouring all the water without a bloom: the coffee lifts and runs too fast."
+    }
+   ],
+   "tips": [
+    {
+     "ro": "Scutură phin-ul ca să nivelezi cafeaua înainte de presă.",
+     "en": "Shake the phin to level the coffee before the press."
+    },
+    {
+     "ro": "Încearcă și robusta de specialitate (fine robusta).",
+     "en": "Try specialty-grade (fine) robusta too."
+    },
+    {
+     "ro": "Varianta cà phê trứng adaugă gălbenuș bătut cu zahăr.",
+     "en": "The cà phê trứng variant adds yolk whipped with sugar."
+    }
+   ],
+   "recipeIds": [
+    "phin-ca-phe-sua-da"
+   ],
+   "sources": [
+    "https://coppercowcoffee.com/blogs/blog-posts/how-to-use-a-phin",
+    "https://nguyencoffeesupply.com/blogs/news/what-is-the-vietnamese-phin-filter",
+    "https://www.cremashop.eu/nl/brew-guide/vietnamese-coffee"
+   ]
+  },
+  {
+   "id": "kyoto-cold-drip",
+   "name": {
+    "ro": "Kyoto cold drip",
+    "en": "Kyoto cold drip"
+   },
+   "category": "cold",
+   "difficulty": 3,
+   "gear": {
+    "ro": "Turn de cold drip (Hario, Yama sau similar), filtru de hârtie sau ceramic, apă cu gheață, cântar",
+    "en": "Cold drip tower (Hario, Yama or similar), paper or ceramic filter, ice water, scale"
+   },
+   "history": {
+    "ro": "Popularizat în cafenelele kissaten din Kyoto; se spune că provine de la negustorii olandezi care transportau cafea concentrată pe mare.",
+    "en": "Popularised in Kyoto's kissaten cafés; it's said to trace back to Dutch traders carrying coffee concentrate at sea."
+   },
+   "howItWorks": {
+    "ro": "Apa cu gheață picură dintr-un rezervor, cu o picătură pe secundă, prin cafea, timp de 3–6 ore. Nu e infuzie, ci percolare foarte lentă la rece.",
+    "en": "Ice water drips from a reservoir at about one drop per second through the coffee for 3–6 hours. It's not a steep but a very slow cold percolation."
+   },
+   "profile": {
+    "ro": "Limpede, dulce, cu note de vin sau lichior; mai aromat și mai luminos decât cold brew-ul prin infuzie.",
+    "en": "Clear, sweet, with wine or liqueur notes; more aromatic and brighter than steeped cold brew."
+   },
+   "grindKey": "pourover",
+   "mistakes": [
+    {
+     "ro": "Picurare prea rapidă: extracție slabă și apoasă.",
+     "en": "Dripping too fast: weak, watery extraction."
+    },
+    {
+     "ro": "Nu uzi cafeaua înainte: apa își face canale.",
+     "en": "Not pre-wetting the coffee: water channels."
+    },
+    {
+     "ro": "Lași turnul într-un loc cald sau în soare.",
+     "en": "Leaving the tower somewhere warm or sunny."
+    }
+   ],
+   "tips": [
+    {
+     "ro": "Verifică ritmul la fiecare oră: scade pe măsură ce se golește rezervorul.",
+     "en": "Check the rate hourly: it slows as the reservoir empties."
+    },
+    {
+     "ro": "Un filtru de hârtie peste cafea distribuie picăturile egal.",
+     "en": "A paper filter on top of the coffee spreads drops evenly."
+    },
+    {
+     "ro": "Lasă-l o zi la frigider: aromele se rotunjesc.",
+     "en": "Rest it a day in the fridge: the flavours round out."
+    }
+   ],
+   "recipeIds": [
+    "kyoto-drip"
+   ],
+   "sources": [
+    "https://www.yokogaomag.com/editorial/kyoto-cold-brew",
+    "https://baristalife.co/blogs/blog/kyoto-drip-cold-brew-tower",
+    "https://perfectdailygrind.com/?p=66909"
+   ]
+  },
+  {
+   "id": "flash-brew",
+   "name": {
+    "ro": "Flash brew (cafea japoneză cu gheață)",
+    "en": "Flash brew (Japanese iced coffee)"
+   },
+   "category": "cold",
+   "difficulty": 2,
+   "gear": {
+    "ro": "V60, Chemex sau AeroPress, gheață, cântar",
+    "en": "V60, Chemex or AeroPress, ice, scale"
+   },
+   "history": {
+    "ro": "Tehnica „iced coffee” japoneză e folosită în Japonia de zeci de ani; Hoffmann și alții au popularizat-o în Occident ca alternativă rapidă la cold brew.",
+    "en": "Japanese-style iced coffee has been used in Japan for decades; Hoffmann and others popularised it in the West as a quick alternative to cold brew."
+   },
+   "howItWorks": {
+    "ro": "Prepari un concentrat cu apă fierbinte direct peste gheață, care ține cam 40% din apa totală. Apa caldă extrage aromele, iar gheața le răcește înainte să se oxideze.",
+    "en": "You brew a hot concentrate directly onto ice that makes up about 40% of the total water. Hot water extracts the aromatics and the ice chills them before they oxidise."
+   },
+   "profile": {
+    "ro": "Luminos, aromat, cu aciditate vie; mult mai fructat decât cold brew-ul.",
+    "en": "Bright, aromatic, with lively acidity; far fruitier than cold brew."
+   },
+   "grindKey": "pourover",
+   "mistakes": [
+    {
+     "ro": "Folosești aceeași cantitate de apă caldă ca la rețeta fierbinte și obții o băutură apoasă.",
+     "en": "Using the full hot-recipe water and ending up with a watery drink."
+    },
+    {
+     "ro": "Măcinare neschimbată: cu mai puțină apă trebuie mai fin.",
+     "en": "Unchanged grind: with less water you need finer."
+    },
+    {
+     "ro": "Gheață din congelator cu miros.",
+     "en": "Freezer ice with off smells."
+    }
+   ],
+   "tips": [
+    {
+     "ro": "Apa caldă + gheața = apa totală a rețetei clasice.",
+     "en": "Hot water + ice = the classic recipe's total water."
+    },
+    {
+     "ro": "Cafelele etiopiene și kenyene strălucesc cu gheață.",
+     "en": "Ethiopian and Kenyan coffees shine iced."
+    },
+    {
+     "ro": "Gata în 3 minute, față de 12+ ore la cold brew.",
+     "en": "Ready in 3 minutes versus 12+ hours for cold brew."
+    }
+   ],
+   "recipeIds": [
+    "v60-iced",
+    "aero-flash",
+    "chemex-iced"
+   ],
+   "sources": [
+    "https://www.jameshoffmann.co.uk/",
+    "https://perfectdailygrind.com/",
+    "https://honestcoffeeguide.com/brew-recipes"
+   ]
+  },
+  {
+   "id": "cold-brew",
+   "name": {
+    "ro": "Cold brew",
+    "en": "Cold brew"
+   },
+   "category": "cold",
+   "difficulty": 1,
+   "gear": {
+    "ro": "Borcan mare sau Hario Mizudashi, sită, filtru de hârtie, cântar",
+    "en": "Large jar or Hario Mizudashi, sieve, paper filter, scale"
+   },
+   "history": {
+    "ro": "Variante de extracție la rece există de secole (inclusiv în Japonia, din 1600), dar cold brew-ul modern a explodat în SUA după 2010.",
+    "en": "Cold extraction has existed for centuries (including in Japan since the 1600s), but modern cold brew exploded in the US after 2010."
+   },
+   "howItWorks": {
+    "ro": "Cafeaua grosieră stă în apă rece sau la temperatura camerei 12–24 de ore. Fără căldură se extrag mai puțini acizi și compuși amari.",
+    "en": "Coarse coffee steeps in cold or room-temperature water for 12–24 hours. Without heat, fewer acids and bitter compounds are extracted."
+   },
+   "profile": {
+    "ro": "Moale, dulce, ciocolatos, aciditate foarte mică; perfect cu lapte.",
+    "en": "Smooth, sweet, chocolatey, very low acidity; perfect with milk."
+   },
+   "grindKey": "coldbrew",
+   "mistakes": [
+    {
+     "ro": "Măcinare fină: filtrare chinuită și gust tulbure.",
+     "en": "Fine grind: painful filtering and a muddy taste."
+    },
+    {
+     "ro": "Infuzie de peste 24 h: gust lemnos.",
+     "en": "Steeping past 24 h: a woody taste."
+    },
+    {
+     "ro": "Nu filtrezi prin hârtie și rămâne zaț fin.",
+     "en": "Not filtering through paper so fine silt remains."
+    }
+   ],
+   "tips": [
+    {
+     "ro": "Fă concentrat 1:5–1:8 și diluează la servire.",
+     "en": "Brew a 1:5–1:8 concentrate and dilute to serve."
+    },
+    {
+     "ro": "Prăjirile medii-închise dau cel mai bun cold brew clasic.",
+     "en": "Medium-dark roasts make the best classic cold brew."
+    },
+    {
+     "ro": "Cold brew + apă tonică + coajă de portocală = vară.",
+     "en": "Cold brew + tonic + orange peel = summer."
+    }
+   ],
+   "recipeIds": [
+    "cold",
+    "cold-brew-concentrate"
+   ],
+   "sources": [
+    "https://www.hario-europe.com/",
+    "https://perfectdailygrind.com/",
+    "https://honestcoffeeguide.com/brew-recipes"
+   ]
+  },
+  {
+   "id": "turkish-ibrik",
+   "name": {
+    "ro": "Cafea la ibric (turcească)",
+    "en": "Turkish coffee (ibrik)"
+   },
+   "category": "traditional",
+   "difficulty": 2,
+   "gear": {
+    "ro": "Ibric de cupru sau inox (cezve), râșniță capabilă de măcinare ca făina, cești mici",
+    "en": "Copper or steel ibrik (cezve), grinder capable of flour-fine grind, small cups"
+   },
+   "history": {
+    "ro": "Cafeaua turcească e pe lista UNESCO a patrimoniului imaterial din 2013. În România, cafeaua la ibric e ritualul de dimineață al bunicilor.",
+    "en": "Turkish coffee has been on UNESCO's intangible heritage list since 2013. In Romania, ibrik coffee is the grandparents' morning ritual."
+   },
+   "howItWorks": {
+    "ro": "Cafeaua măcinată foarte fin se încălzește împreună cu apa rece până aproape de fierbere. Nu se filtrează: zațul se depune în ceașcă.",
+    "en": "Ultra-fine coffee is heated together with cold water to just below the boil. It isn't filtered: the grounds settle in the cup."
+   },
+   "profile": {
+    "ro": "Dens, intens, cu spumă catifelată; dulce dacă pui zahăr de la început.",
+    "en": "Dense, intense, with a velvety foam; sweet if sugar goes in at the start."
+   },
+   "grindKey": "turkish",
+   "mistakes": [
+    {
+     "ro": "O lași să clocotească: spuma dispare și apare amăreala.",
+     "en": "Letting it boil: the foam collapses and bitterness appears."
+    },
+    {
+     "ro": "Amesteci după ce ai pus-o pe foc.",
+     "en": "Stirring after it's on the heat."
+    },
+    {
+     "ro": "Râșniță cu lame sau măcinare de espresso: nu e destul de fin.",
+     "en": "Blade grinder or espresso grind: not fine enough."
+    }
+   ],
+   "tips": [
+    {
+     "ro": "Foc cât mai mic: cu cât urcă mai încet, cu atât mai multă spumă.",
+     "en": "Lowest heat: the slower it rises, the more foam."
+    },
+    {
+     "ro": "Lasă ceașca un minut să se așeze zațul.",
+     "en": "Let the cup sit a minute for the grounds to settle."
+    },
+    {
+     "ro": "Un ibric îngust la gât păstrează mai bine spuma.",
+     "en": "A narrow-necked ibrik keeps foam better."
+    }
+   ],
+   "recipeIds": [
+    "ibrik"
+   ],
+   "sources": [
+    "https://ich.unesco.org/en/RL/turkish-coffee-culture-and-tradition-00645",
+    "https://perfectdailygrind.com/"
+   ]
+  },
+  {
+   "id": "greek-arabic",
+   "name": {
+    "ro": "Cafea grecească și qahwa arăbească",
+    "en": "Greek coffee and Arabic qahwa"
+   },
+   "category": "traditional",
+   "difficulty": 2,
+   "gear": {
+    "ro": "Briki pentru grecească; dallah sau oală și termos pentru qahwa; cardamom",
+    "en": "Briki for Greek; dallah or pot and thermos for qahwa; cardamom"
+   },
+   "history": {
+    "ro": "Cafeaua grecească e ruda directă a celei turcești, cu propriul vocabular de dulceață. Qahwa arăbească e pe lista UNESCO din 2015 și e simbolul ospitalității în Golf.",
+    "en": "Greek coffee is a direct cousin of Turkish, with its own sweetness vocabulary. Arabic qahwa has been on UNESCO's list since 2015 and is the symbol of Gulf hospitality."
+   },
+   "howItWorks": {
+    "ro": "Grecească: ca la ibric, o ceașcă pe rând, cu spuma kaimaki. Qahwa: cafea prăjită foarte deschis, fiartă 10–15 minute și apoi aromată cu cardamom, servită strecurată.",
+    "en": "Greek: like the ibrik, one cup at a time, with kaimaki foam. Qahwa: very light-roasted coffee simmered 10–15 minutes, then spiced with cardamom and served strained."
+   },
+   "profile": {
+    "ro": "Grecească: densă și intensă. Qahwa: aurie, ușoară, condimentată, aproape ca un ceai, fără zahăr.",
+    "en": "Greek: dense and intense. Qahwa: golden, light, spiced, almost tea-like, unsweetened."
+   },
+   "grindKey": "turkish",
+   "mistakes": [
+    {
+     "ro": "Folosești cafea prăjită închis la qahwa: devine amară și pierde culoarea aurie.",
+     "en": "Using dark roast for qahwa: it turns bitter and loses its golden colour."
+    },
+    {
+     "ro": "Fierbi cardamomul de la început și se evaporă aroma.",
+     "en": "Boiling the cardamom from the start so its aroma evaporates."
+    },
+    {
+     "ro": "Faci mai multe cești grecești deodată și spuma nu ajunge la toți.",
+     "en": "Making several Greek cups at once so the foam doesn't go round."
+    }
+   ],
+   "tips": [
+    {
+     "ro": "Cere „metrios” dacă vrei semidulce.",
+     "en": "Order 'metrios' for semi-sweet."
+    },
+    {
+     "ro": "Pentru qahwa, prăjirea deschisă, de tip „shakra”, e esențială.",
+     "en": "For qahwa, a very light 'shakra' roast is essential."
+    },
+    {
+     "ro": "Servește qahwa cu curmale, în cești de câteva înghițituri.",
+     "en": "Serve qahwa with dates, in cups of a few sips."
+    }
+   ],
+   "recipeIds": [
+    "greek-briki",
+    "qahwa-arabic"
+   ],
+   "sources": [
+    "https://ich.unesco.org/en/RL/arabic-coffee-a-symbol-of-generosity-01074",
+    "https://www.coffeeness.de/en/qahwa-coffee/",
+    "https://gulfnews.com/food/a-quick-guide-to-making-the-perfect-cup-of-saudi-gahwa-at-home-1.1643633219533"
+   ]
+  },
+  {
+   "id": "neapolitan-flip",
+   "name": {
+    "ro": "Cuccumella napolitană (flip pot)",
+    "en": "Neapolitan flip pot (cuccumella)"
+   },
+   "category": "traditional",
+   "difficulty": 2,
+   "gear": {
+    "ro": "Cuccumella ILSA sau similară (aluminiu ori inox), sursă de căldură",
+    "en": "ILSA or similar cuccumella (aluminium or steel), heat source"
+   },
+   "history": {
+    "ro": "Inventată în 1819 de francezul Morize și adoptată de Napoli, unde a fost cafetiera casei până la moka. Eduardo De Filippo i-a dedicat un monolog celebru.",
+    "en": "Invented in 1819 by Frenchman Morize and adopted by Naples, where it was the household pot until the moka. Eduardo De Filippo gave it a famous monologue."
+   },
+   "howItWorks": {
+    "ro": "Încălzești apa în vasul de jos, apoi întorci cafetiera; apa picură prin gravitație prin cafea, fără presiune. E practic un pour-over de aragaz.",
+    "en": "You heat water in the bottom half, then flip the pot; water drips through the coffee by gravity, without pressure. It's essentially a stovetop pour-over."
+   },
+   "profile": {
+    "ro": "Mai blândă și mai dulce decât moka, cu corp mediu și aromă intensă.",
+    "en": "Gentler and sweeter than a moka, with medium body and intense aroma."
+   },
+   "grindKey": "moka",
+   "mistakes": [
+    {
+     "ro": "Umpli apa peste orificiul mic.",
+     "en": "Filling water above the small hole."
+    },
+    {
+     "ro": "Tasezi cafeaua: picurarea se blochează.",
+     "en": "Tamping the coffee: dripping stalls."
+    },
+    {
+     "ro": "O lași pe foc după ce iese aburul.",
+     "en": "Leaving it on the heat after steam appears."
+    }
+   ],
+   "tips": [
+    {
+     "ro": "Folosește un con de hârtie pe cioc, ca napolitanii.",
+     "en": "Put a paper cone on the spout, like Neapolitans do."
+    },
+    {
+     "ro": "Macină puțin mai grosier decât pentru moka.",
+     "en": "Grind a little coarser than for a moka."
+    },
+    {
+     "ro": "Încălzește ceștile înainte: cafeaua iese mai rece decât la moka.",
+     "en": "Preheat the cups: the coffee comes out cooler than a moka's."
+    }
+   ],
+   "recipeIds": [
+    "cuccumella-classic"
+   ],
+   "sources": [
+    "https://www.coffeeness.de/en/what-is-a-cuccuma/",
+    "https://www.caffevergnano.com/en/?p=10773",
+    "https://www.cooksinfo.com/neapolitan-flip-coffee-maker/"
+   ]
+  },
+  {
+   "id": "percolator",
+   "name": {
+    "ro": "Percolator",
+    "en": "Percolator"
+   },
+   "category": "traditional",
+   "difficulty": 1,
+   "gear": {
+    "ro": "Percolator de aragaz sau de camping (inox sau emailat), cântar",
+    "en": "Stovetop or camping percolator (steel or enamel), scale"
+   },
+   "history": {
+    "ro": "Patentat în SUA în 1889 de Hanson Goodrich, percolatorul a fost cafetiera americană standard până când l-au înlocuit filtrele electrice în anii '70.",
+    "en": "Patented in the US in 1889 by Hanson Goodrich, the percolator was America's standard coffee maker until electric drip replaced it in the 1970s."
+   },
+   "howItWorks": {
+    "ro": "Apa fierbinte urcă printr-un tub central și curge iar și iar peste cafeaua din coș. Recircularea extrage mult, așa că timpul și focul trebuie ținute sub control.",
+    "en": "Hot water rises through a central tube and showers the coffee basket again and again. The recirculation extracts a lot, so time and heat must be kept in check."
+   },
+   "profile": {
+    "ro": "Fierbinte, robust, amărui; poate fi plăcut și rotund dacă nu îl fierbi.",
+    "en": "Hot, robust, bitter-leaning; it can be pleasant and round if you don't boil it."
+   },
+   "grindKey": "french",
+   "mistakes": [
+    {
+     "ro": "Îl lași să clocotească 15 minute.",
+     "en": "Letting it boil for 15 minutes."
+    },
+    {
+     "ro": "Măcinare fină: trece zațul prin coș.",
+     "en": "Fine grind: grounds slip through the basket."
+    },
+    {
+     "ro": "Lași coșul cu zaț în vas după ce ai terminat.",
+     "en": "Leaving the basket of grounds in after brewing."
+    }
+   ],
+   "tips": [
+    {
+     "ro": "Pornește cu apă fierbinte și ține un clipocit rar.",
+     "en": "Start with hot water and keep a slow perk."
+    },
+    {
+     "ro": "Opt-zece minute sunt suficiente.",
+     "en": "Eight to ten minutes is plenty."
+    },
+    {
+     "ro": "Bun pentru grupuri mari, la cabană sau cort.",
+     "en": "Great for big groups at the cabin or campsite."
+    }
+   ],
+   "recipeIds": [
+    "percolator-stovetop"
+   ],
+   "sources": [
+    "https://coletticoffee.com/blogs/camping-coffee-tips/how-to-make-percolator-coffee",
+    "https://primulaproducts.com/a/blog/how-to-make-percolator-coffee"
+   ]
+  },
+  {
+   "id": "cowboy-coffee",
+   "name": {
+    "ro": "Cowboy coffee",
+    "en": "Cowboy coffee"
+   },
+   "category": "traditional",
+   "difficulty": 1,
+   "gear": {
+    "ro": "O oală sau un ibric de camping, sursă de foc",
+    "en": "A pot or camping kettle, a heat source"
+   },
+   "history": {
+    "ro": "Cafeaua cowboy-lor și a pionierilor din Vestul american, făcută direct pe foc, fără filtre. Strămoșul ei e cafeaua fiartă scandinavă (kokkaffe).",
+    "en": "The coffee of cowboys and pioneers of the American West, made right on the fire without filters. Its ancestor is Scandinavian boiled coffee (kokkaffe)."
+   },
+   "howItWorks": {
+    "ro": "Cafeaua grosieră se infuzează în apă abia luată de pe foc, ca într-o presă fără piston. Un strop de apă rece răcește suprafața și ajută zațul să cadă.",
+    "en": "Coarse coffee steeps in just-off-the-boil water, like a press without a plunger. A splash of cold water cools the surface and helps the grounds sink."
+   },
+   "profile": {
+    "ro": "Rustic, cu corp plin și puțin zaț; surprinzător de bun cu o cafea proaspătă.",
+    "en": "Rustic, full-bodied, a bit of sediment; surprisingly good with fresh coffee."
+   },
+   "grindKey": "french",
+   "mistakes": [
+    {
+     "ro": "Fierbi cafeaua în clocot.",
+     "en": "Boiling the coffee hard."
+    },
+    {
+     "ro": "Torni repede și răscolești zațul.",
+     "en": "Pouring fast and stirring up the grounds."
+    },
+    {
+     "ro": "Măcinare fină care rămâne în suspensie.",
+     "en": "A fine grind that stays suspended."
+    }
+   ],
+   "tips": [
+    {
+     "ro": "Ia oala de pe foc înainte să pui cafeaua.",
+     "en": "Take the pot off the heat before adding coffee."
+    },
+    {
+     "ro": "Strecoară printr-un șervețel dacă vrei o ceașcă mai curată.",
+     "en": "Strain through a napkin for a cleaner cup."
+    },
+    {
+     "ro": "Perfect pentru drumeții, fără echipament în plus.",
+     "en": "Perfect for hikes, no extra gear."
+    }
+   ],
+   "recipeIds": [
+    "cowboy-coffee"
+   ],
+   "sources": [
+    "https://spotterup.com/how-to-make-cowboy-coffee/",
+    "https://onegreatcoffee.com/blogs/latest-news/in-progress-how-to-make-coffee-on-a-stove-top"
+   ]
+  },
+  {
+   "id": "moka-pot",
+   "name": {
+    "ro": "Moka (ibricul italian)",
+    "en": "Moka pot"
+   },
+   "category": "traditional",
+   "difficulty": 1,
+   "gear": {
+    "ro": "Moka Bialetti sau similară, sursă de căldură, opțional ibric electric pentru apă caldă",
+    "en": "Bialetti or similar moka pot, heat source, optional kettle for hot water"
+   },
+   "history": {
+    "ro": "Creată în 1933 de Alfonso Bialetti, inspirată de mașinile de spălat cu leșie. Se găsește în aproape orice casă din Italia și în multe din România.",
+    "en": "Created in 1933 by Alfonso Bialetti, inspired by lye washing machines. It's in nearly every Italian home and many Romanian ones."
+   },
+   "howItWorks": {
+    "ro": "Aburul din boiler împinge apa fierbinte în sus, prin cafea, la aproximativ 1–1,5 bar. Nu e espresso (care are 9 bar), dar e un concentrat puternic.",
+    "en": "Steam in the boiler pushes hot water up through the coffee at about 1–1.5 bar. It isn't espresso (9 bar), but it's a strong concentrate."
+   },
+   "profile": {
+    "ro": "Intens, cu corp, note de ciocolată și caramel; amar dacă se arde.",
+    "en": "Intense, full-bodied, chocolate and caramel notes; bitter if scorched."
+   },
+   "grindKey": "moka",
+   "mistakes": [
+    {
+     "ro": "Tasezi cafeaua ca la espresso.",
+     "en": "Tamping the coffee like espresso."
+    },
+    {
+     "ro": "Lași moka pe foc până bolborosește puternic.",
+     "en": "Leaving it on the heat until it sputters violently."
+    },
+    {
+     "ro": "Pornești cu apă rece pe foc mare: se încinge cafeaua.",
+     "en": "Starting with cold water on high heat: the coffee cooks."
+    }
+   ],
+   "tips": [
+    {
+     "ro": "Pornește cu apă fierbinte și foc mediu.",
+     "en": "Start with hot water and medium heat."
+    },
+    {
+     "ro": "Răcește baza sub jet de apă rece când începe să bolborosească.",
+     "en": "Cool the base under cold water when it starts sputtering."
+    },
+    {
+     "ro": "Nu o spăla cu detergent dacă e din aluminiu.",
+     "en": "Don't use detergent on an aluminium pot."
+    }
+   ],
+   "recipeIds": [
+    "moka",
+    "brikka-crema"
+   ],
+   "sources": [
+    "https://www.bialetti.com/",
+    "https://www.jameshoffmann.co.uk/"
+   ]
+  },
+  {
+   "id": "bialetti-brikka",
+   "name": {
+    "ro": "Bialetti Brikka",
+    "en": "Bialetti Brikka"
+   },
+   "category": "traditional",
+   "difficulty": 2,
+   "gear": {
+    "ro": "Bialetti Brikka (2 sau 4 căni), sursă de căldură",
+    "en": "Bialetti Brikka (2 or 4 cup), heat source"
+   },
+   "history": {
+    "ro": "Lansată de Bialetti în 1999 ca răspuns la dorința de „cremă” acasă, fără mașină de espresso. Supapa a fost reproiectată în 2020.",
+    "en": "Launched by Bialetti in 1999 to give 'crema' at home without an espresso machine. The valve was redesigned in 2020."
+   },
+   "howItWorks": {
+    "ro": "O supapă cu greutate pe coloana de ieșire blochează cafeaua până crește presiunea, apoi o eliberează brusc. Rezultatul e o cafea mai concentrată, cu un strat de spumă.",
+    "en": "A weighted valve on the outlet column holds back the coffee until pressure builds, then releases it in a burst. The result is a more concentrated coffee with a layer of foam."
+   },
+   "profile": {
+    "ro": "Mai dens și mai cremos decât moka clasică, cu spumă (nu adevărată cremă de espresso).",
+    "en": "Denser and creamier than a classic moka, with foam (not true espresso crema)."
+   },
+   "grindKey": "moka",
+   "mistakes": [
+    {
+     "ro": "Umpli boilerul ca la moka: apa e prea multă.",
+     "en": "Filling the boiler like a moka: too much water."
+    },
+    {
+     "ro": "Închizi capacul și nu vezi momentul pocnetului.",
+     "en": "Closing the lid and missing the 'pop'."
+    },
+    {
+     "ro": "Măcinare prea fină: se blochează supapa.",
+     "en": "Grinding too fine: the valve clogs."
+    }
+   ],
+   "tips": [
+    {
+     "ro": "Folosește foc mediu-mare: Brikka are nevoie de presiune.",
+     "en": "Use medium-high heat: the Brikka needs pressure."
+    },
+    {
+     "ro": "Curăță supapa lunar.",
+     "en": "Clean the valve monthly."
+    },
+    {
+     "ro": "Excelentă pentru cappuccino de casă.",
+     "en": "Excellent for homemade cappuccino."
+    }
+   ],
+   "recipeIds": [
+    "brikka-crema"
+   ],
+   "sources": [
+    "https://www.bialetti.com/",
+    "https://www.coffeeness.de/en/"
+   ]
+  },
+  {
+   "id": "drip-bags",
+   "name": {
+    "ro": "Drip bags (cafea la plic)",
+    "en": "Single-serve drip bags"
+   },
+   "category": "pourover",
+   "difficulty": 1,
+   "gear": {
+    "ro": "Plicuri drip bag cu cafea de specialitate, cană înaltă, ibric",
+    "en": "Specialty drip bags, tall mug, kettle"
+   },
+   "history": {
+    "ro": "Inventate în Japonia în anii '90 ca „pour-over portabil”. Azi tot mai multe prăjitorii de specialitate, inclusiv românești, le vând.",
+    "en": "Invented in Japan in the 1990s as a 'portable pour-over'. Today more and more specialty roasters, Romanian ones included, sell them."
+   },
+   "howItWorks": {
+    "ro": "Un plic de filtru cu 10–12 g cafea măcinată se agață pe marginea cănii, iar tu torni apa în reprize. E un pour-over în miniatură.",
+    "en": "A filter pouch with 10–12 g of ground coffee hangs on the mug rim and you pour in stages. It's a miniature pour-over."
+   },
+   "profile": {
+    "ro": "Curat și ușor, mai slab decât un V60; foarte bun la birou sau în călătorii.",
+    "en": "Clean and light, weaker than a V60; very good at the office or travelling."
+   },
+   "grindKey": "pourover",
+   "mistakes": [
+    {
+     "ro": "Torni toată apa deodată și dă pe dinafară.",
+     "en": "Pouring all the water at once and overflowing."
+    },
+    {
+     "ro": "Cană scundă: punga stă în cafea.",
+     "en": "A short mug: the bag sits in the coffee."
+    },
+    {
+     "ro": "Plicuri vechi: cafeaua măcinată pierde aroma repede.",
+     "en": "Old bags: ground coffee goes stale fast."
+    }
+   ],
+   "tips": [
+    {
+     "ro": "Fă bloom cu 30 g, ca la orice pour-over.",
+     "en": "Bloom with 30 g, like any pour-over."
+    },
+    {
+     "ro": "Caută plicuri ambalate în azot, cu dată de prăjire.",
+     "en": "Look for nitrogen-flushed bags with a roast date."
+    },
+    {
+     "ro": "Pentru o ceașcă mai tare, folosește 150 g în loc de 180 g.",
+     "en": "For a stronger cup, use 150 g instead of 180 g."
+    }
+   ],
+   "recipeIds": [
+    "drip-bag-pro"
+   ],
+   "sources": [
+    "https://perfectdailygrind.com/",
+    "https://honestcoffeeguide.com/brew-recipes"
+   ]
+  }
+ ],
+ "recipes": [
+  {
+   "id": "origami-wave",
+   "method": "pour",
+   "gm": "pourover",
+   "name": {
+    "ro": "Origami cu filtru Wave",
+    "en": "Origami with Wave filter"
+   },
+   "by": {
+    "ro": "după ghidul Origami / Kaffeemacher",
+    "en": "after the Origami / Kaffeemacher guide"
+   },
+   "dose": 15,
+   "water": 240,
+   "temp": 93,
+   "grind": "mfine",
+   "desc": {
+    "ro": "O rețetă de o cană, rapidă și limpede, în patru turnări.",
+    "en": "A quick, clean single cup in four pours."
+   },
+   "note": {
+    "ro": "Cu filtru conic curge mai repede: macină puțin mai fin.",
+    "en": "With a cone filter it runs faster: grind a little finer."
+   },
+   "steps": [
+    {
+     "t": 0,
+     "w": 40,
+     "ro": "Bloom: toarnă 40 g în spirală.",
+     "en": "Bloom: pour 40 g in a spiral."
+    },
+    {
+     "t": 40,
+     "w": 120,
+     "ro": "Toarnă până la 120 g, în cercuri mici.",
+     "en": "Pour to 120 g in small circles."
+    },
+    {
+     "t": 75,
+     "w": 180,
+     "ro": "Toarnă până la 180 g.",
+     "en": "Pour to 180 g."
+    },
+    {
+     "t": 105,
+     "w": 240,
+     "ro": "Toarnă până la 240 g, pe centru.",
+     "en": "Pour to 240 g in the centre."
+    },
+    {
+     "t": 180,
+     "w": null,
+     "ro": "Lasă să se scurgă complet, apoi servește.",
+     "en": "Let it drain fully, then serve."
+    }
+   ]
+  },
+  {
+   "id": "orea-fast",
+   "method": "pour",
+   "gm": "pourover",
+   "name": {
+    "ro": "Orea, patru turnări",
+    "en": "Orea four-pour"
+   },
+   "by": {
+    "ro": "Bloom Lab, după ghidul Orea",
+    "en": "Bloom Lab, after the Orea guide"
+   },
+   "dose": 15,
+   "water": 250,
+   "temp": 94,
+   "grind": "mfine",
+   "desc": {
+    "ro": "Fund plat cu o singură gaură mare: curge repede, deci macini mai fin și torni des.",
+    "en": "Flat bottom with one big hole: it runs fast, so grind finer and pour often."
+   },
+   "steps": [
+    {
+     "t": 0,
+     "w": 50,
+     "ro": "Bloom: 50 g, apoi rotește ușor dripperul.",
+     "en": "Bloom: 50 g, then swirl the dripper gently."
+    },
+    {
+     "t": 35,
+     "w": 100,
+     "ro": "Toarnă până la 100 g.",
+     "en": "Pour to 100 g."
+    },
+    {
+     "t": 60,
+     "w": 175,
+     "ro": "Toarnă până la 175 g.",
+     "en": "Pour to 175 g."
+    },
+    {
+     "t": 85,
+     "w": 250,
+     "ro": "Toarnă până la 250 g și rotește o dată.",
+     "en": "Pour to 250 g and swirl once."
+    },
+    {
+     "t": 150,
+     "w": null,
+     "ro": "Gata când patul de cafea e plat și uscat.",
+     "en": "Done when the coffee bed is flat and dry."
+    }
+   ]
+  },
+  {
+   "id": "pulsar-rao",
+   "method": "pour",
+   "gm": "chemex",
+   "name": {
+    "ro": "Pulsar, rețeta Scott Rao",
+    "en": "Pulsar, Scott Rao recipe"
+   },
+   "by": {
+    "ro": "Scott Rao",
+    "en": "Scott Rao"
+   },
+   "dose": 25,
+   "water": 425,
+   "temp": 99,
+   "grind": "medium",
+   "desc": {
+    "ro": "Bloom cu robinetul închis, apoi turnări scurte care țin apa la 1–2 cm deasupra cafelei.",
+    "en": "Bloom with the valve closed, then short pours keeping the water 1–2 cm above the coffee."
+   },
+   "note": {
+    "ro": "Sub 3:30 macină mai fin, peste 4:30 mai grosier. Nu coborî sub 20 g cafea.",
+    "en": "Under 3:30 grind finer, over 4:30 coarser. Don't go below 20 g of coffee."
+   },
+   "steps": [
+    {
+     "t": 0,
+     "w": 75,
+     "ro": "Toarnă 75 g cu robinetul deschis, apoi închide-l imediat.",
+     "en": "Pour 75 g with the valve open, then close it right away."
+    },
+    {
+     "t": 45,
+     "w": 150,
+     "ro": "Toarnă până la 150 g și deschide robinetul.",
+     "en": "Pour to 150 g and open the valve."
+    },
+    {
+     "t": 75,
+     "w": 250,
+     "ro": "Toarnă scurt până la 250 g, cu apa la 1–2 cm deasupra cafelei.",
+     "en": "Pour in short bursts to 250 g, water 1–2 cm above the bed."
+    },
+    {
+     "t": 105,
+     "w": 350,
+     "ro": "Continuă până la 350 g.",
+     "en": "Keep going to 350 g."
+    },
+    {
+     "t": 135,
+     "w": 425,
+     "ro": "Ultima turnare până la 425 g, apoi rotește ușor.",
+     "en": "Last pour to 425 g, then swirl gently."
+    },
+    {
+     "t": 240,
+     "w": null,
+     "ro": "Gata în jur de 4:00.",
+     "en": "Done at around 4:00."
+    }
+   ]
+  },
+  {
+   "id": "april-pulse",
+   "method": "pour",
+   "gm": "pourover",
+   "name": {
+    "ro": "April: șase turnări de 50 g",
+    "en": "April: six 50 g pulses"
+   },
+   "by": {
+    "ro": "April Coffee Roasters (Patrik Rolf)",
+    "en": "April Coffee Roasters (Patrik Rolf)"
+   },
+   "dose": 20,
+   "water": 300,
+   "temp": 92,
+   "grind": "medium",
+   "desc": {
+    "ro": "Turnări egale, rapide, fără amestecat; aștepți să se usuce suprafața între ele.",
+    "en": "Equal, fast pours, no stirring; wait for the surface to drain between them."
+   },
+   "note": {
+    "ro": "Gândită pentru dripperul April, merge și pe orice dripper cu fund plat.",
+    "en": "Designed for the April brewer, works on any flat-bottom dripper."
+   },
+   "steps": [
+    {
+     "t": 0,
+     "w": 50,
+     "ro": "Bloom: 50 g, rapid, în cercuri.",
+     "en": "Bloom: 50 g, fast, in circles."
+    },
+    {
+     "t": 25,
+     "w": 100,
+     "ro": "Toarnă până la 100 g.",
+     "en": "Pour to 100 g."
+    },
+    {
+     "t": 50,
+     "w": 150,
+     "ro": "Când suprafața se usucă, toarnă până la 150 g.",
+     "en": "When the surface drains, pour to 150 g."
+    },
+    {
+     "t": 75,
+     "w": 200,
+     "ro": "Toarnă până la 200 g.",
+     "en": "Pour to 200 g."
+    },
+    {
+     "t": 100,
+     "w": 250,
+     "ro": "Toarnă până la 250 g.",
+     "en": "Pour to 250 g."
+    },
+    {
+     "t": 125,
+     "w": 300,
+     "ro": "Ultima turnare: până la 300 g.",
+     "en": "Last pour: to 300 g."
+    },
+    {
+     "t": 205,
+     "w": null,
+     "ro": "Gata în 3:20–3:30.",
+     "en": "Done at 3:20–3:30."
+    }
+   ]
+  },
+  {
+   "id": "melitta-classic",
+   "method": "pour",
+   "gm": "pourover",
+   "name": {
+    "ro": "Melitta 1x4, clasic",
+    "en": "Melitta 1x4, classic"
+   },
+   "by": {
+    "ro": "Bloom Lab, după Melitta",
+    "en": "Bloom Lab, after Melitta"
+   },
+   "dose": 20,
+   "water": 320,
+   "temp": 95,
+   "grind": "medium",
+   "desc": {
+    "ro": "Conul trapezoidal cu găuri mici iartă greșelile: cafea rotundă, cu corp.",
+    "en": "The wedge cone with small holes is forgiving: a round, full-bodied cup."
+   },
+   "steps": [
+    {
+     "t": 0,
+     "w": 40,
+     "ro": "Bloom: 40 g, udă toată cafeaua.",
+     "en": "Bloom: 40 g, wet all the coffee."
+    },
+    {
+     "t": 30,
+     "w": 150,
+     "ro": "Toarnă până la 150 g.",
+     "en": "Pour to 150 g."
+    },
+    {
+     "t": 70,
+     "w": 240,
+     "ro": "Toarnă până la 240 g.",
+     "en": "Pour to 240 g."
+    },
+    {
+     "t": 110,
+     "w": 320,
+     "ro": "Toarnă până la 320 g.",
+     "en": "Pour to 320 g."
+    },
+    {
+     "t": 220,
+     "w": null,
+     "ro": "Gata când s-a scurs tot.",
+     "en": "Done when it has all drained."
+    }
+   ]
+  },
+  {
+   "id": "clever-classic",
+   "method": "immersion",
+   "gm": "pourover",
+   "name": {
+    "ro": "Clever: întâi apa, apoi cafeaua",
+    "en": "Clever: water first, then coffee"
+   },
+   "by": {
+    "ro": "Bloom Lab, după metoda lui James Hoffmann",
+    "en": "Bloom Lab, after James Hoffmann's method"
+   },
+   "dose": 20,
+   "water": 320,
+   "temp": 94,
+   "grind": "medium",
+   "desc": {
+    "ro": "Infuzie de două minute, apoi filtrare prin hârtie: corp de presă, ceașcă curată.",
+    "en": "Two-minute steep, then paper filtration: press body, clean cup."
+   },
+   "note": {
+    "ro": "Apa pusă prima evită înfundarea filtrului și grăbește scurgerea.",
+    "en": "Water first avoids clogging the filter and speeds up drawdown."
+   },
+   "steps": [
+    {
+     "t": 0,
+     "w": 320,
+     "ro": "Cu Clever pe cântar, toarnă toată apa.",
+     "en": "With the Clever on the scale, pour all the water."
+    },
+    {
+     "t": 10,
+     "w": null,
+     "ro": "Adaugă cafeaua și amestecă ușor să se ude toată.",
+     "en": "Add the coffee and stir gently until it's all wet."
+    },
+    {
+     "t": 120,
+     "w": null,
+     "ro": "Amestecă ușor crusta, apoi pune Clever pe cană.",
+     "en": "Gently stir the crust, then set the Clever on the mug."
+    },
+    {
+     "t": 210,
+     "w": null,
+     "ro": "Gata când s-a scurs tot.",
+     "en": "Done when it has all drained."
+    }
+   ]
+  },
+  {
+   "id": "switch-kasuya",
+   "method": "pour",
+   "gm": "pourover",
+   "name": {
+    "ro": "Hario Switch, metoda hibridă Kasuya",
+    "en": "Hario Switch, Kasuya hybrid"
+   },
+   "by": {
+    "ro": "Tetsu Kasuya (campion mondial Brewers Cup 2016)",
+    "en": "Tetsu Kasuya (2016 World Brewers Cup champion)"
+   },
+   "dose": 20,
+   "water": 280,
+   "temp": 93,
+   "grind": "mfine",
+   "desc": {
+    "ro": "Prima jumătate e pour-over la 93 °C, a doua e infuzie la 70 °C: dulceață fără amăreală.",
+    "en": "First half is pour-over at 93 °C, second half immersion at 70 °C: sweetness without bitterness."
+   },
+   "note": {
+    "ro": "Între turnări adaugă apă rece în ibricul electric până scade la 70 °C.",
+    "en": "Between pours, add cold water to the kettle until it drops to 70 °C."
+   },
+   "steps": [
+    {
+     "t": 0,
+     "w": 60,
+     "ro": "Switch deschis: bloom cu 60 g.",
+     "en": "Switch open: bloom with 60 g."
+    },
+    {
+     "t": 30,
+     "w": 120,
+     "ro": "Toarnă până la 120 g, în spirală.",
+     "en": "Pour to 120 g in a spiral."
+    },
+    {
+     "t": 75,
+     "w": 280,
+     "ro": "Închide Switch-ul și toarnă apă de 70 °C până la 280 g.",
+     "en": "Close the Switch and pour 70 °C water to 280 g."
+    },
+    {
+     "t": 105,
+     "w": null,
+     "ro": "Deschide Switch-ul și lasă să se scurgă.",
+     "en": "Open the Switch and let it drain."
+    },
+    {
+     "t": 185,
+     "w": null,
+     "ro": "Gata în jur de 3:05; închide Switch-ul chiar dacă mai picură.",
+     "en": "Done around 3:05; close the Switch even if it's still dripping."
+    }
+   ]
+  },
+  {
+   "id": "aero-stanica-2024",
+   "method": "immersion",
+   "gm": "aeropress",
+   "name": {
+    "ro": "AeroPress, campionul mondial 2024",
+    "en": "AeroPress, 2024 world champion"
+   },
+   "by": {
+    "ro": "George Stanica (România), WAC 2024",
+    "en": "George Stanica (Romania), WAC 2024"
+   },
+   "dose": 18,
+   "water": 245,
+   "temp": 93,
+   "grind": "medium",
+   "desc": {
+    "ro": "Rețeta minimalistă cu care un român a câștigat Campionatul Mondial AeroPress.",
+    "en": "The minimalist recipe a Romanian won the World AeroPress Championship with."
+   },
+   "note": {
+    "ro": "Originalul folosește capacul Flow Control și două filtre de hârtie. Diluează cu 15–30 g după gust.",
+    "en": "The original uses the Flow Control cap and two paper filters. Dilute with 15–30 g to taste."
+   },
+   "steps": [
+    {
+     "t": 0,
+     "w": 50,
+     "ro": "AeroPress drept, pe carafă: toarnă 50 g.",
+     "en": "AeroPress upright on the carafe: pour 50 g."
+    },
+    {
+     "t": 30,
+     "w": 225,
+     "ro": "Completează până la 225 g.",
+     "en": "Top up to 225 g."
+    },
+    {
+     "t": 35,
+     "w": null,
+     "ro": "Amestecă ușor nord-sud-est-vest, 10 s.",
+     "en": "Stir gently north-south-east-west for 10 s."
+    },
+    {
+     "t": 90,
+     "w": null,
+     "ro": "Pune pistonul și apasă încet, cam 40 s.",
+     "en": "Insert the plunger and press slowly, about 40 s."
+    },
+    {
+     "t": 130,
+     "w": 245,
+     "ro": "Diluează cu 20 g apă la temperatura camerei.",
+     "en": "Dilute with 20 g of room-temperature water."
+    },
+    {
+     "t": 140,
+     "w": null,
+     "ro": "Lasă 2–3 minute să se răcească, apoi gustă.",
+     "en": "Let it cool 2–3 minutes, then taste."
+    }
+   ]
+  },
+  {
+   "id": "aero-nemo-2025",
+   "method": "immersion",
+   "gm": "aeropress",
+   "name": {
+    "ro": "AeroPress, campionul mondial 2025",
+    "en": "AeroPress, 2025 world champion"
+   },
+   "by": {
+    "ro": "Nemo Pop (Australia), WAC 2025",
+    "en": "Nemo Pop (Australia), WAC 2025"
+   },
+   "dose": 18,
+   "water": 170,
+   "temp": 84,
+   "grind": "medium",
+   "desc": {
+    "ro": "Concentrat la 84 °C, întins cu apă caldă în carafă: dulce și foarte limpede.",
+    "en": "An 84 °C concentrate stretched with warm water in the carafe: sweet and very clean."
+   },
+   "note": {
+    "ro": "Originalul cerne particulele sub 200 µm și folosește apă de 125 ppm. Apa de diluare are 50 °C.",
+    "en": "The original sifts out fines under 200 µm and uses 125 ppm water. The bypass water is 50 °C."
+   },
+   "ingredients": [
+    {
+     "ro": "70 g apă la 50 °C pentru diluare",
+     "en": "70 g water at 50 °C for bypass"
+    }
+   ],
+   "steps": [
+    {
+     "t": 0,
+     "w": 70,
+     "ro": "Toarnă 70 g apă de 50 °C în carafă.",
+     "en": "Pour 70 g of 50 °C water into the carafe."
+    },
+    {
+     "t": 15,
+     "w": 170,
+     "ro": "Pune AeroPress-ul pe carafă și toarnă 100 g apă de 84 °C peste cafea.",
+     "en": "Set the AeroPress on the carafe and pour 100 g of 84 °C water over the coffee."
+    },
+    {
+     "t": 40,
+     "w": null,
+     "ro": "Amestecă scurt, în cruce.",
+     "en": "Stir briefly in a cross pattern."
+    },
+    {
+     "t": 65,
+     "w": null,
+     "ro": "Apasă ușor, cam 20 s.",
+     "en": "Press gently, about 20 s."
+    },
+    {
+     "t": 85,
+     "w": null,
+     "ro": "Amestecă în carafă și servește.",
+     "en": "Swirl the carafe and serve."
+    }
+   ]
+  },
+  {
+   "id": "siphon-classic",
+   "method": "immersion",
+   "gm": "pourover",
+   "name": {
+    "ro": "Sifon (vacuum pot) clasic",
+    "en": "Classic siphon (vacuum pot)"
+   },
+   "by": {
+    "ro": "Bloom Lab, după ghidul Hario Technica",
+    "en": "Bloom Lab, after the Hario Technica guide"
+   },
+   "dose": 20,
+   "water": 300,
+   "temp": 93,
+   "grind": "medium",
+   "desc": {
+    "ro": "Apa urcă prin presiune de vapori, infuzează un minut și coboară filtrată prin vid.",
+    "en": "Vapour pressure pushes the water up, it steeps a minute, then vacuum pulls it down filtered."
+   },
+   "safety": {
+    "ro": "Nu încălzi balonul de jos gol și șterge-l de apă pe exterior. Folosește arzătorul doar pe suprafață stabilă și nu smulge vasul de sus: lasă vidul să se rupă singur.",
+    "en": "Never heat the lower bowl empty and dry its outside first. Use the burner only on a stable surface and don't yank the upper chamber: let the vacuum release on its own."
+   },
+   "steps": [
+    {
+     "t": 0,
+     "w": 300,
+     "ro": "Toarnă 300 g apă fierbinte în balonul de jos.",
+     "en": "Pour 300 g of hot water into the lower bowl."
+    },
+    {
+     "t": 30,
+     "w": null,
+     "ro": "Aprinde arzătorul și fixează vasul de sus, ușor înclinat.",
+     "en": "Light the burner and seat the upper chamber at a slight angle."
+    },
+    {
+     "t": 90,
+     "w": null,
+     "ro": "Când apar bule, îndreaptă vasul de sus; apa urcă.",
+     "en": "When it bubbles, straighten the upper chamber; the water rises."
+    },
+    {
+     "t": 120,
+     "w": null,
+     "ro": "Redu flacăra, adaugă cafeaua și scufund-o cu paleta.",
+     "en": "Lower the flame, add the coffee and submerge it with the paddle."
+    },
+    {
+     "t": 180,
+     "w": null,
+     "ro": "Amestecă de 5 ori și stinge flacăra.",
+     "en": "Stir 5 times and turn off the flame."
+    },
+    {
+     "t": 240,
+     "w": null,
+     "ro": "Gata când cafeaua a coborât și lasă un dom de zaț.",
+     "en": "Done when the coffee has dropped and leaves a dome of grounds."
+    }
+   ]
+  },
+  {
+   "id": "phin-ca-phe-sua-da",
+   "method": "pour",
+   "gm": "moka",
+   "name": {
+    "ro": "Cà phê sữa đá (phin)",
+    "en": "Cà phê sữa đá (phin)"
+   },
+   "by": {
+    "ro": "tradițional vietnamez",
+    "en": "traditional Vietnamese"
+   },
+   "dose": 20,
+   "water": 100,
+   "temp": 96,
+   "grind": "mfine",
+   "desc": {
+    "ro": "Cafea tare, picurată lent peste lapte condensat și apoi turnată pe gheață.",
+    "en": "Strong coffee dripped slowly over condensed milk, then poured over ice."
+   },
+   "note": {
+    "ro": "Tradițional se folosește robusta prăjită închis. Dacă picură sub 3 minute, strânge presa sau macină mai fin.",
+    "en": "Traditionally made with dark-roasted robusta. If it drips in under 3 minutes, tighten the press or grind finer."
+   },
+   "extras": [
+    {
+     "g": 25,
+     "ro": "lapte condensat îndulcit, în pahar",
+     "en": "sweetened condensed milk, in the glass"
+    },
+    {
+     "g": 150,
+     "ro": "gheață, într-un al doilea pahar",
+     "en": "ice, in a second glass"
+    }
+   ],
+   "steps": [
+    {
+     "t": 0,
+     "w": 20,
+     "ro": "Phin pe pahar, cafeaua sub presă: toarnă 20 g pentru bloom.",
+     "en": "Phin on the glass, press on the coffee: pour 20 g to bloom."
+    },
+    {
+     "t": 30,
+     "w": 100,
+     "ro": "Umple până la 100 g și pune capacul.",
+     "en": "Fill to 100 g and put the lid on."
+    },
+    {
+     "t": 60,
+     "w": null,
+     "ro": "Lasă să picure; ar trebui să dureze 4–5 minute.",
+     "en": "Let it drip; it should take 4–5 minutes."
+    },
+    {
+     "t": 300,
+     "w": null,
+     "ro": "Amestecă cu laptele condensat și toarnă peste gheață.",
+     "en": "Stir into the condensed milk and pour over ice."
+    }
+   ]
+  },
+  {
+   "id": "kyoto-drip",
+   "method": "cold",
+   "gm": "pourover",
+   "name": {
+    "ro": "Kyoto cold drip",
+    "en": "Kyoto cold drip"
+   },
+   "by": {
+    "ro": "tradiția kissaten japoneză",
+    "en": "Japanese kissaten tradition"
+   },
+   "dose": 50,
+   "water": 500,
+   "temp": null,
+   "tempLabel": {
+    "ro": "apă cu gheață",
+    "en": "ice water"
+   },
+   "grind": "medium",
+   "desc": {
+    "ro": "Apă cu gheață picurată picătură cu picătură, ore întregi: limpede, dulce, aproape vinoasă.",
+    "en": "Ice water dripped drop by drop for hours: clear, sweet, almost winey."
+   },
+   "note": {
+    "ro": "Pune un filtru de hârtie peste cafea ca picăturile să se împrăștie egal. Se păstrează 5–7 zile la frigider.",
+    "en": "Lay a paper filter on top of the coffee so drops spread evenly. Keeps 5–7 days in the fridge."
+   },
+   "steps": [
+    {
+     "t": 0,
+     "w": 50,
+     "ro": "Udă uniform cafeaua din vasul de mijloc cu 50 g apă rece.",
+     "en": "Evenly wet the coffee in the middle chamber with 50 g of cold water."
+    },
+    {
+     "t": 60,
+     "w": 500,
+     "ro": "Pune 450 g apă cu gheață în rezervorul de sus.",
+     "en": "Put 450 g of ice water in the top reservoir."
+    },
+    {
+     "t": 90,
+     "w": null,
+     "ro": "Reglează robinetul la o picătură pe secundă.",
+     "en": "Set the valve to one drop per second."
+    },
+    {
+     "t": 3600,
+     "w": null,
+     "ro": "Verifică ritmul picăturilor și reglează dacă e nevoie.",
+     "en": "Check the drip rate and adjust if needed."
+    },
+    {
+     "t": 14400,
+     "w": null,
+     "ro": "Gata când rezervorul s-a golit; servește cu gheață.",
+     "en": "Done when the reservoir is empty; serve over ice."
+    }
+   ]
+  },
+  {
+   "id": "aero-flash",
+   "method": "cold",
+   "gm": "aeropress",
+   "name": {
+    "ro": "AeroPress cu gheață (flash brew)",
+    "en": "Iced AeroPress (flash brew)"
+   },
+   "by": {
+    "ro": "Bloom Lab, după metoda japoneză",
+    "en": "Bloom Lab, after the Japanese method"
+   },
+   "dose": 15,
+   "water": 120,
+   "temp": 95,
+   "grind": "fine",
+   "desc": {
+    "ro": "Un concentrat fierbinte presat direct pe gheață: aromă de cafea caldă, răcit într-o clipă.",
+    "en": "A hot concentrate pressed straight onto ice: hot-brew aroma, chilled instantly."
+   },
+   "extras": [
+    {
+     "g": 100,
+     "ro": "gheață în cană, sub AeroPress",
+     "en": "ice in the mug, under the AeroPress"
+    }
+   ],
+   "steps": [
+    {
+     "t": 0,
+     "w": 120,
+     "ro": "AeroPress pe cana cu gheață: toarnă 120 g.",
+     "en": "AeroPress on the iced mug: pour 120 g."
+    },
+    {
+     "t": 10,
+     "w": null,
+     "ro": "Amestecă 10 s și pune pistonul puțin în cilindru.",
+     "en": "Stir for 10 s and set the plunger in slightly."
+    },
+    {
+     "t": 75,
+     "w": null,
+     "ro": "Apasă ușor, cam 30 s.",
+     "en": "Press gently, about 30 s."
+    },
+    {
+     "t": 110,
+     "w": null,
+     "ro": "Amestecă până se topește o parte din gheață.",
+     "en": "Stir until some of the ice melts."
+    }
+   ]
+  },
+  {
+   "id": "cold-brew-concentrate",
+   "method": "cold",
+   "gm": "coldbrew",
+   "name": {
+    "ro": "Concentrat cold brew 1:8",
+    "en": "Cold brew concentrate 1:8"
+   },
+   "by": {
+    "ro": "Bloom Lab",
+    "en": "Bloom Lab"
+   },
+   "dose": 100,
+   "water": 800,
+   "temp": null,
+   "tempLabel": {
+    "ro": "apă la temperatura camerei",
+    "en": "room-temperature water"
+   },
+   "grind": "coarse",
+   "desc": {
+    "ro": "Concentrat de casă de diluat 1:1 cu apă, lapte sau tonic.",
+    "en": "A homemade concentrate to dilute 1:1 with water, milk or tonic."
+   },
+   "note": {
+    "ro": "Primele ore la temperatura camerei grăbesc extracția; apoi frigider. Ține până la 10 zile.",
+    "en": "The first hours at room temperature speed extraction; then refrigerate. Keeps up to 10 days."
+   },
+   "steps": [
+    {
+     "t": 0,
+     "w": 400,
+     "ro": "Toarnă jumătate din apă peste cafea și amestecă.",
+     "en": "Pour half the water over the coffee and stir."
+    },
+    {
+     "t": 60,
+     "w": 800,
+     "ro": "Adaugă restul apei și amestecă din nou.",
+     "en": "Add the rest of the water and stir again."
+    },
+    {
+     "t": 120,
+     "w": null,
+     "ro": "Acoperă și lasă 4 ore la temperatura camerei.",
+     "en": "Cover and leave 4 hours at room temperature."
+    },
+    {
+     "t": 14400,
+     "w": null,
+     "ro": "Mută în frigider pentru încă 12 ore.",
+     "en": "Move to the fridge for another 12 hours."
+    },
+    {
+     "t": 57600,
+     "w": null,
+     "ro": "Filtrează prin sită, apoi prin hârtie; diluează 1:1 la servire.",
+     "en": "Strain through a sieve, then paper; dilute 1:1 to serve."
+    }
+   ]
+  },
+  {
+   "id": "qahwa-arabic",
+   "method": "ibrik",
+   "gm": "pourover",
+   "name": {
+    "ro": "Qahwa arăbească cu cardamom",
+    "en": "Arabic qahwa with cardamom"
+   },
+   "by": {
+    "ro": "tradiție saudită / din Golf",
+    "en": "Saudi / Gulf tradition"
+   },
+   "dose": 20,
+   "water": 500,
+   "temp": null,
+   "tempLabel": {
+    "ro": "fierbere ușoară",
+    "en": "gentle simmer"
+   },
+   "grind": "medium",
+   "desc": {
+    "ro": "Cafea prăjită foarte deschis, fiartă cu cardamom și servită în cești mici, fără zahăr.",
+    "en": "Very light-roasted coffee simmered with cardamom, served in tiny cups without sugar."
+   },
+   "note": {
+    "ro": "Se servește cu curmale. Gazda toarnă cu mâna stângă și oferă ceașca cu dreapta.",
+    "en": "Served with dates. The host pours with the left hand and offers the cup with the right."
+   },
+   "ingredients": [
+    {
+     "ro": "6 g cardamom verde, pisat grosier",
+     "en": "6 g green cardamom, coarsely crushed"
+    },
+    {
+     "ro": "un vârf de șofran (opțional)",
+     "en": "a pinch of saffron (optional)"
+    },
+    {
+     "ro": "2 cuișoare (opțional)",
+     "en": "2 cloves (optional)"
+    }
+   ],
+   "steps": [
+    {
+     "t": 0,
+     "w": 500,
+     "ro": "Adu 500 g apă la fierbere.",
+     "en": "Bring 500 g of water to a boil."
+    },
+    {
+     "t": 60,
+     "w": null,
+     "ro": "Adaugă cafeaua și redu focul.",
+     "en": "Add the coffee and lower the heat."
+    },
+    {
+     "t": 660,
+     "w": null,
+     "ro": "După 10 minute de fierbere ușoară, ia de pe foc.",
+     "en": "After 10 minutes of gentle simmering, take it off the heat."
+    },
+    {
+     "t": 720,
+     "w": null,
+     "ro": "Adaugă cardamomul și șofranul.",
+     "en": "Add the cardamom and saffron."
+    },
+    {
+     "t": 1020,
+     "w": null,
+     "ro": "După 5 minute, strecoară în dallah sau termos.",
+     "en": "After 5 minutes, strain into a dallah or thermos."
+    },
+    {
+     "t": 1080,
+     "w": null,
+     "ro": "Servește câte o înghițitură în cești mici.",
+     "en": "Serve a few sips in small cups."
+    }
+   ]
+  },
+  {
+   "id": "greek-briki",
+   "method": "ibrik",
+   "gm": "turkish",
+   "name": {
+    "ro": "Cafea grecească, metrios",
+    "en": "Greek coffee, metrios"
+   },
+   "by": {
+    "ro": "tradițional grecesc",
+    "en": "traditional Greek"
+   },
+   "dose": 8,
+   "water": 80,
+   "temp": null,
+   "tempLabel": {
+    "ro": "apă rece, foc mic",
+    "en": "cold water, low heat"
+   },
+   "grind": "xfine",
+   "desc": {
+    "ro": "O ceașcă demitasse, semidulce, cu spumă groasă (kaimaki).",
+    "en": "One semi-sweet demitasse with a thick foam (kaimaki)."
+   },
+   "note": {
+    "ro": "Sketos fără zahăr, metrios cu o linguriță, glykos cu două. Servește cu un pahar de apă rece.",
+    "en": "Sketos has no sugar, metrios one teaspoon, glykos two. Serve with a glass of cold water."
+   },
+   "ingredients": [
+    {
+     "ro": "5 g zahăr (o linguriță)",
+     "en": "5 g sugar (one teaspoon)"
+    }
+   ],
+   "steps": [
+    {
+     "t": 0,
+     "w": 80,
+     "ro": "Amestecă apa rece, cafeaua și zahărul în briki.",
+     "en": "Mix the cold water, coffee and sugar in the briki."
+    },
+    {
+     "t": 20,
+     "w": null,
+     "ro": "Pune pe foc mic și nu mai amesteca.",
+     "en": "Put on low heat and stop stirring."
+    },
+    {
+     "t": 150,
+     "w": null,
+     "ro": "Când kaimaki urcă, ia briki-ul de pe foc înainte să fiarbă.",
+     "en": "When the kaimaki rises, take the briki off before it boils."
+    },
+    {
+     "t": 160,
+     "w": null,
+     "ro": "Toarnă încet, ca spuma să rămână deasupra.",
+     "en": "Pour slowly so the foam stays on top."
+    }
+   ]
+  },
+  {
+   "id": "cuccumella-classic",
+   "method": "pour",
+   "gm": "moka",
+   "name": {
+    "ro": "Cuccumella napolitană",
+    "en": "Neapolitan cuccumella"
+   },
+   "by": {
+    "ro": "tradițional napolitan",
+    "en": "traditional Neapolitan"
+   },
+   "dose": 18,
+   "water": 180,
+   "temp": null,
+   "tempLabel": {
+    "ro": "apă adusă la fierbere în cafetieră",
+    "en": "water brought to a boil in the pot"
+   },
+   "grind": "mfine",
+   "desc": {
+    "ro": "Încălzești apa, întorci cafetiera și lași gravitația să picure cafeaua: dulce, fără amăreala de moka.",
+    "en": "Heat the water, flip the pot and let gravity drip the coffee: sweet, without moka bitterness."
+   },
+   "note": {
+    "ro": "Napolitanii pun un con de hârtie (cuppetiello) pe cioc ca să păstreze aroma.",
+    "en": "Neapolitans put a paper cone (cuppetiello) over the spout to keep the aroma in."
+   },
+   "safety": {
+    "ro": "Corpul e fierbinte când îl întorci: folosește mânerele și o lavetă.",
+    "en": "The body is hot when you flip it: use the handles and a cloth."
+   },
+   "steps": [
+    {
+     "t": 0,
+     "w": 180,
+     "ro": "Umple vasul fără cioc cu apă, sub orificiul mic.",
+     "en": "Fill the spoutless half with water, below the small hole."
+    },
+    {
+     "t": 20,
+     "w": null,
+     "ro": "Pune cafeaua în filtru fără să o tasezi și asamblează.",
+     "en": "Add the coffee to the basket without tamping and assemble."
+    },
+    {
+     "t": 40,
+     "w": null,
+     "ro": "Pune pe foc, cu ciocul în jos.",
+     "en": "Put on the heat, spout facing down."
+    },
+    {
+     "t": 300,
+     "w": null,
+     "ro": "Când iese abur din orificiul mic, ia de pe foc și întoarce.",
+     "en": "When steam comes out of the small hole, take it off and flip it."
+    },
+    {
+     "t": 540,
+     "w": null,
+     "ro": "Gata când s-a scurs toată apa; amestecă și servește.",
+     "en": "Done when all the water has passed; stir and serve."
+    }
+   ]
+  },
+  {
+   "id": "percolator-stovetop",
+   "method": "lab",
+   "gm": "french",
+   "name": {
+    "ro": "Percolator pe aragaz",
+    "en": "Stovetop percolator"
+   },
+   "by": {
+    "ro": "Bloom Lab, varianta blândă",
+    "en": "Bloom Lab, the gentle version"
+   },
+   "dose": 30,
+   "water": 600,
+   "temp": null,
+   "tempLabel": {
+    "ro": "foc mic, fără fierbere",
+    "en": "low heat, no boiling"
+   },
+   "grind": "coarse",
+   "desc": {
+    "ro": "Cafea de cabană, mai blândă decât reputația ei, dacă ții focul mic și timpul scurt.",
+    "en": "Cabin coffee, gentler than its reputation if you keep the heat low and the time short."
+   },
+   "note": {
+    "ro": "Pornind cu apă fierbinte scurtezi timpul pe foc și eviți gustul de fiert.",
+    "en": "Starting with hot water shortens time on the heat and avoids a stewed taste."
+   },
+   "safety": {
+    "ro": "Mânerul și capacul se încing; nu lăsa percolatorul nesupravegheat și nu-l pune pe foc fără apă.",
+    "en": "The handle and lid get hot; never leave it unattended or heat it without water."
+   },
+   "steps": [
+    {
+     "t": 0,
+     "w": 600,
+     "ro": "Toarnă 600 g apă fierbinte în vas.",
+     "en": "Pour 600 g of hot water into the pot."
+    },
+    {
+     "t": 30,
+     "w": null,
+     "ro": "Pune cafeaua în coș, montează tubul și capacul.",
+     "en": "Add the coffee to the basket, fit the stem and lid."
+    },
+    {
+     "t": 60,
+     "w": null,
+     "ro": "Pune pe foc mediu până vezi primele bule în dom.",
+     "en": "Put on medium heat until the first bubbles show in the knob."
+    },
+    {
+     "t": 180,
+     "w": null,
+     "ro": "Redu focul: un clipocit rar, nu fierbere.",
+     "en": "Lower the heat: a slow perk, not a boil."
+    },
+    {
+     "t": 600,
+     "w": null,
+     "ro": "Ia de pe foc, scoate coșul și servește.",
+     "en": "Take it off, remove the basket and serve."
+    }
+   ]
+  },
+  {
+   "id": "cowboy-coffee",
+   "method": "immersion",
+   "gm": "french",
+   "name": {
+    "ro": "Cowboy coffee",
+    "en": "Cowboy coffee"
+   },
+   "by": {
+    "ro": "tradiție de tabără",
+    "en": "campfire tradition"
+   },
+   "dose": 30,
+   "water": 530,
+   "temp": 95,
+   "grind": "coarse",
+   "desc": {
+    "ro": "Doar o oală, cafea și foc: zațul se lasă la fund cu un strop de apă rece.",
+    "en": "Just a pot, coffee and fire: a splash of cold water settles the grounds."
+   },
+   "safety": {
+    "ro": "Oala și mânerul sunt fierbinți; toarnă încet, departe de copii.",
+    "en": "The pot and handle are hot; pour slowly, away from kids."
+   },
+   "steps": [
+    {
+     "t": 0,
+     "w": 500,
+     "ro": "Adu 500 g apă la fierbere, apoi ia oala de pe foc.",
+     "en": "Bring 500 g of water to a boil, then take the pot off the heat."
+    },
+    {
+     "t": 30,
+     "w": null,
+     "ro": "Presară cafeaua și amestecă bine.",
+     "en": "Sprinkle in the coffee and stir well."
+    },
+    {
+     "t": 150,
+     "w": null,
+     "ro": "Amestecă o dată crusta.",
+     "en": "Stir the crust once."
+    },
+    {
+     "t": 270,
+     "w": 530,
+     "ro": "Toarnă 30 g apă rece ca să coboare zațul.",
+     "en": "Pour in 30 g of cold water to sink the grounds."
+    },
+    {
+     "t": 330,
+     "w": null,
+     "ro": "Toarnă încet în căni, lăsând zațul în oală.",
+     "en": "Pour slowly into mugs, leaving the grounds behind."
+    }
+   ]
+  },
+  {
+   "id": "brikka-crema",
+   "method": "moka",
+   "gm": "moka",
+   "name": {
+    "ro": "Bialetti Brikka, cu „cremă”",
+    "en": "Bialetti Brikka with 'crema'"
+   },
+   "by": {
+    "ro": "Bloom Lab, după instrucțiunile Bialetti",
+    "en": "Bloom Lab, after Bialetti's instructions"
+   },
+   "dose": 12,
+   "water": 100,
+   "temp": null,
+   "tempLabel": {
+    "ro": "apă fierbinte în boiler",
+    "en": "hot water in the boiler"
+   },
+   "grind": "fine",
+   "desc": {
+    "ro": "Supapa cu greutate ține presiunea până la „pocnet”, apoi scoate o cafea densă cu spumă.",
+    "en": "The weighted valve holds pressure until it 'pops', then delivers a dense coffee with foam."
+   },
+   "note": {
+    "ro": "Nu umple peste linia din boiler: Brikka are nevoie de mai puțină apă decât moka clasică.",
+    "en": "Don't fill past the boiler line: the Brikka needs less water than a classic moka."
+   },
+   "safety": {
+    "ro": "Nu deschide capacul și nu scoate supapa cât e sub presiune; ține capacul deschis ca să vezi când a terminat.",
+    "en": "Don't open it or touch the valve while it's under pressure; keep the lid open to see when it's done."
+   },
+   "steps": [
+    {
+     "t": 0,
+     "w": 100,
+     "ro": "Umple boilerul cu apă fierbinte până la linie.",
+     "en": "Fill the boiler with hot water to the line."
+    },
+    {
+     "t": 30,
+     "w": null,
+     "ro": "Umple filtrul cu cafea, nivelează fără să tasezi și înșurubează.",
+     "en": "Fill the basket, level without tamping and screw it together."
+    },
+    {
+     "t": 60,
+     "w": null,
+     "ro": "Pune pe foc mediu-mare, cu capacul deschis.",
+     "en": "Put on medium-high heat with the lid open."
+    },
+    {
+     "t": 180,
+     "w": null,
+     "ro": "La „pocnet” și jetul cu spumă, redu focul.",
+     "en": "At the 'pop' and foamy jet, lower the heat."
+    },
+    {
+     "t": 210,
+     "w": null,
+     "ro": "Când începe să bolborosească, ia de pe foc și servește.",
+     "en": "When it starts sputtering, take it off and serve."
+    }
+   ]
+  },
+  {
+   "id": "drip-bag-pro",
+   "method": "pour",
+   "gm": "pourover",
+   "name": {
+    "ro": "Drip bag ca la carte",
+    "en": "Drip bag done right"
+   },
+   "by": {
+    "ro": "Bloom Lab",
+    "en": "Bloom Lab"
+   },
+   "dose": 12,
+   "water": 180,
+   "temp": 93,
+   "grind": "medium",
+   "desc": {
+    "ro": "Cafeaua de birou sau de drum, mai bună cu bloom și turnări mici.",
+    "en": "Office or travel coffee, better with a bloom and small pours."
+   },
+   "note": {
+    "ro": "Folosește o cană înaltă, ca punga să nu stea în cafea; altfel devine infuzie.",
+    "en": "Use a tall mug so the bag doesn't sit in the coffee; otherwise it turns into a steep."
+   },
+   "steps": [
+    {
+     "t": 0,
+     "w": 30,
+     "ro": "Agață punga pe cană și toarnă 30 g pentru bloom.",
+     "en": "Hang the bag on the mug and pour 30 g to bloom."
+    },
+    {
+     "t": 30,
+     "w": 90,
+     "ro": "Toarnă încet până la 90 g, fără să dai peste.",
+     "en": "Pour slowly to 90 g without overflowing."
+    },
+    {
+     "t": 60,
+     "w": 140,
+     "ro": "Toarnă până la 140 g.",
+     "en": "Pour to 140 g."
+    },
+    {
+     "t": 90,
+     "w": 180,
+     "ro": "Toarnă până la 180 g.",
+     "en": "Pour to 180 g."
+    },
+    {
+     "t": 150,
+     "w": null,
+     "ro": "Scoate punga după ce s-a scurs.",
+     "en": "Remove the bag once it has drained."
+    }
+   ]
+  },
+  {
+   "id": "chemex-iced",
+   "method": "cold",
+   "gm": "chemex",
+   "name": {
+    "ro": "Chemex cu gheață, pentru doi",
+    "en": "Iced Chemex for two"
+   },
+   "by": {
+    "ro": "Bloom Lab, metoda japoneză",
+    "en": "Bloom Lab, Japanese method"
+   },
+   "dose": 32,
+   "water": 300,
+   "temp": 96,
+   "grind": "medium",
+   "desc": {
+    "ro": "Jumătate din apă devine gheață în carafă: două pahare limpezi și răcoroase.",
+    "en": "Half the water becomes ice in the carafe: two clear, refreshing glasses."
+   },
+   "extras": [
+    {
+     "g": 200,
+     "ro": "gheață pe fundul Chemex-ului",
+     "en": "ice in the bottom of the Chemex"
+    }
+   ],
+   "steps": [
+    {
+     "t": 0,
+     "w": 70,
+     "ro": "Bloom: 70 g, apoi rotește ușor.",
+     "en": "Bloom: 70 g, then swirl gently."
+    },
+    {
+     "t": 45,
+     "w": 180,
+     "ro": "Toarnă până la 180 g.",
+     "en": "Pour to 180 g."
+    },
+    {
+     "t": 90,
+     "w": 300,
+     "ro": "Toarnă până la 300 g.",
+     "en": "Pour to 300 g."
+    },
+    {
+     "t": 240,
+     "w": null,
+     "ro": "Scoate filtrul și rotește carafa până se topește gheața.",
+     "en": "Remove the filter and swirl until the ice melts."
+    }
+   ]
+  },
+  {
+   "id": "french-press-big",
+   "method": "immersion",
+   "gm": "french",
+   "name": {
+    "ro": "Presă franceză pentru familie",
+    "en": "Family-size French press"
+   },
+   "by": {
+    "ro": "Bloom Lab, după SCA (raport 1:16)",
+    "en": "Bloom Lab, after SCA (1:16 ratio)"
+   },
+   "dose": 50,
+   "water": 800,
+   "temp": 95,
+   "grind": "coarse",
+   "desc": {
+    "ro": "Patru căni dintr-o presă de 1 litru, cu crustă spartă și zaț lăsat să se așeze.",
+    "en": "Four mugs from a 1-litre press, crust broken and grounds left to settle."
+   },
+   "steps": [
+    {
+     "t": 0,
+     "w": 800,
+     "ro": "Toarnă toată apa peste cafea.",
+     "en": "Pour all the water over the coffee."
+    },
+    {
+     "t": 240,
+     "w": null,
+     "ro": "Sparge crusta și ia spuma de deasupra cu două linguri.",
+     "en": "Break the crust and skim the foam with two spoons."
+    },
+    {
+     "t": 480,
+     "w": null,
+     "ro": "Pune capacul, coboară sita doar până la suprafață.",
+     "en": "Fit the lid and lower the mesh just to the surface."
+    },
+    {
+     "t": 540,
+     "w": null,
+     "ro": "Toarnă încet, toată cafeaua, într-o carafă.",
+     "en": "Pour slowly, all of it, into a carafe."
+    }
+   ]
+  }
+ ]
+}

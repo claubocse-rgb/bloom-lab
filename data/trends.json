@@ -1,0 +1,1872 @@
+{
+  "updated": "2026-10-28",
+  "trends": [
+    {
+      "id": "protein-coffee",
+      "title": {
+        "ro": "Cafea cu proteine („proffee”)",
+        "en": "Protein coffee (\"proffee\")"
+      },
+      "category": "drink",
+      "summary": {
+        "ro": "Lapte îmbogățit cu proteine și spumă rece proteică au intrat în meniul principal: Starbucks a lansat gama Protein în septembrie 2025, cu 15 g de proteine doar din spumă și până la 36 g într-un latte. Acasă, varianta simplă este un shot de espresso sau cold brew peste un shake proteic.",
+        "en": "Protein-boosted milk and protein cold foam went mainstream: Starbucks launched its Protein line in September 2025, with 15 g of protein from the foam alone and up to 36 g in a latte. At home, the simple version is a shot of espresso or cold brew over a protein shake."
+      },
+      "whyNow": {
+        "ro": "Trendul fitness s-a întâlnit cu ritualul de dimineață, iar lanțurile mari îl împing agresiv.",
+        "en": "Fitness culture met the morning ritual, and the big chains are pushing it hard."
+      },
+      "tryAtHome": {
+        "ro": "Pune 200 ml de lapte proteic rece (sau shake de vanilie) peste gheață și toarnă deasupra un espresso dublu. Nu încălzi shake-urile din pudră peste 60 °C, pentru că se brânzesc.",
+        "en": "Pour 200 ml of cold protein milk (or a vanilla shake) over ice and top with a double espresso. Don't heat powder-based shakes above 60 °C, or they curdle."
+      },
+      "recipeHint": "proffee-iced",
+      "hype": 3,
+      "longevity": "rising",
+      "relevanceRO": 2,
+      "sources": [
+        "https://about.starbucks.com/press/2026/protein-power-hour-starbucks-says-friday-at-8-a-m-is-the-busiest-time-for-protein-drinks/",
+        "https://fortune.com/well/2025/06/11/starbucks-tests-protein-latte",
+        "https://www.tastingtable.com/2237336/biggest-coffee-trends-2026/"
+      ]
+    },
+    {
+      "id": "cold-foam",
+      "title": {
+        "ro": "Spumă rece și sweet cream",
+        "en": "Cold foam & sweet cream"
+      },
+      "category": "drink",
+      "summary": {
+        "ro": "Spuma rece din smântână, lapte și sirop de vanilie s-a mutat din cafenele în frigiderul de acasă. Interesul în SUA a crescut cu 73% de la un an la altul, cu 105% pe TikTok, iar în magazine au apărut conserve de spumă rece. Starbucks raportează creșteri de două cifre la cold foam în 2025–2026.",
+        "en": "Cold foam made from cream, milk and vanilla syrup moved from cafés to the home fridge. US interest grew 73% year over year (105% on TikTok), and canned cold foam has reached supermarket shelves. Starbucks reports double-digit cold foam growth across 2025–2026."
+      },
+      "whyNow": {
+        "ro": "Personalizarea băuturilor reci e principalul limbaj al Gen Z, iar spuma e cel mai ușor upgrade vizibil.",
+        "en": "Customising iced drinks is Gen Z's main coffee language, and foam is the easiest visible upgrade."
+      },
+      "tryAtHome": {
+        "ro": "Spumează 40 ml smântână de frișcă, 30 ml lapte și 10 ml sirop de vanilie cu un spumator de mână timp de 20–30 s, până se îngroașă, și pune-o peste cold brew sau flash brew.",
+        "en": "Froth 40 ml whipping cream, 30 ml milk and 10 ml vanilla syrup with a handheld frother for 20–30 s until thick, then spoon it over cold brew or flash brew."
+      },
+      "recipeHint": "flash-sweet-cream",
+      "hype": 3,
+      "longevity": "established",
+      "relevanceRO": 2,
+      "sources": [
+        "https://www.spate.nyc/blog/cold-foam-from-cafe-to-grocery-shelf",
+        "https://about.starbucks.com/press/2026/protein-power-hour-starbucks-says-friday-at-8-a-m-is-the-busiest-time-for-protein-drinks/",
+        "https://perfectdailygrind.com/2026/01/coffee-shop-trends-in-2026/"
+      ]
+    },
+    {
+      "id": "matcha-espresso",
+      "title": {
+        "ro": "Matcha + espresso („dirty matcha”)",
+        "en": "Matcha + espresso (\"dirty matcha\")"
+      },
+      "category": "drink",
+      "summary": {
+        "ro": "Matcha a trecut de la alternativă la produs de bază în meniu: Caffè Nero și Black Sheep au raportat vânzări de matcha care uneori le-au depășit pe cele de cafea, iar 5 to Go a deschis în România un concept dedicat. Combinația stratificată de matcha cu un shot de espresso este cea mai fotogenică băutură hibrid a momentului.",
+        "en": "Matcha moved from alternative to core menu item: Caffè Nero and Black Sheep reported matcha sales at times overtaking coffee, and 5 to Go opened a dedicated matcha concept in Romania. A layered matcha latte with an espresso shot is the most photogenic hybrid drink right now."
+      },
+      "whyNow": {
+        "ro": "Căutările „matcha vs coffee” au explodat în 2026, iar oamenii își cumpără tel și bol pentru matcha acasă.",
+        "en": "Searches for \"matcha vs coffee\" hit breakout status in 2026, and people are buying matcha whisks and bowls for home."
+      },
+      "tryAtHome": {
+        "ro": "Bate 2 g de matcha cu 40 ml de apă la 80 °C, toarnă peste 150 ml lapte rece cu gheață și termină cu un espresso simplu turnat încet deasupra, ca să rămână în straturi.",
+        "en": "Whisk 2 g matcha with 40 ml water at 80 °C, pour over 150 ml cold milk and ice, then float a single espresso on top slowly so it stays layered."
+      },
+      "recipeHint": "dirty-matcha",
+      "hype": 3,
+      "longevity": "rising",
+      "relevanceRO": 3,
+      "sources": [
+        "https://perfectdailygrind.com/2026/01/coffee-shop-trends-in-2026/",
+        "https://perfectdailygrind.com/2026/06/why-romania-specialty-coffee-is-growing/",
+        "https://www.businesstoday.in/technology/news/story/is-matcha-replacing-your-daily-coffee-google-search-trends-point-to-a-major-shift-554953-2026-09-12",
+        "https://freshcup.com/the-matcha-boom-is-reshaping-cafes-how-long-before-it-hits-a-wall/"
+      ]
+    },
+    {
+      "id": "espresso-tonic",
+      "title": {
+        "ro": "Espresso tonic și băuturi spumante",
+        "en": "Espresso tonic & sparkling coffee"
+      },
+      "category": "drink",
+      "summary": {
+        "ro": "Băutura creată la Koppi (Helsingborg, Suedia) în 2007 a devenit un clasic modern, iar cafenelele adaugă acum cascara soda, matcha spumantă și tonice aromate. Morgan Eckroth o pune printre rețetele de bază din noua ei carte pentru acasă (octombrie 2026).",
+        "en": "Born at Koppi (Helsingborg, Sweden) in 2007, it has become a modern classic, and cafés now add cascara sodas, sparkling matcha and flavoured tonics. Morgan Eckroth lists it among the basics in her new home-coffee book (October 2026)."
+      },
+      "whyNow": {
+        "ro": "Cafeaua rece pe tot parcursul anului e acum fundația meniurilor, nu un extra de vară.",
+        "en": "Year-round iced coffee is now the foundation of café menus, not a summer extra."
+      },
+      "tryAtHome": {
+        "ro": "Umple paharul până sus cu gheață, toarnă 100 ml tonic rece și apoi, încet, un espresso fructat (Etiopia, Kenya). Multă gheață și tonic bine răcit înseamnă mai puțină spumă care dă pe dinafară.",
+        "en": "Fill the glass to the brim with ice, add 100 ml cold tonic, then slowly pour a fruity espresso (Ethiopia, Kenya). Plenty of ice and well-chilled tonic mean less foam overflow."
+      },
+      "recipeHint": "",
+      "hype": 2,
+      "longevity": "established",
+      "relevanceRO": 2,
+      "sources": [
+        "https://europeancoffeetrip.com/espressoandtonic-story/",
+        "https://www.beanscenemag.com.au/specialty-coffee-trends-to-look-for-in-2026/",
+        "https://www.penguinrandomhouse.com/books/811028/coffee-for-here-by-morgan-eckroth/9798217035366"
+      ]
+    },
+    {
+      "id": "dirty-soda",
+      "title": {
+        "ro": "Dirty soda și espresso soda",
+        "en": "Dirty soda & espresso soda"
+      },
+      "category": "drink",
+      "summary": {
+        "ro": "Sucurile „murdare”, adică suc carbogazos cu sirop, smântână și lime, au pornit din Utah și s-au răspândit prin TikTok. Variantele cu espresso, de tip espresso + cola + smântână sau espresso + apă minerală + sirop de fructe, apar tot mai des în cafenelele de specialitate.",
+        "en": "\"Dirty\" sodas, meaning soda with syrup, cream and lime, started in Utah and spread through TikTok. Espresso versions, such as espresso + cola + cream or espresso + sparkling water + fruit syrup, increasingly appear in specialty cafés."
+      },
+      "whyNow": {
+        "ro": "E o băutură ieftină, personalizabilă și foarte vizuală, construită pentru social media.",
+        "en": "It's cheap, customisable and highly visual, built for social media."
+      },
+      "tryAtHome": {
+        "ro": "Pune gheață, 150 ml apă minerală, 15 ml sirop de cireșe sau caramel, un espresso și 20 ml smântână deasupra. Gustă înainte să adaugi mai mult sirop.",
+        "en": "Add ice, 150 ml sparkling water, 15 ml cherry or caramel syrup, an espresso and 20 ml cream on top. Taste before adding more syrup."
+      },
+      "recipeHint": "",
+      "hype": 2,
+      "longevity": "fad",
+      "relevanceRO": 1,
+      "sources": [
+        "https://www.innovamarketinsights.com/trends/dirty-soda-trends-global-market-overview/",
+        "https://torontolife.com/food/sam-james-coffee-bar-dirty-soda/",
+        "https://www.washingtontimes.com/news/2025/apr/16/dirty-sodas-sweet-creamy-phenomenon-taking-america/"
+      ]
+    },
+    {
+      "id": "asian-flavours",
+      "title": {
+        "ro": "Arome asiatice: yuzu, ube, pandan, hojicha",
+        "en": "Asian flavours: yuzu, ube, pandan, hojicha"
+      },
+      "category": "drink",
+      "summary": {
+        "ro": "Asia dictează acum aromele din cafenele: yuzu, ube, pandan, miso, susan negru și hojicha apar în lattes și în cafele cu fructe. Căutările pentru ube au atins un maxim istoric în august 2026, iar Nespresso a lansat Yuzu Vanilla Over Ice.",
+        "en": "Asia now sets café flavour trends: yuzu, ube, pandan, miso, black sesame and hojicha show up in lattes and fruit-forward coffees. Ube searches hit an all-time high in August 2026, and Nespresso launched Yuzu Vanilla Over Ice."
+      },
+      "whyNow": {
+        "ro": "Meniurile cu ediții limitate cer arome noi, iar citricele asiatice se potrivesc natural cu espresso-urile luminoase.",
+        "en": "Limited-time menus need novelty, and Asian citrus pairs naturally with bright espresso."
+      },
+      "tryAtHome": {
+        "ro": "Amestecă 15 ml suc de yuzu (sau lămâie + portocală 1:1) cu 10 ml miere și 120 ml apă minerală peste gheață, apoi adaugă un espresso dublu.",
+        "en": "Mix 15 ml yuzu juice (or lemon + orange 1:1) with 10 ml honey and 120 ml sparkling water over ice, then add a double espresso."
+      },
+      "recipeHint": "yuzu-espresso-fizz",
+      "hype": 2,
+      "longevity": "rising",
+      "relevanceRO": 2,
+      "sources": [
+        "https://perfectdailygrind.com/2026/01/coffee-shop-trends-in-2026/",
+        "https://www.tastingtable.com/2237336/biggest-coffee-trends-2026/",
+        "https://www.trendhunter.com/trends/yuzu-vanilla-over-ice",
+        "https://www.businesstoday.in/technology/news/story/is-matcha-replacing-your-daily-coffee-google-search-trends-point-to-a-major-shift-554953-2026-09-12"
+      ]
+    },
+    {
+      "id": "freddo",
+      "title": {
+        "ro": "Freddo espresso și freddo cappuccino",
+        "en": "Freddo espresso & freddo cappuccino"
+      },
+      "category": "drink",
+      "summary": {
+        "ro": "Espresso-ul grecesc agitat cu gheață reprezintă 70–80% din cafelele reci consumate în Grecia și se răspândește în Balcani și în restul Europei pe fondul verilor tot mai calde. Agitarea răcește instant cafeaua și creează o spumă cremoasă, iar varianta cappuccino adaugă lapte rece spumat.",
+        "en": "The Greek espresso shaken with ice makes up 70–80% of cold coffee drunk in Greece, and it is spreading through the Balkans and Europe as summers get hotter. Shaking chills the coffee instantly and builds a creamy foam, and the cappuccino version adds cold frothed milk."
+      },
+      "whyNow": {
+        "ro": "Românii petrec vacanțele în Grecia și se întorc cu obiceiul freddo, iar verile de 35 °C îl fac practic.",
+        "en": "Romanians holiday in Greece and bring the freddo habit home, and 35 °C summers make it practical."
+      },
+      "tryAtHome": {
+        "ro": "Agită un espresso dublu cu 4–5 cuburi de gheață într-un shaker sau borcan timp de 15 s, apoi strecoară-l peste gheață proaspătă. Zahărul se pune înainte de agitare.",
+        "en": "Shake a double espresso with 4–5 ice cubes in a shaker or jar for 15 s, then strain over fresh ice. Add any sugar before shaking."
+      },
+      "recipeHint": "freddo-espresso",
+      "hype": 2,
+      "longevity": "established",
+      "relevanceRO": 3,
+      "sources": [
+        "https://www.tovima.com/culture/the-freddo-espresso-a-modern-greek-cultural-phenomenon/",
+        "https://europeancoffeetrip.com/greek-superb-cold-coffees-freddo-espresso-freddo-cappuccino/",
+        "https://www.milletnews.com/economy/greek-freddo-conquers-overheating-planet"
+      ]
+    },
+    {
+      "id": "flash-brew",
+      "title": {
+        "ro": "Flash brew (cafea japoneză cu gheață)",
+        "en": "Flash brew (Japanese iced coffee)"
+      },
+      "category": "drink",
+      "summary": {
+        "ro": "Cafeaua preparată fierbinte direct peste gheață păstrează aromele florale și acidulate pe care cold brew-ul le pierde, și e gata în 3 minute, nu în 16 ore. Lanțuri și prăjitorii o promovează drept alternativa rapidă la cold brew.",
+        "en": "Coffee brewed hot straight onto ice keeps the floral, acidic aromatics that cold brew loses, and it's ready in 3 minutes rather than 16 hours. Chains and roasters promote it as the fast alternative to cold brew."
+      },
+      "whyNow": {
+        "ro": "Cafeaua rece e acum consumată tot anul, iar cafelele luminoase de specialitate ies mai bine așa decât în cold brew.",
+        "en": "Iced coffee is now a year-round habit, and light specialty roasts taste better this way than as cold brew."
+      },
+      "tryAtHome": {
+        "ro": "Folosește 20 g cafea, 200 g apă la 96 °C și 100 g gheață în carafă, cu o măcinare puțin mai fină decât de obicei. Agită la final până se topește gheața.",
+        "en": "Use 20 g coffee, 200 g water at 96 °C and 100 g ice in the server, with a slightly finer grind than usual. Swirl at the end until the ice melts."
+      },
+      "recipeHint": "flash-sweet-cream",
+      "hype": 2,
+      "longevity": "established",
+      "relevanceRO": 2,
+      "sources": [
+        "https://www.tastingtable.com/2237336/biggest-coffee-trends-2026/",
+        "https://partnerscoffee.com/blogs/education/flash-brew-japanese-iced-coffee",
+        "https://www.beanscenemag.com.au/specialty-coffee-trends-to-look-for-in-2026/"
+      ]
+    },
+    {
+      "id": "nitro",
+      "title": {
+        "ro": "Cafea nitro",
+        "en": "Nitro coffee"
+      },
+      "category": "drink",
+      "summary": {
+        "ro": "Infuzia cu azot a trecut de la robinetele de cold brew la băuturi pe bază de espresso și la doze. Textura catifelată pare dulce fără zahăr adăugat. Acasă există sifoane și dispozitive pentru nitro, dar sunt încă de nișă.",
+        "en": "Nitrogen infusion has moved from cold brew taps into espresso drinks and cans. The velvety texture tastes sweet without added sugar. Home nitro siphons and devices exist but remain niche."
+      },
+      "whyNow": {
+        "ro": "Segmentul RTD crește rapid, iar nitro diferențiază produsul pe raft.",
+        "en": "RTD is growing fast, and nitro differentiates products on the shelf."
+      },
+      "tryAtHome": {
+        "ro": "Fără echipament nitro, imită textura agitând cold brew-ul cu gheață într-un shaker 20 s sau folosind un sifon de frișcă cu cartușe N₂O, numai după instrucțiunile producătorului.",
+        "en": "Without nitro gear, fake the texture by shaking cold brew with ice for 20 s, or use a cream whipper with N₂O cartridges, following the manufacturer's instructions."
+      },
+      "recipeHint": "",
+      "hype": 1,
+      "longevity": "established",
+      "relevanceRO": 1,
+      "sources": [
+        "https://www.tastingtable.com/2237336/biggest-coffee-trends-2026/",
+        "https://www.foodnavigator.com/Article/2026/01/28/top-coffee-trends-functional-coffee-rtd-specialty-coffee-cold-brew/"
+      ]
+    },
+    {
+      "id": "specialty-instant",
+      "title": {
+        "ro": "Cafea instant de specialitate (liofilizată)",
+        "en": "Specialty instant coffee (freeze-dried)"
+      },
+      "category": "drink",
+      "summary": {
+        "ro": "Vânzările de cafea instant în SUA au crescut cu 24% în doi ani, iar Gen Z și-a dublat cheltuielile pe instant între 2022 și 2024. Prăjitorii de top, precum Intelligentsia, Partners și Verve, vând acum cafea liofilizată de specialitate, produsă de firme precum Swift Coffee.",
+        "en": "US instant coffee sales rose 24% in two years, and Gen Z more than doubled its instant spending from 2022 to 2024. Top roasters such as Intelligentsia, Partners and Verve now sell freeze-dried specialty coffee made by firms like Swift Coffee."
+      },
+      "whyNow": {
+        "ro": "Prețurile mari și călătoriile fac din instantul de calitate o soluție de buget și de drum.",
+        "en": "High prices and travel make quality instant a budget and on-the-go solution."
+      },
+      "tryAtHome": {
+        "ro": "Dizolvă un plic de instant de specialitate în 180 ml apă la 85–90 °C, nu în apă clocotită, sau în apă rece cu gheață pentru o cafea instant rece. Compară-l pe gustul tău cu o cafea la filtru.",
+        "en": "Dissolve a specialty instant sachet in 180 ml of 85–90 °C water, not boiling, or in cold water over ice. Compare it side by side with a filter brew."
+      },
+      "recipeHint": "",
+      "hype": 2,
+      "longevity": "rising",
+      "relevanceRO": 2,
+      "sources": [
+        "https://dallasnews.com/business/retail/2025/03/22/budget-minded-gen-z-consumers-fuel-instant-coffee-boom",
+        "https://urnex.com/blog/specialty-coffee-meet-instant-coffee"
+      ]
+    },
+    {
+      "id": "functional-coffee",
+      "title": {
+        "ro": "Cafea funcțională: ciuperci, colagen, L-teanină",
+        "en": "Functional coffee: mushrooms, collagen, L-theanine"
+      },
+      "category": "drink",
+      "summary": {
+        "ro": "Cafelele cu adaptogeni (lion's mane, reishi), colagen sau L-teanină au ieșit din magazinele de wellness și au intrat în cafenele, de exemplu la Black Sheep Coffee. RTD-urile funcționale au devenit mainstream. Dovezile științifice pentru multe dintre beneficii sunt încă slabe.",
+        "en": "Coffees with adaptogens (lion's mane, reishi), collagen or L-theanine have left wellness stores for cafés, for example Black Sheep Coffee. Functional RTDs went mainstream. Scientific evidence for many of the claimed benefits is still thin."
+      },
+      "whyNow": {
+        "ro": "Consumatorii vor să reducă nervozitatea dată de cofeină fără să renunțe la ritual.",
+        "en": "Consumers want to cut caffeine jitters without giving up the ritual."
+      },
+      "tryAtHome": {
+        "ro": "",
+        "en": ""
+      },
+      "recipeHint": "",
+      "hype": 2,
+      "longevity": "rising",
+      "relevanceRO": 1,
+      "sources": [
+        "https://www.tastingtable.com/2237336/biggest-coffee-trends-2026/",
+        "https://www.beanscenemag.com.au/specialty-coffee-trends-to-look-for-in-2026/",
+        "https://www.foodnavigator.com/Article/2026/01/28/top-coffee-trends-functional-coffee-rtd-specialty-coffee-cold-brew/"
+      ]
+    },
+    {
+      "id": "swavory",
+      "title": {
+        "ro": "Dulce-sărat („swavory”): sare, miso, ulei de măsline",
+        "en": "Sweet-savory (\"swavory\"): salt, miso, olive oil"
+      },
+      "category": "drink",
+      "summary": {
+        "ro": "Ingredientele sărate intră în băuturile dulci: latte cu caramel și miso, fistic sărat, tahini, ulei de măsline și spumă de brânză. Un vârf de sare în cafea, un truc vechi, e redescoperit pentru că taie amăreala.",
+        "en": "Savory ingredients are entering sweet drinks: miso-caramel and salted pistachio lattes, tahini, olive oil and cheese foam. A pinch of salt in coffee, an old trick, is back because it tames bitterness."
+      },
+      "whyNow": {
+        "ro": "Bucătăria fusion și TikTok împing contrastele de gust.",
+        "en": "Fusion cooking and TikTok are pushing taste contrasts."
+      },
+      "tryAtHome": {
+        "ro": "Adaugă 1 linguriță de pastă de fistic și un praf de sare în laptele pentru latte înainte de spumare. Sau încearcă 5 ml ulei de măsline extravirgin spumat cu laptele.",
+        "en": "Blend 1 tsp pistachio paste and a pinch of salt into the latte milk before frothing, or try 5 ml extra-virgin olive oil frothed with the milk."
+      },
+      "recipeHint": "",
+      "hype": 2,
+      "longevity": "rising",
+      "relevanceRO": 2,
+      "sources": [
+        "https://www.tastingtable.com/2237336/biggest-coffee-trends-2026/",
+        "https://perfectdailygrind.com/2026/01/coffee-shop-trends-in-2026/"
+      ]
+    },
+    {
+      "id": "hybrid-brewers",
+      "title": {
+        "ro": "Dripere hibride: Hario Switch, Pulsar, April",
+        "en": "Hybrid brewers: Hario Switch, Pulsar, April"
+      },
+      "category": "method",
+      "summary": {
+        "ro": "Driperele care combină imersia cu percolarea au revenit puternic: 4 din primii 9 concurenți la World Brewers Cup 2025 au folosit drippere hibride, 3 finaliști fiind pe Hario Switch. Pulsar de la NextLevel adaugă un capac de dispersie și un robinet pentru „bloom” în imersie.",
+        "en": "Brewers that combine immersion and percolation are back in force: 4 of the top 9 competitors at the 2025 World Brewers Cup used hybrid brewers, 3 finalists on the Hario Switch. NextLevel's Pulsar adds a dispersion cap and a valve for steeped blooming."
+      },
+      "whyNow": {
+        "ro": "Oferă claritatea unui pour-over cu iertarea unei imersii, adică rezultate repetabile pentru începători.",
+        "en": "They give pour-over clarity with immersion's forgiveness, so beginners get repeatable results."
+      },
+      "tryAtHome": {
+        "ro": "Pe un Switch închis, toarnă 250 g apă la 95 °C peste 15 g cafea, amestecă la 2:00 și deschide valva la 2:15 (rețeta lui Hoffmann).",
+        "en": "On a closed Switch, pour 250 g water at 95 °C over 15 g coffee, stir at 2:00 and open the valve at 2:15 (Hoffmann's recipe)."
+      },
+      "recipeHint": "switch-hybrid",
+      "hype": 2,
+      "longevity": "rising",
+      "relevanceRO": 2,
+      "sources": [
+        "https://perfectdailygrind.com/2026/03/hybrid-coffee-brewers-making-comeback/",
+        "https://dailycoffeenews.com/2023/06/28/pulsar-is-the-new-star-of-the-nextlevel-brewer-line/",
+        "https://kurasu.kyoto/blogs/kurasu-journal/switch"
+      ]
+    },
+    {
+      "id": "low-agitation-temp",
+      "title": {
+        "ro": "Agitare redusă și temperaturi duble",
+        "en": "Low agitation & split temperatures"
+      },
+      "category": "method",
+      "summary": {
+        "ro": "Campionul World Brewers Cup 2025, George Jinyang Peng, a turnat prima parte la 96 °C și ultima la 80 °C, cu un Melodrip care reduce agitarea, pentru mai puțină amăreală. Mulți prăjitori recomandă acum ape mai reci și turnări blânde la cafelele foarte procesate.",
+        "en": "2025 World Brewers Cup champion George Jinyang Peng poured the first part at 96 °C and the last at 80 °C through a Melodrip to cut agitation and bitterness. Many roasters now recommend cooler water and gentle pours for heavily processed coffees."
+      },
+      "whyNow": {
+        "ro": "Cafelele fermentate și foarte solubile din ultimii ani se suprăextrag ușor la apă clocotită.",
+        "en": "The fermented, highly soluble coffees of recent years over-extract easily with boiling water."
+      },
+      "tryAtHome": {
+        "ro": "Fă bloom-ul și prima turnare la 96 °C, apoi lasă fierbătorul deschis sau adaugă apă rece până la 80 °C pentru ultima turnare, turnând aproape de pat, fără swirl.",
+        "en": "Bloom and do the first pour at 96 °C, then let the kettle cool (or add cold water) to 80 °C for the last pour, pouring close to the bed without swirling."
+      },
+      "recipeHint": "peng-two-temp",
+      "hype": 2,
+      "longevity": "rising",
+      "relevanceRO": 2,
+      "sources": [
+        "https://honestcoffeeguide.com/brew-recipes/george-jinyang-peng-2025-wbc/",
+        "https://wonderstate.com/blogs/wonderstate/why-i-brew-with-lower-water-temperatures-and-you-should-too"
+      ]
+    },
+    {
+      "id": "blooming-espresso",
+      "title": {
+        "ro": "Blooming espresso",
+        "en": "Blooming espresso"
+      },
+      "category": "method",
+      "summary": {
+        "ro": "Profilul popularizat de Scott Rao începe cu o preinfuzie până la 4–5 bari, apoi oprește apa circa 30 s pentru ca pucul să „înflorească”, ca la V60, și încheie la ~9 bari. E gândit pentru prăjiri luminoase și extracții lungi, cu gust apropiat de filtru.",
+        "en": "The profile popularised by Scott Rao pre-infuses to 4–5 bar, then stops the water for about 30 s so the puck \"blooms\" like a V60, and finishes at ~9 bar. It suits light roasts and long extractions with a filter-like taste."
+      },
+      "whyNow": {
+        "ro": "Aparatele de acasă cu control de flux (Decent, Meticulous, Gaggiuino, Flair) îl fac accesibil.",
+        "en": "Home machines with flow control (Decent, Meticulous, Gaggiuino, Flair) make it accessible."
+      },
+      "tryAtHome": {
+        "ro": "Pe un aparat obișnuit, pornește pompa până apar primele picături, oprește-o 20–30 s, apoi repornește-o și oprește la 1:2,5. Pentru prăjiri închise nu îl folosi.",
+        "en": "On a regular machine, run the pump until the first drops appear, stop it for 20–30 s, then restart and stop at 1:2.5. Skip it for dark roasts."
+      },
+      "recipeHint": "blooming-espresso",
+      "hype": 2,
+      "longevity": "rising",
+      "relevanceRO": 1,
+      "sources": [
+        "https://decentespresso.com/docs/all_about_blooming_espresso",
+        "https://clivecoffee.com/blogs/learn/best-espresso-machine-for-pressure-profiling-buyers-guide-clive"
+      ]
+    },
+    {
+      "id": "turbo-shots",
+      "title": {
+        "ro": "Turbo shots și espresso mai lung",
+        "en": "Turbo shots & longer-ratio espresso"
+      },
+      "category": "method",
+      "summary": {
+        "ro": "Studiul publicat în Matter (Cameron et al., 2020) arată că o măcinare puțin mai grosieră, doze mai mici și shoturi de sub 15 s dau extracții mai uniforme și mai repetabile. Raporturile 1:2,5–1:3 au devenit normale pentru cafelele luminoase.",
+        "en": "The study published in Matter (Cameron et al., 2020) showed that a slightly coarser grind, smaller doses and sub-15-second shots give more even, repeatable extractions. Ratios of 1:2.5–1:3 are now normal for light roasts."
+      },
+      "whyNow": {
+        "ro": "Prețul boabelor face atractive tehnicile care obțin mai mult gust din mai puțină cafea.",
+        "en": "Bean prices make techniques that get more flavour from less coffee attractive."
+      },
+      "tryAtHome": {
+        "ro": "Macină cu 2–3 trepte mai grosier decât de obicei și scoate 54 g din 18 g în 15–20 s. Dacă e prea acru, revino la o treaptă mai fină.",
+        "en": "Grind 2–3 steps coarser than usual and pull 54 g from 18 g in 15–20 s. If sour, go one step finer."
+      },
+      "recipeHint": "",
+      "hype": 2,
+      "longevity": "established",
+      "relevanceRO": 2,
+      "sources": [
+        "https://www.discovermagazine.com/the-sciences/mathematicians-say-theyve-figured-out-how-to-brew-a-better-espresso-shot",
+        "https://www.popsci.com/story/science/coffee-brewing-science/"
+      ]
+    },
+    {
+      "id": "puck-prep",
+      "title": {
+        "ro": "Puck screen, WDT și pregătirea pucului",
+        "en": "Puck screens, WDT & puck prep"
+      },
+      "category": "method",
+      "summary": {
+        "ro": "Sita de pe puc (puck screen) distribuie apa mai uniform, reduce canalizarea și păstrează dușul curat. Împreună cu WDT (amestecarea cu ace) și tamperele calibrate, e acum un standard în setup-urile de acasă, deși entuziaștii încă dezbat cât contează.",
+        "en": "A puck screen spreads water more evenly, reduces channelling and keeps the shower screen clean. Together with WDT (needle distribution) and calibrated tampers, it's now standard in home setups, though enthusiasts still debate how much it matters."
+      },
+      "whyNow": {
+        "ro": "Sunt upgrade-uri ieftine pentru un aparat de buget.",
+        "en": "They're cheap upgrades for a budget machine."
+      },
+      "tryAtHome": {
+        "ro": "Amestecă cafeaua din portafiltru cu o unealtă WDT (sau o agrafă desfăcută), tampează drept și pune o sită de 1,7 mm deasupra. Compară 3 shoturi cu și 3 fără.",
+        "en": "Stir the grounds in the portafilter with a WDT tool (or an unfolded paperclip), tamp level and place a 1.7 mm screen on top. Compare 3 shots with and 3 without."
+      },
+      "recipeHint": "",
+      "hype": 2,
+      "longevity": "established",
+      "relevanceRO": 2,
+      "sources": [
+        "https://clivecoffee.com/blogs/learn/are-puck-screens-worth-it",
+        "https://www.home-barista.com/tips/downsides-puck-screens-t104513.html"
+      ]
+    },
+    {
+      "id": "single-dose-freezing",
+      "title": {
+        "ro": "Single dosing și boabe congelate",
+        "en": "Single dosing & frozen beans"
+      },
+      "category": "method",
+      "summary": {
+        "ro": "Cântărești fiecare doză separat în loc să ții boabele în buncăr, iar mulți entuziaști congelează porții individuale în tuburi etanșe. Boabele congelate se macină mai uniform și rămân proaspete săptămâni, iar așa poți avea mai multe cafele deschise simultan.",
+        "en": "Each dose is weighed separately instead of keeping beans in a hopper, and many enthusiasts freeze individual portions in airtight tubes. Frozen beans grind more evenly and stay fresh for weeks, so you can keep several coffees open at once."
+      },
+      "whyNow": {
+        "ro": "Cafeaua scumpă nu mai trebuie să se învechească în pungă.",
+        "en": "Expensive coffee shouldn't go stale in the bag."
+      },
+      "tryAtHome": {
+        "ro": "Împarte o pungă proaspătă în doze de 15–18 g în recipiente etanșe, pune-le la congelator și macină-le direct înghețate, fără să le dezgheți.",
+        "en": "Split a fresh bag into 15–18 g doses in airtight containers, freeze them and grind straight from frozen without thawing."
+      },
+      "recipeHint": "",
+      "hype": 2,
+      "longevity": "established",
+      "relevanceRO": 2,
+      "sources": [
+        "https://kaffeemacher.de/en/blogs/kaffeewissen/freeze-coffee",
+        "https://thebasicbarista.com/pages/single-dose-coffee",
+        "https://chowhound.com/1533997/freeze-coffee-beans-storage-right-way"
+      ]
+    },
+    {
+      "id": "rdt",
+      "title": {
+        "ro": "RDT (o picătură de apă pe boabe)",
+        "en": "RDT (a drop of water on the beans)"
+      },
+      "category": "method",
+      "summary": {
+        "ro": "Ross Droplet Technique înseamnă să pulverizezi sau să pui o picătură de apă pe boabe înainte de măcinare. Elimină electricitatea statică, deci zațul nu se mai lipește și nu mai zboară. E standard în rutinele de single dosing.",
+        "en": "The Ross Droplet Technique means spraying or adding a drop of water to the beans before grinding. It kills static so grounds don't cling or scatter. It's standard in single-dosing routines."
+      },
+      "whyNow": {
+        "ro": "Râșnițele cu retenție mică și stațiile de single dosing fac static-ul vizibil și enervant.",
+        "en": "Low-retention grinders and single-dosing setups make static visible and annoying."
+      },
+      "tryAtHome": {
+        "ro": "Udă coada unei lingurițe, amestecă boabele cu ea (sau dă 1 pufăit dintr-un pulverizator) și macină. Nu exagera: apa în exces poate rugini râșnița.",
+        "en": "Wet the handle of a teaspoon, stir the beans with it (or give one spritz from a sprayer) and grind. Don't overdo it, as excess water can rust the burrs."
+      },
+      "recipeHint": "",
+      "hype": 1,
+      "longevity": "established",
+      "relevanceRO": 2,
+      "sources": [
+        "https://www.greenplantation.com/a/rdt-technique-why-is-coffee-sprayed-with-water-before-grinding"
+      ]
+    },
+    {
+      "id": "water-recipes",
+      "title": {
+        "ro": "Rețete de apă și plicuri cu minerale",
+        "en": "Water recipes & mineral packets"
+      },
+      "category": "method",
+      "summary": {
+        "ro": "Apa are peste 98% din ceașcă, așa că entuziaștii își fac apa din apă distilată plus minerale: plicuri Third Wave Water, picături Lotus sau rețete DIY cu sare amară și bicarbonat. Diferența de gust e ușor de observat.",
+        "en": "Water is over 98% of the cup, so enthusiasts build their own from distilled water plus minerals: Third Wave Water packets, Lotus drops, or DIY recipes with Epsom salt and baking soda. The taste difference is easy to notice."
+      },
+      "whyNow": {
+        "ro": "Apa dură a multor orașe strică cafelele luminoase și aparatele.",
+        "en": "Many cities' hard water ruins light roasts and machines."
+      },
+      "tryAtHome": {
+        "ro": "Fă un test orb: aceeași cafea cu apă de la robinet filtrată, cu apă îmbuteliată slab mineralizată (sub 150 mg/l reziduu sec) și cu apă distilată plus un plic de minerale.",
+        "en": "Do a blind test: the same coffee with filtered tap water, a low-mineral bottled water (under 150 mg/L dry residue), and distilled water plus a mineral packet."
+      },
+      "recipeHint": "",
+      "hype": 2,
+      "longevity": "established",
+      "relevanceRO": 3,
+      "sources": [
+        "https://dailycoffeenews.com/2022/05/24/the-lotus-water-minerals-kit-helps-coffee-water-blossom",
+        "https://gearpatrol.com/2018/04/24/review-third-wave-water-coffee-water-mineral-supplement/"
+      ]
+    },
+    {
+      "id": "co-ferments",
+      "title": {
+        "ro": "Co-fermentări și cafele „infuzate”: controversa",
+        "en": "Co-ferments & \"infused\" coffees: the controversy"
+      },
+      "category": "bean",
+      "summary": {
+        "ro": "Cafelele fermentate cu fructe, drojdii sau alte ingrediente dau note de „bomboane acre” sau „budincă de banane”, dar sunt acuzate de lipsă de transparență și chiar de arome artificiale. Best of Panama a interzis cafelele infuzate, iar SCA a lansat cercetarea „What's in my coffee?”.",
+        "en": "Coffees fermented with fruit, yeasts or other ingredients give \"sour candy\" or \"banana pudding\" notes, but face accusations of poor transparency and even artificial flavourings. Best of Panama banned infused coffees, and the SCA launched its \"What's in my coffee?\" research."
+      },
+      "whyNow": {
+        "ro": "Piețele noi (China, Arabia Saudită) le cer, iar fermierii le folosesc pentru prețuri mai bune.",
+        "en": "New markets (China, Saudi Arabia) want them, and farmers use them to earn better prices."
+      },
+      "tryAtHome": {
+        "ro": "Gustă orb o cafea co-fermentată lângă una spălată din aceeași țară și întreabă prăjitorul ce s-a adăugat exact în fermentare.",
+        "en": "Taste a co-fermented coffee blind next to a washed coffee from the same country, and ask the roaster exactly what was added during fermentation."
+      },
+      "recipeHint": "",
+      "hype": 2,
+      "longevity": "rising",
+      "relevanceRO": 2,
+      "sources": [
+        "https://perfectdailygrind.com/2026/05/issues-with-co-ferment-coffees/",
+        "https://perfectdailygrind.com/2025/07/specialty-coffee-opinions-on-infused-coffees/",
+        "https://sca.coffee/research-tabs/whats-in-my-coffee-results-and-outcomes-of-reco-spotlight-2025",
+        "https://dailycoffeenews.com/2024/06/28/best-of-panama-organizers-take-hard-stance-against-infused-coffees"
+      ]
+    },
+    {
+      "id": "experimental-processing",
+      "title": {
+        "ro": "Procesări experimentale: anaerob, thermal shock, macerare",
+        "en": "Experimental processing: anaerobic, thermal shock, maceration"
+      },
+      "category": "bean",
+      "summary": {
+        "ro": "Fermentarea anaerobă, macerarea carbonică și „thermal shock” (cireșe scufundate alternativ în apă fierbinte și rece) sunt acum peste tot. Cafeaua cu care Jack Simpson a câștigat World Barista Championship 2025 a fost un Geisha natural macerat în argon și finisat spălat.",
+        "en": "Anaerobic fermentation, carbonic maceration and \"thermal shock\" (cherries dipped alternately in hot and cold water) are everywhere now. The coffee that won Jack Simpson the 2025 World Barista Championship was an argon-macerated natural Geisha with a washed finish."
+      },
+      "whyNow": {
+        "ro": "Fermierii caută diferențiere și prețuri mai mari într-o piață volatilă.",
+        "en": "Farmers want differentiation and higher prices in a volatile market."
+      },
+      "tryAtHome": {
+        "ro": "Prepară-le cu apă mai rece (88–92 °C) și măcinare puțin mai grosieră, pentru că se extrag foarte ușor.",
+        "en": "Brew them with cooler water (88–92 °C) and a slightly coarser grind, since they extract very easily."
+      },
+      "recipeHint": "",
+      "hype": 2,
+      "longevity": "rising",
+      "relevanceRO": 2,
+      "sources": [
+        "https://www.beanscenemag.com.au/behind-jack-simpsons-wbc-triumph/",
+        "https://www.klatchcoffee.com/blogs/processes/what-is-thermo-shock-coffee-processing",
+        "https://royalcoffee.com/co-fermented-coffee-processing-trends-and-controversy/"
+      ]
+    },
+    {
+      "id": "beyond-geisha",
+      "title": {
+        "ro": "Dincolo de Geisha: soiuri rare",
+        "en": "Beyond Geisha: rare varieties"
+      },
+      "category": "bean",
+      "summary": {
+        "ro": "Geisha încă domină competițiile, dar pierde teren: la Global Coffee Awards 2025 doar 6 din primele 25 de cafele au fost Geisha, iar un Parainema din Honduras a luat cel mai mare scor. Sidra, Bourbon rosado, Ombligón, Wush Wush și Eugenioides apar tot mai des, iar campionii amestecă Geisha cu alte soiuri.",
+        "en": "Geisha still dominates competitions but is losing ground: at the 2025 Global Coffee Awards only 6 of the top 25 coffees were Geisha, and a Honduran Parainema scored highest. Sidra, Bourbon rosado, Ombligón, Wush Wush and Eugenioides appear more and more, and champions blend Geisha with other varieties."
+      },
+      "whyNow": {
+        "ro": "Cererea de unicitate și prețurile record la Geisha împing spre alternative.",
+        "en": "Demand for uniqueness and record Geisha prices are pushing alternatives."
+      },
+      "tryAtHome": {
+        "ro": "Caută la prăjitoriile românești o cafea Sidra sau Eugenioides și compar-o cu un Caturra clasic. Eugenioides e natural dulce, cu puțină cofeină.",
+        "en": "Look for a Sidra or Eugenioides at a Romanian roaster and compare it with a classic Caturra. Eugenioides is naturally sweet and low in caffeine."
+      },
+      "recipeHint": "",
+      "hype": 2,
+      "longevity": "rising",
+      "relevanceRO": 1,
+      "sources": [
+        "https://perfectdailygrind.com/es/2026/10/05/geisha-perdiendo-terreno-competencias-cafe/",
+        "https://www.baristamagazine.com/eugenioides-coffee-soars-to-competition-success/"
+      ]
+    },
+    {
+      "id": "liberica-excelsa",
+      "title": {
+        "ro": "Liberica și Excelsa",
+        "en": "Liberica & Excelsa"
+      },
+      "category": "bean",
+      "summary": {
+        "ro": "Specii tolerante la căldură și secetă, până acum folosite în instant, sunt repoziționate ca premium prin fermentări anaerobe și procesări honey în Malaezia, Indonezia, Filipine și India. Global Coffee Awards are acum categorie de Liberica, iar la WBC 2025 un finalist a combinat Geisha cu Liberica din Malaezia.",
+        "en": "Heat- and drought-tolerant species once used for instant are being repositioned as premium through anaerobic and honey processing in Malaysia, Indonesia, the Philippines and India. The Global Coffee Awards now have a Liberica category, and a 2025 WBC competitor blended Geisha with Malaysian Liberica."
+      },
+      "whyNow": {
+        "ro": "Schimbările climatice cer specii alternative la arabica.",
+        "en": "Climate change demands alternatives to arabica."
+      },
+      "tryAtHome": {
+        "ro": "",
+        "en": ""
+      },
+      "recipeHint": "",
+      "hype": 1,
+      "longevity": "rising",
+      "relevanceRO": 1,
+      "sources": [
+        "https://perfectdailygrind.com/2026/08/coffee-processing-liberica/",
+        "https://perfectdailygrind.com/es/2026/10/05/geisha-perdiendo-terreno-competencias-cafe/"
+      ]
+    },
+    {
+      "id": "fine-robusta",
+      "title": {
+        "ro": "Robusta de specialitate („fine robusta”)",
+        "en": "Specialty robusta (\"fine robusta\")"
+      },
+      "category": "bean",
+      "summary": {
+        "ro": "Robusta a urcat de la 28% din producția mondială la începutul anilor '90 la 44% în 2023, iar Brazilia ar putea depăși Vietnamul ca prim producător. Fermierii investesc în recoltare selectivă și fermentare, iar prăjitorii de specialitate lansează robusta „fine” pentru espresso cu corp și crema bogată.",
+        "en": "Robusta rose from 28% of world production in the early 1990s to 44% in 2023, and Brazil may overtake Vietnam as the top producer. Farmers are investing in selective picking and fermentation, and specialty roasters are launching \"fine\" robusta for full-bodied espresso with rich crema."
+      },
+      "whyNow": {
+        "ro": "Prețurile record la arabica și climatul fac robusta de calitate o alegere logică.",
+        "en": "Record arabica prices and the climate make quality robusta a logical choice."
+      },
+      "tryAtHome": {
+        "ro": "Fă un espresso 80% arabica + 20% fine robusta. Robusta e mai concentrată, deci încearcă un raport de 1:2,5 și o temperatură de 90 °C.",
+        "en": "Pull an espresso of 80% arabica + 20% fine robusta. Robusta is more intense, so try a 1:2.5 ratio at 90 °C."
+      },
+      "recipeHint": "",
+      "hype": 2,
+      "longevity": "rising",
+      "relevanceRO": 3,
+      "sources": [
+        "https://worldcoffeeresearch.org/resources/a-robust-future-why-brazils-bitter-coffee-is-thriving-as-the-climate-crisis-hits-global-crops",
+        "https://perfectdailygrind.com/2025/05/robusta-revival-in-specialty-coffee/",
+        "https://qahwaworld.com/news/brazil-robusta-coffee-production-growth-2025"
+      ]
+    },
+    {
+      "id": "decaf-renaissance",
+      "title": {
+        "ro": "Renașterea decafului",
+        "en": "The decaf renaissance"
+      },
+      "category": "bean",
+      "summary": {
+        "ro": "Decaful a câștigat titluri la US Brewers Cup și are categorii proprii în concursurile de prăjire. În SUA, ponderea decafului a urcat de la 9% la 12% din consum în 2025, iar 46% dintre consumatori spun că vor să reducă cofeina. Procesele EA (din trestie de zahăr), Swiss Water și CO₂ dau acum decafuri cu adevărat bune.",
+        "en": "Decaf has won US Brewers Cup titles and has its own roasting-competition categories. In the US its share rose from 9% to 12% of consumption in 2025, and 46% of consumers say they want to cut caffeine. EA (sugarcane), Swiss Water and CO₂ processes now yield genuinely good decafs."
+      },
+      "whyNow": {
+        "ro": "Somnul, anxietatea și cafeaua de seară îi fac pe mulți să caute decaf bun, nu doar „acceptabil”.",
+        "en": "Sleep, anxiety and evening coffee have many people looking for good decaf, not merely acceptable decaf."
+      },
+      "tryAtHome": {
+        "ro": "Prepară decaful cu o măcinare puțin mai grosieră și apă la 90 °C, pentru că se extrage mai repede, și cumpără pungi mici, fiindcă se învechește mai repede.",
+        "en": "Brew decaf a bit coarser with 90 °C water, since it extracts faster, and buy small bags because it stales faster."
+      },
+      "recipeHint": "decaf-v60-gentle",
+      "hype": 2,
+      "longevity": "rising",
+      "relevanceRO": 2,
+      "sources": [
+        "https://perfectdailygrind.com/2026/05/does-decaf-deserve-better/",
+        "https://www.coffeereview.com/finally-some-real-coffee-action-decaf-coffees-2026/",
+        "https://freshcup.com/decaf-coffee-but-make-it-specialty/"
+      ]
+    },
+    {
+      "id": "flat-burr-home",
+      "title": {
+        "ro": "Râșnițe flat-burr single-dose acasă",
+        "en": "Flat-burr single-dose grinders at home"
+      },
+      "category": "gear",
+      "summary": {
+        "ro": "Râșnițe cu discuri plate și retenție aproape zero, precum DF64/DF54, Fellow Ode Gen 2 sau Timemore Sculptor, au adus claritatea de cafenea în bucătărie la prețuri de câteva sute de euro. Sunt construite pentru single dosing, cu suflătoare și RDT.",
+        "en": "Flat-burr, near-zero-retention grinders such as the DF64/DF54, Fellow Ode Gen 2 or Timemore Sculptor brought café-level clarity to the kitchen for a few hundred euros. They're built for single dosing, with bellows and RDT."
+      },
+      "whyNow": {
+        "ro": "Râșnița e recunoscută ca cel mai important upgrade, mai important decât aparatul.",
+        "en": "The grinder is now accepted as the most important upgrade, more than the machine."
+      },
+      "tryAtHome": {
+        "ro": "Dacă ai buget limitat, o râșniță manuală bună (de exemplu Timemore C3, 1Zpresso) dă mai mult gust decât un espressor scump cu râșniță proastă.",
+        "en": "On a tight budget, a good hand grinder (e.g. Timemore C3, 1Zpresso) gives more flavour than an expensive espresso machine with a poor grinder."
+      },
+      "recipeHint": "",
+      "hype": 2,
+      "longevity": "established",
+      "relevanceRO": 2,
+      "sources": [
+        "https://www.qikacoffee.com/news/df64-or-df54-how-to-choose-your-first-single-dose-coffee-grinder-1/",
+        "https://coffeechronicler.com/fellow-ode-grinder-review/"
+      ]
+    },
+    {
+      "id": "automated-pourover",
+      "title": {
+        "ro": "Pour-over automat: xBloom și rețete scanabile",
+        "en": "Automated pour-over: xBloom & scannable recipes"
+      },
+      "category": "gear",
+      "summary": {
+        "ro": "Aparatele precum xBloom Studio combină râșnița, cântarul și turnarea automată, iar în modul Autopilot scanezi un card de rețetă de la prăjitor ca să obții profilul gândit de el. Categoria leagă cafeaua de specialitate de comoditatea capsulelor.",
+        "en": "Machines like the xBloom Studio combine grinder, scale and automated pouring, and in Autopilot mode you scan a roaster's recipe card to get their intended profile. The category bridges specialty coffee and capsule-style convenience."
+      },
+      "whyNow": {
+        "ro": "Oamenii vor pour-over de calitate fără tehnică și fără timp.",
+        "en": "People want quality pour-over without technique or time."
+      },
+      "tryAtHome": {
+        "ro": "",
+        "en": ""
+      },
+      "recipeHint": "",
+      "hype": 1,
+      "longevity": "rising",
+      "relevanceRO": 1,
+      "sources": [
+        "https://www.beanscenemag.com.au/everything-you-need-to-know-about-the-xbloom-studio/",
+        "https://nysun.com/article/review-xbloom-studio-coffee-machine"
+      ]
+    },
+    {
+      "id": "smart-scales",
+      "title": {
+        "ro": "Cântare inteligente și preparare conectată",
+        "en": "Smart scales & connected brewing"
+      },
+      "category": "gear",
+      "summary": {
+        "ro": "Cântarele Bluetooth (Acaia, Timemore, Varia) înregistrează curba de flux și se leagă de aplicații de rețete, iar comunitățile își împart profilurile. Datele de preparare devin parte din hobby, ca jurnalele de antrenament.",
+        "en": "Bluetooth scales (Acaia, Timemore, Varia) log flow curves and link to recipe apps, and communities share profiles. Brew data is becoming part of the hobby, like training logs."
+      },
+      "whyNow": {
+        "ro": "Prețul cântarelor cu timer a scăzut sub 30 €, iar aplicațiile de rețete s-au înmulțit.",
+        "en": "Timer scales now cost under €30, and recipe apps have multiplied."
+      },
+      "tryAtHome": {
+        "ro": "Chiar și cu un cântar de bucătărie de 0,1 g, notează doza, apa, timpul și gustul la fiecare preparare, ca să poți repeta ce a ieșit bine.",
+        "en": "Even with a 0.1 g kitchen scale, log dose, water, time and taste for every brew so you can repeat what worked."
+      },
+      "recipeHint": "",
+      "hype": 2,
+      "longevity": "established",
+      "relevanceRO": 3,
+      "sources": [
+        "https://help.acaia.co/hc/en-us/articles/360034325551-Acaia-Coffee-App-Guide",
+        "https://baristalife.co/blogs/blog/best-bluetooth-scale-2025"
+      ]
+    },
+    {
+      "id": "portable-espresso",
+      "title": {
+        "ro": "Espresso portabil și cafea de drum",
+        "en": "Portable espresso & travel coffee"
+      },
+      "category": "gear",
+      "summary": {
+        "ro": "Aparatele de espresso portabile care își încălzesc singure apa (Outin Nano) și presele manuale (Picopresso), alături de AeroPress Go și driperele pliabile, fac din cafeaua bună un accesoriu de călătorie și camping.",
+        "en": "Self-heating portable espresso makers (Outin Nano) and manual presses (Picopresso), plus the AeroPress Go and foldable drippers, make good coffee a travel and camping accessory."
+      },
+      "whyNow": {
+        "ro": "Munca hibridă, drumețiile și călătoriile cu avionul cer cafea bună oriunde.",
+        "en": "Hybrid work, hiking and flying call for good coffee anywhere."
+      },
+      "tryAtHome": {
+        "ro": "Ia la drum o AeroPress, o râșniță manuală și doze cântărite în pungi mici. E cea mai robustă combinație pentru munte.",
+        "en": "Travel with an AeroPress, a hand grinder and pre-weighed doses in small bags. It's the most robust combo for the mountains."
+      },
+      "recipeHint": "",
+      "hype": 2,
+      "longevity": "established",
+      "relevanceRO": 2,
+      "sources": [
+        "https://www.tastingtable.com/2237336/biggest-coffee-trends-2026/",
+        "https://coffeechronicler.com/gear/espresso-machines/best-portable/",
+        "https://www.coffeereview.com/equipment-review-outin-nano-portable-espresso-maker/"
+      ]
+    },
+    {
+      "id": "flow-profiling-home",
+      "title": {
+        "ro": "Profilare de presiune și flux acasă",
+        "en": "Pressure & flow profiling at home"
+      },
+      "category": "gear",
+      "summary": {
+        "ro": "Aparate precum Meticulous și Decent, sau modificări open-source ca Gaggiuino pentru Gaggia Classic, permit acasă profiluri de presiune și flux care altădată erau doar în competiții. Tehnicile de tip blooming espresso sau turbo devin astfel reproductibile.",
+        "en": "Machines like the Meticulous and Decent, or open-source mods like Gaggiuino for the Gaggia Classic, bring competition-grade pressure and flow profiles home. Techniques like blooming or turbo espresso become reproducible."
+      },
+      "whyNow": {
+        "ro": "Entuziaștii de espresso au trecut de la „ce aparat” la „ce profil”.",
+        "en": "Espresso enthusiasts have moved from \"which machine\" to \"which profile\"."
+      },
+      "tryAtHome": {
+        "ro": "",
+        "en": ""
+      },
+      "recipeHint": "",
+      "hype": 1,
+      "longevity": "rising",
+      "relevanceRO": 1,
+      "sources": [
+        "https://clivecoffee.com/blogs/learn/best-espresso-machine-for-pressure-profiling-buyers-guide-clive",
+        "https://www.papelespresso.com/comparing-gaggiuino-pressure-profiling-to-traditional-dimmer-mods"
+      ]
+    },
+    {
+      "id": "bean-to-cup-ro",
+      "title": {
+        "ro": "Espressoarele automate domină în România",
+        "en": "Bean-to-cup machines dominate in Romania"
+      },
+      "category": "gear",
+      "summary": {
+        "ro": "Topurile de Black Friday 2025 de la eMAG sunt dominate de espressoare automate De'Longhi, Philips (LatteGo), Krups și Siemens. Modele precum Philips 3300 LatteGo sunt considerate bune cumpărături la circa 1.000–1.200 lei. Pentru mulți români, primul pas spre cafea mai bună e un automat plus boabe mai bune.",
+        "en": "eMAG's Black Friday 2025 tops are dominated by De'Longhi, Philips (LatteGo), Krups and Siemens bean-to-cup machines, with models like the Philips 3300 LatteGo seen as good buys around 1,000–1,200 lei. For many Romanians, the first step to better coffee is an automatic machine plus better beans."
+      },
+      "whyNow": {
+        "ro": "Black Friday-ul eMAG a bătut recorduri în 2025, iar cafeaua acasă e mai ieftină decât la cafenea.",
+        "en": "eMAG's Black Friday broke records in 2025, and home coffee is cheaper than café coffee."
+      },
+      "tryAtHome": {
+        "ro": "Pe un automat, setează râșnița mai fin, cu o treaptă pe rând și numai în timp ce macină, folosește boabe de specialitate prăjite mediu și curăță grupul săptămânal.",
+        "en": "On a bean-to-cup machine, set the grinder finer one step at a time (only while grinding), use medium-roast specialty beans, and clean the brew group weekly."
+      },
+      "recipeHint": "",
+      "hype": 2,
+      "longevity": "established",
+      "relevanceRO": 3,
+      "sources": [
+        "https://gadget.ro/top-10-cele-mai-bune-espressoare-automate-pe-care-sa-le-urmaresti-de-black-friday-2025-la-emag/",
+        "https://www.g4media.ro/black-friday-2025-la-emag-peste-314-milioane-de-produse-vandute-in-primele-12-ore-cu-o-valoare-record-de-896-milioane-lei.html"
+      ]
+    },
+    {
+      "id": "home-cafe",
+      "title": {
+        "ro": "Cafeneaua de acasă („home café”)",
+        "en": "The home café"
+      },
+      "category": "culture",
+      "summary": {
+        "ro": "Gen Z își transformă bucătăria în cafenea: colțuri de cafea estetice, băuturi de cafenea refăcute după TikTok și meniuri pentru prieteni. Un latte acasă costă sub o liră față de 4–5 lire la cafenea în Marea Britanie, iar Morgan Eckroth a lansat pe 27 octombrie 2026 un manual dedicat.",
+        "en": "Gen Z is turning kitchens into cafés: aesthetic coffee corners, café drinks recreated from TikTok, and menus for friends. In the UK a home latte costs under £1 against £4–5 in a café, and Morgan Eckroth released a dedicated handbook on 27 October 2026."
+      },
+      "whyNow": {
+        "ro": "Prețurile din cafenele și #CoffeeTok fac din barista de acasă un hobby social.",
+        "en": "Café prices and #CoffeeTok make home barista a social hobby."
+      },
+      "tryAtHome": {
+        "ro": "Fă un mini-meniu de 3 băuturi pentru weekend (una caldă, una rece, una decaf) și cronometrează-te. E cel mai rapid mod de a-ți rafina rețetele.",
+        "en": "Make a 3-drink weekend menu (one hot, one iced, one decaf) and time yourself. It's the fastest way to refine your recipes."
+      },
+      "recipeHint": "",
+      "hype": 3,
+      "longevity": "established",
+      "relevanceRO": 3,
+      "sources": [
+        "https://www.livingetc.com/ideas/home-cafe-tiktok-trend",
+        "https://www.lawyer-monthly.com/2025/12/why-uk-cant-get-enough-at-home-coffee/",
+        "https://www.penguinrandomhouse.com/books/811028/coffee-for-here-by-morgan-eckroth/9798217035366"
+      ]
+    },
+    {
+      "id": "subscriptions",
+      "title": {
+        "ro": "Abonamente la cafea personalizate",
+        "en": "Personalised coffee subscriptions"
+      },
+      "category": "culture",
+      "summary": {
+        "ro": "Serviciile care livrează periodic boabe proaspete potrivite gustului tău cresc, iar multe prăjitorii românești au abonamente lunare. Ele leagă direct ferma de bucătărie și reduc decizia de cumpărare.",
+        "en": "Services that regularly deliver fresh beans matched to your taste are growing, and many Romanian roasters offer monthly subscriptions. They connect farm to kitchen directly and remove the buying decision."
+      },
+      "whyNow": {
+        "ro": "Prospețimea și descoperirea, adică o cafea nouă în fiecare lună, contează mai mult decât prețul pe kg.",
+        "en": "Freshness and discovery (a new coffee every month) matter more than price per kg."
+      },
+      "tryAtHome": {
+        "ro": "Notează în aplicație fiecare cafea primită și ce rețetă a mers, ca să-i poți spune prăjitorului ce profiluri preferi.",
+        "en": "Log every coffee you receive and which recipe worked, so you can tell the roaster which profiles you prefer."
+      },
+      "recipeHint": "",
+      "hype": 2,
+      "longevity": "established",
+      "relevanceRO": 2,
+      "sources": [
+        "https://www.tastingtable.com/2237336/biggest-coffee-trends-2026/",
+        "https://perfectdailygrind.com/2026/06/why-romania-specialty-coffee-is-growing/"
+      ]
+    },
+    {
+      "id": "ai-coffee",
+      "title": {
+        "ro": "AI în cafea: antrenori și rețete personalizate",
+        "en": "AI in coffee: coaches & personalised recipes"
+      },
+      "category": "culture",
+      "summary": {
+        "ro": "Magazinele de aplicații s-au umplut în 2025–2026 de „antrenori AI” pentru cafea care sugerează ajustări de măcinare și rețete pe baza gustului, iar cafenelele folosesc AI pentru meniuri și stocuri. Calitatea variază mult, iar sfaturile generice sunt frecvente.",
+        "en": "App stores filled up in 2025–2026 with \"AI coffee coaches\" that suggest grind and recipe tweaks based on taste, and cafés use AI for menus and stock. Quality varies widely, and generic advice is common."
+      },
+      "whyNow": {
+        "ro": "Modelele lingvistice au făcut ieftină crearea unui asistent conversațional.",
+        "en": "Language models made conversational assistants cheap to build."
+      },
+      "tryAtHome": {
+        "ro": "Descrie gustul precis (acru, amar, apos, astringent) și schimbă un singur parametru odată. E logica pe care orice asistent bun ar trebui să o urmeze.",
+        "en": "Describe taste precisely (sour, bitter, watery, astringent) and change one variable at a time. It's the logic any good assistant should follow."
+      },
+      "recipeHint": "",
+      "hype": 2,
+      "longevity": "rising",
+      "relevanceRO": 2,
+      "sources": [
+        "https://apps.apple.com/us/app/id6748040853",
+        "https://perfectdailygrind.com/2026/01/coffee-shop-trends-in-2026/"
+      ]
+    },
+    {
+      "id": "traceability",
+      "title": {
+        "ro": "Trasabilitate, agricultură regenerativă și transparență",
+        "en": "Traceability, regenerative farming & transparency"
+      },
+      "category": "culture",
+      "summary": {
+        "ro": "Consumatorii vor să știe ferma, procesarea și cât primește fermierul. Nespresso certifică cafele regenerative cu Rainforest Alliance, ofi și Melitta oferă cafea complet trasabilă, iar festivalurile românești au sesiuni „Voices of Origin” despre cine plătește reziliența.",
+        "en": "Consumers want to know the farm, the processing and how much the farmer earns. Nespresso is certifying regenerative coffees with the Rainforest Alliance, ofi and Melitta offer fully traceable coffee, and Romanian festivals host \"Voices of Origin\" sessions on who pays for resilience."
+      },
+      "whyNow": {
+        "ro": "EUDR și criza prețurilor au pus lanțul de aprovizionare în centrul atenției.",
+        "en": "EUDR and the price crisis have put the supply chain in the spotlight."
+      },
+      "tryAtHome": {
+        "ro": "Când cumperi, verifică pe pungă ferma sau stația de spălare, altitudinea, soiul și data prăjirii. Lipsa lor e un semnal.",
+        "en": "When buying, check the bag for farm or washing station, altitude, variety and roast date. Missing info is a signal."
+      },
+      "recipeHint": "",
+      "hype": 2,
+      "longevity": "established",
+      "relevanceRO": 2,
+      "sources": [
+        "https://www.tastingtable.com/2237336/biggest-coffee-trends-2026/",
+        "https://ofi.com/news-and-events/press-release/ofi-and-Melitta-partner-to-offer-consumers-differentiated-and-fully-traceable-coffee.html",
+        "https://www.worldcoffeeportal.com/news/romanias-specialty-coffee-market-comes-of-age-as-slow-coffee-festival-marks-10-years/"
+      ]
+    },
+    {
+      "id": "romania-specialty-boom",
+      "title": {
+        "ro": "Boom-ul cafelei de specialitate în România",
+        "en": "Romania's specialty coffee boom"
+      },
+      "category": "culture",
+      "summary": {
+        "ro": "România are aproape 300 de cafenele de specialitate și peste 80 de prăjitorii artizanale, iar Bucureștiul are o cafenea de specialitate la 52.000 de locuitori, mai mult decât Berlinul. Festivalurile cresc: COFFeEAST (30.000+ vizitatori în 2025), Bucharest Coffee Festival (aprilie 2026) și Slow Coffee Festival, la a 10-a ediție (septembrie 2026). Cristi Oltean (Meron) a reprezentat România la WBC 2026 din Panama.",
+        "en": "Romania has nearly 300 specialty cafés and 80+ artisanal roasters, and Bucharest has one specialty café per 52,000 people, denser than Berlin. Festivals are growing: COFFeEAST (30,000+ visitors in 2025), Bucharest Coffee Festival (April 2026) and the 10th Slow Coffee Festival (September 2026). Cristi Oltean (Meron) represented Romania at WBC 2026 in Panama."
+      },
+      "whyNow": {
+        "ro": "Consumatorii români trec de la cafeaua prăjită închis cu lapte și zahăr la interes pentru origine și metode.",
+        "en": "Romanian consumers are moving from dark roast with milk and sugar to interest in origin and methods."
+      },
+      "tryAtHome": {
+        "ro": "Vizitează o prăjitorie locală (Cluj, București, Brașov, Timișoara, Oradea) și cere o recomandare pentru metoda ta. Majoritatea îți dau și rețeta.",
+        "en": "Visit a local roaster (Cluj, Bucharest, Brașov, Timișoara, Oradea) and ask for a recommendation for your method. Most will give you a recipe too."
+      },
+      "recipeHint": "",
+      "hype": 2,
+      "longevity": "rising",
+      "relevanceRO": 3,
+      "sources": [
+        "https://perfectdailygrind.com/2026/06/why-romania-specialty-coffee-is-growing/",
+        "https://pressone.ro/romanii-si-cafeaua-de-la-un-obicei-functional-la-experienta-culturala-fondatorul-coffeeast-unde-nu-avem-traditie-am-compensat-prin-deschidere",
+        "https://zilesinopti.ro/2026/04/23/bucharest-coffee-festival-aprilie-2026/",
+        "https://sprudge.com/the-2026-world-barista-championship-starts-today-heres-everyone-competing-1497734.html"
+      ]
+    },
+    {
+      "id": "competition-2026",
+      "title": {
+        "ro": "Campionii 2026: ce aduc spre acasă",
+        "en": "2026 champions: what trickles down to home"
+      },
+      "category": "culture",
+      "summary": {
+        "ro": "Nas Jaafar (Malaezia) a câștigat World Brewers Cup 2026 la Bruxelles, iar Pan Wei (China) World Barista Championship 2026 în Panama, pe 25 octombrie. Asia domină competițiile, iar tehnicile lor (dripere hibride, temperaturi duble, blenduri de soiuri) ajung rapid în rețetele de acasă.",
+        "en": "Nas Jaafar (Malaysia) won the 2026 World Brewers Cup in Brussels, and Pan Wei (China) won the 2026 World Barista Championship in Panama on 25 October. Asia dominates competitions, and its techniques (hybrid brewers, split temperatures, variety blends) quickly reach home recipes."
+      },
+      "whyNow": {
+        "ro": "Rețetele campionilor sunt cel mai bun conținut viral pentru pasionați.",
+        "en": "Champion recipes are the best viral content for enthusiasts."
+      },
+      "tryAtHome": {
+        "ro": "Încearcă rețeta campionului WBrC 2025 (George Peng): 15 g, 210 g, ultima turnare la 80 °C.",
+        "en": "Try the 2025 WBrC champion's recipe (George Peng): 15 g, 210 g, last pour at 80 °C."
+      },
+      "recipeHint": "peng-two-temp",
+      "hype": 1,
+      "longevity": "established",
+      "relevanceRO": 2,
+      "sources": [
+        "https://www.malaymail.com/news/eat-drink/2026/06/28/lord-of-the-beans-nas-jaafar-is-malaysias-first-ever-world-brewers-cup-champion/225537",
+        "https://www.prensa.com/economia/mundial-de-barismo-seis-paises-disputan-la-final-esta-es-la-agenda-del-world-of-coffee/",
+        "https://sprudge.com/three-new-world-coffee-champions-were-just-crowned-1101834.html"
+      ]
+    },
+    {
+      "id": "arabica-price-crisis",
+      "title": {
+        "ro": "Criza prețului la arabica",
+        "en": "The arabica price crisis"
+      },
+      "category": "market",
+      "summary": {
+        "ro": "Arabica a atins un maxim istoric de ~4,41 $/livră în februarie 2025, din cauza secetei și a înghețului din Brazilia și Vietnam. Pe 27 octombrie 2026 era la ~2,94 $/livră, cu 24% sub nivelul de acum un an, dar tot mult peste media istorică. Stocurile certificate sunt aproape de minimul ultimilor 27 de ani, iar El Niño aduce riscuri în 2027.",
+        "en": "Arabica hit an all-time high of ~$4.41/lb in February 2025 after drought and frost in Brazil and Vietnam. On 27 October 2026 it stood at ~$2.94/lb, 24% below a year earlier but still far above historical averages. Certified stocks are near 27-year lows, and El Niño brings risk into 2027."
+      },
+      "whyNow": {
+        "ro": "Prețurile la raft se ajustează cu întârziere, deci cafeaua rămâne scumpă în 2026.",
+        "en": "Shelf prices lag futures, so coffee stays expensive through 2026."
+      },
+      "tryAtHome": {
+        "ro": "Calculează în aplicație costul pe ceașcă (preț pungă ÷ grame × doză). O cafea de specialitate acasă costă de obicei 2–4 lei pe ceașcă.",
+        "en": "Calculate cost per cup in the app (bag price ÷ grams × dose). Home specialty coffee usually costs 2–4 lei per cup."
+      },
+      "recipeHint": "",
+      "hype": 3,
+      "longevity": "established",
+      "relevanceRO": 3,
+      "sources": [
+        "https://tradingeconomics.com/commodity/coffee",
+        "https://cropgpt.ai/coffee-futures-retreat-forecasts-see-sharp-2026-declines",
+        "https://fortune.com/europe/2025/01/21/expect-volatility-climate-change-speculation-trump-coffee-prices-2025"
+      ]
+    },
+    {
+      "id": "romania-prices-vat",
+      "title": {
+        "ro": "Prețuri și TVA la cafea în România",
+        "en": "Coffee prices & VAT in Romania"
+      },
+      "category": "market",
+      "summary": {
+        "ro": "Cafeaua s-a scumpit cu ~20% în România, o cafea la cafenea costă în medie ~9 lei, iar prețurile sunt cu până la 30% peste Italia, la venituri mai mici. Din 1 august 2025 TVA standard a urcat la 21%, iar ANAF a confirmat că băuturile pe bază de cafea intră la cota standard. Totuși, 9 din 10 români beau cafea acasă, iar consumul (3,3 kg/an pe cap de locuitor, față de 5 kg media UE) continuă să crească.",
+        "en": "Coffee prices rose ~20% in Romania, an average café coffee costs ~9 lei, and prices run up to 30% above Italy despite lower incomes. From 1 August 2025 standard VAT rose to 21%, and ANAF confirmed coffee drinks fall under the standard rate. Still, 9 in 10 Romanians drink coffee at home, and consumption (3.3 kg per capita per year vs a 5 kg EU average) keeps growing."
+      },
+      "whyNow": {
+        "ro": "Inflația record (8,6% în decembrie 2025, cea mai mare din UE) împinge consumul spre acasă.",
+        "en": "Record inflation (8.6% in December 2025, highest in the EU) is pushing consumption home."
+      },
+      "tryAtHome": {
+        "ro": "Compară costul băuturii tale preferate de la cafenea cu varianta de acasă. Aplicația poate arăta economia lunară.",
+        "en": "Compare the cost of your favourite café drink with the home version. The app can show monthly savings."
+      },
+      "recipeHint": "",
+      "hype": 3,
+      "longevity": "established",
+      "relevanceRO": 3,
+      "sources": [
+        "https://www.euronews.ro/articole/cafeaua-se-scumpeste-dar-romanii-nu-renunta-la-consum-piata-continua-sa-creasca",
+        "https://startupcafe.ro/radu-savopol-5-to-go-vreau-ca-cei-care-astazi-vand-cafea-cu-11-sa-se-conformeze-si-sa-treaca-pe-tva-21-cred-ca-este-normal-sa-jucam-cu-aceeasi-minge-si-dupa-aceleasi-reguli-92501",
+        "https://www.antena3.ro/economic/criza-cafelei-se-anunta-noi-scumpiri-de-cel-putin-20-740164.html",
+        "https://perfectdailygrind.com/2026/06/why-romania-specialty-coffee-is-growing/"
+      ]
+    },
+    {
+      "id": "eudr",
+      "title": {
+        "ro": "EUDR: regulamentul UE privind defrișările",
+        "en": "EUDR: the EU deforestation regulation"
+      },
+      "category": "market",
+      "summary": {
+        "ro": "Regulamentul care interzice cafeaua legată de defrișări a fost amânat a doua oară: se aplică de la 30 decembrie 2026 pentru operatorii mari și de la 30 iunie 2027 pentru cei mici. Declarația de diligență cade acum pe cine pune primul produsul pe piața UE. Cafeaua instant a fost exceptată, ceea ce poate favoriza robusta.",
+        "en": "The regulation banning deforestation-linked coffee was delayed a second time: it applies from 30 December 2026 for large operators and 30 June 2027 for small ones. The due-diligence obligation now falls on whoever first places the product on the EU market. Instant coffee was exempted, which may favour robusta."
+      },
+      "whyNow": {
+        "ro": "Termenul de aplicare vine peste două luni, iar importatorii și prăjitorii se pregătesc.",
+        "en": "The application date is two months away, and importers and roasters are preparing."
+      },
+      "tryAtHome": {
+        "ro": "",
+        "en": ""
+      },
+      "recipeHint": "",
+      "hype": 2,
+      "longevity": "established",
+      "relevanceRO": 2,
+      "sources": [
+        "https://www.gcrmag.com/eudr-delayed-until-the-end-of-2026",
+        "https://news.mongabay.com/short-article/2026/01/eudr-antideforestation-law-officially-delayed-for-second-year-in-a-row/",
+        "https://www.worldcoffeeportal.com/interview/how-eudr-got-lost-in-the-woods/"
+      ]
+    },
+    {
+      "id": "climate-supply",
+      "title": {
+        "ro": "Clima, recoltele și viitorul cafelei",
+        "en": "Climate, harvests & the future of coffee"
+      },
+      "category": "market",
+      "summary": {
+        "ro": "Seceta, înghețul și valurile de căldură din Brazilia și Vietnam au declanșat criza prețurilor, iar zonele potrivite pentru arabica se micșorează. Industria răspunde cu robusta irigată, specii noi (Liberica, Excelsa, hibridul Libex) și agricultură regenerativă.",
+        "en": "Drought, frost and heatwaves in Brazil and Vietnam triggered the price crisis, and land suitable for arabica is shrinking. The industry is responding with irrigated robusta, new species (Liberica, Excelsa, the Libex hybrid) and regenerative farming."
+      },
+      "whyNow": {
+        "ro": "Volatilitatea prețurilor face clima un subiect de bucătărie, nu doar de raport.",
+        "en": "Price volatility makes climate a kitchen topic, not just a report topic."
+      },
+      "tryAtHome": {
+        "ro": "",
+        "en": ""
+      },
+      "recipeHint": "",
+      "hype": 2,
+      "longevity": "established",
+      "relevanceRO": 2,
+      "sources": [
+        "https://www.beveragedaily.com/Article/2026/03/24/future-of-coffee-growing-regions-and-consumer-accessibility/",
+        "https://worldcoffeeresearch.org/resources/a-robust-future-why-brazils-bitter-coffee-is-thriving-as-the-climate-crisis-hits-global-crops",
+        "https://perfectdailygrind.com/2026/08/coffee-processing-liberica/"
+      ]
+    },
+    {
+      "id": "matcha-shortage",
+      "title": {
+        "ro": "Penuria de matcha și alternativele",
+        "en": "Matcha shortage & alternatives"
+      },
+      "category": "market",
+      "summary": {
+        "ro": "Cererea globală a dus la penurie: prețurile la matcha pentru cafenele au crescut cu 14%, cele bio cu 21%, iar unii furnizori au scumpit cu 150%. Cafenelele trec la hojicha, genmaicha și hibrizi cafea-ceai, iar căutările „hojicha vs matcha” au explodat în 2026.",
+        "en": "Global demand caused shortages: foodservice matcha prices rose 14%, organic 21%, and some suppliers raised prices by 150%. Cafés are switching to hojicha, genmaicha and coffee-tea hybrids, and \"hojicha vs matcha\" searches broke out in 2026."
+      },
+      "whyNow": {
+        "ro": "Recoltele japoneze nu țin pasul cu cererea.",
+        "en": "Japanese harvests can't keep up with demand."
+      },
+      "tryAtHome": {
+        "ro": "Înlocuiește matcha cu 3 g de pudră de hojicha în rețeta de dirty matcha. Are mai puțină cofeină și note prăjite care se potrivesc cu espresso.",
+        "en": "Swap matcha for 3 g of hojicha powder in the dirty matcha recipe. It has less caffeine and roasty notes that suit espresso."
+      },
+      "recipeHint": "dirty-matcha",
+      "hype": 2,
+      "longevity": "rising",
+      "relevanceRO": 1,
+      "sources": [
+        "https://freshcup.com/the-matcha-boom-is-reshaping-cafes-how-long-before-it-hits-a-wall/",
+        "https://www.beanscenemag.com.au/specialty-coffee-trends-to-look-for-in-2026/",
+        "https://www.businesstoday.in/technology/news/story/is-matcha-replacing-your-daily-coffee-google-search-trends-point-to-a-major-shift-554953-2026-09-12"
+      ]
+    },
+    {
+      "id": "rtd-coffee",
+      "title": {
+        "ro": "Cafea la doză (RTD)",
+        "en": "Ready-to-drink (RTD) coffee"
+      },
+      "category": "market",
+      "summary": {
+        "ro": "Cafeaua la doză și la sticlă, inclusiv cold brew, latte-uri și variante funcționale, e unul dintre segmentele cu cea mai rapidă creștere, cu o piață estimată la 64,6 miliarde $ până în 2035. Cafenelele încep programe proprii de latte la doză.",
+        "en": "Canned and bottled coffee, including cold brew, lattes and functional versions, is one of the fastest-growing segments, with a market projected at $64.6 billion by 2035. Cafés are starting their own canned latte programmes."
+      },
+      "whyNow": {
+        "ro": "Comoditatea și consumul pe drum au crescut.",
+        "en": "Convenience and on-the-go consumption have grown."
+      },
+      "tryAtHome": {
+        "ro": "Fă-ți propriul „RTD”: un litru de cold brew concentrat ține 10–14 zile la frigider și se diluează 1:1 cu apă sau lapte.",
+        "en": "Make your own \"RTD\": a litre of cold brew concentrate keeps 10–14 days in the fridge and dilutes 1:1 with water or milk."
+      },
+      "recipeHint": "",
+      "hype": 2,
+      "longevity": "established",
+      "relevanceRO": 2,
+      "sources": [
+        "https://www.tastingtable.com/2237336/biggest-coffee-trends-2026/",
+        "https://www.beanscenemag.com.au/specialty-coffee-trends-to-look-for-in-2026/",
+        "https://www.foodnavigator.com/Article/2026/01/28/top-coffee-trends-functional-coffee-rtd-specialty-coffee-cold-brew/"
+      ]
+    }
+  ],
+  "recipes": [
+    {
+      "id": "freddo-espresso",
+      "method": "espresso",
+      "gm": "espresso",
+      "name": {
+        "ro": "Freddo espresso",
+        "en": "Freddo espresso"
+      },
+      "by": {
+        "ro": "stil grecesc",
+        "en": "Greek style"
+      },
+      "dose": 18,
+      "water": 36,
+      "temp": 93,
+      "grind": "fine",
+      "desc": {
+        "ro": "Espresso dublu agitat cu gheață până devine catifelat și spumos, apoi turnat peste gheață proaspătă. Cafeaua rece numărul unu în Grecia.",
+        "en": "A double espresso shaken with ice until velvety and foamy, then poured over fresh ice. Greece's number-one iced coffee."
+      },
+      "ingredients": [
+        {
+          "ro": "4–5 cuburi de gheață pentru agitat",
+          "en": "4–5 ice cubes for shaking"
+        },
+        {
+          "ro": "pahar plin cu gheață proaspătă",
+          "en": "a glass full of fresh ice"
+        },
+        {
+          "ro": "zahăr după gust (opțional, înainte de agitare)",
+          "en": "sugar to taste (optional, before shaking)"
+        }
+      ],
+      "steps": [
+        {
+          "t": 0,
+          "w": 0,
+          "ro": "Pornește pompa și cronometrul.",
+          "en": "Start the pump and the timer."
+        },
+        {
+          "t": 28,
+          "w": 36,
+          "ro": "Oprește la 36 g. Adaugă zahărul acum, dacă vrei.",
+          "en": "Stop at 36 g. Add sugar now if you want it."
+        },
+        {
+          "t": 40,
+          "w": null,
+          "ro": "Toarnă espresso-ul în shaker peste 4–5 cuburi de gheață și agită viguros 15 s.",
+          "en": "Pour the espresso into a shaker over 4–5 ice cubes and shake hard for 15 s."
+        },
+        {
+          "t": 60,
+          "w": null,
+          "ro": "Strecoară peste gheață proaspătă. Spuma trebuie să stea deasupra.",
+          "en": "Strain over fresh ice. The foam should sit on top."
+        }
+      ]
+    },
+    {
+      "id": "moka-shakerato",
+      "method": "moka",
+      "gm": "moka",
+      "name": {
+        "ro": "Freddo din moka",
+        "en": "Moka freddo"
+      },
+      "by": {
+        "ro": "freddo fără espressor",
+        "en": "freddo without an espresso machine"
+      },
+      "dose": 15,
+      "water": 150,
+      "temp": null,
+      "tempLabel": {
+        "ro": "apă fierbinte",
+        "en": "hot water"
+      },
+      "grind": "mfine",
+      "desc": {
+        "ro": "Varianta de freddo pentru cine are doar o moka. Cafeaua concentrată e agitată cu gheață ca să capete spumă și să se răcească instant.",
+        "en": "The freddo for anyone with just a moka pot. The concentrated coffee is shaken with ice to build foam and chill instantly."
+      },
+      "ingredients": [
+        {
+          "ro": "6 cuburi de gheață pentru agitat",
+          "en": "6 ice cubes for shaking"
+        },
+        {
+          "ro": "pahar cu gheață",
+          "en": "a glass with ice"
+        }
+      ],
+      "steps": [
+        {
+          "t": 0,
+          "w": 150,
+          "ro": "Pune apă fierbinte până sub supapă, cafeaua în pâlnie, nivelată fără tasare, și închide.",
+          "en": "Fill with hot water to below the valve, add coffee to the basket (level, don't tamp) and close."
+        },
+        {
+          "t": 30,
+          "w": null,
+          "ro": "Pune pe foc mediu cu capacul deschis.",
+          "en": "Put on medium heat with the lid open."
+        },
+        {
+          "t": 150,
+          "w": null,
+          "ro": "Când cafeaua devine blondă și începe să bolborosească, ia-o de pe foc și răcește baza sub jet de apă rece.",
+          "en": "When the coffee turns blond and starts sputtering, take it off and cool the base under cold water."
+        },
+        {
+          "t": 170,
+          "w": null,
+          "ro": "Toarnă jumătate (circa 60 ml) în shaker cu 6 cuburi de gheață și agită 15 s.",
+          "en": "Pour half (about 60 ml) into a shaker with 6 ice cubes and shake for 15 s."
+        },
+        {
+          "t": 190,
+          "w": null,
+          "ro": "Strecoară peste gheață. Restul de cafea ține 2 zile la frigider pentru următorul freddo.",
+          "en": "Strain over ice. The rest keeps 2 days in the fridge for the next freddo."
+        }
+      ]
+    },
+    {
+      "id": "switch-hybrid",
+      "method": "immersion",
+      "gm": "pourover",
+      "name": {
+        "ro": "Hario Switch: imersie apoi filtrare",
+        "en": "Hario Switch: steep then drain"
+      },
+      "by": {
+        "ro": "după James Hoffmann",
+        "en": "after James Hoffmann"
+      },
+      "dose": 15,
+      "water": 250,
+      "temp": 95,
+      "grind": "medium",
+      "desc": {
+        "ro": "Driperul hibrid folosit de 3 finaliști la World Brewers Cup 2025. Valva închisă face imersie, iar deschiderea ei filtrează ca un V60. E foarte iertător.",
+        "en": "The hybrid dripper used by 3 finalists at the 2025 World Brewers Cup. A closed valve steeps, and opening it drains like a V60. Very forgiving."
+      },
+      "steps": [
+        {
+          "t": 0,
+          "w": 250,
+          "ro": "Cu valva închisă, toarnă toată apa (250 g) peste cafea.",
+          "en": "With the valve closed, pour all the water (250 g) over the coffee."
+        },
+        {
+          "t": 120,
+          "w": null,
+          "ro": "Amestecă ușor de 2–3 ori.",
+          "en": "Stir gently 2–3 times."
+        },
+        {
+          "t": 135,
+          "w": null,
+          "ro": "Deschide valva.",
+          "en": "Open the valve."
+        },
+        {
+          "t": 180,
+          "w": null,
+          "ro": "Gata când s-a scurs (în jur de 3:00).",
+          "en": "Done when it has drained (around 3:00)."
+        }
+      ]
+    },
+    {
+      "id": "peng-two-temp",
+      "method": "pour",
+      "gm": "pourover",
+      "name": {
+        "ro": "Pour-over cu două temperaturi",
+        "en": "Two-temperature pour-over"
+      },
+      "by": {
+        "ro": "George Jinyang Peng, WBrC 2025",
+        "en": "George Jinyang Peng, WBrC 2025"
+      },
+      "dose": 15,
+      "water": 210,
+      "temp": 96,
+      "grind": "mfine",
+      "desc": {
+        "ro": "Rețeta campionului mondial: bloom-ul și prima turnare la 96 °C pentru dulceață, ultima la 80 °C pentru mai puțină amăreală. Merge pe orice dripper.",
+        "en": "The world champion's recipe: bloom and first pour at 96 °C for sweetness, last pour at 80 °C for less bitterness. Works on any dripper."
+      },
+      "steps": [
+        {
+          "t": 0,
+          "w": 30,
+          "ro": "Bloom: 30 g la 96 °C, în cercuri blânde.",
+          "en": "Bloom: 30 g at 96 °C in gentle circles."
+        },
+        {
+          "t": 30,
+          "w": 120,
+          "ro": "Toarnă 90 g la 96 °C, în cercuri, până la 120 g.",
+          "en": "Pour 90 g at 96 °C in circles, to 120 g."
+        },
+        {
+          "t": 70,
+          "w": 210,
+          "ro": "Ultima turnare: 90 g de apă la 80 °C, aproape de pat, fără agitare, până la 210 g.",
+          "en": "Last pour: 90 g of 80 °C water, close to the bed with no agitation, to 210 g."
+        },
+        {
+          "t": 135,
+          "w": null,
+          "ro": "Gata în jur de 2:15. Lasă-o să se răcească puțin, pentru că aromele apar la ~50–60 °C.",
+          "en": "Done around 2:15. Let it cool a little, since flavours open up at ~50–60 °C."
+        }
+      ]
+    },
+    {
+      "id": "blooming-espresso",
+      "method": "espresso",
+      "gm": "espresso",
+      "name": {
+        "ro": "Blooming espresso",
+        "en": "Blooming espresso"
+      },
+      "by": {
+        "ro": "după Scott Rao",
+        "en": "after Scott Rao"
+      },
+      "dose": 18,
+      "water": 45,
+      "temp": 94,
+      "grind": "fine",
+      "desc": {
+        "ro": "Preinfuzie, pauză de 30 s ca la bloom-ul unui V60, apoi extracție. Pentru prăjiri luminoase. Pe un aparat simplu, pornești și oprești pompa manual.",
+        "en": "Pre-infuse, pause 30 s like a V60 bloom, then extract. For light roasts. On a basic machine, start and stop the pump manually."
+      },
+      "steps": [
+        {
+          "t": 0,
+          "w": 0,
+          "ro": "Pornește pompa (sau preinfuzia) și cronometrul.",
+          "en": "Start the pump (or pre-infusion) and the timer."
+        },
+        {
+          "t": 8,
+          "w": 2,
+          "ro": "La primele picături, oprește pompa.",
+          "en": "At the first drops, stop the pump."
+        },
+        {
+          "t": 38,
+          "w": null,
+          "ro": "Așteaptă 30 s cu pompa oprită: pucul „înflorește”.",
+          "en": "Wait 30 s with the pump off while the puck blooms."
+        },
+        {
+          "t": 40,
+          "w": null,
+          "ro": "Repornește pompa la presiune maximă.",
+          "en": "Restart the pump at full pressure."
+        },
+        {
+          "t": 60,
+          "w": 45,
+          "ro": "Oprește la 45 g (raport 1:2,5). Dacă e acru, macină mai fin.",
+          "en": "Stop at 45 g (1:2.5). If sour, grind finer."
+        }
+      ]
+    },
+    {
+      "id": "proffee-iced",
+      "method": "lab",
+      "gm": "espresso",
+      "name": {
+        "ro": "Proffee cu gheață",
+        "en": "Iced proffee"
+      },
+      "by": {
+        "ro": "trendul proteic 2025–2026",
+        "en": "the 2025–2026 protein trend"
+      },
+      "dose": 18,
+      "water": 36,
+      "temp": 93,
+      "grind": "fine",
+      "desc": {
+        "ro": "Espresso dublu peste un shake proteic rece. Are în jur de 20–30 g de proteine, în funcție de shake. Poți folosi și moka sau cold brew concentrat.",
+        "en": "A double espresso over a cold protein shake. Around 20–30 g of protein, depending on the shake. Moka or cold brew concentrate also work."
+      },
+      "ingredients": [
+        {
+          "ro": "200 ml lapte proteic sau shake de vanilie gata făcut",
+          "en": "200 ml protein milk or ready-made vanilla shake"
+        },
+        {
+          "ro": "pahar cu gheață",
+          "en": "a glass with ice"
+        },
+        {
+          "ro": "opțional: spumă rece din 50 ml lapte proteic",
+          "en": "optional: cold foam from 50 ml protein milk"
+        }
+      ],
+      "safety": {
+        "ro": "Nu încălzi shake-urile din pudră proteică peste 60 °C, pentru că se brânzesc. Verifică alergenii (lactate, soia).",
+        "en": "Don't heat protein-powder shakes above 60 °C, or they curdle. Check allergens (dairy, soy)."
+      },
+      "steps": [
+        {
+          "t": 0,
+          "w": null,
+          "ro": "Umple paharul cu gheață și toarnă 200 ml lapte proteic.",
+          "en": "Fill the glass with ice and pour 200 ml protein milk."
+        },
+        {
+          "t": 10,
+          "w": 0,
+          "ro": "Pornește espresso-ul.",
+          "en": "Start the espresso."
+        },
+        {
+          "t": 38,
+          "w": 36,
+          "ro": "Oprește la 36 g.",
+          "en": "Stop at 36 g."
+        },
+        {
+          "t": 50,
+          "w": null,
+          "ro": "Toarnă espresso-ul încet deasupra. Opțional, adaugă spumă rece din lapte proteic spumat 20 s.",
+          "en": "Pour the espresso slowly on top. Optionally top with cold foam (protein milk frothed 20 s)."
+        }
+      ]
+    },
+    {
+      "id": "dirty-matcha",
+      "method": "lab",
+      "gm": "espresso",
+      "name": {
+        "ro": "Dirty matcha (matcha + espresso)",
+        "en": "Dirty matcha (matcha + espresso)"
+      },
+      "by": {
+        "ro": "hibridul anului",
+        "en": "the hybrid of the year"
+      },
+      "dose": 18,
+      "water": 36,
+      "temp": 93,
+      "grind": "fine",
+      "desc": {
+        "ro": "Latte cu matcha rece și un shot de espresso turnat deasupra, în trei straturi: lapte, verde, maro. Merge și cu hojicha.",
+        "en": "An iced matcha latte with a shot of espresso floated on top, in three layers: milk, green, brown. Hojicha works too."
+      },
+      "ingredients": [
+        {
+          "ro": "2 g matcha (1 linguriță)",
+          "en": "2 g matcha (1 tsp)"
+        },
+        {
+          "ro": "40 ml apă la 80 °C pentru matcha",
+          "en": "40 ml water at 80 °C for the matcha"
+        },
+        {
+          "ro": "150 ml lapte rece (sau ovăz)",
+          "en": "150 ml cold milk (or oat)"
+        },
+        {
+          "ro": "gheață; opțional 10 ml sirop de vanilie",
+          "en": "ice; optional 10 ml vanilla syrup"
+        }
+      ],
+      "steps": [
+        {
+          "t": 0,
+          "w": null,
+          "ro": "Bate matcha cu 40 ml apă la 80 °C în zig-zag, 20 s, până face spumă.",
+          "en": "Whisk matcha with 40 ml 80 °C water in a zig-zag for 20 s until foamy."
+        },
+        {
+          "t": 30,
+          "w": null,
+          "ro": "Pune gheață și 150 ml lapte în pahar, apoi toarnă matcha încet.",
+          "en": "Add ice and 150 ml milk to the glass, then pour the matcha slowly."
+        },
+        {
+          "t": 40,
+          "w": 0,
+          "ro": "Pornește espresso-ul.",
+          "en": "Start the espresso."
+        },
+        {
+          "t": 68,
+          "w": 36,
+          "ro": "Oprește la 36 g.",
+          "en": "Stop at 36 g."
+        },
+        {
+          "t": 80,
+          "w": null,
+          "ro": "Toarnă espresso-ul pe dosul unei linguri, ca să plutească. Amestecă abia înainte să bei.",
+          "en": "Pour the espresso over the back of a spoon so it floats. Stir just before drinking."
+        }
+      ]
+    },
+    {
+      "id": "yuzu-espresso-fizz",
+      "method": "lab",
+      "gm": "espresso",
+      "name": {
+        "ro": "Espresso fizz cu yuzu",
+        "en": "Yuzu espresso fizz"
+      },
+      "by": {
+        "ro": "citrice asiatice + espresso",
+        "en": "Asian citrus meets espresso"
+      },
+      "dose": 18,
+      "water": 36,
+      "temp": 93,
+      "grind": "fine",
+      "desc": {
+        "ro": "Ruda mai citrică a espresso tonicului: suc de yuzu, miere și apă minerală, cu un espresso fructat deasupra. Fără yuzu, folosește lămâie și portocală 1:1.",
+        "en": "The citrusy cousin of espresso tonic: yuzu juice, honey and sparkling water, topped with a fruity espresso. No yuzu? Use lemon and orange 1:1."
+      },
+      "ingredients": [
+        {
+          "ro": "15 ml suc de yuzu (sau lămâie + portocală)",
+          "en": "15 ml yuzu juice (or lemon + orange)"
+        },
+        {
+          "ro": "10 ml miere sau sirop simplu",
+          "en": "10 ml honey or simple syrup"
+        },
+        {
+          "ro": "120 ml apă minerală foarte rece",
+          "en": "120 ml very cold sparkling water"
+        },
+        {
+          "ro": "pahar plin cu gheață",
+          "en": "a glass full of ice"
+        }
+      ],
+      "steps": [
+        {
+          "t": 0,
+          "w": null,
+          "ro": "Amestecă sucul de yuzu cu mierea în pahar până se dizolvă.",
+          "en": "Stir the yuzu juice and honey in the glass until dissolved."
+        },
+        {
+          "t": 15,
+          "w": null,
+          "ro": "Umple paharul cu gheață și adaugă încet apa minerală.",
+          "en": "Fill with ice and gently add the sparkling water."
+        },
+        {
+          "t": 25,
+          "w": 0,
+          "ro": "Pornește un espresso fructat (Etiopia, Kenya).",
+          "en": "Start a fruity espresso (Ethiopia, Kenya)."
+        },
+        {
+          "t": 53,
+          "w": 36,
+          "ro": "Oprește la 36 g.",
+          "en": "Stop at 36 g."
+        },
+        {
+          "t": 65,
+          "w": null,
+          "ro": "Toarnă încet peste gheață. Decorează cu o felie de citrice.",
+          "en": "Pour slowly over the ice. Garnish with a citrus slice."
+        }
+      ]
+    },
+    {
+      "id": "flash-sweet-cream",
+      "method": "pour",
+      "gm": "pourover",
+      "name": {
+        "ro": "Flash brew cu spumă sweet cream",
+        "en": "Flash brew with sweet cream foam"
+      },
+      "by": {
+        "ro": "trendul cold foam",
+        "en": "the cold foam trend"
+      },
+      "dose": 20,
+      "water": 200,
+      "temp": 96,
+      "grind": "mfine",
+      "desc": {
+        "ro": "Cafea preparată fierbinte direct peste gheață, cu o spumă rece de smântână și vanilie deasupra. Varianta de casă a celui mai popular extra din cafenele.",
+        "en": "Coffee brewed hot straight onto ice, crowned with a cold cream-and-vanilla foam. The homemade version of cafés' most popular add-on."
+      },
+      "extras": [
+        {
+          "g": 100,
+          "ro": "gheață în carafă, sub dripper",
+          "en": "ice in the server, under the dripper"
+        }
+      ],
+      "ingredients": [
+        {
+          "ro": "40 ml smântână pentru frișcă",
+          "en": "40 ml whipping cream"
+        },
+        {
+          "ro": "30 ml lapte",
+          "en": "30 ml milk"
+        },
+        {
+          "ro": "10 ml sirop de vanilie",
+          "en": "10 ml vanilla syrup"
+        }
+      ],
+      "steps": [
+        {
+          "t": 0,
+          "w": 40,
+          "ro": "Bloom: 40 g apă la 96 °C.",
+          "en": "Bloom: 40 g of 96 °C water."
+        },
+        {
+          "t": 40,
+          "w": 120,
+          "ro": "Toarnă până la 120 g.",
+          "en": "Pour to 120 g."
+        },
+        {
+          "t": 75,
+          "w": 200,
+          "ro": "Toarnă până la 200 g.",
+          "en": "Pour to 200 g."
+        },
+        {
+          "t": 170,
+          "w": null,
+          "ro": "Când s-a scurs, agită carafa până se topește gheața și toarnă peste gheață proaspătă.",
+          "en": "When drained, swirl the server until the ice melts and pour over fresh ice."
+        },
+        {
+          "t": 200,
+          "w": null,
+          "ro": "Spumează smântâna, laptele și siropul 20–30 s, până se îngroașă, și pune spuma deasupra.",
+          "en": "Froth the cream, milk and syrup for 20–30 s until thick and spoon it on top."
+        }
+      ]
+    },
+    {
+      "id": "decaf-v60-gentle",
+      "method": "pour",
+      "gm": "pourover",
+      "name": {
+        "ro": "Decaf la V60, blând",
+        "en": "Gentle decaf V60"
+      },
+      "by": {
+        "ro": "adaptat pentru decaf",
+        "en": "adapted for decaf"
+      },
+      "dose": 15,
+      "water": 250,
+      "temp": 90,
+      "grind": "medium",
+      "desc": {
+        "ro": "Decaful se extrage mai repede, așa că folosești o măcinare puțin mai grosieră, apă mai rece și turnări puține. Ideal seara.",
+        "en": "Decaf extracts faster, so use a slightly coarser grind, cooler water and few pours. Ideal for evenings."
+      },
+      "steps": [
+        {
+          "t": 0,
+          "w": 45,
+          "ro": "Bloom: 45 g apă la 90 °C, apoi o rotire ușoară.",
+          "en": "Bloom: 45 g of 90 °C water, then one gentle swirl."
+        },
+        {
+          "t": 45,
+          "w": 150,
+          "ro": "Toarnă încet până la 150 g.",
+          "en": "Pour slowly to 150 g."
+        },
+        {
+          "t": 80,
+          "w": 250,
+          "ro": "Toarnă până la 250 g, aproape de pat.",
+          "en": "Pour to 250 g, close to the bed."
+        },
+        {
+          "t": 170,
+          "w": null,
+          "ro": "Gata în jur de 2:50. Dacă e amar, macină și mai grosier.",
+          "en": "Done around 2:50. If bitter, grind coarser still."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2843 @@
+{
+ "chapters": [
+  {
+   "id": "espresso-basics",
+   "name": {
+    "ro": "Bazele espresso-ului",
+    "en": "Espresso basics"
+   },
+   "category": "espresso",
+   "difficulty": 1,
+   "gear": {
+    "ro": "Espressor, râșniță pentru espresso, cântar cu precizie de 0,1 g, tamper, ceașcă preîncălzită.",
+    "en": "Espresso machine, espresso-capable grinder, 0.1 g scale, tamper, preheated cup."
+   },
+   "history": {
+    "ro": "Achille Gaggia a patentat în 1938 pistonul cu arc care a dat presiunea înaltă și crema; pompa electrică a venit cu Faema E61, în 1961.",
+    "en": "Achille Gaggia patented the spring piston in 1938, which brought high pressure and crema; the electric pump arrived with the Faema E61 in 1961."
+   },
+   "howItWorks": {
+    "ro": "Espresso-ul e o extracție rapidă: apă la ~90–94 °C este împinsă cu ~9 bari printr-o turtă compactă de cafea măcinată fin. Trei numere îl descriu complet: doza (cafea uscată, în grame), randamentul (cât cântărește băutura în ceașcă) și timpul. Raportul doză:randament e primul lucru de fixat, iar timpul e doar un indicator că măcinătura e potrivită.",
+    "en": "Espresso is a fast extraction: water at ~90–94 °C is pushed at ~9 bar through a compact bed of finely ground coffee. Three numbers describe it fully: dose (dry coffee, in grams), yield (what the drink weighs in the cup) and time. The dose:yield ratio is the first thing to lock in; time is only a sign that the grind is right."
+   },
+   "profile": {
+    "ro": "Concentrat, cu corp siropos și cremă deasupra. Un shot bine extras e dulce și echilibrat; acru și subțire înseamnă subextracție, amar și astringent înseamnă supraextracție.",
+    "en": "Concentrated, syrupy body with crema on top. A well-extracted shot is sweet and balanced; sour and thin means under-extracted, bitter and drying means over-extracted."
+   },
+   "grindKey": "espresso",
+   "mistakes": [
+    {
+     "ro": "Măsori în mililitri în loc de grame: crema umflă volumul și minte.",
+     "en": "Measuring in millilitres instead of grams: crema inflates volume and lies."
+    },
+    {
+     "ro": "Schimbi doza, măcinătura și randamentul deodată, apoi nu știi ce a ajutat.",
+     "en": "Changing dose, grind and yield at once, so you never know what helped."
+    },
+    {
+     "ro": "Folosești cafea prăjită acum o zi sau acum trei luni.",
+     "en": "Using coffee roasted yesterday or three months ago."
+    }
+   ],
+   "tips": [
+    {
+     "ro": "Lasă boabele să se odihnească 7–21 de zile după prăjire pentru espresso.",
+     "en": "Rest beans 7–21 days after roasting for espresso."
+    },
+    {
+     "ro": "Preîncălzește tot: grupul, portafiltrul și ceașca. Pornește aparatul cu 20–30 de minute înainte.",
+     "en": "Preheat everything: group, portafilter and cup. Switch the machine on 20–30 minutes ahead."
+    },
+    {
+     "ro": "Ține doza fixă pentru coșul tău (de obicei 18 g într-un coș de 18 g) și reglează doar măcinătura.",
+     "en": "Keep the dose fixed for your basket (usually 18 g in an 18 g basket) and adjust only the grind."
+    }
+   ],
+   "recipeIds": [
+    "espresso",
+    "ristretto",
+    "lungo"
+   ],
+   "sources": [
+    "https://home.lamarzoccousa.com/brew-ratios-around-world/",
+    "https://clivecoffee.com/blogs/learn/espresso-extraction-time-ratio-a-complete-guide-clive-coffee",
+    "https://completehomebarista.com/guides/espresso-extraction-ratio-explained/",
+    "https://www.hachette.com.au/james-hoffmann/how-to-make-the-best-coffee"
+   ]
+  },
+  {
+   "id": "ratio-families",
+   "name": {
+    "ro": "Familii de rapoarte: de la ristretto la soup shot",
+    "en": "Ratio families: ristretto to soup shot"
+   },
+   "category": "espresso",
+   "difficulty": 2,
+   "gear": {
+    "ro": "Același espressor și cântar. Pentru allongé și soup shot ajută controlul presiunii sau al debitului.",
+    "en": "Same machine and scale. For allongé and soup shots, pressure or flow control helps."
+   },
+   "howItWorks": {
+    "ro": "Raportul doză:randament schimbă totul. Ristretto (1:1–1:1,5) e scurt și dens; normale (1:2–1:2,5) e reperul; lungo (1:3–1:4) e mai lung și mai subțire. Allongé-ul lui Scott Rao (1:4–1:6) și soup shot-ul (~1:3, sub 2 bari) folosesc măcinătură grosieră și debit mare, gândite pentru prăjiri foarte deschise; turbo shot-ul (1:3 în ~15 s) e varianta rapidă și repetabilă.",
+    "en": "The dose:yield ratio changes everything. Ristretto (1:1–1:1.5) is short and dense; normale (1:2–1:2.5) is the reference; lungo (1:3–1:4) is longer and thinner. Scott Rao's allongé (1:4–1:6) and the soup shot (~1:3, under 2 bar) use a coarse grind and high flow, built for very light roasts; the turbo shot (1:3 in ~15 s) is the fast, repeatable variant."
+   },
+   "profile": {
+    "ro": "Ristretto: gros, dulce, puțin acid. Lungo: mai mult amar și volum. Allongé și soup: limpezi, florale, aproape ca o cafea la filtru concentrată, cu puțină cremă.",
+    "en": "Ristretto: thick, sweet, a bit acidic. Lungo: more bitterness and volume. Allongé and soup: clear, floral, almost like a concentrated filter coffee, with little crema."
+   },
+   "grindKey": "espresso",
+   "mistakes": [
+    {
+     "ro": "Faci lungo cu aceeași măcinătură fină ca la normale și lași 50 s: iese amar.",
+     "en": "Pulling a lungo with the same fine grind as a normale for 50 s: it turns bitter."
+    },
+    {
+     "ro": "Încerci allongé cu o prăjire închisă: iese apos și astringent.",
+     "en": "Trying an allongé with a dark roast: it comes out watery and harsh."
+    },
+    {
+     "ro": "Judeci un ristretto la fel ca un normale; e normal să fie mai intens și mai acid.",
+     "en": "Judging a ristretto like a normale; it is meant to be more intense and acidic."
+    }
+   ],
+   "tips": [
+    {
+     "ro": "Prăjire închisă → rapoarte scurte (1:1,5–1:2). Prăjire deschisă → rapoarte lungi (1:2,5–1:5).",
+     "en": "Dark roast → short ratios (1:1.5–1:2). Light roast → long ratios (1:2.5–1:5)."
+    },
+    {
+     "ro": "Pentru rapoarte lungi, macină mai grosier, nu doar lăsa shot-ul să curgă mai mult.",
+     "en": "For long ratios, grind coarser instead of just letting the shot run longer."
+    },
+    {
+     "ro": "Gustă același shot oprit la 1:1,5, 1:2 și 1:2,5 în trei cești: înveți rapid ce îți place.",
+     "en": "Taste one shot split at 1:1.5, 1:2 and 1:2.5 into three cups: you'll learn fast what you like."
+    }
+   ],
+   "recipeIds": [
+    "ristretto",
+    "espresso",
+    "lungo",
+    "allonge",
+    "espresso-turbo",
+    "soup-shot"
+   ],
+   "sources": [
+    "https://home.lamarzoccousa.com/brew-ratios-around-world/",
+    "https://decentespresso.com/docs/all_about_rao_allong",
+    "https://decentespresso.com/blog/scott_rao_masterclass_allong_vs_standard_espresso_roast_level_flow_rateflavor_",
+    "https://clivecoffee.com/blogs/learn/what-are-soup-shots",
+    "https://www.home-barista.com/tips/soup-low-pressure-technique-for-extracting-ultra-light-roasts-t100741-10.html",
+    "https://completehomebarista.com/guides/espresso-extraction-ratio-explained/"
+   ]
+  },
+  {
+   "id": "dialing-in",
+   "name": {
+    "ro": "Reglarea pas cu pas (dial-in)",
+    "en": "Dialing in, step by step"
+   },
+   "category": "espresso",
+   "difficulty": 2,
+   "gear": {
+    "ro": "Cântar, cronometru, râșniță cu reglaj fin (trepte mici), un caiet sau jurnalul din aplicație.",
+    "en": "Scale, timer, grinder with fine adjustment steps, a notebook or the app's journal."
+   },
+   "howItWorks": {
+    "ro": "Fixezi doza și raportul, apoi reglezi măcinătura până când timpul cade în fereastra țintă (25–32 s pentru 1:2). Abia apoi gusti: acru → mărește randamentul sau macină mai fin; amar → scade randamentul sau macină mai grosier. Schimbă o singură variabilă pe shot și notează tot.",
+    "en": "Fix the dose and ratio, then adjust the grind until time lands in the target window (25–32 s for 1:2). Only then taste: sour → increase yield or grind finer; bitter → decrease yield or grind coarser. Change one variable per shot and log everything."
+   },
+   "profile": {
+    "ro": "Scopul: dulceață, aciditate plăcută și un final curat, fără amăreală care persistă.",
+    "en": "Goal: sweetness, pleasant acidity and a clean finish with no lingering bitterness."
+   },
+   "grindKey": "espresso",
+   "mistakes": [
+    {
+     "ro": "Urmărești doar timpul și ignori gustul.",
+     "en": "Chasing time only and ignoring taste."
+    },
+    {
+     "ro": "Faci pași uriași la râșniță; schimbă puțin și repetă.",
+     "en": "Making huge grinder jumps; change a little and repeat."
+    },
+    {
+     "ro": "Arunci trei shot-uri la rând fără să notezi nimic.",
+     "en": "Dumping three shots in a row without writing anything down."
+    }
+   ],
+   "tips": [
+    {
+     "ro": "Ordine: doză → raport → măcinătură → temperatură. Temperatura e ultimul reglaj fin.",
+     "en": "Order: dose → ratio → grind → temperature. Temperature is the last fine-tune."
+    },
+    {
+     "ro": "Primul shot după o pauză lungă de obicei iese diferit; nu regla după el.",
+     "en": "The first shot after a long pause often runs differently; don't adjust off it."
+    },
+    {
+     "ro": "Dacă shot-ul e acru și amar în același timp, problema e de obicei canalizarea, nu măcinătura.",
+     "en": "If a shot is both sour and bitter, the cause is usually channeling, not grind size."
+    }
+   ],
+   "recipeIds": [
+    "espresso"
+   ],
+   "sources": [
+    "https://decentespresso.com/docs/masterclass_on_how_to_find_the_right_recipe_for_your_beans",
+    "https://clivecoffee.com/blogs/learn/espresso-extraction-time-ratio-a-complete-guide-clive-coffee",
+    "https://completehomebarista.com/guides/espresso-extraction-ratio-explained/",
+    "https://home.lamarzoccousa.com/brew-ratios-around-world/"
+   ]
+  },
+  {
+   "id": "puck-prep",
+   "name": {
+    "ro": "Pregătirea turtei: WDT, distribuție, tasare, puck screen",
+    "en": "Puck prep: WDT, distribution, tamping, puck screens"
+   },
+   "category": "espresso",
+   "difficulty": 2,
+   "gear": {
+    "ro": "Unealtă WDT (ace de 0,3–0,4 mm), pâlnie de dozare, tamper de mărimea exactă a coșului, opțional puck screen și pulverizator (RDT).",
+    "en": "WDT tool (0.3–0.4 mm needles), dosing funnel, tamper sized to your basket, optional puck screen and spray bottle (RDT)."
+   },
+   "history": {
+    "ro": "John Weiss a publicat tehnica în 2005 pe forumul Home-Barista, folosind o agrafă și un pahar de iaurt tăiat drept pâlnie.",
+    "en": "John Weiss published the technique in 2005 on the Home-Barista forum, using a paperclip and a cut-down yoghurt cup as a funnel."
+   },
+   "howItWorks": {
+    "ro": "Apa caută drumul cel mai ușor; zonele mai puțin dense devin canale care se supraextrag, iar restul rămâne subextras. WDT (Weiss Distribution Technique) sparge cocoloașele și uniformizează densitatea, apoi o tasare plană închide turta. Puck screen-ul pus deasupra distribuie apa mai uniform și ține dușul curat.",
+    "en": "Water takes the easiest path; less dense zones become channels that over-extract while the rest stays under-extracted. WDT (Weiss Distribution Technique) breaks clumps and evens out density, then a level tamp seals the bed. A puck screen on top spreads water more evenly and keeps the shower screen clean."
+   },
+   "profile": {
+    "ro": "O turtă bună dă shot-uri constante, mai dulci, fără stropi din portafiltrul fără fund.",
+    "en": "Good prep gives consistent, sweeter shots with no spurts from a bottomless portafilter."
+   },
+   "grindKey": "espresso",
+   "mistakes": [
+    {
+     "ro": "Apeși cu 30 kg și răsucești tamperul: presiunea nu contează, planeitatea da.",
+     "en": "Tamping with 30 kg and twisting: force doesn't matter, levelness does."
+    },
+    {
+     "ro": "Faci WDT doar la suprafață; acele trebuie să ajungă până la fundul coșului.",
+     "en": "Doing WDT only on the surface; needles should reach the basket floor."
+    },
+    {
+     "ro": "Bați în portafiltru după tasare și crăpi turta.",
+     "en": "Knocking the portafilter after tamping and cracking the bed."
+    }
+   ],
+   "tips": [
+    {
+     "ro": "Câteva picături de apă pe boabe înainte de măcinat (RDT) reduc electricitatea statică.",
+     "en": "A few drops of water on the beans before grinding (RDT) cut static."
+    },
+    {
+     "ro": "Mișcări mici, circulare, în toată adâncimea, apoi o lovitură ușoară pe masă înainte de tasare.",
+     "en": "Small circles through the full depth, then one light tap on the bench before tamping."
+    },
+    {
+     "ro": "Un portafiltru fără fund îți arată instant unde apar canalele.",
+     "en": "A bottomless portafilter shows you instantly where channels form."
+    }
+   ],
+   "recipeIds": [
+    "espresso"
+   ],
+   "sources": [
+    "https://www.baristahustle.com/?p=345144",
+    "https://decentespresso.com/doc/puck_preparation/",
+    "https://clivecoffee.com/blogs/learn/what-is-wdt-and-should-i-use-it-for-home-espresso",
+    "https://clivecoffee.com/blogs/learn/extraction-showdown-which-puck-prep-is-actually-boosting-your-espresso",
+    "https://completehomebarista.com/guides/espresso-puck-prep-wdt-distribution/",
+    "https://procoffeegear.com/blogs/articles/puck-screen-purpose-espresso"
+   ]
+  },
+  {
+   "id": "preinfusion-profiling",
+   "name": {
+    "ro": "Preinfuzie și profilare de presiune acasă",
+    "en": "Pre-infusion and pressure profiling at home"
+   },
+   "category": "espresso",
+   "difficulty": 3,
+   "gear": {
+    "ro": "Aparat cu control de debit sau presiune (paletă E61 cu flow control, Decent, Lelit Bianca, Meticulous) sau o pârghie manuală (Flair, Robot).",
+    "en": "Machine with flow or pressure control (E61 flow-control paddle, Decent, Lelit Bianca, Meticulous) or a manual lever (Flair, Robot)."
+   },
+   "howItWorks": {
+    "ro": "Preinfuzia udă turta la presiune mică (1–4 bari) înainte de presiunea maximă, ca să se umfle uniform și să nu crape. Blooming espresso adaugă o pauză de ~30 s, apoi urcă la 6–9 bari. Profilul declinant (presiunea scade spre final) imită pârghia cu arc și îmblânzește amăreala de la sfârșit.",
+    "en": "Pre-infusion wets the puck at low pressure (1–4 bar) before full pressure, so it swells evenly instead of cracking. Blooming espresso adds a ~30 s pause, then ramps to 6–9 bar. A declining profile (pressure drops toward the end) mimics a spring lever and tames late bitterness."
+   },
+   "profile": {
+    "ro": "Preinfuzia lungă și bloom-ul aduc dulceață și claritate la prăjirile deschise; presiunea mică pe tot parcursul (soup) dă un shot foarte limpede.",
+    "en": "Long pre-infusion and blooming bring sweetness and clarity to light roasts; low pressure throughout (soup) gives a very clean cup."
+   },
+   "grindKey": "espresso",
+   "mistakes": [
+    {
+     "ro": "Copiezi un profil de pe internet fără să schimbi măcinătura.",
+     "en": "Copying an online profile without changing the grind."
+    },
+    {
+     "ro": "Folosești bloom pentru o prăjire închisă: devine amară și plată.",
+     "en": "Using a bloom on a dark roast: it turns flat and bitter."
+    },
+    {
+     "ro": "Urci presiunea brusc după preinfuzie și crăpi turta.",
+     "en": "Ramping pressure abruptly after pre-infusion and cracking the puck."
+    }
+   ],
+   "tips": [
+    {
+     "ro": "Fără control? Unele aparate au preinfuzie din setări; folosește-o la 3–8 s.",
+     "en": "No control? Many machines have pre-infusion in settings; use 3–8 s."
+    },
+    {
+     "ro": "Pentru bloom, macină mai fin decât la un shot clasic.",
+     "en": "For a bloom, grind finer than for a classic shot."
+    },
+    {
+     "ro": "Prăjire închisă: 6–7 bari în loc de 9 reduc amăreala.",
+     "en": "Dark roast: 6–7 bar instead of 9 reduces bitterness."
+    }
+   ],
+   "recipeIds": [
+    "blooming-espresso",
+    "soup-shot",
+    "cafelat-robot"
+   ],
+   "sources": [
+    "https://decentespresso.com/docs/all_about_blooming_espresso",
+    "https://www.decentespresso.com/blog/5_espresso_profiles_for_light_roasted_coffee_beans",
+    "https://www.scottrao.com/blog/2021/5/18/best-practice-espresso-profile",
+    "https://flairespresso.com/blog/espresso-pre-infusion-techniques/",
+    "https://clivecoffee.com/blogs/learn/what-are-soup-shots"
+   ]
+  },
+  {
+   "id": "single-dosing",
+   "name": {
+    "ro": "Single dosing: măcini doza, nu buncărul",
+    "en": "Single dosing"
+   },
+   "category": "gear",
+   "difficulty": 2,
+   "gear": {
+    "ro": "Râșniță cu retenție mică (DF54, DF64, Niche Zero, 1Zpresso J-Ultra, Kingrinder K6), recipiente pentru doze, cântar, pulverizator.",
+    "en": "Low-retention grinder (DF54, DF64, Niche Zero, 1Zpresso J-Ultra, Kingrinder K6), dose tubes, scale, spray bottle."
+   },
+   "howItWorks": {
+    "ro": "În loc să ții boabele în buncăr, cântărești exact doza (de exemplu 18 g) și o macini toată. Boabele rămân închise ermetic, poți schimba cafeaua de la un shot la altul și nu rămâne cafea veche în râșniță. Funcționează doar dacă râșnița reține foarte puțină cafea (sub 0,2 g).",
+    "en": "Instead of keeping beans in a hopper, you weigh the exact dose (say 18 g) and grind all of it. Beans stay sealed, you can switch coffees shot to shot, and no stale grounds sit in the grinder. It only works if the grinder retains very little (under 0.2 g)."
+   },
+   "profile": {
+    "ro": "Mai multă prospețime și gust constant; ușor de comparat două cafele una lângă alta.",
+    "en": "Fresher, more consistent cups; easy to compare two coffees side by side."
+   },
+   "grindKey": "espresso",
+   "mistakes": [
+    {
+     "ro": "Nu cântărești ce iese din râșniță și pierzi 0,5 g la fiecare doză.",
+     "en": "Not weighing what comes out and losing 0.5 g every dose."
+    },
+    {
+     "ro": "Uiți de electricitatea statică: cafeaua zboară pe masă.",
+     "en": "Ignoring static: grounds fly all over the counter."
+    },
+    {
+     "ro": "Păstrezi boabele la frigider, deschise; condensul le strică.",
+     "en": "Keeping beans open in the fridge; condensation ruins them."
+    }
+   ],
+   "tips": [
+    {
+     "ro": "Două pufuri de apă pe boabe (RDT) și o lovitură pe burduf golesc râșnița.",
+     "en": "Two spritzes on the beans (RDT) and a pump of the bellows empty the grinder."
+    },
+    {
+     "ro": "Congelează doze cântărite în tuburi etanșe; macină-le direct din congelator.",
+     "en": "Freeze pre-weighed doses in airtight tubes; grind straight from frozen."
+    },
+    {
+     "ro": "O râșniță manuală bună pentru espresso costă cât jumătate dintr-una electrică și e excelentă pentru single dosing.",
+     "en": "A good espresso hand grinder costs half as much as an electric one and is excellent for single dosing."
+    }
+   ],
+   "recipeIds": [
+    "espresso"
+   ],
+   "sources": [
+    "https://decentespresso.com/doc/puck_preparation/",
+    "https://completehomebarista.com/guides/espresso-puck-prep-wdt-distribution/",
+    "https://www.hachette.com.au/james-hoffmann/how-to-make-the-best-coffee"
+   ]
+  },
+  {
+   "id": "lever-espresso",
+   "name": {
+    "ro": "Espresso manual cu pârghie: Flair și Cafelat Robot",
+    "en": "Manual lever espresso: Flair and Cafelat Robot"
+   },
+   "category": "gear",
+   "difficulty": 3,
+   "gear": {
+    "ro": "Flair 58/58+/Pro 3 sau Cafelat Robot, fierbător cu temperatură reglabilă, râșniță pentru espresso, cântar, manometru (inclus pe majoritatea).",
+    "en": "Flair 58/58+/Pro 3 or Cafelat Robot, temperature-control kettle, espresso grinder, scale, pressure gauge (included on most)."
+   },
+   "history": {
+    "ro": "Flair a pornit dintr-o campanie Kickstarter în 2016; Cafelat Robot, lansat în 2018, e inspirat de aparatele manuale italiene din anii '60, precum Faemina.",
+    "en": "Flair started on Kickstarter in 2016; the Cafelat Robot, launched in 2018, draws on 1960s Italian manual machines such as the Faemina."
+   },
+   "howItWorks": {
+    "ro": "Tu ești pompa: torni apă fierbinte peste turtă și apeși pârghia, urmărind manometrul. Asta îți dă control total asupra preinfuziei și a profilului de presiune, fără electricitate (Flair 58 are doar un încălzitor pentru grup). Preîncălzirea e partea critică, pentru că metalul rece fură căldura apei.",
+    "en": "You are the pump: pour hot water over the puck and pull the lever while watching the gauge. That gives total control of pre-infusion and pressure profile without electricity (the Flair 58 only has a group heater). Preheating is the critical part, because cold metal steals heat from the water."
+   },
+   "profile": {
+    "ro": "Shot-uri foarte dulci și texturate când profilul e declinant; la prăjiri deschise pot egala aparate de câteva ori mai scumpe.",
+    "en": "Very sweet, textured shots with a declining profile; with light roasts they can rival machines several times the price."
+   },
+   "grindKey": "espresso",
+   "mistakes": [
+    {
+     "ro": "Nu preîncălzești cilindrul (Robot) sau grupul (Flair): shot acru, subțire.",
+     "en": "Not preheating the basket (Robot) or the group (Flair): sour, thin shot."
+    },
+    {
+     "ro": "Apeși la 12 bari pentru că „mai mult e mai bine”; 6–9 bari ajung.",
+     "en": "Pushing 12 bar because more seems better; 6–9 bar is plenty."
+    },
+    {
+     "ro": "Treci direct la presiune maximă fără preinfuzie.",
+     "en": "Going straight to full pressure with no pre-infusion."
+    }
+   ],
+   "tips": [
+    {
+     "ro": "Țintă de pornire Flair 58: 18 g → 40 g, 3 bari 5–10 s, apoi 6–9 bari, ~30 s.",
+     "en": "Flair 58 starting point: 18 g → 40 g, 3 bar for 5–10 s, then 6–9 bar, ~30 s."
+    },
+    {
+     "ro": "La Robot, apa direct din fierbător e corectă: metalul o răcește oricum.",
+     "en": "With the Robot, water straight off the boil is right: the metal cools it anyway."
+    },
+    {
+     "ro": "Încălzirea Flair 58: LOW 85 °C pentru prăjiri închise, MEDIUM 90 °C, HIGH 95 °C pentru prăjiri deschise.",
+     "en": "Flair 58 heater: LOW 85 °C for dark roasts, MEDIUM 90 °C, HIGH 95 °C for light roasts."
+    }
+   ],
+   "recipeIds": [
+    "flair-58",
+    "cafelat-robot"
+   ],
+   "sources": [
+    "https://flairespresso.com/blogs/news/dialing-in-flair-58-plus-manual-espresso-maker",
+    "https://flairespresso.com/blog/espresso-pre-infusion-techniques/",
+    "https://www.flairespresso.com/advanced",
+    "https://kaldiscoffee.com/blogs/recipes/cafelat-robot-declining-pressure-recipe",
+    "https://www.manualslib.com/manual/1994799/Cafelat-Robot.html"
+   ]
+  },
+  {
+   "id": "portable-espresso",
+   "name": {
+    "ro": "Espresso portabil: Nanopresso, Picopresso, Outin",
+    "en": "Portable espresso: Nanopresso, Picopresso, Outin"
+   },
+   "category": "gear",
+   "difficulty": 2,
+   "gear": {
+    "ro": "Wacaco Nanopresso sau Picopresso (pompă manuală), Outin Nano/Ultra (cu baterie și încălzire), termos cu apă fierbinte, râșniță manuală.",
+    "en": "Wacaco Nanopresso or Picopresso (hand pump), Outin Nano/Ultra (battery with heating), thermos of hot water, hand grinder."
+   },
+   "howItWorks": {
+    "ro": "Un piston mic, acționat cu mâna, ridică presiunea până la 18 bari prin pompări repetate. Picopresso are coș de 52 mm de tip profesional și cere cafea proaspăt măcinată; Nanopresso merge și cu măcinătură comercială sau capsule (adaptor). Outin încălzește singur apa, dar mai lent și cu baterie limitată.",
+    "en": "A small hand-driven piston builds up to 18 bar through repeated pumping. The Picopresso has a pro-style 52 mm basket and wants freshly ground coffee; the Nanopresso also works with pre-ground or capsules (adapter). The Outin heats its own water, but slowly and on a limited battery."
+   },
+   "profile": {
+    "ro": "Picopresso poate da un espresso adevărat, cu cremă; restul dau un shot bun, puțin mai subțire.",
+    "en": "The Picopresso can make true espresso with crema; the others give a good, slightly thinner shot."
+   },
+   "grindKey": "espresso",
+   "mistakes": [
+    {
+     "ro": "Torni apă de 80 °C dintr-un termos vechi: shot acru.",
+     "en": "Using 80 °C water from an old thermos: sour shot."
+    },
+    {
+     "ro": "Nu preîncălzești corpul aparatului; pierde repede căldura.",
+     "en": "Not preheating the body; it loses heat fast."
+    },
+    {
+     "ro": "Coș umplut pe jumătate: apare canalizarea.",
+     "en": "Half-filled basket: channeling follows."
+    }
+   ],
+   "tips": [
+    {
+     "ro": "Preîncălzește cu o tură de apă fierbinte pompată în gol, apoi încarcă imediat.",
+     "en": "Preheat by pumping one load of hot water through empty, then load immediately."
+    },
+    {
+     "ro": "Dacă nu apar picături după ~10 pompări, măcinătura e prea fină.",
+     "en": "If no drops appear after ~10 pumps, the grind is too fine."
+    },
+    {
+     "ro": "Prăjirile medii spre închise iartă mai ușor pierderea de căldură.",
+     "en": "Medium to dark roasts forgive the heat loss better."
+    }
+   ],
+   "recipeIds": [
+    "picopresso"
+   ],
+   "sources": [
+    "https://kaffeemacher.de/en/blogs/kaffeewissen/wacaco-picopresso",
+    "https://www.homecoffeeexpert.com/wacaco-picopresso-review/"
+   ]
+  },
+  {
+   "id": "capsule-machines",
+   "name": {
+    "ro": "Aparate cu capsule: cum scoți maximul",
+    "en": "Pod and capsule machines: getting the best out"
+   },
+   "category": "gear",
+   "difficulty": 1,
+   "gear": {
+    "ro": "Aparat Nespresso Original (sau compatibil), capsule de specialitate sau reumplibile, cântar, cană preîncălzită.",
+    "en": "Nespresso Original (or compatible) machine, specialty or refillable capsules, scale, preheated cup."
+   },
+   "history": {
+    "ro": "Nestlé a patentat sistemul Nespresso în 1976 și l-a lansat comercial la mijlocul anilor '80; brevetele au expirat în 2012, deschizând piața capsulelor compatibile.",
+    "en": "Nestlé patented the Nespresso system in 1976 and launched it in the mid-1980s; the patents expired in 2012, opening the market to compatible capsules."
+   },
+   "howItWorks": {
+    "ro": "O capsulă conține 5–6 g de cafea, mult mai puțin decât un espresso clasic, iar aparatul împinge apă prin ea cu o membrană care se rupe sub presiune. Butoanele presetate (40 ml, 110 ml) sunt prea lungi pentru multe capsule: oprirea manuală pe cântar și un aparat cald fac cea mai mare diferență. Vertuo folosește centrifugare și coduri de bare, deci volumul nu se poate regla la fel.",
+    "en": "A capsule holds 5–6 g of coffee, far less than a classic espresso, and the machine pushes water through a foil that tears under pressure. The preset buttons (40 ml, 110 ml) run too long for many capsules: stopping manually on a scale and a hot machine make the biggest difference. Vertuo uses spinning and barcodes, so volume can't be tuned the same way."
+   },
+   "profile": {
+    "ro": "Mai ușor și mai subțire decât un espresso de 18 g, dar curat și constant; capsulele de la prăjitori de specialitate pot surprinde plăcut.",
+    "en": "Lighter and thinner than an 18 g espresso, but clean and consistent; capsules from specialty roasters can be a pleasant surprise."
+   },
+   "grindKey": "espresso",
+   "mistakes": [
+    {
+     "ro": "Folosești butonul lungo pentru o cană mare: iese amar și apos.",
+     "en": "Using the lungo button for a big mug: bitter and watery."
+    },
+    {
+     "ro": "Nu decalcifiezi; calcarul scade temperatura și debitul.",
+     "en": "Never descaling; scale drops temperature and flow."
+    },
+    {
+     "ro": "Pornești capsula imediat după ce aparatul s-a aprins.",
+     "en": "Brewing straight after switching the machine on."
+    }
+   ],
+   "tips": [
+    {
+     "ro": "Rulează o dată doar apă, fără capsulă, ca să încălzești circuitul și ceașca.",
+     "en": "Run one blank shot with no capsule to heat the circuit and the cup."
+    },
+    {
+     "ro": "Pentru o cafea lungă, fă un shot scurt și adaugă apă fierbinte după (ca un Americano).",
+     "en": "For a long coffee, pull a short shot and add hot water after (Americano-style)."
+    },
+    {
+     "ro": "Folosește apă filtrată, moale; capsulele sigilate din aluminiu păstrează mai bine prospețimea.",
+     "en": "Use soft, filtered water; sealed aluminium capsules hold freshness best."
+    }
+   ],
+   "recipeIds": [
+    "capsule-tweak"
+   ],
+   "sources": [
+    "https://recapio.com/digest/the-secrets-of-nespresso-pods-by-james-hoffmann",
+    "https://www.beanpoet.com/nespresso-tips-and-tricks/"
+   ]
+  },
+  {
+   "id": "super-automatics",
+   "name": {
+    "ro": "Espressoare automate (super-automate)",
+    "en": "Super-automatic machines"
+   },
+   "category": "gear",
+   "difficulty": 1,
+   "gear": {
+    "ro": "Espressor automat cu râșniță integrată (De'Longhi, Jura, Philips, Sage Oracle ca semi-automat asistat), apă filtrată.",
+    "en": "Bean-to-cup machine with built-in grinder (De'Longhi, Jura, Philips; Sage Oracle as an assisted semi-auto), filtered water."
+   },
+   "howItWorks": {
+    "ro": "Aparatul macină, dozează, tasează, extrage și aruncă turta singur, de obicei cu o unitate de infuzare mai mică decât un portafiltru (7–12 g). Ai control asupra măcinăturii, intensității (doza), volumului și temperaturii, dar în trepte grosiere. Laptele e spumat automat, cu un sistem Venturi care trage aer.",
+    "en": "The machine grinds, doses, tamps, extracts and dumps the puck by itself, usually with a smaller brew unit than a portafilter (7–12 g). You control grind, strength (dose), volume and temperature, but in coarse steps. Milk is foamed automatically by a Venturi system that draws in air."
+   },
+   "profile": {
+    "ro": "Comod și constant; de obicei mai puțin corp și dulceață decât un espresso făcut manual, iar spuma de lapte e mai aerată.",
+    "en": "Convenient and consistent; usually less body and sweetness than a manual shot, and the milk foam is airier."
+   },
+   "grindKey": "espresso",
+   "mistakes": [
+    {
+     "ro": "Folosești boabe uleioase, foarte închise: lipesc râșnița.",
+     "en": "Using oily, very dark beans: they gum up the grinder."
+    },
+    {
+     "ro": "Lași volumul pe 120 ml pentru „espresso”.",
+     "en": "Leaving volume at 120 ml for “espresso”."
+    },
+    {
+     "ro": "Nu cureți unitatea de infuzare și circuitul de lapte.",
+     "en": "Skipping cleaning of the brew unit and milk circuit."
+    }
+   ],
+   "tips": [
+    {
+     "ro": "Măcinătura cea mai fină + intensitate maximă + volum 35–40 ml = cel mai apropiat de un espresso.",
+     "en": "Finest grind + max strength + 35–40 ml volume = closest to espresso."
+    },
+    {
+     "ro": "Schimbă măcinătura doar cu râșnița pornită și verifică după 2–3 shot-uri.",
+     "en": "Change grind only while the grinder runs and judge after 2–3 shots."
+    },
+    {
+     "ro": "Pentru băuturi lungi, folosește funcția „2 shot-uri” în loc de un singur shot lung.",
+     "en": "For long drinks, use the “2 shots” function instead of one long shot."
+    }
+   ],
+   "recipeIds": [
+    "espresso"
+   ],
+   "sources": [
+    "https://www.hachette.com.au/james-hoffmann/how-to-make-the-best-coffee",
+    "https://home.lamarzoccousa.com/brew-ratios-around-world/"
+   ]
+  },
+  {
+   "id": "milk-steaming",
+   "name": {
+    "ro": "Spumarea laptelui cu lancea de abur",
+    "en": "Steaming milk with a steam wand"
+   },
+   "category": "milk",
+   "difficulty": 2,
+   "gear": {
+    "ro": "Lance de abur, carafă din inox de 350–600 ml, lapte rece, termometru (opțional), cârpă umedă.",
+    "en": "Steam wand, 350–600 ml stainless pitcher, cold milk, thermometer (optional), damp cloth."
+   },
+   "howItWorks": {
+    "ro": "Aburul face două lucruri: introduce aer (faza de „întindere”, cu vârful lancei chiar la suprafață, cu un sâsâit ușor) și apoi creează un vârtej care sparge bulele mari în microspumă (vârful puțin mai jos). Proteinele din lapte stabilizează bulele, iar grăsimea dă cremozitate. Te oprești la 55–65 °C, când laptele e cel mai dulce.",
+    "en": "Steam does two things: it introduces air (the “stretching” phase, wand tip right at the surface with a gentle hiss) and then creates a whirlpool that breaks big bubbles into microfoam (tip slightly lower). Milk proteins stabilise the bubbles and fat adds creaminess. Stop at 55–65 °C, when milk tastes sweetest."
+   },
+   "profile": {
+    "ro": "Microspumă lucioasă, ca vopseaua udă, fără bule vizibile; dulceața laptelui crește până pe la 60 °C.",
+    "en": "Glossy microfoam like wet paint, no visible bubbles; milk sweetness rises up to about 60 °C."
+   },
+   "grindKey": null,
+   "mistakes": [
+    {
+     "ro": "Lancea prea adâncă de la început: lapte fierbinte fără spumă.",
+     "en": "Wand too deep from the start: hot milk, no foam."
+    },
+    {
+     "ro": "Aer prea mult sau prea târziu: spumă uscată, cu bule mari.",
+     "en": "Too much air or air added too late: dry, bubbly foam."
+    },
+    {
+     "ro": "Încălzești peste 70 °C: gust de fiert și spuma se prăbușește.",
+     "en": "Heating above 70 °C: cooked taste and the foam collapses."
+    }
+   ],
+   "tips": [
+    {
+     "ro": "Aer doar până ce carafa devine călduță (~37 °C), apoi doar vârtej.",
+     "en": "Add air only until the pitcher feels lukewarm (~37 °C), then just whirlpool."
+    },
+    {
+     "ro": "Purjează lancea înainte și după; șterge-o imediat cu cârpa umedă.",
+     "en": "Purge the wand before and after; wipe it immediately with the damp cloth."
+    },
+    {
+     "ro": "Exersează cu apă și o picătură de detergent: face spumă ca laptele, fără risipă.",
+     "en": "Practise with water and a drop of dish soap: it foams like milk, no waste."
+    }
+   ],
+   "recipeIds": [
+    "cappuccino",
+    "flat-white",
+    "latte"
+   ],
+   "sources": [
+    "https://au.lamarzoccohome.com/blog/how-to-steam-milk-with-a-home-espresso-machine/",
+    "https://au.lamarzoccohome.com/blog/how-to-steam-milk-like-a-pro-barista/",
+    "https://perfectdailygrind.com/2022/12/how-do-you-pour-great-latte-art-at-home/"
+   ]
+  },
+  {
+   "id": "milk-no-wand",
+   "name": {
+    "ro": "Lapte spumat fără lance: Nanofoamer, French press, spumantor",
+    "en": "Milk without a wand: NanoFoamer, French press, frother"
+   },
+   "category": "milk",
+   "difficulty": 1,
+   "gear": {
+    "ro": "Subminimal NanoFoamer (sau spumantor de mână), French press, oală mică sau cuptor cu microunde, termometru.",
+    "en": "Subminimal NanoFoamer (or handheld frother), French press, small pan or microwave, thermometer."
+   },
+   "howItWorks": {
+    "ro": "Mai întâi încălzești laptele separat la 55–65 °C, apoi îl aerezi mecanic. NanoFoamer are o sită fină care sparge bulele direct în microspumă, bună chiar și pentru latte art. Cu French press-ul pompezi pistonul de 10–20 de ori, apoi lovești ușor vasul și rotești laptele ca să-l omogenizezi.",
+    "en": "First heat the milk separately to 55–65 °C, then aerate it mechanically. The NanoFoamer has a fine screen that breaks bubbles straight into microfoam, good enough even for latte art. With a French press you pump the plunger 10–20 times, then tap and swirl to homogenise."
+   },
+   "profile": {
+    "ro": "Spumă surprinzător de fină cu NanoFoamer; French press-ul dă o spumă mai groasă, bună pentru cappuccino.",
+    "en": "Surprisingly fine foam from the NanoFoamer; the French press gives thicker foam, good for cappuccino."
+   },
+   "grindKey": null,
+   "mistakes": [
+    {
+     "ro": "Spumezi lapte fierbinte, peste 70 °C: spuma nu se mai leagă.",
+     "en": "Frothing milk above 70 °C: the foam won't hold."
+    },
+    {
+     "ro": "Ții spumantorul la suprafață tot timpul: bule mari.",
+     "en": "Keeping the frother at the surface the whole time: big bubbles."
+    },
+    {
+     "ro": "Umpli French press-ul peste jumătate: laptele dă pe dinafară.",
+     "en": "Filling the French press past half: milk overflows."
+    }
+   ],
+   "tips": [
+    {
+     "ro": "NanoFoamer: 5 s chiar sub suprafață, apoi coboară-l și ține 10–15 s pentru textură.",
+     "en": "NanoFoamer: 5 s just under the surface, then lower it for 10–15 s of texturing."
+    },
+    {
+     "ro": "La French press, folosește doar o treime din vas cu lapte.",
+     "en": "With a French press, fill only a third with milk."
+    },
+    {
+     "ro": "Lovește vasul de masă și rotește 10 s: bulele mari dispar.",
+     "en": "Tap the jug on the counter and swirl for 10 s: big bubbles vanish."
+    }
+   ],
+   "recipeIds": [
+    "cold-foam",
+    "cappuccino"
+   ],
+   "sources": [
+    "https://alternativebrewing.com.au/blogs/news/subminimal-nanofoamer-guide",
+    "https://baristamagazine.com/test-drive-the-nanofoamer-v2-flowtip-jug-by-subminimal",
+    "https://perfectdailygrind.com/2022/12/how-do-you-pour-great-latte-art-at-home/"
+   ]
+  },
+  {
+   "id": "plant-milks",
+   "name": {
+    "ro": "Lapte vegetal: variantele barista",
+    "en": "Plant milks: barista versions"
+   },
+   "category": "milk",
+   "difficulty": 1,
+   "gear": {
+    "ro": "Lapte vegetal „barista” (ovăz, soia, migdale), carafă rece, termometru.",
+    "en": "Barista-edition plant milk (oat, soy, almond), cold pitcher, thermometer."
+   },
+   "howItWorks": {
+    "ro": "Laptele vegetal obișnuit are prea puține proteine și grăsimi ca să țină spuma. Variantele barista adaugă ulei, proteine și regulatori de aciditate (fosfați de potasiu) care stabilizează bulele și împiedică „tăierea” în cafeaua acidă. Se încălzesc mai repede și suportă mai puțină temperatură decât laptele de vacă.",
+    "en": "Regular plant milk has too little protein and fat to hold foam. Barista versions add oil, protein and acidity regulators (potassium phosphates) that stabilise bubbles and stop curdling in acidic coffee. They heat faster and tolerate less heat than dairy."
+   },
+   "profile": {
+    "ro": "Ovăzul e cel mai neutru și dulce; soia face cea mai stabilă spumă, dar cu gust propriu; migdalele și cocosul sunt mai subțiri și aromate.",
+    "en": "Oat is the most neutral and sweet; soy foams most stably but has its own flavour; almond and coconut are thinner and more aromatic."
+   },
+   "grindKey": null,
+   "mistakes": [
+    {
+     "ro": "Folosești laptele vegetal obișnuit, nu varianta barista.",
+     "en": "Using regular plant milk instead of the barista edition."
+    },
+    {
+     "ro": "Îl încălzești la 65 °C+: spuma se rupe și gustul devine de cereale fierte.",
+     "en": "Heating it past 65 °C: foam breaks and it tastes of boiled cereal."
+    },
+    {
+     "ro": "Torni espresso foarte acid peste soia rece: se taie.",
+     "en": "Pouring a very acidic espresso onto cold soy: it curdles."
+    }
+   ],
+   "tips": [
+    {
+     "ro": "Oprește-te la 55–60 °C; laptele vegetal se întinde mai repede, deci aerează mai puțin.",
+     "en": "Stop at 55–60 °C; plant milk stretches faster, so add less air."
+    },
+    {
+     "ro": "Agită bine cutia înainte: grăsimea se separă.",
+     "en": "Shake the carton well first: the fat separates."
+    },
+    {
+     "ro": "Pentru latte art, toarnă ceva mai repede decât cu lapte de vacă, pentru că spuma e mai rigidă.",
+     "en": "For latte art, pour a little faster than with dairy, because the foam is stiffer."
+    }
+   ],
+   "recipeIds": [
+    "latte",
+    "iced-latte"
+   ],
+   "sources": [
+    "https://perfectdailygrind.com/2023/07/best-milks-latte-art/",
+    "https://completehomebarista.com/faqs/milk-latte-art/alternative-milk-guide/",
+    "https://clivecoffee.com/blogs/learn/does-the-type-of-milk-you-use-matter/"
+   ]
+  },
+  {
+   "id": "latte-art",
+   "name": {
+    "ro": "Latte art: inimă, lalea, rozetă",
+    "en": "Latte art basics: heart, tulip, rosetta"
+   },
+   "category": "milk",
+   "difficulty": 3,
+   "gear": {
+    "ro": "Carafă cu cioc ascuțit (350 ml pentru o ceașcă), ceașcă largă, rotundă, de 150–250 ml, microspumă proaspătă.",
+    "en": "Sharp-spouted pitcher (350 ml for one cup), wide round 150–250 ml cup, fresh microfoam."
+   },
+   "howItWorks": {
+    "ro": "Desenul apare din contrastul dintre cremă și spuma albă. Mai întâi torni de sus, subțire, ca laptele să intre sub cremă și să „umple” baza; apoi cobori ciocul aproape de suprafață și mărești debitul, iar spuma rămâne deasupra și desenează. Mișcarea de la final, prin mijloc, închide forma.",
+    "en": "The design comes from contrast between crema and white foam. First pour high and thin so milk dives under the crema and builds the base; then bring the spout close to the surface and increase flow, so the foam floats and draws. A final cut through the middle closes the shape."
+   },
+   "profile": {
+    "ro": "Nu schimbă gustul, dar e cel mai bun test al calității microspumei.",
+    "en": "It doesn't change the taste, but it's the best test of your microfoam quality."
+   },
+   "grindKey": null,
+   "mistakes": [
+    {
+     "ro": "Spumă prea groasă (de cappuccino) pentru latte art: iese o pată albă.",
+     "en": "Foam too thick (cappuccino-style): you get a white blob."
+    },
+    {
+     "ro": "Aștepți prea mult după spumare: laptele se separă.",
+     "en": "Waiting too long after steaming: the milk separates."
+    },
+    {
+     "ro": "Torni de prea sus în faza de desen: spuma se scufundă.",
+     "en": "Pouring too high in the drawing phase: the foam sinks."
+    }
+   ],
+   "tips": [
+    {
+     "ro": "Rotește laptele în carafă până când arată ca vopseaua lucioasă, chiar înainte de turnare.",
+     "en": "Swirl until the milk looks like glossy paint, right before pouring."
+    },
+    {
+     "ro": "Înclină ceașca spre carafă la început și îndreapt-o pe măsură ce se umple.",
+     "en": "Tilt the cup toward the pitcher at first and level it as it fills."
+    },
+    {
+     "ro": "Învață întâi inima, apoi laleaua (inimi stivuite), abia apoi rozeta.",
+     "en": "Learn the heart first, then the tulip (stacked hearts), then the rosetta."
+    }
+   ],
+   "recipeIds": [
+    "flat-white",
+    "latte",
+    "cortado"
+   ],
+   "sources": [
+    "https://perfectdailygrind.com/2022/12/how-do-you-pour-great-latte-art-at-home/",
+    "https://perfectdailygrind.com/2023/07/best-milks-latte-art/",
+    "https://au.lamarzoccohome.com/blog/how-to-steam-milk-like-a-pro-barista/"
+   ]
+  },
+  {
+   "id": "classic-milk-drinks",
+   "name": {
+    "ro": "Băuturi clasice cu lapte",
+    "en": "Classic milk drinks"
+   },
+   "category": "drinks",
+   "difficulty": 1,
+   "gear": {
+    "ro": "Espressor, lance de abur sau NanoFoamer, cești de 60–300 ml.",
+    "en": "Espresso machine, steam wand or NanoFoamer, 60–300 ml cups."
+   },
+   "history": {
+    "ro": "Cappuccino-ul modern s-a definit în Italia anilor '50, odată cu lancea de abur; flat white-ul a apărut în anii '80 în Australia și Noua Zeelandă.",
+    "en": "The modern cappuccino took shape in 1950s Italy with the steam wand; the flat white emerged in the 1980s in Australia and New Zealand."
+   },
+   "howItWorks": {
+    "ro": "Diferența dintre ele e doar proporția espresso:lapte și grosimea spumei. Macchiato (o lingură de spumă), cortado (~1:1, spumă puțină), piccolo (ristretto în paharul mic), flat white (spumă subțire, gust de cafea puternic), cappuccino (~1 cm de spumă, 150–180 ml) și latte (200–300 ml, mult lapte).",
+    "en": "The only differences are the espresso:milk ratio and foam thickness. Macchiato (a spoon of foam), cortado (~1:1, little foam), piccolo (ristretto in a small glass), flat white (thin foam, strong coffee flavour), cappuccino (~1 cm foam, 150–180 ml) and latte (200–300 ml, lots of milk)."
+   },
+   "profile": {
+    "ro": "Cu cât e mai puțin lapte, cu atât cafeaua domină; cu cât e mai multă spumă, cu atât e mai aerat și mai ușor.",
+    "en": "The less milk, the more the coffee dominates; the more foam, the lighter and airier the drink."
+   },
+   "grindKey": "espresso",
+   "mistakes": [
+    {
+     "ro": "Același lapte spumat pentru toate băuturile: flat white-ul iese cappuccino.",
+     "en": "Using the same foam for every drink: your flat white becomes a cappuccino."
+    },
+    {
+     "ro": "Ceașcă prea mare: băutura se răcește și se diluează.",
+     "en": "Cup too big: the drink cools and dilutes."
+    },
+    {
+     "ro": "Espresso-ul stă un minut înainte să torni laptele; crema se strică.",
+     "en": "Letting the espresso sit a minute before adding milk; the crema dies."
+    }
+   ],
+   "tips": [
+    {
+     "ro": "Spumează laptele cât timp curge shot-ul dacă aparatul permite (dual boiler/HX).",
+     "en": "Steam while the shot runs if your machine allows it (dual boiler/HX)."
+    },
+    {
+     "ro": "Prăjirile medii-închise taie mai bine prin lapte; cele deschise dau note de fructe și lapte cu ciocolată.",
+     "en": "Medium-dark roasts cut through milk better; light roasts give fruity, chocolate-milk notes."
+    },
+    {
+     "ro": "Folosește cântarul și pentru lapte: aceleași grame, aceeași băutură.",
+     "en": "Weigh the milk too: same grams, same drink."
+    }
+   ],
+   "recipeIds": [
+    "macchiato",
+    "cortado",
+    "piccolo",
+    "flat-white",
+    "cappuccino",
+    "latte"
+   ],
+   "sources": [
+    "https://outin.com/blogs/news/cortado-vs-flat-white-what-is-the-difference",
+    "https://www.tastingtable.com/1663389/difference-piccolo-vs-cortado/",
+    "https://www.sageappliances.com/uk/en/blog/coffee-and-espresso/cortado-vs-flat-white.html",
+    "https://thecoffeelocator.com/guide/flat-white-vs-cappuccino-vs-cortado/",
+    "https://au.lamarzoccohome.com/blog/how-to-steam-milk-with-a-home-espresso-machine/"
+   ]
+  },
+  {
+   "id": "black-espresso-drinks",
+   "name": {
+    "ro": "Americano, long black și affogato",
+    "en": "Americano, long black and affogato"
+   },
+   "category": "drinks",
+   "difficulty": 1,
+   "gear": {
+    "ro": "Espressor, apă fierbinte (fierbător sau robinetul aparatului), înghețată de vanilie pentru affogato.",
+    "en": "Espresso machine, hot water (kettle or machine tap), vanilla ice cream for affogato."
+   },
+   "history": {
+    "ro": "Legenda spune că numele „Americano” vine de la soldații americani din Italia celui de-Al Doilea Război Mondial, care diluau espresso-ul ca să semene cu cafeaua de acasă.",
+    "en": "Legend has it the name “Americano” comes from US soldiers in WWII Italy diluting espresso to resemble coffee from home."
+   },
+   "howItWorks": {
+    "ro": "Americano înseamnă espresso diluat cu apă fierbinte; long black e aceeași idee, dar espresso-ul se toarnă peste apă, ca să păstreze crema. Affogato înseamnă „înecat”: un shot fierbinte turnat peste o bilă de înghețată.",
+    "en": "An Americano is espresso diluted with hot water; a long black is the same idea, but the espresso goes on top of the water to keep the crema. Affogato means “drowned”: a hot shot poured over a scoop of ice cream."
+   },
+   "profile": {
+    "ro": "Americano e mai rotund și uniform; long black e mai aromat și mai intens la prima sorbitură. Affogato e cald, rece, amar și dulce în același timp.",
+    "en": "An Americano is rounder and more uniform; a long black is more aromatic and intense on the first sip. Affogato is hot, cold, bitter and sweet all at once."
+   },
+   "grindKey": "espresso",
+   "mistakes": [
+    {
+     "ro": "Apă clocotită peste espresso: amăreală și gust de ars.",
+     "en": "Boiling water onto espresso: bitter, burnt notes."
+    },
+    {
+     "ro": "Faci un shot de 90 s în loc să adaugi apă: supraextracție.",
+     "en": "Pulling a 90 s shot instead of adding water: over-extraction."
+    },
+    {
+     "ro": "Înghețată moale, scoasă de mult din congelator, pentru affogato.",
+     "en": "Soft, half-melted ice cream for affogato."
+    }
+   ],
+   "tips": [
+    {
+     "ro": "Apă la 80–90 °C, nu direct de la fierbere.",
+     "en": "Water at 80–90 °C, not straight off the boil."
+    },
+    {
+     "ro": "Raport bun de pornire: 1 parte espresso la 3–5 părți apă.",
+     "en": "A good starting ratio: 1 part espresso to 3–5 parts water."
+    },
+    {
+     "ro": "Răcește paharul de affogato în congelator 10 minute.",
+     "en": "Chill the affogato glass in the freezer for 10 minutes."
+    }
+   ],
+   "recipeIds": [
+    "americano",
+    "long-black",
+    "affogato"
+   ],
+   "sources": [
+    "https://home.lamarzoccousa.com/brew-ratios-around-world/",
+    "https://www.hachette.com.au/james-hoffmann/how-to-make-the-best-coffee"
+   ]
+  },
+  {
+   "id": "iced-espresso",
+   "name": {
+    "ro": "Espresso rece: freddo, shakerato, iced latte, cold foam",
+    "en": "Iced espresso: freddo, shakerato, iced latte, cold foam"
+   },
+   "category": "drinks",
+   "difficulty": 2,
+   "gear": {
+    "ro": "Espressor, shaker sau spumantor de mână/blender pentru frappé, gheață din apă filtrată, pahare înalte.",
+    "en": "Espresso machine, shaker or handheld frother/frappé mixer, ice from filtered water, tall glasses."
+   },
+   "history": {
+    "ro": "Freddo espresso a apărut în Grecia anilor '90 ca urmaș al frappé-ului cu cafea instant inventat la Salonic în 1957.",
+    "en": "Freddo espresso appeared in 1990s Greece as the successor to the instant-coffee frappé invented in Thessaloniki in 1957."
+   },
+   "howItWorks": {
+    "ro": "Espresso-ul fierbinte e răcit brusc pe gheață și aerat: bulele mici creează o spumă densă care ține ore întregi. Freddo espresso (Grecia, anii '90) se bate cu 2–3 cuburi de gheață, freddo cappuccino primește deasupra „afrogala”, spumă de lapte rece degresat. Shakerato-ul italian se agită în shaker și se strecoară, iar cold foam-ul e lapte rece spumat pus peste orice băutură rece.",
+    "en": "Hot espresso is shock-chilled on ice and aerated: tiny bubbles form a dense foam that lasts for hours. Freddo espresso (Greece, 1990s) is whipped with 2–3 ice cubes; freddo cappuccino gets “afrogala”, cold skimmed-milk foam, on top. Italian shakerato is shaken and strained, and cold foam is frothed cold milk spooned over any iced drink."
+   },
+   "profile": {
+    "ro": "Rece, catifelat, cu spumă cremoasă; zahărul adăugat la cald se dizolvă și dă corp.",
+    "en": "Cold, velvety, with creamy foam; sugar added while hot dissolves and adds body."
+   },
+   "grindKey": "espresso",
+   "mistakes": [
+    {
+     "ro": "Torni espresso fierbinte direct în paharul de servire cu gheață puțină: se diluează.",
+     "en": "Pouring hot espresso straight into the serving glass with little ice: it gets watery."
+    },
+    {
+     "ro": "Adaugi zahăr după răcire: nu se mai dizolvă.",
+     "en": "Adding sugar after chilling: it won't dissolve."
+    },
+    {
+     "ro": "Faci cold foam cu lapte integral cald: spuma nu ține.",
+     "en": "Making cold foam with warm whole milk: it won't hold."
+    }
+   ],
+   "tips": [
+    {
+     "ro": "Gheață din apă filtrată; gheața din congelator absoarbe mirosuri.",
+     "en": "Use ice from filtered water; freezer ice picks up odours."
+    },
+    {
+     "ro": "Laptele degresat face cea mai stabilă spumă rece.",
+     "en": "Skimmed milk makes the most stable cold foam."
+    },
+    {
+     "ro": "Un espresso ceva mai lung (1:2,2) compensează diluția de la gheață.",
+     "en": "A slightly longer espresso (1:2.2) offsets the dilution from ice."
+    }
+   ],
+   "recipeIds": [
+    "freddo-espresso",
+    "freddo-cappuccino",
+    "shakerato",
+    "iced-latte",
+    "cold-foam",
+    "tonic"
+   ],
+   "sources": [
+    "https://europeancoffeetrip.com/freddo-espresso-freddo-cappuccino/",
+    "https://www.coffeeness.de/en/what-is-freddo-espresso/",
+    "https://houseofcoffee.smeg.com/recipes/caffe-shakerato",
+    "https://methodicalcoffee.com/blogs/coffee-culture/shaken-espresso-what-it-is-and-how-to-make-one"
+   ]
+  },
+  {
+   "id": "sweet-and-spirited",
+   "name": {
+    "ro": "Dulci și cu alcool: mocha, bombón, Spanish latte, cà phê sữa đá, espresso martini",
+    "en": "Sweet and spirited: mocha, bombón, Spanish latte, cà phê sữa đá, espresso martini"
+   },
+   "category": "drinks",
+   "difficulty": 2,
+   "gear": {
+    "ro": "Espressor, lapte condensat îndulcit, ciocolată neagră, shaker, gheață; pentru cà phê sữa đá autentic, un filtru phin.",
+    "en": "Espresso machine, sweetened condensed milk, dark chocolate, shaker, ice; a phin filter for authentic cà phê sữa đá."
+   },
+   "history": {
+    "ro": "Espresso martini a fost creat de Dick Bradsell la Londra, la sfârșitul anilor '80; café bombón vine din Valencia, iar cà phê sữa đá s-a născut din lipsa laptelui proaspăt în Vietnamul colonial.",
+    "en": "The espresso martini was created by Dick Bradsell in London in the late 1980s; café bombón comes from Valencia, and cà phê sữa đá grew out of the scarcity of fresh milk in colonial Vietnam."
+   },
+   "howItWorks": {
+    "ro": "Laptele condensat și ciocolata adaugă dulceață și corp care echilibrează amăreala cafelei. Café bombón (Valencia) și Spanish latte folosesc lapte condensat; cà phê sữa đá vietnamez se face tradițional cu phin-ul, lent, peste lapte condensat și gheață. Espresso martini agită espresso proaspăt cu vodcă și lichior de cafea; uleiurile cafelei fac spuma.",
+    "en": "Condensed milk and chocolate add sweetness and body that balance coffee's bitterness. Café bombón (Valencia) and Spanish latte use condensed milk; Vietnamese cà phê sữa đá is traditionally brewed slowly through a phin over condensed milk and ice. An espresso martini shakes fresh espresso with vodka and coffee liqueur; the coffee's oils make the foam."
+   },
+   "profile": {
+    "ro": "Desert în ceașcă: dens, dulce, caramelizat sau ciocolatos. Martini-ul e sec, amar și cu spumă fină.",
+    "en": "Dessert in a cup: dense, sweet, caramel or chocolatey. The martini is dry, bitter and finely foamed."
+   },
+   "grindKey": "espresso",
+   "mistakes": [
+    {
+     "ro": "Folosești lapte condensat neîndulcit (evaporat): nu are dulceața și densitatea necesară.",
+     "en": "Using unsweetened evaporated milk: it lacks the sweetness and density."
+    },
+    {
+     "ro": "Pudră de cacao direct în lapte: rămân cocoloașe.",
+     "en": "Stirring cocoa powder straight into milk: lumps."
+    },
+    {
+     "ro": "Espresso vechi sau rece pentru martini: fără spumă.",
+     "en": "Old or cold espresso in a martini: no foam."
+    }
+   ],
+   "tips": [
+    {
+     "ro": "Topește ciocolata în espresso-ul fierbinte, apoi adaugă laptele.",
+     "en": "Melt the chocolate into the hot espresso, then add the milk."
+    },
+    {
+     "ro": "Pentru straturi, toarnă espresso-ul încet, peste dosul unei lingurițe.",
+     "en": "For layers, pour the espresso slowly over the back of a spoon."
+    },
+    {
+     "ro": "Shaker plin cu gheață și 15 s de agitat energic pentru o spumă densă la martini.",
+     "en": "A shaker packed with ice and 15 s of hard shaking give a dense martini foam."
+    }
+   ],
+   "recipeIds": [
+    "mocha",
+    "cafe-bombon",
+    "spanish-latte",
+    "ca-phe-sua-da",
+    "espresso-martini"
+   ],
+   "sources": [
+    "https://coffeegeek.com/guides/howtos/how-to-make-vietnamese-iced-coffee/",
+    "https://capheproject.squarespace.com/brew-guides/phin",
+    "https://www.hachette.com.au/james-hoffmann/how-to-make-the-best-coffee"
+   ]
+  }
+ ],
+ "recipes": [
+  {
+   "id": "ristretto",
+   "method": "espresso",
+   "gm": "espresso",
+   "name": {
+    "ro": "Ristretto",
+    "en": "Ristretto"
+   },
+   "by": {
+    "ro": "tradițional italian",
+    "en": "Italian tradition"
+   },
+   "dose": 18,
+   "water": 25,
+   "temp": 93,
+   "grind": "xfine",
+   "desc": {
+    "ro": "Shot scurt și dens, raport ~1:1,4. Mai dulce și mai acid, cu corp gros.",
+    "en": "Short, dense shot, ~1:1.4 ratio. Sweeter and more acidic, with heavy body."
+   },
+   "note": {
+    "ro": "Macină puțin mai fin decât pentru espresso-ul clasic ca timpul să rămână în jur de 20–25 s.",
+    "en": "Grind a little finer than for the classic espresso so time stays around 20–25 s."
+   },
+   "steps": [
+    {
+     "t": 0,
+     "w": 0,
+     "ro": "Pornește pompa și cronometrul.",
+     "en": "Start the pump and the timer."
+    },
+    {
+     "t": 9,
+     "w": 2,
+     "ro": "Apar primele picături, groase.",
+     "en": "First thick drops appear."
+    },
+    {
+     "t": 23,
+     "w": 25,
+     "ro": "Oprește la 25 g în ceașcă.",
+     "en": "Stop at 25 g in the cup."
+    }
+   ]
+  },
+  {
+   "id": "lungo",
+   "method": "espresso",
+   "gm": "espresso",
+   "name": {
+    "ro": "Lungo",
+    "en": "Lungo"
+   },
+   "by": {
+    "ro": "tradițional italian",
+    "en": "Italian tradition"
+   },
+   "dose": 18,
+   "water": 60,
+   "temp": 92,
+   "grind": "fine",
+   "desc": {
+    "ro": "Shot lung, raport ~1:3,3. Mai mult volum, corp mai ușor și ceva mai multă amăreală.",
+    "en": "Long shot, ~1:3.3 ratio. More volume, lighter body and a bit more bitterness."
+   },
+   "note": {
+    "ro": "Macină cu 1–2 trepte mai grosier decât pentru 1:2 ca să nu treacă de ~40 s. Merge cel mai bine cu prăjiri medii spre deschise.",
+    "en": "Grind 1–2 steps coarser than for 1:2 so it doesn't go past ~40 s. Works best with medium to light roasts."
+   },
+   "steps": [
+    {
+     "t": 0,
+     "w": 0,
+     "ro": "Pornește pompa și cronometrul.",
+     "en": "Start the pump and the timer."
+    },
+    {
+     "t": 7,
+     "w": 3,
+     "ro": "Apar primele picături.",
+     "en": "First drops appear."
+    },
+    {
+     "t": 25,
+     "w": 36,
+     "ro": "La 36 g culoarea se deschide; continuă.",
+     "en": "At 36 g the colour lightens; keep going."
+    },
+    {
+     "t": 38,
+     "w": 60,
+     "ro": "Oprește la 60 g.",
+     "en": "Stop at 60 g."
+    }
+   ]
+  },
+  {
+   "id": "allonge",
+   "method": "espresso",
+   "gm": "espresso",
+   "name": {
+    "ro": "Allongé",
+    "en": "Allongé"
+   },
+   "by": {
+    "ro": "după Scott Rao",
+    "en": "after Scott Rao"
+   },
+   "dose": 18,
+   "water": 90,
+   "temp": 92,
+   "grind": "fine",
+   "desc": {
+    "ro": "Shot foarte lung (1:5), măcinat grosier, cu debit mare. Limpede, floral, între espresso și filtru. Doar pentru prăjiri foarte deschise.",
+    "en": "Very long shot (1:5), coarse grind, high flow. Clear, floral, between espresso and filter. Only for very light roasts."
+   },
+   "note": {
+    "ro": "Macină mult mai grosier, până când presiunea maximă coboară la 8–9 bari și curge ~4 g/s. Fără preinfuzie lungă și fără bloom.",
+    "en": "Grind much coarser until peak pressure drops to 8–9 bar and it flows ~4 g/s. No long pre-infusion, no bloom."
+   },
+   "steps": [
+    {
+     "t": 0,
+     "w": 0,
+     "ro": "Pornește pompa.",
+     "en": "Start the pump."
+    },
+    {
+     "t": 5,
+     "w": 5,
+     "ro": "Curge repede, aproape imediat.",
+     "en": "It flows fast, almost immediately."
+    },
+    {
+     "t": 18,
+     "w": 54,
+     "ro": "Debit constant, ~4 g/s. Nu te speria de culoarea deschisă.",
+     "en": "Steady flow, ~4 g/s. Don't worry about the pale colour."
+    },
+    {
+     "t": 28,
+     "w": 90,
+     "ro": "Oprește la 90 g (25–35 s).",
+     "en": "Stop at 90 g (25–35 s)."
+    }
+   ]
+  },
+  {
+   "id": "soup-shot",
+   "method": "espresso",
+   "gm": "espresso",
+   "name": {
+    "ro": "Soup shot",
+    "en": "Soup shot"
+   },
+   "by": {
+    "ro": "popularizat de Lance Hedrick",
+    "en": "popularised by Lance Hedrick"
+   },
+   "dose": 20,
+   "water": 60,
+   "temp": 94,
+   "grind": "fine",
+   "desc": {
+    "ro": "Espresso la presiune foarte mică (sub 2 bari), raport 1:3, măcinat grosier. Foarte limpede și aromat; aproape fără cremă.",
+    "en": "Very low-pressure espresso (under 2 bar), 1:3 ratio, coarse grind. Very clear and aromatic; almost no crema."
+   },
+   "note": {
+    "ro": "Ai nevoie de control al debitului sau presiunii (paletă E61, Decent, pârghie). Pe un aparat fără control, folosește turbo shot-ul.",
+    "en": "You need flow or pressure control (E61 paddle, Decent, lever). On a machine without control, use the turbo shot instead."
+   },
+   "steps": [
+    {
+     "t": 0,
+     "w": 0,
+     "ro": "Pornește la presiune mică, 1–2 bari.",
+     "en": "Start at low pressure, 1–2 bar."
+    },
+    {
+     "t": 6,
+     "w": 5,
+     "ro": "Cafeaua curge subțire, dar continuu.",
+     "en": "Coffee runs thin but steady."
+    },
+    {
+     "t": 15,
+     "w": 32,
+     "ro": "Ține presiunea sub 2 bari.",
+     "en": "Keep pressure under 2 bar."
+    },
+    {
+     "t": 25,
+     "w": 60,
+     "ro": "Oprește la 60 g (sub 25–30 s).",
+     "en": "Stop at 60 g (under 25–30 s)."
+    }
+   ]
+  },
+  {
+   "id": "blooming-espresso",
+   "method": "espresso",
+   "gm": "espresso",
+   "name": {
+    "ro": "Blooming espresso",
+    "en": "Blooming espresso"
+   },
+   "by": {
+    "ro": "după Scott Rao și Decent",
+    "en": "after Scott Rao and Decent"
+   },
+   "dose": 18,
+   "water": 45,
+   "temp": 94,
+   "grind": "fine",
+   "desc": {
+    "ro": "Preumplere până la ~4 bari, pauză de 30 s, apoi presiune 6–9 bari. Dulceață și claritate pentru prăjiri deschise.",
+    "en": "Pre-fill to ~4 bar, a 30 s pause, then 6–9 bar. Sweetness and clarity for light roasts."
+   },
+   "note": {
+    "ro": "Macină mai fin decât pentru shot-ul clasic. Cere control (paletă, Decent, pârghie); timpul total e mai lung, e normal.",
+    "en": "Grind finer than for the classic shot. Needs control (paddle, Decent, lever); total time is longer, that's expected."
+   },
+   "steps": [
+    {
+     "t": 0,
+     "w": 0,
+     "ro": "Debit mare până la ~4 bari, ca să umpli coșul.",
+     "en": "High flow up to ~4 bar to fill the basket."
+    },
+    {
+     "t": 8,
+     "w": null,
+     "ro": "Oprește apa. Lasă turta să se umfle; presiunea scade încet.",
+     "en": "Stop the water. Let the puck bloom; pressure falls slowly."
+    },
+    {
+     "t": 38,
+     "w": 2,
+     "ro": "Urcă treptat la 6–9 bari. Picăturile se înmulțesc.",
+     "en": "Ramp gradually to 6–9 bar. Drops multiply."
+    },
+    {
+     "t": 55,
+     "w": 45,
+     "ro": "Oprește la 45 g (1:2,5).",
+     "en": "Stop at 45 g (1:2.5)."
+    }
+   ]
+  },
+  {
+   "id": "flair-58",
+   "method": "espresso",
+   "gm": "espresso",
+   "name": {
+    "ro": "Flair 58: shot cu pârghie",
+    "en": "Flair 58 lever shot"
+   },
+   "by": {
+    "ro": "după ghidul Flair Espresso",
+    "en": "after Flair Espresso's guide"
+   },
+   "dose": 18,
+   "water": 40,
+   "temp": 93,
+   "grind": "fine",
+   "desc": {
+    "ro": "Shot manual 1:2,2 cu preinfuzie la 3 bari și presiune de 6–9 bari. Un punct de plecare bun pentru orice cafea.",
+    "en": "Manual 1:2.2 shot with 3 bar pre-infusion and 6–9 bar peak. A good starting point for any coffee."
+   },
+   "note": {
+    "ro": "Setează încălzitorul pe MEDIUM (90 °C) pentru prăjiri medii sau HIGH (95 °C) pentru deschise și lasă 5 minute cu portafiltrul montat.",
+    "en": "Set the heater to MEDIUM (90 °C) for medium roasts or HIGH (95 °C) for light ones and wait 5 minutes with the portafilter locked in."
+   },
+   "steps": [
+    {
+     "t": 0,
+     "w": null,
+     "ro": "Toarnă apa fierbinte în cilindru, pune pistonul și coboară pârghia ușor.",
+     "en": "Pour hot water into the cylinder, insert the piston and lower the lever gently."
+    },
+    {
+     "t": 3,
+     "w": 0,
+     "ro": "Ține ~3 bari pentru preinfuzie.",
+     "en": "Hold ~3 bar for pre-infusion."
+    },
+    {
+     "t": 10,
+     "w": 2,
+     "ro": "Apar picăturile. Urcă la 6–9 bari.",
+     "en": "Drops appear. Rise to 6–9 bar."
+    },
+    {
+     "t": 22,
+     "w": 25,
+     "ro": "Lasă presiunea să scadă ușor spre 5–6 bari.",
+     "en": "Let pressure ease toward 5–6 bar."
+    },
+    {
+     "t": 30,
+     "w": 40,
+     "ro": "Oprește la 40 g ridicând pârghia.",
+     "en": "Stop at 40 g by lifting the lever."
+    }
+   ]
+  },
+  {
+   "id": "cafelat-robot",
+   "method": "espresso",
+   "gm": "espresso",
+   "name": {
+    "ro": "Cafelat Robot: presiune declinantă",
+    "en": "Cafelat Robot declining pressure"
+   },
+   "by": {
+    "ro": "după Kaldi's Coffee",
+    "en": "after Kaldi's Coffee"
+   },
+   "dose": 17,
+   "water": 38,
+   "temp": null,
+   "tempLabel": {
+    "ro": "apă care tocmai a fiert",
+    "en": "just off the boil"
+   },
+   "grind": "fine",
+   "desc": {
+    "ro": "Preinfuzie lungă la ~2 bari, vârf de 8–9 bari, apoi coborâre la 3 bari. Dulce și catifelat.",
+    "en": "Long ~2 bar pre-infusion, 8–9 bar peak, then down to 3 bar. Sweet and velvety."
+   },
+   "note": {
+    "ro": "Macină puțin mai fin decât pentru un aparat cu pompă. Preîncălzește coșul cu apă fierbinte.",
+    "en": "Grind slightly finer than for a pump machine. Preheat the basket with hot water."
+   },
+   "steps": [
+    {
+     "t": 0,
+     "w": null,
+     "ro": "Toarnă ~90 g de apă fierbinte în coș, pune pistonul și apasă ușor, ~2 bari.",
+     "en": "Pour ~90 g hot water into the basket, fit the piston and press gently, ~2 bar."
+    },
+    {
+     "t": 8,
+     "w": 1,
+     "ro": "Primele picături. Ține brațele nemișcate.",
+     "en": "First drops. Hold the arms still."
+    },
+    {
+     "t": 20,
+     "w": 5,
+     "ro": "Urcă la 8–9 bari.",
+     "en": "Rise to 8–9 bar."
+    },
+    {
+     "t": 32,
+     "w": 20,
+     "ro": "Coboară încet spre 6 bari.",
+     "en": "Ease down toward 6 bar."
+    },
+    {
+     "t": 42,
+     "w": 30,
+     "ro": "Coboară spre 3 bari.",
+     "en": "Ease down toward 3 bar."
+    },
+    {
+     "t": 50,
+     "w": 38,
+     "ro": "Oprește la 38 g.",
+     "en": "Stop at 38 g."
+    }
+   ]
+  },
+  {
+   "id": "picopresso",
+   "method": "espresso",
+   "gm": "espresso",
+   "name": {
+    "ro": "Picopresso / Nanopresso",
+    "en": "Picopresso / Nanopresso"
+   },
+   "by": {
+    "ro": "după Kaffeemacher",
+    "en": "after Kaffeemacher"
+   },
+   "dose": 18,
+   "water": 36,
+   "temp": null,
+   "tempLabel": {
+    "ro": "apă care tocmai a fiert",
+    "en": "just off the boil"
+   },
+   "grind": "fine",
+   "desc": {
+    "ro": "Espresso 1:2 cu pompă de mână. Preîncălzire obligatorie, pauză scurtă la primele picături.",
+    "en": "1:2 espresso with a hand pump. Preheat is a must; pause briefly at the first drops."
+   },
+   "note": {
+    "ro": "La Nanopresso, folosește coșul de 8 g (sau kitul Barista pentru 16 g) și ajustează doza și randamentul proporțional.",
+    "en": "On the Nanopresso, use the 8 g basket (or the Barista kit for 16 g) and scale dose and yield accordingly."
+   },
+   "steps": [
+    {
+     "t": 0,
+     "w": null,
+     "ro": "Preîncălzește: pompează o tură de apă fierbinte prin aparatul gol.",
+     "en": "Preheat: pump one load of hot water through the empty device."
+    },
+    {
+     "t": 60,
+     "w": null,
+     "ro": "Încarcă 18 g, WDT, tasează, pune sita și apa fierbinte. Începe să pompezi constant.",
+     "en": "Load 18 g, WDT, tamp, add the screen and hot water. Start pumping steadily."
+    },
+    {
+     "t": 75,
+     "w": 2,
+     "ro": "Apar picăturile (~10 pompări). Pauză 5–10 s.",
+     "en": "Drops appear (~10 pumps). Pause 5–10 s."
+    },
+    {
+     "t": 85,
+     "w": null,
+     "ro": "Reia pomparea, ritm constant.",
+     "en": "Resume pumping at a steady rhythm."
+    },
+    {
+     "t": 110,
+     "w": 36,
+     "ro": "Oprește la 36 g.",
+     "en": "Stop at 36 g."
+    }
+   ]
+  },
+  {
+   "id": "capsule-tweak",
+   "method": "espresso",
+   "gm": "espresso",
+   "name": {
+    "ro": "Capsulă, dar mai bună",
+    "en": "Better capsule shot"
+   },
+   "by": {
+    "ro": "trucuri inspirate de James Hoffmann",
+    "en": "tips inspired by James Hoffmann"
+   },
+   "dose": 5.5,
+   "water": 40,
+   "temp": null,
+   "tempLabel": {
+    "ro": "setată de aparat",
+    "en": "set by the machine"
+   },
+   "grind": "fine",
+   "desc": {
+    "ro": "Aparat Nespresso Original încălzit corect și oprit manual la 40 g, nu la butonul lungo.",
+    "en": "A properly warmed Nespresso Original machine stopped manually at 40 g, not on the lungo button."
+   },
+   "note": {
+    "ro": "Doza e cât are capsula (5–6 g). Pentru o cană mare, adaugă apă fierbinte după, nu folosi butonul lung.",
+    "en": "Dose is what the capsule holds (5–6 g). For a big mug, add hot water after instead of using the long button."
+   },
+   "steps": [
+    {
+     "t": 0,
+     "w": null,
+     "ro": "Fără capsulă, rulează apă în ceașcă pentru a încălzi aparatul și ceașca. Aruncă apa.",
+     "en": "With no capsule, run water into the cup to heat the machine and the cup. Discard it."
+    },
+    {
+     "t": 30,
+     "w": 0,
+     "ro": "Pune ceașca pe cântar, introdu capsula și pornește.",
+     "en": "Put the cup on the scale, insert the capsule and start."
+    },
+    {
+     "t": 55,
+     "w": 40,
+     "ro": "Oprește manual la 40 g.",
+     "en": "Stop manually at 40 g."
+    }
+   ]
+  },
+  {
+   "id": "macchiato",
+   "method": "lab",
+   "gm": "espresso",
+   "name": {
+    "ro": "Macchiato",
+    "en": "Macchiato"
+   },
+   "by": {
+    "ro": "Italia",
+    "en": "Italy"
+   },
+   "dose": 18,
+   "water": 36,
+   "temp": 93,
+   "grind": "fine",
+   "desc": {
+    "ro": "Espresso „pătat” cu o lingură de spumă de lapte. Cafeaua domină complet.",
+    "en": "Espresso “stained” with a spoonful of milk foam. Coffee fully in charge."
+   },
+   "safety": {
+    "ro": "Aburul și lancea ard. Ține mâna pe mânerul carafei, nu pe metal, și purjează lancea cu vârful îndreptat în jos, spre tava de scurgere.",
+    "en": "Steam and the wand burn. Hold the pitcher by its handle, not the metal, and purge the wand pointing down into the drip tray."
+   },
+   "extras": [
+    {
+     "g": 80,
+     "ro": "lapte rece de spumat (folosești doar o lingură)",
+     "en": "cold milk to steam (you'll use only a spoonful)"
+    }
+   ],
+   "steps": [
+    {
+     "t": 0,
+     "w": 0,
+     "ro": "Prepară espresso-ul direct în ceașca mică.",
+     "en": "Pull the espresso straight into the small cup."
+    },
+    {
+     "t": 28,
+     "w": 36,
+     "ro": "Oprește la 36 g.",
+     "en": "Stop at 36 g."
+    },
+    {
+     "t": 40,
+     "w": null,
+     "ro": "Spumează puțin lapte, cu multă spumă.",
+     "en": "Steam a little milk with plenty of foam."
+    },
+    {
+     "t": 70,
+     "w": null,
+     "ro": "Pune 1–2 lingurițe de spumă în centru.",
+     "en": "Spoon 1–2 teaspoons of foam into the centre."
+    }
+   ]
+  },
+  {
+   "id": "cortado",
+   "method": "lab",
+   "gm": "espresso",
+   "name": {
+    "ro": "Cortado",
+    "en": "Cortado"
+   },
+   "by": {
+    "ro": "Spania",
+    "en": "Spain"
+   },
+   "dose": 18,
+   "water": 36,
+   "temp": 93,
+   "grind": "fine",
+   "desc": {
+    "ro": "Espresso tăiat cu aproximativ aceeași cantitate de lapte cald, spumă foarte puțină. Pahar de 120–150 ml.",
+    "en": "Espresso cut with roughly the same amount of warm milk, very little foam. 120–150 ml glass."
+   },
+   "safety": {
+    "ro": "Aburul și lancea ard. Ține mâna pe mânerul carafei, nu pe metal, și purjează lancea cu vârful îndreptat în jos, spre tava de scurgere.",
+    "en": "Steam and the wand burn. Hold the pitcher by its handle, not the metal, and purge the wand pointing down into the drip tray."
+   },
+   "extras": [
+    {
+     "g": 50,
+     "ro": "lapte (spumat aproape fără aer)",
+     "en": "milk (steamed with almost no air)"
+    }
+   ],
+   "steps": [
+    {
+     "t": 0,
+     "w": 0,
+     "ro": "Prepară espresso-ul în pahar.",
+     "en": "Pull the espresso into the glass."
+    },
+    {
+     "t": 28,
+     "w": 36,
+     "ro": "Oprește la 36 g.",
+     "en": "Stop at 36 g."
+    },
+    {
+     "t": 40,
+     "w": null,
+     "ro": "Încălzește laptele la 60 °C, cu aer doar 1–2 s.",
+     "en": "Heat the milk to 60 °C with only 1–2 s of air."
+    },
+    {
+     "t": 70,
+     "w": null,
+     "ro": "Toarnă ~50 g de lapte peste espresso.",
+     "en": "Pour ~50 g of milk over the espresso."
+    }
+   ]
+  },
+  {
+   "id": "piccolo",
+   "method": "lab",
+   "gm": "espresso",
+   "name": {
+    "ro": "Piccolo latte",
+    "en": "Piccolo latte"
+   },
+   "by": {
+    "ro": "Sydney, Australia",
+    "en": "Sydney, Australia"
+   },
+   "dose": 18,
+   "water": 27,
+   "temp": 93,
+   "grind": "fine",
+   "desc": {
+    "ro": "Ristretto într-un pahar de 90–100 ml, completat cu lapte texturat ca la latte. Mic, intens și dulce.",
+    "en": "A ristretto in a 90–100 ml glass, topped with latte-style textured milk. Small, intense and sweet."
+   },
+   "note": {
+    "ro": "Raportul e 1:1,5; macină puțin mai fin decât pentru espresso.",
+    "en": "Ratio is 1:1.5; grind slightly finer than for espresso."
+   },
+   "safety": {
+    "ro": "Aburul și lancea ard. Ține mâna pe mânerul carafei, nu pe metal, și purjează lancea cu vârful îndreptat în jos, spre tava de scurgere.",
+    "en": "Steam and the wand burn. Hold the pitcher by its handle, not the metal, and purge the wand pointing down into the drip tray."
+   },
+   "extras": [
+    {
+     "g": 60,
+     "ro": "lapte texturat fin",
+     "en": "finely textured milk"
+    }
+   ],
+   "steps": [
+    {
+     "t": 0,
+     "w": 0,
+     "ro": "Prepară ristretto-ul în pahar.",
+     "en": "Pull the ristretto into the glass."
+    },
+    {
+     "t": 24,
+     "w": 27,
+     "ro": "Oprește la 27 g.",
+     "en": "Stop at 27 g."
+    },
+    {
+     "t": 35,
+     "w": null,
+     "ro": "Spumează laptele scurt, cu microspumă subțire, la 60 °C.",
+     "en": "Steam the milk briefly to thin microfoam at 60 °C."
+    },
+    {
+     "t": 65,
+     "w": null,
+     "ro": "Toarnă până la buză; o inimă mică dacă ți se potrivește.",
+     "en": "Pour to the brim; a small heart if you like."
+    }
+   ]
+  },
+  {
+   "id": "flat-white",
+   "method": "lab",
+   "gm": "espresso",
+   "name": {
+    "ro": "Flat white",
+    "en": "Flat white"
+   },
+   "by": {
+    "ro": "Australia / Noua Zeelandă",
+    "en": "Australia / New Zealand"
+   },
+   "dose": 18,
+   "water": 30,
+   "temp": 93,
+   "grind": "fine",
+   "desc": {
+    "ro": "Espresso scurt (1:1,7) cu lapte cu microspumă foarte subțire, în ceașcă de 150–180 ml. Cafeaua se simte clar prin lapte.",
+    "en": "Short espresso (1:1.7) with very thin microfoam milk in a 150–180 ml cup. The coffee comes through the milk clearly."
+   },
+   "safety": {
+    "ro": "Aburul și lancea ard. Ține mâna pe mânerul carafei, nu pe metal, și purjează lancea cu vârful îndreptat în jos, spre tava de scurgere.",
+    "en": "Steam and the wand burn. Hold the pitcher by its handle, not the metal, and purge the wand pointing down into the drip tray."
+   },
+   "extras": [
+    {
+     "g": 120,
+     "ro": "lapte rece integral",
+     "en": "cold whole milk"
+    }
+   ],
+   "steps": [
+    {
+     "t": 0,
+     "w": 0,
+     "ro": "Prepară espresso-ul în ceașcă.",
+     "en": "Pull the espresso into the cup."
+    },
+    {
+     "t": 25,
+     "w": 30,
+     "ro": "Oprește la 30 g.",
+     "en": "Stop at 30 g."
+    },
+    {
+     "t": 35,
+     "w": null,
+     "ro": "Spumează: aer doar 2–3 s, apoi vârtej până la 60 °C.",
+     "en": "Steam: air for just 2–3 s, then whirlpool to 60 °C."
+    },
+    {
+     "t": 70,
+     "w": null,
+     "ro": "Rotește laptele în carafă și toarnă aproape de suprafață; ~5 mm de spumă.",
+     "en": "Swirl and pour close to the surface; ~5 mm of foam."
+    },
+    {
+     "t": 85,
+     "w": null,
+     "ro": "Gata.",
+     "en": "Done."
+    }
+   ]
+  },
+  {
+   "id": "cappuccino",
+   "method": "lab",
+   "gm": "espresso",
+   "name": {
+    "ro": "Cappuccino",
+    "en": "Cappuccino"
+   },
+   "by": {
+    "ro": "Italia",
+    "en": "Italy"
+   },
+   "dose": 18,
+   "water": 36,
+   "temp": 93,
+   "grind": "fine",
+   "desc": {
+    "ro": "Espresso dublu cu lapte spumat și ~1–1,5 cm de spumă, în ceașcă de 150–180 ml.",
+    "en": "Double espresso with steamed milk and ~1–1.5 cm of foam in a 150–180 ml cup."
+   },
+   "note": {
+    "ro": "Fără lance? Încălzește laptele și spumează-l cu NanoFoamer sau în French press.",
+    "en": "No wand? Heat the milk and froth it with a NanoFoamer or in a French press."
+   },
+   "safety": {
+    "ro": "Aburul și lancea ard. Ține mâna pe mânerul carafei, nu pe metal, și purjează lancea cu vârful îndreptat în jos, spre tava de scurgere.",
+    "en": "Steam and the wand burn. Hold the pitcher by its handle, not the metal, and purge the wand pointing down into the drip tray."
+   },
+   "extras": [
+    {
+     "g": 130,
+     "ro": "lapte rece integral",
+     "en": "cold whole milk"
+    }
+   ],
+   "steps": [
+    {
+     "t": 0,
+     "w": 0,
+     "ro": "Prepară espresso-ul în ceașca preîncălzită.",
+     "en": "Pull the espresso into the preheated cup."
+    },
+    {
+     "t": 28,
+     "w": 36,
+     "ro": "Oprește la 36 g.",
+     "en": "Stop at 36 g."
+    },
+    {
+     "t": 40,
+     "w": null,
+     "ro": "Spumează: aer 5–6 s până se umflă laptele cu ~30%, apoi vârtej până la 60–65 °C.",
+     "en": "Steam: air for 5–6 s until the milk grows ~30%, then whirlpool to 60–65 °C."
+    },
+    {
+     "t": 80,
+     "w": null,
+     "ro": "Bate carafa de masă, rotește, apoi toarnă în centru.",
+     "en": "Tap the pitcher, swirl, then pour into the centre."
+    },
+    {
+     "t": 100,
+     "w": null,
+     "ro": "Gata.",
+     "en": "Done."
+    }
+   ]
+  },
+  {
+   "id": "latte",
+   "method": "lab",
+   "gm": "espresso",
+   "name": {
+    "ro": "Caffè latte",
+    "en": "Caffè latte"
+   },
+   "by": {
+    "ro": "Italia / SUA",
+    "en": "Italy / USA"
+   },
+   "dose": 18,
+   "water": 36,
+   "temp": 93,
+   "grind": "fine",
+   "desc": {
+    "ro": "Espresso dublu cu mult lapte și un strat subțire de microspumă, în cană de 250–300 ml. Blând și cremos.",
+    "en": "Double espresso with plenty of milk and a thin layer of microfoam in a 250–300 ml mug. Mild and creamy."
+   },
+   "safety": {
+    "ro": "Aburul și lancea ard. Ține mâna pe mânerul carafei, nu pe metal, și purjează lancea cu vârful îndreptat în jos, spre tava de scurgere.",
+    "en": "Steam and the wand burn. Hold the pitcher by its handle, not the metal, and purge the wand pointing down into the drip tray."
+   },
+   "extras": [
+    {
+     "g": 220,
+     "ro": "lapte rece (integral sau vegetal barista)",
+     "en": "cold milk (whole or barista plant milk)"
+    }
+   ],
+   "steps": [
+    {
+     "t": 0,
+     "w": 0,
+     "ro": "Prepară espresso-ul în cană.",
+     "en": "Pull the espresso into the mug."
+    },
+    {
+     "t": 28,
+     "w": 36,
+     "ro": "Oprește la 36 g.",
+     "en": "Stop at 36 g."
+    },
+    {
+     "t": 40,
+     "w": null,
+     "ro": "Spumează: aer 3–4 s, apoi vârtej până la 60 °C.",
+     "en": "Steam: air for 3–4 s, then whirlpool to 60 °C."
+    },
+    {
+     "t": 85,
+     "w": null,
+     "ro": "Toarnă de sus la început, apoi aproape de suprafață pentru desen.",
+     "en": "Pour high at first, then close to the surface to draw."
+    },
+    {
+     "t": 100,
+     "w": null,
+     "ro": "Gata.",
+     "en": "Done."
+    }
+   ]
+  },
+  {
+   "id": "americano",
+   "method": "lab",
+   "gm": "espresso",
+   "name": {
+    "ro": "Americano",
+    "en": "Americano"
+   },
+   "by": {
+    "ro": "Italia, anii '40",
+    "en": "Italy, 1940s"
+   },
+   "dose": 18,
+   "water": 36,
+   "temp": 93,
+   "grind": "fine",
+   "desc": {
+    "ro": "Espresso dublu completat cu apă fierbinte. Ca o cafea la filtru, dar cu caracter de espresso.",
+    "en": "Double espresso topped with hot water. Like filter coffee, but with espresso character."
+   },
+   "extras": [
+    {
+     "g": 150,
+     "ro": "apă fierbinte, 85–90 °C",
+     "en": "hot water, 85–90 °C"
+    }
+   ],
+   "steps": [
+    {
+     "t": 0,
+     "w": 0,
+     "ro": "Prepară espresso-ul în cană.",
+     "en": "Pull the espresso into the mug."
+    },
+    {
+     "t": 28,
+     "w": 36,
+     "ro": "Oprește la 36 g.",
+     "en": "Stop at 36 g."
+    },
+    {
+     "t": 40,
+     "w": 186,
+     "ro": "Adaugă 150 g de apă fierbinte.",
+     "en": "Add 150 g of hot water."
+    },
+    {
+     "t": 50,
+     "w": null,
+     "ro": "Amestecă și servește.",
+     "en": "Stir and serve."
+    }
+   ]
+  },
+  {
+   "id": "long-black",
+   "method": "lab",
+   "gm": "espresso",
+   "name": {
+    "ro": "Long black",
+    "en": "Long black"
+   },
+   "by": {
+    "ro": "Australia / Noua Zeelandă",
+    "en": "Australia / New Zealand"
+   },
+   "dose": 18,
+   "water": 36,
+   "temp": 93,
+   "grind": "fine",
+   "desc": {
+    "ro": "Apă fierbinte întâi, espresso deasupra. Crema rămâne intactă, aroma e mai intensă decât la Americano.",
+    "en": "Hot water first, espresso on top. The crema stays intact, aroma is more intense than an Americano."
+   },
+   "extras": [
+    {
+     "g": 120,
+     "ro": "apă fierbinte, 85–90 °C",
+     "en": "hot water, 85–90 °C"
+    }
+   ],
+   "steps": [
+    {
+     "t": 0,
+     "w": 120,
+     "ro": "Toarnă 120 g de apă fierbinte în cană.",
+     "en": "Pour 120 g of hot water into the mug."
+    },
+    {
+     "t": 10,
+     "w": 120,
+     "ro": "Pune cana sub portafiltru și pornește shot-ul.",
+     "en": "Put the mug under the portafilter and start the shot."
+    },
+    {
+     "t": 38,
+     "w": 156,
+     "ro": "Oprește când ai adăugat 36 g de espresso (156 g pe cântar).",
+     "en": "Stop when 36 g of espresso is in (156 g on the scale)."
+    },
+    {
+     "t": 45,
+     "w": null,
+     "ro": "Nu amesteca; servește.",
+     "en": "Don't stir; serve."
+    }
+   ]
+  },
+  {
+   "id": "affogato",
+   "method": "lab",
+   "gm": "espresso",
+   "name": {
+    "ro": "Affogato",
+    "en": "Affogato"
+   },
+   "by": {
+    "ro": "Italia",
+    "en": "Italy"
+   },
+   "dose": 18,
+   "water": 36,
+   "temp": 93,
+   "grind": "fine",
+   "desc": {
+    "ro": "Espresso fierbinte turnat peste o bilă de înghețată de vanilie. Desert în două minute.",
+    "en": "Hot espresso poured over a scoop of vanilla ice cream. Dessert in two minutes."
+   },
+   "ingredients": [
+    {
+     "ro": "o bilă mare de înghețată de vanilie sau fior di latte",
+     "en": "one large scoop of vanilla or fior di latte gelato"
+    }
+   ],
+   "extras": [
+    {
+     "g": 60,
+     "ro": "înghețată",
+     "en": "ice cream"
+    }
+   ],
+   "steps": [
+    {
+     "t": 0,
+     "w": null,
+     "ro": "Pune înghețata în paharul răcit.",
+     "en": "Put the ice cream in the chilled glass."
+    },
+    {
+     "t": 15,
+     "w": 0,
+     "ro": "Prepară espresso-ul într-o ceașcă separată.",
+     "en": "Pull the espresso into a separate cup."
+    },
+    {
+     "t": 43,
+     "w": 36,
+     "ro": "Oprește la 36 g.",
+     "en": "Stop at 36 g."
+    },
+    {
+     "t": 50,
+     "w": null,
+     "ro": "Toarnă peste înghețată la masă și mănâncă imediat.",
+     "en": "Pour over the ice cream at the table and eat right away."
+    }
+   ]
+  },
+  {
+   "id": "freddo-espresso",
+   "method": "lab",
+   "gm": "espresso",
+   "name": {
+    "ro": "Freddo espresso",
+    "en": "Freddo espresso"
+   },
+   "by": {
+    "ro": "Grecia",
+    "en": "Greece"
+   },
+   "dose": 18,
+   "water": 40,
+   "temp": 93,
+   "grind": "fine",
+   "desc": {
+    "ro": "Espresso dublu bătut cu gheață până devine spumos, turnat peste gheață proaspătă. Clasicul verii grecești.",
+    "en": "Double espresso whipped with ice until frothy, poured over fresh ice. The Greek summer classic."
+   },
+   "ingredients": [
+    {
+     "ro": "zahăr după gust (0–10 g), pus cât e espresso-ul fierbinte",
+     "en": "sugar to taste (0–10 g), added while the espresso is hot"
+    },
+    {
+     "ro": "3 cuburi de gheață pentru batere",
+     "en": "3 ice cubes for whipping"
+    }
+   ],
+   "extras": [
+    {
+     "g": 150,
+     "ro": "gheață în pahar",
+     "en": "ice in the glass"
+    }
+   ],
+   "steps": [
+    {
+     "t": 0,
+     "w": 0,
+     "ro": "Prepară espresso-ul în vasul de batere (sau un pahar înalt).",
+     "en": "Pull the espresso into the mixing cup (or a tall glass)."
+    },
+    {
+     "t": 30,
+     "w": 40,
+     "ro": "Oprește la 40 g. Adaugă zahărul acum, dacă vrei.",
+     "en": "Stop at 40 g. Add sugar now if you want it."
+    },
+    {
+     "t": 40,
+     "w": null,
+     "ro": "Adaugă 3 cuburi de gheață și bate 15–20 s cu frappé-ul sau spumantorul.",
+     "en": "Add 3 ice cubes and whip for 15–20 s with a frappé mixer or frother."
+    },
+    {
+     "t": 65,
+     "w": null,
+     "ro": "Toarnă peste 150 g de gheață, cu tot cu spumă. Servește cu pai.",
+     "en": "Pour over 150 g of ice, foam and all. Serve with a straw."
+    }
+   ]
+  },
+  {
+   "id": "freddo-cappuccino",
+   "method": "lab",
+   "gm": "espresso",
+   "name": {
+    "ro": "Freddo cappuccino",
+    "en": "Freddo cappuccino"
+   },
+   "by": {
+    "ro": "Grecia",
+    "en": "Greece"
+   },
+   "dose": 18,
+   "water": 40,
+   "temp": 93,
+   "grind": "fine",
+   "desc": {
+    "ro": "Freddo espresso cu „afrogala” deasupra: spumă densă din lapte rece degresat.",
+    "en": "Freddo espresso topped with “afrogala”: dense foam from cold skimmed milk."
+   },
+   "ingredients": [
+    {
+     "ro": "zahăr după gust (0–10 g)",
+     "en": "sugar to taste (0–10 g)"
+    },
+    {
+     "ro": "3 cuburi de gheață pentru batere",
+     "en": "3 ice cubes for whipping"
+    }
+   ],
+   "extras": [
+    {
+     "g": 150,
+     "ro": "gheață în pahar",
+     "en": "ice in the glass"
+    },
+    {
+     "g": 80,
+     "ro": "lapte degresat foarte rece, pentru afrogala",
+     "en": "very cold skimmed milk for afrogala"
+    }
+   ],
+   "steps": [
+    {
+     "t": 0,
+     "w": 0,
+     "ro": "Prepară espresso-ul în vasul de batere.",
+     "en": "Pull the espresso into the mixing cup."
+    },
+    {
+     "t": 30,
+     "w": 40,
+     "ro": "Oprește la 40 g; adaugă zahărul.",
+     "en": "Stop at 40 g; add sugar."
+    },
+    {
+     "t": 40,
+     "w": null,
+     "ro": "Bate cu 3 cuburi de gheață 15 s și toarnă peste gheață.",
+     "en": "Whip with 3 ice cubes for 15 s and pour over ice."
+    },
+    {
+     "t": 70,
+     "w": null,
+     "ro": "Bate laptele rece 30–40 s până devine spumă densă, ca frișca lichidă.",
+     "en": "Whip the cold milk for 30–40 s into dense foam, like pourable cream."
+    },
+    {
+     "t": 110,
+     "w": null,
+     "ro": "Pune spuma deasupra, cu lingura.",
+     "en": "Spoon the foam on top."
+    }
+   ]
+  },
+  {
+   "id": "shakerato",
+   "method": "lab",
+   "gm": "espresso",
+   "name": {
+    "ro": "Caffè shakerato",
+    "en": "Caffè shakerato"
+   },
+   "by": {
+    "ro": "Italia",
+    "en": "Italy"
+   },
+   "dose": 18,
+   "water": 36,
+   "temp": 93,
+   "grind": "fine",
+   "desc": {
+    "ro": "Espresso agitat cu gheață și sirop, strecurat într-un pahar de cocktail răcit. Spumos, rece, fără gheață în pahar.",
+    "en": "Espresso shaken with ice and syrup, strained into a chilled cocktail glass. Frothy and cold, no ice in the glass."
+   },
+   "ingredients": [
+    {
+     "ro": "10 g sirop de zahăr (1:1)",
+     "en": "10 g simple syrup (1:1)"
+    }
+   ],
+   "extras": [
+    {
+     "g": 150,
+     "ro": "gheață în shaker",
+     "en": "ice in the shaker"
+    }
+   ],
+   "steps": [
+    {
+     "t": 0,
+     "w": 0,
+     "ro": "Prepară espresso-ul.",
+     "en": "Pull the espresso."
+    },
+    {
+     "t": 28,
+     "w": 36,
+     "ro": "Oprește la 36 g.",
+     "en": "Stop at 36 g."
+    },
+    {
+     "t": 35,
+     "w": null,
+     "ro": "Toarnă-l în shaker peste gheață și sirop.",
+     "en": "Pour it into the shaker over the ice and syrup."
+    },
+    {
+     "t": 40,
+     "w": null,
+     "ro": "Agită energic 15–20 s.",
+     "en": "Shake hard for 15–20 s."
+    },
+    {
+     "t": 60,
+     "w": null,
+     "ro": "Strecoară în paharul răcit; spuma se așază deasupra.",
+     "en": "Strain into the chilled glass; the foam settles on top."
+    }
+   ]
+  },
+  {
+   "id": "iced-latte",
+   "method": "lab",
+   "gm": "espresso",
+   "name": {
+    "ro": "Iced latte",
+    "en": "Iced latte"
+   },
+   "by": {
+    "ro": "cafenele de specialitate",
+    "en": "specialty cafés"
+   },
+   "dose": 18,
+   "water": 36,
+   "temp": 93,
+   "grind": "fine",
+   "desc": {
+    "ro": "Lapte rece și gheață, cu espresso dublu turnat deasupra. Simplu, răcoros, ușor de îndulcit.",
+    "en": "Cold milk and ice with a double espresso poured on top. Simple, refreshing, easy to sweeten."
+   },
+   "extras": [
+    {
+     "g": 100,
+     "ro": "gheață",
+     "en": "ice"
+    },
+    {
+     "g": 180,
+     "ro": "lapte rece (sau ovăz barista)",
+     "en": "cold milk (or barista oat)"
+    }
+   ],
+   "steps": [
+    {
+     "t": 0,
+     "w": null,
+     "ro": "Gheață și lapte rece în paharul înalt.",
+     "en": "Ice and cold milk in a tall glass."
+    },
+    {
+     "t": 15,
+     "w": 0,
+     "ro": "Prepară espresso-ul într-o ceașcă separată.",
+     "en": "Pull the espresso into a separate cup."
+    },
+    {
+     "t": 43,
+     "w": 36,
+     "ro": "Oprește la 36 g. Îndulcește acum, dacă vrei.",
+     "en": "Stop at 36 g. Sweeten now if you like."
+    },
+    {
+     "t": 55,
+     "w": null,
+     "ro": "Toarnă espresso-ul încet peste lapte, pentru straturi. Amestecă la servire.",
+     "en": "Pour the espresso slowly over the milk for layers. Stir to drink."
+    }
+   ]
+  },
+  {
+   "id": "cold-foam",
+   "method": "lab",
+   "gm": "espresso",
+   "name": {
+    "ro": "Espresso rece cu cold foam",
+    "en": "Iced espresso with cold foam"
+   },
+   "by": {
+    "ro": "cafenele moderne",
+    "en": "modern cafés"
+   },
+   "dose": 18,
+   "water": 36,
+   "temp": 93,
+   "grind": "fine",
+   "desc": {
+    "ro": "Espresso peste gheață și puțină apă, cu un strat gros de spumă rece și dulce deasupra.",
+    "en": "Espresso over ice and a little water, with a thick layer of sweet cold foam on top."
+   },
+   "ingredients": [
+    {
+     "ro": "5 g sirop de vanilie sau de zahăr",
+     "en": "5 g vanilla or simple syrup"
+    }
+   ],
+   "extras": [
+    {
+     "g": 100,
+     "ro": "gheață",
+     "en": "ice"
+    },
+    {
+     "g": 60,
+     "ro": "apă rece",
+     "en": "cold water"
+    },
+    {
+     "g": 80,
+     "ro": "lapte degresat foarte rece",
+     "en": "very cold skimmed milk"
+    }
+   ],
+   "steps": [
+    {
+     "t": 0,
+     "w": null,
+     "ro": "Gheață și apă rece în pahar.",
+     "en": "Ice and cold water in the glass."
+    },
+    {
+     "t": 15,
+     "w": 0,
+     "ro": "Prepară espresso-ul.",
+     "en": "Pull the espresso."
+    },
+    {
+     "t": 43,
+     "w": 36,
+     "ro": "Oprește la 36 g și toarnă peste gheață.",
+     "en": "Stop at 36 g and pour over the ice."
+    },
+    {
+     "t": 55,
+     "w": null,
+     "ro": "Bate laptele rece cu siropul 30 s cu spumantorul sau NanoFoamer-ul.",
+     "en": "Froth the cold milk with the syrup for 30 s with a frother or NanoFoamer."
+    },
+    {
+     "t": 90,
+     "w": null,
+     "ro": "Toarnă spuma încet deasupra.",
+     "en": "Pour the foam slowly on top."
+    }
+   ]
+  },
+  {
+   "id": "spanish-latte",
+   "method": "lab",
+   "gm": "espresso",
+   "name": {
+    "ro": "Spanish latte",
+    "en": "Spanish latte"
+   },
+   "by": {
+    "ro": "cafenele din Orientul Mijlociu și Asia",
+    "en": "Middle Eastern and Asian cafés"
+   },
+   "dose": 18,
+   "water": 36,
+   "temp": 93,
+   "grind": "fine",
+   "desc": {
+    "ro": "Latte îndulcit cu lapte condensat. Cremos, cu note de caramel. Merge și rece, peste gheață.",
+    "en": "A latte sweetened with condensed milk. Creamy with caramel notes. Also great iced."
+   },
+   "safety": {
+    "ro": "Aburul și lancea ard. Ține mâna pe mânerul carafei, nu pe metal, și purjează lancea cu vârful îndreptat în jos, spre tava de scurgere.",
+    "en": "Steam and the wand burn. Hold the pitcher by its handle, not the metal, and purge the wand pointing down into the drip tray."
+   },
+   "ingredients": [
+    {
+     "ro": "25 g lapte condensat îndulcit",
+     "en": "25 g sweetened condensed milk"
+    }
+   ],
+   "extras": [
+    {
+     "g": 180,
+     "ro": "lapte rece",
+     "en": "cold milk"
+    }
+   ],
+   "steps": [
+    {
+     "t": 0,
+     "w": null,
+     "ro": "Pune laptele condensat în cană.",
+     "en": "Put the condensed milk in the mug."
+    },
+    {
+     "t": 10,
+     "w": 0,
+     "ro": "Prepară espresso-ul peste el.",
+     "en": "Pull the espresso over it."
+    },
+    {
+     "t": 38,
+     "w": 36,
+     "ro": "Oprește la 36 g și amestecă până se dizolvă.",
+     "en": "Stop at 36 g and stir until dissolved."
+    },
+    {
+     "t": 50,
+     "w": null,
+     "ro": "Spumează laptele ca pentru latte, la 60 °C.",
+     "en": "Steam the milk as for a latte, to 60 °C."
+    },
+    {
+     "t": 95,
+     "w": null,
+     "ro": "Toarnă laptele și servește.",
+     "en": "Pour the milk and serve."
+    }
+   ]
+  },
+  {
+   "id": "mocha",
+   "method": "lab",
+   "gm": "espresso",
+   "name": {
+    "ro": "Caffè mocha",
+    "en": "Caffè mocha"
+   },
+   "by": {
+    "ro": "clasic de cafenea",
+    "en": "café classic"
+   },
+   "dose": 18,
+   "water": 36,
+   "temp": 93,
+   "grind": "fine",
+   "desc": {
+    "ro": "Espresso, ciocolată neagră topită și lapte spumat. O ciocolată caldă pentru adulți.",
+    "en": "Espresso, melted dark chocolate and steamed milk. Hot chocolate for grown-ups."
+   },
+   "safety": {
+    "ro": "Aburul și lancea ard. Ține mâna pe mânerul carafei, nu pe metal, și purjează lancea cu vârful îndreptat în jos, spre tava de scurgere.",
+    "en": "Steam and the wand burn. Hold the pitcher by its handle, not the metal, and purge the wand pointing down into the drip tray."
+   },
+   "ingredients": [
+    {
+     "ro": "20 g ciocolată neagră (60–70%), mărunțită",
+     "en": "20 g dark chocolate (60–70%), chopped"
+    },
+    {
+     "ro": "frișcă sau cacao deasupra (opțional)",
+     "en": "whipped cream or cocoa on top (optional)"
+    }
+   ],
+   "extras": [
+    {
+     "g": 200,
+     "ro": "lapte rece",
+     "en": "cold milk"
+    }
+   ],
+   "steps": [
+    {
+     "t": 0,
+     "w": null,
+     "ro": "Pune ciocolata în cană.",
+     "en": "Put the chocolate in the mug."
+    },
+    {
+     "t": 10,
+     "w": 0,
+     "ro": "Prepară espresso-ul direct peste ea.",
+     "en": "Pull the espresso straight over it."
+    },
+    {
+     "t": 38,
+     "w": 36,
+     "ro": "Oprește la 36 g și amestecă până se topește complet.",
+     "en": "Stop at 36 g and stir until fully melted."
+    },
+    {
+     "t": 55,
+     "w": null,
+     "ro": "Spumează laptele la 60–65 °C.",
+     "en": "Steam the milk to 60–65 °C."
+    },
+    {
+     "t": 100,
+     "w": null,
+     "ro": "Toarnă laptele, amestecând ușor la început.",
+     "en": "Pour in the milk, stirring gently at first."
+    }
+   ]
+  },
+  {
+   "id": "cafe-bombon",
+   "method": "lab",
+   "gm": "espresso",
+   "name": {
+    "ro": "Café bombón",
+    "en": "Café bombón"
+   },
+   "by": {
+    "ro": "Valencia, Spania",
+    "en": "Valencia, Spain"
+   },
+   "dose": 18,
+   "water": 36,
+   "temp": 93,
+   "grind": "fine",
+   "desc": {
+    "ro": "Lapte condensat și espresso în straturi, într-un pahar mic de sticlă. Se amestecă înainte de băut.",
+    "en": "Condensed milk and espresso in layers in a small glass. Stir before drinking."
+   },
+   "ingredients": [
+    {
+     "ro": "30 g lapte condensat îndulcit",
+     "en": "30 g sweetened condensed milk"
+    }
+   ],
+   "steps": [
+    {
+     "t": 0,
+     "w": 30,
+     "ro": "Pune 30 g de lapte condensat pe fundul paharului.",
+     "en": "Put 30 g of condensed milk in the bottom of the glass."
+    },
+    {
+     "t": 10,
+     "w": 30,
+     "ro": "Pornește espresso-ul direct în pahar, încet, ca să rămână în straturi.",
+     "en": "Pull the espresso straight into the glass, gently, so it layers."
+    },
+    {
+     "t": 38,
+     "w": 66,
+     "ro": "Oprește când ai 36 g de espresso (66 g pe cântar).",
+     "en": "Stop at 36 g of espresso (66 g on the scale)."
+    },
+    {
+     "t": 45,
+     "w": null,
+     "ro": "Servește așa; amestecă la masă.",
+     "en": "Serve as is; stir at the table."
+    }
+   ]
+  },
+  {
+   "id": "ca-phe-sua-da",
+   "method": "lab",
+   "gm": "espresso",
+   "name": {
+    "ro": "Cà phê sữa đá (cu espresso)",
+    "en": "Cà phê sữa đá (espresso version)"
+   },
+   "by": {
+    "ro": "Vietnam, adaptare",
+    "en": "Vietnam, adapted"
+   },
+   "dose": 18,
+   "water": 45,
+   "temp": 93,
+   "grind": "fine",
+   "desc": {
+    "ro": "Cafea tare peste lapte condensat, bătută și turnată peste gheață. Varianta rapidă cu espresso a clasicului vietnamez.",
+    "en": "Strong coffee over condensed milk, stirred and poured over ice. The quick espresso take on the Vietnamese classic."
+   },
+   "note": {
+    "ro": "Autentic se face cu phin-ul (vezi metoda Phin): ~20 g de cafea robusta prăjită închis, ~90 g de apă, picurat 4–5 minute direct peste laptele condensat.",
+    "en": "The authentic version uses a phin (see the Phin method): ~20 g dark-roast robusta, ~90 g water, dripped for 4–5 minutes straight onto the condensed milk."
+   },
+   "ingredients": [
+    {
+     "ro": "25 g lapte condensat îndulcit",
+     "en": "25 g sweetened condensed milk"
+    },
+    {
+     "ro": "prăjire închisă, ideal cu robusta",
+     "en": "dark roast, ideally with robusta"
+    }
+   ],
+   "extras": [
+    {
+     "g": 150,
+     "ro": "gheață",
+     "en": "ice"
+    }
+   ],
+   "steps": [
+    {
+     "t": 0,
+     "w": 25,
+     "ro": "Pune laptele condensat în pahar.",
+     "en": "Put the condensed milk in the glass."
+    },
+    {
+     "t": 10,
+     "w": 25,
+     "ro": "Prepară espresso-ul direct peste el.",
+     "en": "Pull the espresso straight over it."
+    },
+    {
+     "t": 40,
+     "w": 70,
+     "ro": "Oprește când ai 45 g de espresso (70 g pe cântar).",
+     "en": "Stop when 45 g of espresso is in (70 g on the scale)."
+    },
+    {
+     "t": 50,
+     "w": null,
+     "ro": "Amestecă bine, apoi toarnă peste 150 g de gheață.",
+     "en": "Stir well, then pour over 150 g of ice."
+    }
+   ]
+  },
+  {
+   "id": "espresso-martini",
+   "method": "lab",
+   "gm": "espresso",
+   "name": {
+    "ro": "Espresso martini",
+    "en": "Espresso martini"
+   },
+   "by": {
+    "ro": "Dick Bradsell, Londra",
+    "en": "Dick Bradsell, London"
+   },
+   "dose": 18,
+   "water": 36,
+   "temp": 93,
+   "grind": "fine",
+   "desc": {
+    "ro": "Cocktail cu vodcă, lichior de cafea și espresso proaspăt, agitat până face spumă densă. Conține alcool.",
+    "en": "Cocktail of vodka, coffee liqueur and fresh espresso, shaken to a dense foam. Contains alcohol."
+   },
+   "safety": {
+    "ro": "Conține alcool (~20 g alcool pur pe pahar). Doar pentru adulți (18+); nu conduce după consum. Cofeina nu anulează efectul alcoolului.",
+    "en": "Contains alcohol (~20 g pure alcohol per glass). Adults only (18+); don't drive after drinking. Caffeine doesn't cancel alcohol's effect."
+   },
+   "ingredients": [
+    {
+     "ro": "45 ml vodcă",
+     "en": "45 ml vodka"
+    },
+    {
+     "ro": "20 ml lichior de cafea (Kahlúa sau similar)",
+     "en": "20 ml coffee liqueur (Kahlúa or similar)"
+    },
+    {
+     "ro": "10 ml sirop de zahăr (opțional)",
+     "en": "10 ml simple syrup (optional)"
+    },
+    {
+     "ro": "3 boabe de cafea pentru decor",
+     "en": "3 coffee beans to garnish"
+    }
+   ],
+   "extras": [
+    {
+     "g": 200,
+     "ro": "gheață în shaker",
+     "en": "ice in the shaker"
+    }
+   ],
+   "steps": [
+    {
+     "t": 0,
+     "w": null,
+     "ro": "Pune paharul de martini la rece.",
+     "en": "Chill the martini glass."
+    },
+    {
+     "t": 15,
+     "w": 0,
+     "ro": "Prepară espresso-ul.",
+     "en": "Pull the espresso."
+    },
+    {
+     "t": 43,
+     "w": 36,
+     "ro": "Oprește la 36 g.",
+     "en": "Stop at 36 g."
+    },
+    {
+     "t": 50,
+     "w": null,
+     "ro": "În shaker: gheață, vodcă, lichior, sirop și espresso-ul fierbinte.",
+     "en": "In the shaker: ice, vodka, liqueur, syrup and the hot espresso."
+    },
+    {
+     "t": 60,
+     "w": null,
+     "ro": "Agită foarte energic 15 s.",
+     "en": "Shake very hard for 15 s."
+    },
+    {
+     "t": 80,
+     "w": null,
+     "ro": "Strecoară dublu în pahar; pune 3 boabe pe spumă.",
+     "en": "Double-strain into the glass; float 3 beans on the foam."
+    }
+   ]
+  }
+ ]
+}
