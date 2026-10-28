@@ -1,34 +1,28 @@
 # Bloom Lab
 
-Web app pentru cafea mai bună acasă (RO/EN), gândit pentru telefon. Live: https://claubocse-rgb.github.io/bloom-lab/
+Aplicație web (PWA) pentru cafea mai bună acasă, în română și engleză. Live: https://claubocse-rgb.github.io/bloom-lab/ · se instalează pe telefon și merge offline.
 
-## Funcții
-- **Ce cafea ai?** Poză la pungă sau text („Etiopia Guji, natural, prăjire deschisă, acum 10 zile”) → profilul boabelor → rețetă recomandată pentru metoda ta (temperatură, raport, măcinare, bloom), la ce să te aștepți și sfaturi de prospețime. Profilul se poate corecta, iar pungile se salvează și învață din jurnal (dacă ultimele cafele au ieșit acre/amare, rețeta se ajustează).
-- **Rețete** cu ghid pas cu pas: cronometru pe pas, numărătoare inversă, bip 3‑2‑1, voce opțională, ecran ținut aprins, reluare după închidere; scalare după doză (V60, 4:6, Chemex, Kalita, iced V60, AeroPress, French press, espresso, turbo shot, moka, ibric, cold brew + rețete neobișnuite)
-- **Calculator**: doză, apă, raport, temperatură, măcinare + randament de extracție (TDS → EY) pe diagrama de control
-- **Diagnostic**: busola gustului (acru↔amar, apos↔intens) cu sfaturi pe metodă
-- **Jurnal**: boabe, setare râșniță, notă, gust; după o cafea acră/amară propune o singură schimbare și „Prepară din nou cu schimbarea”
-- **Laborator**: teste A/B (temperatura și raportul se aplică automat), câștigător după 2 preparări pe variantă
-- **+ Rețetă**: import de pe internet (cu Claude) sau scrisă manual
+## Ce face
+- **Rețete** (peste 80) cu ghid pas cu pas: cronometru pe pas, numărătoare inversă, bip 3‑2‑1, voce opțională, ecran ținut aprins, reluare după închidere, scalare după doză.
+- **Ce cafea ai?** Scrii ce e pe pungă (origine, procesare, prăjire, data) și primești rețeta recomandată pentru metoda ta, plus la ce să te aștepți. Pungile salvate învață din jurnal.
+- **Manual**: 43 de capitole despre metode (filtru, imersie, hibride, la rece, tradiționale, espresso, lapte, băuturi), 44 de trenduri 2025–2026 și ghidul de piață pentru râșnițe.
+- **Râșnița mea**: 117 râșnițe (52 manuale, 65 electrice). Alegi râșnița ta și fiecare rețetă arată setarea exactă. Unde producătorul nu publică un tabel, îți salvezi propriile setări.
+- **Diagnostic**, **Jurnal** (setare râșniță, notă, gust, „prepară din nou cu schimbarea”), **Calculator** (TDS → extracție) și **Teste A/B**.
+
+## Planuri
+- **Gratuit:** tot ce e mai sus.
+- **Pro (pregătit, nelansat):** recunoaștere din poză. Fiecare citire folosește un model AI și e acoperită din abonament. Analiza de costuri e în `docs/research/pricing-photo-recognition.md`. Pentru test local: `localStorage.setItem('bloom.plan','pro')`, doar în versiunea din Claude.
 
 ## Structură
 ```
-index.html                    aplicația (GitHub Pages servește acest fișier)
-src/bloom-lab.artifact.html   sursa pentru varianta publicată ca artifact Claude
-docs/spec.md                  scop, decizii, roadmap
-docs/review-2026-10-27.md     rezultatele review-urilor UI, UX și expert cafea
-assets/                       iconițe, imagini
+index.html                    aplicația (generată de build.py din sursa artifact)
+manifest.webmanifest, sw.js   PWA: instalare și offline
+icons/                        iconițe aplicație
+src/bloom-lab.artifact.html   sursa (varianta publicată ca artifact Claude)
+data/*.json                   datele de cercetare: râșnițe, metode, trenduri
+docs/research/*.md            studiile de piață și verificarea datelor
+docs/spec.md, docs/review-*.md
 ```
 
-## Unde merge ce
-| Funcție | Artifact Claude | GitHub Pages |
-|---|---|---|
-| Recunoaștere din poză | da | nu |
-| Recunoaștere din text | da (Claude) | da (reguli locale) |
-| Import rețetă de pe internet | da | nu (formular manual) |
-| Jurnal | în cont + pe dispozitiv | doar pe dispozitiv |
-
-Rețeta recomandată e calculată mereu de aceleași reguli (tabelul de decizie din `buildRecipe`); Claude doar citește punga.
-
-## Rulare locală
-Deschide `index.html` în browser. Nu are build și nici dependențe.
+## Calitatea datelor
+Setările râșnițelor vin din tabelele producătorilor și din surse independente. 34 de modele populare au fost verificate separat, detalii în `docs/research/grinders-verification.md`. Fiecare râșniță are un nivel de încredere afișat în aplicație. Setările sunt un punct de plecare: ajustezi după gust.

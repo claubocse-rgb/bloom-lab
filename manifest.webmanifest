@@ -1,0 +1,24 @@
+{
+  "name": "Bloom Lab — cafea mai bună acasă",
+  "short_name": "Bloom Lab",
+  "description": "Rețete cu ghid și timer, recunoașterea cafelei, calculator, diagnostic de gust, jurnal, manual de metode și setări pentru râșnița ta.",
+  "lang": "ro",
+  "id": "./",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ECEEE8",
+  "theme_color": "#A3263A",
+  "categories": ["food", "lifestyle", "utilities"],
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ],
+  "shortcuts": [
+    {"name": "Ce cafea ai?", "short_name": "Recunoaște", "url": "./#recipes"},
+    {"name": "Jurnal", "url": "./#journal"},
+    {"name": "Diagnostic", "url": "./#diag"}
+  ]
+}
