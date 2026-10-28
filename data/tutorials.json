@@ -1,0 +1,1709 @@
+{
+  "updated": "2026-10-28",
+  "verifiedWith": "oembed",
+  "videos": [
+    {
+      "id": "hoffmann-ultimate-v60",
+      "videoId": "AI4ynXzkSQo",
+      "url": "https://www.youtube.com/watch?v=AI4ynXzkSQo",
+      "title": "The Ultimate V60 Technique",
+      "channel": "James Hoffmann",
+      "lang": "en",
+      "topic": "method",
+      "level": 1,
+      "minutes": 12,
+      "summary": {
+        "ro": "Rețeta V60 de referință a lui James Hoffmann: bloom, două turnări principale și agitare blândă pentru o extracție uniformă.",
+        "en": "James Hoffmann's reference V60 recipe: bloom, two main pours and gentle agitation for an even extraction."
+      },
+      "chapterIds": [
+        "hario-v60"
+      ],
+      "recipeIds": [
+        "v60-hoffmann"
+      ],
+      "year": 2019
+    },
+    {
+      "id": "hoffmann-1-cup-v60",
+      "videoId": "1oB1oDrDkHM",
+      "url": "https://www.youtube.com/watch?v=1oB1oDrDkHM",
+      "title": "A Better 1 Cup V60 Technique",
+      "channel": "James Hoffmann",
+      "lang": "en",
+      "topic": "method",
+      "level": 2,
+      "minutes": 10,
+      "summary": {
+        "ro": "Cum adaptezi V60 pentru o singură cană (15 g), cu turnări în pulsuri și măcinare mai fină.",
+        "en": "How to adapt the V60 for a single cup (15 g) with pulse pours and a finer grind."
+      },
+      "chapterIds": [
+        "hario-v60"
+      ],
+      "recipeIds": [],
+      "year": 2022
+    },
+    {
+      "id": "hario-kasuya-46-method",
+      "videoId": "wmCW8xSWGZY",
+      "url": "https://www.youtube.com/watch?v=wmCW8xSWGZY",
+      "title": "A Coffee Brewing Theory \"4:6 method\" Invented by Tetsu Kasuya_ World Brewers Cup 2016 Champion",
+      "channel": "HARIO Official Channel",
+      "lang": "en",
+      "topic": "method",
+      "level": 1,
+      "minutes": 3,
+      "summary": {
+        "ro": "Tetsu Kasuya explică metoda 4:6: primele 40% din apă reglează dulceața și aciditatea, restul de 60% intensitatea.",
+        "en": "Tetsu Kasuya explains the 4:6 method: the first 40% of water tunes sweetness and acidity, the remaining 60% sets strength."
+      },
+      "chapterIds": [
+        "hario-v60"
+      ],
+      "recipeIds": [
+        "v60-46"
+      ],
+      "year": 2017
+    },
+    {
+      "id": "brewing-habits-46-explained",
+      "videoId": "v8pL6vSuL_I",
+      "url": "https://www.youtube.com/watch?v=v8pL6vSuL_I",
+      "title": "Tetsu Kasuya 4:6 Method Explained",
+      "channel": "Brewing Habits",
+      "lang": "en",
+      "topic": "method",
+      "level": 2,
+      "minutes": 12,
+      "summary": {
+        "ro": "Explicație pas cu pas a metodei 4:6 și a modului în care schimbi gustul modificând turnările.",
+        "en": "A step-by-step breakdown of the 4:6 method and how changing the pours changes the cup."
+      },
+      "chapterIds": [
+        "hario-v60"
+      ],
+      "recipeIds": [
+        "v60-46"
+      ],
+      "year": 2022
+    },
+    {
+      "id": "coffee-collective-kalita-wave",
+      "videoId": "x3pX0ard7AI",
+      "url": "https://www.youtube.com/watch?v=x3pX0ard7AI",
+      "title": "Kalita Wave Brew Guide",
+      "channel": "Coffee Collective",
+      "lang": "en",
+      "topic": "method",
+      "level": 1,
+      "minutes": 2,
+      "summary": {
+        "ro": "Ghid scurt de preparare la Kalita Wave de la Coffee Collective, cu turnări în pulsuri.",
+        "en": "A short Kalita Wave brew guide from Coffee Collective using pulse pours."
+      },
+      "chapterIds": [
+        "kalita-wave"
+      ],
+      "recipeIds": [
+        "kalita"
+      ],
+      "year": 2016
+    },
+    {
+      "id": "hoffmann-chemex",
+      "videoId": "ikt-X5x7yoc",
+      "url": "https://www.youtube.com/watch?v=ikt-X5x7yoc",
+      "title": "The Chemex",
+      "channel": "James Hoffmann",
+      "lang": "en",
+      "topic": "method",
+      "level": 1,
+      "minutes": 11,
+      "summary": {
+        "ro": "Istoria Chemex-ului, filtrele lui groase și tehnica lui Hoffmann pentru o cafea curată și dulce.",
+        "en": "The Chemex's history, its thick filters and Hoffmann's technique for a clean, sweet cup."
+      },
+      "chapterIds": [
+        "chemex"
+      ],
+      "recipeIds": [
+        "chemex"
+      ],
+      "year": 2020
+    },
+    {
+      "id": "coffee-with-april-origami",
+      "videoId": "WMPmZ9oXV6E",
+      "url": "https://www.youtube.com/watch?v=WMPmZ9oXV6E",
+      "title": "Our Current Origami Dripper Recipe | Coffee with April #117",
+      "channel": "Coffee with April",
+      "lang": "en",
+      "topic": "method",
+      "level": 2,
+      "minutes": 5,
+      "summary": {
+        "ro": "Rețeta Coffee with April pentru dripperul Origami, cu filtru de tip Wave și turnări scurte.",
+        "en": "Coffee with April's Origami dripper recipe using a Wave-style filter and short pours."
+      },
+      "chapterIds": [
+        "origami"
+      ],
+      "recipeIds": [
+        "origami-wave"
+      ],
+      "year": 2020
+    },
+    {
+      "id": "daddy-got-coffee-pulsar",
+      "videoId": "VBqRcpoRfSA",
+      "url": "https://www.youtube.com/watch?v=VBqRcpoRfSA",
+      "title": "Brew Like An Astrophysicist! Pulsar Dripper Review",
+      "channel": "Daddy Got Coffee",
+      "lang": "en",
+      "topic": "method",
+      "level": 2,
+      "minutes": 13,
+      "summary": {
+        "ro": "Cum funcționează NextLevel Pulsar (dispersie largă și supapă) și cum prepari cu el.",
+        "en": "How the NextLevel Pulsar works (wide shower screen and valve) and how to brew with it."
+      },
+      "chapterIds": [
+        "nextlevel-pulsar"
+      ],
+      "recipeIds": [
+        "pulsar-rao"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "lance-hedrick-switch-pulsar",
+      "videoId": "pFCSIIQadL8",
+      "url": "https://www.youtube.com/watch?v=pFCSIIQadL8",
+      "title": "HARIO SWITCH AND NEXT LEVEL PULSAR: Best of Both Worlds, Percolation and Immersion",
+      "channel": "Lance Hedrick",
+      "lang": "en",
+      "topic": "method",
+      "level": 3,
+      "minutes": 27,
+      "summary": {
+        "ro": "Lance Hedrick compară Hario Switch și Pulsar și arată rețete care combină imersia cu percolarea.",
+        "en": "Lance Hedrick compares the Hario Switch and Pulsar, with recipes mixing immersion and percolation."
+      },
+      "chapterIds": [
+        "hario-switch",
+        "nextlevel-pulsar"
+      ],
+      "recipeIds": [],
+      "year": 2023
+    },
+    {
+      "id": "coffee-with-april-april-brewer",
+      "videoId": "XDKDqGLLxFA",
+      "url": "https://www.youtube.com/watch?v=XDKDqGLLxFA",
+      "title": "Introducing a new April Brewer Recipe + a new Dot design | Coffee with April #308",
+      "channel": "Coffee with April",
+      "lang": "en",
+      "topic": "method",
+      "level": 2,
+      "minutes": 9,
+      "summary": {
+        "ro": "Echipa April prezintă o rețetă nouă pentru April Brewer, cu fund plat și turnări controlate.",
+        "en": "The April team presents a new recipe for the flat-bottom April Brewer with controlled pours."
+      },
+      "chapterIds": [
+        "april-brewer"
+      ],
+      "recipeIds": [
+        "april-pulse"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "ect-hario-switch-champion",
+      "videoId": "3euEkTBxtEk",
+      "url": "https://www.youtube.com/watch?v=3euEkTBxtEk",
+      "title": "Easy Hario Switch Recipe from World Brewers Cup Champion (Emi Fukahori, MAME Coffee)",
+      "channel": "European Coffee Trip",
+      "lang": "en",
+      "topic": "method",
+      "level": 1,
+      "minutes": 7,
+      "summary": {
+        "ro": "O rețetă simplă pentru Hario Switch, de la un campion mondial Brewers Cup, care combină imersia cu percolarea.",
+        "en": "An easy Hario Switch recipe from a World Brewers Cup champion combining immersion and percolation."
+      },
+      "chapterIds": [
+        "hario-switch"
+      ],
+      "recipeIds": [
+        "switch-kasuya",
+        "switch-hybrid"
+      ],
+      "year": 2024
+    },
+    {
+      "id": "hoffmann-switch-daily-driver",
+      "videoId": "QjIvN8mlK9Y",
+      "url": "https://www.youtube.com/watch?v=QjIvN8mlK9Y",
+      "title": "My Current Daily Driver: Hario Switch + Sibarist",
+      "channel": "James Hoffmann",
+      "lang": "en",
+      "topic": "method",
+      "level": 2,
+      "minutes": 14,
+      "summary": {
+        "ro": "Hoffmann explică de ce folosește zilnic Hario Switch cu filtre Sibarist și ce rețetă de imersie aplică.",
+        "en": "Hoffmann explains why he uses the Hario Switch with Sibarist filters daily and which immersion recipe he follows."
+      },
+      "chapterIds": [
+        "hario-switch"
+      ],
+      "recipeIds": [
+        "switch-hybrid"
+      ],
+      "year": 2020
+    },
+    {
+      "id": "hoffmann-ultimate-clever",
+      "videoId": "RpOdennxP24",
+      "url": "https://www.youtube.com/watch?v=RpOdennxP24",
+      "title": "The Ultimate Clever Dripper Technique",
+      "channel": "James Hoffmann",
+      "lang": "en",
+      "topic": "method",
+      "level": 1,
+      "minutes": 8,
+      "summary": {
+        "ro": "Tehnica lui Hoffmann pentru Clever Dripper: apa întâi, apoi cafeaua, pentru o filtrare rapidă și uniformă.",
+        "en": "Hoffmann's Clever Dripper technique: water first, then coffee, for a fast and even drawdown."
+      },
+      "chapterIds": [
+        "clever-dripper"
+      ],
+      "recipeIds": [
+        "clever-classic"
+      ],
+      "year": 2020
+    },
+    {
+      "id": "hoffmann-ultimate-aeropress",
+      "videoId": "j6VlT_jUVPc",
+      "url": "https://www.youtube.com/watch?v=j6VlT_jUVPc",
+      "title": "The Ultimate AeroPress Technique (Episode #3)",
+      "channel": "James Hoffmann",
+      "lang": "en",
+      "topic": "method",
+      "level": 1,
+      "minutes": 5,
+      "summary": {
+        "ro": "Rețeta AeroPress a lui Hoffmann: poziție normală, 11 g, apă fierbinte și apăsare lentă.",
+        "en": "Hoffmann's AeroPress recipe: standard orientation, 11 g, hot water and a slow press."
+      },
+      "chapterIds": [
+        "aeropress"
+      ],
+      "recipeIds": [
+        "aero-hoffmann"
+      ],
+      "year": 2021
+    },
+    {
+      "id": "aeropress-official-how-to",
+      "videoId": "3rHj76QLSe0",
+      "url": "https://www.youtube.com/watch?v=3rHj76QLSe0",
+      "title": "How to Use AeroPress Original Coffee Press - I Don't Own a Grinder",
+      "channel": "AeroPress",
+      "lang": "en",
+      "topic": "method",
+      "level": 1,
+      "minutes": 3,
+      "summary": {
+        "ro": "Ghidul oficial AeroPress pentru modelul Original: asamblare, preparare și curățare.",
+        "en": "The official AeroPress guide for the Original: assembly, brewing and cleanup."
+      },
+      "chapterIds": [
+        "aeropress"
+      ],
+      "recipeIds": [],
+      "year": 2024
+    },
+    {
+      "id": "wac-2024-winning-recipe",
+      "videoId": "1qgL4IWr3-k",
+      "url": "https://www.youtube.com/watch?v=1qgL4IWr3-k",
+      "title": "1st Place 2024 World AeroPress Championship Recipe",
+      "channel": "Pierre ~ Home Barista",
+      "lang": "en",
+      "topic": "method",
+      "level": 2,
+      "minutes": 2,
+      "summary": {
+        "ro": "Rețeta câștigătoare a Campionatului Mondial AeroPress 2024 (George Stanica, România), pas cu pas.",
+        "en": "The 2024 World AeroPress Championship winning recipe (George Stanica, Romania), step by step."
+      },
+      "chapterIds": [
+        "aeropress"
+      ],
+      "recipeIds": [
+        "aero-stanica-2024"
+      ],
+      "year": 2024
+    },
+    {
+      "id": "hoffmann-ultimate-french-press",
+      "videoId": "st571DYYTR8",
+      "url": "https://www.youtube.com/watch?v=st571DYYTR8",
+      "title": "The Ultimate French Press Technique",
+      "channel": "James Hoffmann",
+      "lang": "en",
+      "topic": "method",
+      "level": 1,
+      "minutes": 4,
+      "summary": {
+        "ro": "Tehnica lui Hoffmann pentru presa franceză: infuzie lungă, spargerea crustei și apăsare doar până la suprafață.",
+        "en": "Hoffmann's French press technique: a long steep, breaking the crust and plunging only to the surface."
+      },
+      "chapterIds": [
+        "french-press"
+      ],
+      "recipeIds": [
+        "french-hoffmann",
+        "french-press-big"
+      ],
+      "year": 2016
+    },
+    {
+      "id": "hoffmann-ultimate-moka-pot",
+      "videoId": "BfDLoIvb0w4",
+      "url": "https://www.youtube.com/watch?v=BfDLoIvb0w4",
+      "title": "The Ultimate Moka Pot Technique (Episode #3)",
+      "channel": "James Hoffmann",
+      "lang": "en",
+      "topic": "method",
+      "level": 1,
+      "minutes": 12,
+      "summary": {
+        "ro": "Tehnica lui Hoffmann pentru moka: apă preîncălzită, foc mic și oprirea la timp pentru o cafea fără amăreală.",
+        "en": "Hoffmann's moka technique: preheated water, low heat and stopping in time for a cup without bitterness."
+      },
+      "chapterIds": [
+        "moka-pot"
+      ],
+      "recipeIds": [
+        "moka"
+      ],
+      "year": 2022
+    },
+    {
+      "id": "ect-cezve-ibrik",
+      "videoId": "I5PtWraNRTY",
+      "url": "https://www.youtube.com/watch?v=I5PtWraNRTY",
+      "title": "How To Make Cezve/Ibrik Coffee: Konstantinos Komninakis (2016 World Ibrik Champion)",
+      "channel": "European Coffee Trip",
+      "lang": "en",
+      "topic": "method",
+      "level": 1,
+      "minutes": 4,
+      "summary": {
+        "ro": "Un campion la cezve arată cum prepari cafea la ibric: măcinare foarte fină, încălzire lentă și spumă.",
+        "en": "A cezve champion shows how to brew ibrik coffee: very fine grind, slow heating and foam."
+      },
+      "chapterIds": [
+        "turkish-ibrik"
+      ],
+      "recipeIds": [
+        "ibrik"
+      ],
+      "year": 2016
+    },
+    {
+      "id": "brodie-vissers-turkish-coffee",
+      "videoId": "hQwIjfX6i_Q",
+      "url": "https://www.youtube.com/watch?v=hQwIjfX6i_Q",
+      "title": "How to Make Turkish Coffee (for Beginners)",
+      "channel": "Brodie Vissers",
+      "lang": "en",
+      "topic": "method",
+      "level": 1,
+      "minutes": 8,
+      "summary": {
+        "ro": "Ghid pentru începători la cafeaua turcească: proporții, zahăr, temperatură și cum păstrezi spuma.",
+        "en": "A beginner's guide to Turkish coffee: ratios, sugar, heat and keeping the foam."
+      },
+      "chapterIds": [
+        "turkish-ibrik",
+        "greek-arabic"
+      ],
+      "recipeIds": [
+        "ibrik"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "hoffmann-siphon",
+      "videoId": "mvmRtPGR4C4",
+      "url": "https://www.youtube.com/watch?v=mvmRtPGR4C4",
+      "title": "The Coffee Siphon, aka Vacuum Pot",
+      "channel": "James Hoffmann",
+      "lang": "en",
+      "topic": "method",
+      "level": 2,
+      "minutes": 22,
+      "summary": {
+        "ro": "Cum funcționează sifonul (vacuum pot), ce filtre folosește și cum obții o cafea curată.",
+        "en": "How the siphon (vacuum pot) works, which filters it uses and how to get a clean cup."
+      },
+      "chapterIds": [
+        "siphon"
+      ],
+      "recipeIds": [
+        "siphon-classic"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "trung-nguyen-phin",
+      "videoId": "dvaf-nrYJBk",
+      "url": "https://www.youtube.com/watch?v=dvaf-nrYJBk",
+      "title": "Step-by-Step: Vietnamese Coffee with the Phin Filter | Trung Nguyen US",
+      "channel": "Trung Nguyen Coffee US",
+      "lang": "en",
+      "topic": "method",
+      "level": 1,
+      "minutes": 1,
+      "summary": {
+        "ro": "Prepararea cafelei vietnameze la filtrul phin, cu lapte condensat, pas cu pas.",
+        "en": "Brewing Vietnamese coffee in a phin filter with condensed milk, step by step."
+      },
+      "chapterIds": [
+        "vietnamese-phin"
+      ],
+      "recipeIds": [
+        "phin-ca-phe-sua-da"
+      ],
+      "year": 2019
+    },
+    {
+      "id": "morgan-eckroth-vietnamese-coffee",
+      "videoId": "9Gnj2Z1rt1k",
+      "url": "https://www.youtube.com/watch?v=9Gnj2Z1rt1k",
+      "title": "The Uniqueness of Vietnamese Coffee",
+      "channel": "Morgan Eckroth",
+      "lang": "en",
+      "topic": "method",
+      "level": 2,
+      "minutes": 21,
+      "summary": {
+        "ro": "Morgan Eckroth explorează cultura cafelei vietnameze și băuturi clasice precum cà phê sữa đá.",
+        "en": "Morgan Eckroth explores Vietnamese coffee culture and classics like cà phê sữa đá."
+      },
+      "chapterIds": [
+        "vietnamese-phin"
+      ],
+      "recipeIds": [
+        "phin-ca-phe-sua-da",
+        "ca-phe-sua-da"
+      ],
+      "year": 2023
+    },
+    {
+      "id": "hoffmann-cold-brew",
+      "videoId": "AB0QLjroFss",
+      "url": "https://www.youtube.com/watch?v=AB0QLjroFss",
+      "title": "Everything I Learned About Cold Brew Coffee",
+      "channel": "James Hoffmann",
+      "lang": "en",
+      "topic": "method",
+      "level": 2,
+      "minutes": 27,
+      "summary": {
+        "ro": "Tot ce a învățat Hoffmann despre cold brew: proporții, timp, măcinare și filtrare.",
+        "en": "Everything Hoffmann learned about cold brew: ratios, time, grind and filtration."
+      },
+      "chapterIds": [
+        "cold-brew"
+      ],
+      "recipeIds": [
+        "cold",
+        "cold-brew-concentrate"
+      ],
+      "year": 2025
+    },
+    {
+      "id": "hoffmann-japanese-iced-coffee",
+      "videoId": "PApBycDrPo0",
+      "url": "https://www.youtube.com/watch?v=PApBycDrPo0",
+      "title": "Better than cold brew: How to make iced filter coffee",
+      "channel": "James Hoffmann",
+      "lang": "en",
+      "topic": "method",
+      "level": 1,
+      "minutes": 5,
+      "summary": {
+        "ro": "Cafea filtru preparată direct peste gheață (metoda japoneză), mai aromată decât cold brew-ul.",
+        "en": "Filter coffee brewed straight onto ice (Japanese method), more aromatic than cold brew."
+      },
+      "chapterIds": [
+        "flash-brew",
+        "hario-v60"
+      ],
+      "recipeIds": [
+        "v60-iced"
+      ],
+      "year": 2018
+    },
+    {
+      "id": "hoffmann-espresso-tonic",
+      "videoId": "4x92J4gQwzM",
+      "url": "https://www.youtube.com/watch?v=4x92J4gQwzM",
+      "title": "Espresso Tonic - From Scratch",
+      "channel": "James Hoffmann",
+      "lang": "en",
+      "topic": "drinks",
+      "level": 2,
+      "minutes": 14,
+      "summary": {
+        "ro": "Hoffmann reconstruiește espresso tonicul de la zero: apă tonică, gheață și ordinea ingredientelor.",
+        "en": "Hoffmann rebuilds the espresso tonic from scratch: tonic, ice and the order of ingredients."
+      },
+      "chapterIds": [
+        "iced-espresso",
+        "sweet-and-spirited"
+      ],
+      "recipeIds": [
+        "tonic"
+      ],
+      "year": 2020
+    },
+    {
+      "id": "ect-freddo-espresso",
+      "videoId": "erxAkel70Ts",
+      "url": "https://www.youtube.com/watch?v=erxAkel70Ts",
+      "title": "How To Make Freddo Espresso, Freddo Cappuccino & Freddo Flat White",
+      "channel": "European Coffee Trip",
+      "lang": "en",
+      "topic": "drinks",
+      "level": 1,
+      "minutes": 6,
+      "summary": {
+        "ro": "Cum faci freddo espresso și freddo cappuccino ca în Grecia, cu shaker sau mixer.",
+        "en": "How to make Greek-style freddo espresso and freddo cappuccino with a shaker or frother."
+      },
+      "chapterIds": [
+        "iced-espresso"
+      ],
+      "recipeIds": [
+        "freddo-espresso",
+        "freddo-cappuccino"
+      ],
+      "year": 2019
+    },
+    {
+      "id": "lance-hedrick-espresso-30-min",
+      "videoId": "nEt8q9QWdsE",
+      "url": "https://www.youtube.com/watch?v=nEt8q9QWdsE",
+      "title": "Espresso in Under 30 Min: Everything You Need to Know",
+      "channel": "Lance Hedrick",
+      "lang": "en",
+      "topic": "espresso",
+      "level": 1,
+      "minutes": 27,
+      "summary": {
+        "ro": "Tot ce trebuie să știi ca începător despre espresso, condensat în mai puțin de 30 de minute.",
+        "en": "Everything a beginner needs to know about espresso, condensed into under 30 minutes."
+      },
+      "chapterIds": [
+        "espresso-basics",
+        "dialing-in"
+      ],
+      "recipeIds": [
+        "espresso"
+      ],
+      "year": 2026
+    },
+    {
+      "id": "hoffmann-how-i-make-espresso",
+      "videoId": "xb3IxAr4RCo",
+      "url": "https://www.youtube.com/watch?v=xb3IxAr4RCo",
+      "title": "How I Make Espresso: Tools and Techniques",
+      "channel": "James Hoffmann",
+      "lang": "en",
+      "topic": "espresso",
+      "level": 2,
+      "minutes": 22,
+      "summary": {
+        "ro": "Fluxul de lucru al lui Hoffmann pentru espresso: unelte, distribuție, tasare și rețetă.",
+        "en": "Hoffmann's espresso workflow: tools, distribution, tamping and recipe."
+      },
+      "chapterIds": [
+        "espresso-basics",
+        "puck-prep"
+      ],
+      "recipeIds": [
+        "espresso"
+      ],
+      "year": 2022
+    },
+    {
+      "id": "hoffmann-dial-in-espresso-1",
+      "videoId": "lFwJF-_SUr0",
+      "url": "https://www.youtube.com/watch?v=lFwJF-_SUr0",
+      "title": "How I Dial-In Espresso - Part #1",
+      "channel": "James Hoffmann",
+      "lang": "en",
+      "topic": "espresso",
+      "level": 1,
+      "minutes": 7,
+      "summary": {
+        "ro": "Cum reglezi espresso pornind de la doză, randament și timp, ajustând doar măcinarea.",
+        "en": "How to dial in espresso starting from dose, yield and time while adjusting only the grind."
+      },
+      "chapterIds": [
+        "dialing-in"
+      ],
+      "recipeIds": [
+        "espresso"
+      ],
+      "year": 2019
+    },
+    {
+      "id": "hoffmann-understanding-espresso-dose",
+      "videoId": "aTFsBqhpLes",
+      "url": "https://www.youtube.com/watch?v=aTFsBqhpLes",
+      "title": "Understanding Espresso - Dose (Episode #1)",
+      "channel": "James Hoffmann",
+      "lang": "en",
+      "topic": "espresso",
+      "level": 2,
+      "minutes": 12,
+      "summary": {
+        "ro": "Cum influențează doza de cafea gustul espresso-ului și cum alegi coșul potrivit.",
+        "en": "How coffee dose changes espresso flavour and how to choose the right basket."
+      },
+      "chapterIds": [
+        "espresso-basics",
+        "dialing-in"
+      ],
+      "recipeIds": [],
+      "year": 2020
+    },
+    {
+      "id": "hoffmann-understanding-espresso-ratio",
+      "videoId": "F4wrUP4c5P4",
+      "url": "https://www.youtube.com/watch?v=F4wrUP4c5P4",
+      "title": "Understanding Espresso - Ratio (Episode #2)",
+      "channel": "James Hoffmann",
+      "lang": "en",
+      "topic": "espresso",
+      "level": 2,
+      "minutes": 9,
+      "summary": {
+        "ro": "Raportul cafea–băutură la espresso: ristretto, normale și lungo și ce schimbă fiecare.",
+        "en": "The espresso brew ratio: ristretto, normale and lungo, and what each changes."
+      },
+      "chapterIds": [
+        "ratio-families"
+      ],
+      "recipeIds": [
+        "espresso"
+      ],
+      "year": 2020
+    },
+    {
+      "id": "lance-hedrick-puck-prep-finale",
+      "videoId": "5ivwCm95nLc",
+      "url": "https://www.youtube.com/watch?v=5ivwCm95nLc",
+      "title": "BEST WAY TO PREP ESPRESSO?: The Finale (WDT, WW Blind Shaker, Autocomb, NCD)",
+      "channel": "Lance Hedrick",
+      "lang": "en",
+      "topic": "espresso",
+      "level": 3,
+      "minutes": 14,
+      "summary": {
+        "ro": "Lance Hedrick testează WDT, site și alte tehnici de pregătire a pucului ca să vadă ce contează cu adevărat.",
+        "en": "Lance Hedrick tests WDT, screens and other puck-prep techniques to see what really matters."
+      },
+      "chapterIds": [
+        "puck-prep"
+      ],
+      "recipeIds": [],
+      "year": 2024
+    },
+    {
+      "id": "flair-58-brewing-guide",
+      "videoId": "Fykid81iC-Q",
+      "url": "https://www.youtube.com/watch?v=Fykid81iC-Q",
+      "title": "2023 Flair 58 & 58x | Brewing Guide",
+      "channel": "Flair Espresso",
+      "lang": "en",
+      "topic": "espresso",
+      "level": 2,
+      "minutes": 5,
+      "summary": {
+        "ro": "Ghidul oficial Flair pentru Flair 58: preîncălzire, pregătire și profilul de presiune cu pârghie.",
+        "en": "Flair's official Flair 58 guide: preheating, prep and the lever pressure profile."
+      },
+      "chapterIds": [
+        "lever-espresso"
+      ],
+      "recipeIds": [
+        "flair-58"
+      ],
+      "year": 2023
+    },
+    {
+      "id": "wacaco-picopresso-how-to",
+      "videoId": "szs-PzXr12E",
+      "url": "https://www.youtube.com/watch?v=szs-PzXr12E",
+      "title": "Picopresso How To - Step by Step",
+      "channel": "Wacaco - Portable Espresso Machines",
+      "lang": "en",
+      "topic": "espresso",
+      "level": 2,
+      "minutes": 4,
+      "summary": {
+        "ro": "Pașii oficiali pentru un espresso cu Wacaco Picopresso, de la măcinare la pompare.",
+        "en": "The official steps for an espresso with the Wacaco Picopresso, from grind to pumping."
+      },
+      "chapterIds": [
+        "portable-espresso"
+      ],
+      "recipeIds": [
+        "picopresso"
+      ],
+      "year": 2021
+    },
+    {
+      "id": "sprometheus-turbo-shot",
+      "videoId": "arX52LS55dw",
+      "url": "https://www.youtube.com/watch?v=arX52LS55dw",
+      "title": "ESPRESSO ANATOMY - The Turbo Shot",
+      "channel": "The Real Sprometheus",
+      "lang": "en",
+      "topic": "espresso",
+      "level": 3,
+      "minutes": 5,
+      "summary": {
+        "ro": "Ce este turbo shot-ul: măcinare grosieră, presiune mai mică și shot rapid de ~15 secunde.",
+        "en": "What a turbo shot is: coarser grind, lower pressure and a fast ~15-second shot."
+      },
+      "chapterIds": [
+        "preinfusion-profiling",
+        "ratio-families"
+      ],
+      "recipeIds": [
+        "espresso-turbo"
+      ],
+      "year": 2021
+    },
+    {
+      "id": "sprometheus-blooming-espresso",
+      "videoId": "3-DUJIVo0uI",
+      "url": "https://www.youtube.com/watch?v=3-DUJIVo0uI",
+      "title": "ESPRESSO ANATOMY - Blooming Espresso",
+      "channel": "The Real Sprometheus",
+      "lang": "en",
+      "topic": "espresso",
+      "level": 3,
+      "minutes": 8,
+      "summary": {
+        "ro": "Blooming espresso explicat: preinfuzie, pauză și apoi extracție la presiune.",
+        "en": "Blooming espresso explained: preinfusion, a pause, then extraction under pressure."
+      },
+      "chapterIds": [
+        "preinfusion-profiling"
+      ],
+      "recipeIds": [
+        "blooming-espresso"
+      ],
+      "year": 2022
+    },
+    {
+      "id": "clive-guide-home-espresso",
+      "videoId": "1HKrqlZmYwM",
+      "url": "https://www.youtube.com/watch?v=1HKrqlZmYwM",
+      "title": "Your Guide to Perfect Home Espresso",
+      "channel": "Clive Coffee",
+      "lang": "en",
+      "topic": "espresso",
+      "level": 1,
+      "minutes": 6,
+      "summary": {
+        "ro": "Clive Coffee prezintă pașii de bază pentru un espresso bun acasă.",
+        "en": "Clive Coffee walks through the basics of great espresso at home."
+      },
+      "chapterIds": [
+        "espresso-basics"
+      ],
+      "recipeIds": [
+        "espresso"
+      ],
+      "year": 2021
+    },
+    {
+      "id": "hoffmann-espresso-drinks-explained",
+      "videoId": "93waR1jzoLA",
+      "url": "https://www.youtube.com/watch?v=93waR1jzoLA",
+      "title": "Espresso Drinks Explained: Histories, Recipes and More…",
+      "channel": "James Hoffmann",
+      "lang": "en",
+      "topic": "drinks",
+      "level": 1,
+      "minutes": 16,
+      "summary": {
+        "ro": "Istoria și rețetele băuturilor clasice pe bază de espresso, de la macchiato la latte.",
+        "en": "The history and recipes of classic espresso drinks, from macchiato to latte."
+      },
+      "chapterIds": [
+        "classic-milk-drinks",
+        "black-espresso-drinks"
+      ],
+      "recipeIds": [
+        "cappuccino",
+        "latte",
+        "flat-white",
+        "cortado",
+        "macchiato",
+        "americano"
+      ],
+      "year": 2021
+    },
+    {
+      "id": "hoffmann-steam-milk",
+      "videoId": "oaKRBBpA4fw",
+      "url": "https://www.youtube.com/watch?v=oaKRBBpA4fw",
+      "title": "Everything You Need To Know To Steam Great Milk",
+      "channel": "James Hoffmann",
+      "lang": "en",
+      "topic": "milk",
+      "level": 1,
+      "minutes": 20,
+      "summary": {
+        "ro": "Tot ce trebuie să știi despre spumarea laptelui: aerare, rotire, temperatură și textură.",
+        "en": "Everything you need to know about steaming milk: aeration, swirl, temperature and texture."
+      },
+      "chapterIds": [
+        "milk-steaming"
+      ],
+      "recipeIds": [],
+      "year": 2021
+    },
+    {
+      "id": "lance-hedrick-steam-milk-5-min",
+      "videoId": "wJnMXLG_qR4",
+      "url": "https://www.youtube.com/watch?v=wJnMXLG_qR4",
+      "title": "LEARN TO STEAM SILKY MILKY IN 5 MINUTES!",
+      "channel": "Lance Hedrick",
+      "lang": "en",
+      "topic": "milk",
+      "level": 1,
+      "minutes": 6,
+      "summary": {
+        "ro": "Lance Hedrick te învață în câteva minute să obții lapte mătăsos pentru latte art.",
+        "en": "Lance Hedrick teaches you silky milk for latte art in a few minutes."
+      },
+      "chapterIds": [
+        "milk-steaming"
+      ],
+      "recipeIds": [],
+      "year": 2021
+    },
+    {
+      "id": "morgan-eckroth-latte-art-training",
+      "videoId": "tg_BWkx20hE",
+      "url": "https://www.youtube.com/watch?v=tg_BWkx20hE",
+      "title": "Barista Latte Art Training: Hearts, Tulips, and Swans (Easy for beginner-intermediate)",
+      "channel": "Morgan Eckroth",
+      "lang": "en",
+      "topic": "milk",
+      "level": 2,
+      "minutes": 8,
+      "summary": {
+        "ro": "Morgan Eckroth arată inimă, lalea și swan, cu sfaturi despre poziția canei și debit.",
+        "en": "Morgan Eckroth covers hearts, tulips and swans with tips on pitcher position and flow."
+      },
+      "chapterIds": [
+        "latte-art"
+      ],
+      "recipeIds": [],
+      "year": 2020
+    },
+    {
+      "id": "hoffmann-beginners-latte-art",
+      "videoId": "20HxMMSqRyg",
+      "url": "https://www.youtube.com/watch?v=20HxMMSqRyg",
+      "title": "The Beginner’s Guide To Latte Art",
+      "channel": "James Hoffmann",
+      "lang": "en",
+      "topic": "milk",
+      "level": 1,
+      "minutes": 41,
+      "summary": {
+        "ro": "Ghid complet de latte art pentru începători: textura laptelui, înălțimea turnării și primele modele.",
+        "en": "A complete beginner's latte art guide: milk texture, pour height and first patterns."
+      },
+      "chapterIds": [
+        "latte-art",
+        "milk-steaming"
+      ],
+      "recipeIds": [],
+      "year": 2025
+    },
+    {
+      "id": "ect-latte-art-heart",
+      "videoId": "SiefJJv-Qho",
+      "url": "https://www.youtube.com/watch?v=SiefJJv-Qho",
+      "title": "Latte Art For Beginners: How To Pour Heart (Latte Art Tutorial) 🖤",
+      "channel": "European Coffee Trip",
+      "lang": "en",
+      "topic": "milk",
+      "level": 1,
+      "minutes": 8,
+      "summary": {
+        "ro": "Cum torni o inimă în latte art, explicat pentru începători.",
+        "en": "How to pour a latte art heart, explained for beginners."
+      },
+      "chapterIds": [
+        "latte-art"
+      ],
+      "recipeIds": [],
+      "year": 2021
+    },
+    {
+      "id": "ect-latte-art-tulip",
+      "videoId": "KqG0C5i5oGc",
+      "url": "https://www.youtube.com/watch?v=KqG0C5i5oGc",
+      "title": "Latte Art For Beginners: How To Pour Tulip (Latte Art Tutorial) 🌷",
+      "channel": "European Coffee Trip",
+      "lang": "en",
+      "topic": "milk",
+      "level": 2,
+      "minutes": 5,
+      "summary": {
+        "ro": "Cum torni o lalea în straturi, după ce stăpânești inima.",
+        "en": "How to pour a layered tulip once you have mastered the heart."
+      },
+      "chapterIds": [
+        "latte-art"
+      ],
+      "recipeIds": [],
+      "year": 2021
+    },
+    {
+      "id": "ect-latte-art-rosetta",
+      "videoId": "E2fPJMkY0_Y",
+      "url": "https://www.youtube.com/watch?v=E2fPJMkY0_Y",
+      "title": "Latte Art For Beginners: How To Pour Rosetta (Latte Art Tutorial)",
+      "channel": "European Coffee Trip",
+      "lang": "en",
+      "topic": "milk",
+      "level": 2,
+      "minutes": 5,
+      "summary": {
+        "ro": "Cum torni o rozetă: mișcarea de legănare a canei și tragerea finală.",
+        "en": "How to pour a rosetta: the pitcher wiggle and the final pull-through."
+      },
+      "chapterIds": [
+        "latte-art"
+      ],
+      "recipeIds": [],
+      "year": 2021
+    },
+    {
+      "id": "hoffmann-milk-without-machine",
+      "videoId": "ZgIVfU0xBjA",
+      "url": "https://www.youtube.com/watch?v=ZgIVfU0xBjA",
+      "title": "Making Cappuccino/Latte/Flat White at Home (without an Espresso Machine)",
+      "channel": "James Hoffmann",
+      "lang": "en",
+      "topic": "milk",
+      "level": 1,
+      "minutes": 18,
+      "summary": {
+        "ro": "Cum faci cappuccino, latte și flat white acasă fără espressor, cu spumă din presă franceză sau frother.",
+        "en": "How to make cappuccino, latte and flat white at home without an espresso machine, using a French press or frother."
+      },
+      "chapterIds": [
+        "milk-no-wand",
+        "classic-milk-drinks"
+      ],
+      "recipeIds": [
+        "cappuccino",
+        "latte",
+        "flat-white"
+      ],
+      "year": 2020
+    },
+    {
+      "id": "oat-milk-barista-comparison",
+      "videoId": "vanU2IGquRo",
+      "url": "https://www.youtube.com/watch?v=vanU2IGquRo",
+      "title": "Oat Milk Comparison: Barista Edition",
+      "channel": "Emma Makes Coffee",
+      "lang": "en",
+      "topic": "milk",
+      "level": 1,
+      "minutes": 8,
+      "summary": {
+        "ro": "Comparație între mai multe lapte de ovăz barista: spumare, latte art și gust.",
+        "en": "A comparison of several barista oat milks: steaming, latte art and taste."
+      },
+      "chapterIds": [
+        "plant-milks"
+      ],
+      "recipeIds": [],
+      "year": 2024
+    },
+    {
+      "id": "hoffmann-beginners-guide-grinders",
+      "videoId": "bgjvLQu5NlE",
+      "url": "https://www.youtube.com/watch?v=bgjvLQu5NlE",
+      "title": "A Beginner's Guide to Coffee Grinders",
+      "channel": "James Hoffmann",
+      "lang": "en",
+      "topic": "gear",
+      "level": 1,
+      "minutes": 22,
+      "summary": {
+        "ro": "Ghid de râșnițe pentru începători: cuțite conice vs plate, manual vs electric și ce să cumperi.",
+        "en": "A beginner's guide to grinders: conical vs flat burrs, manual vs electric and what to buy."
+      },
+      "chapterIds": [
+        "single-dosing",
+        "dialing-in"
+      ],
+      "recipeIds": [],
+      "year": 2021
+    },
+    {
+      "id": "seattle-coffee-gear-single-dose-vs-hopper",
+      "videoId": "fXnDmqeq-c8",
+      "url": "https://www.youtube.com/watch?v=fXnDmqeq-c8",
+      "title": "Single Dose Grinders vs. Hopper-Fed: What’s Better for Home Espresso?",
+      "channel": "Seattle Coffee Gear",
+      "lang": "en",
+      "topic": "gear",
+      "level": 1,
+      "minutes": 7,
+      "summary": {
+        "ro": "Diferențele dintre râșnițele single-dose și cele cu buncăr și pentru cine e potrivită fiecare.",
+        "en": "The differences between single-dose and hopper grinders and who each one suits."
+      },
+      "chapterIds": [
+        "single-dosing"
+      ],
+      "recipeIds": [],
+      "year": 2025
+    },
+    {
+      "id": "dial-in-any-coffee-any-grinder",
+      "videoId": "n7X3kns4uRE",
+      "url": "https://www.youtube.com/watch?v=n7X3kns4uRE",
+      "title": "How To Dial In Any Coffee (with any grinder)",
+      "channel": "Alexander Mills",
+      "lang": "en",
+      "topic": "gear",
+      "level": 1,
+      "minutes": 4,
+      "summary": {
+        "ro": "Cum găsești setarea potrivită la orice râșniță, gustând și ajustând pas cu pas.",
+        "en": "How to find the right setting on any grinder by tasting and adjusting step by step."
+      },
+      "chapterIds": [
+        "dialing-in"
+      ],
+      "recipeIds": [],
+      "year": 2020
+    },
+    {
+      "id": "hoffmann-best-water-intro",
+      "videoId": "jfElZfrmlRs",
+      "url": "https://www.youtube.com/watch?v=jfElZfrmlRs",
+      "title": "The Best Water for Coffee - An Introduction",
+      "channel": "James Hoffmann",
+      "lang": "en",
+      "topic": "fundamentals",
+      "level": 2,
+      "minutes": 17,
+      "summary": {
+        "ro": "Introducere în apa pentru cafea: duritate, alcalinitate și cum influențează gustul.",
+        "en": "An introduction to coffee water: hardness, alkalinity and how they affect flavour."
+      },
+      "chapterIds": [
+        "espresso-basics"
+      ],
+      "recipeIds": [],
+      "year": 2019
+    },
+    {
+      "id": "hoffmann-freeze-coffee-beans",
+      "videoId": "5uT5_IWWb00",
+      "url": "https://www.youtube.com/watch?v=5uT5_IWWb00",
+      "title": "Should you freeze coffee beans?",
+      "channel": "James Hoffmann",
+      "lang": "en",
+      "topic": "fundamentals",
+      "level": 1,
+      "minutes": 5,
+      "summary": {
+        "ro": "Ar trebui să congelezi boabele de cafea? Hoffmann explică avantajele și cum să o faci corect.",
+        "en": "Should you freeze coffee beans? Hoffmann explains the benefits and how to do it right."
+      },
+      "chapterIds": [
+        "single-dosing"
+      ],
+      "recipeIds": [],
+      "year": 2020
+    },
+    {
+      "id": "hoffmann-beginners-coffee-tasting",
+      "videoId": "kEZZCQTSSAg",
+      "url": "https://www.youtube.com/watch?v=kEZZCQTSSAg",
+      "title": "A Beginners Guide to Coffee Tasting",
+      "channel": "James Hoffmann",
+      "lang": "en",
+      "topic": "fundamentals",
+      "level": 1,
+      "minutes": 19,
+      "summary": {
+        "ro": "Cum începi să guști cafeaua: aciditate, dulceață, amăreală, corp și arome.",
+        "en": "How to start tasting coffee: acidity, sweetness, bitterness, body and flavour."
+      },
+      "chapterIds": [],
+      "recipeIds": [],
+      "year": 2019
+    },
+    {
+      "id": "hoffmann-cupping-at-home",
+      "videoId": "cSEgP4VNynQ",
+      "url": "https://www.youtube.com/watch?v=cSEgP4VNynQ",
+      "title": "How To Cup (Taste) Coffee At Home",
+      "channel": "James Hoffmann",
+      "lang": "en",
+      "topic": "fundamentals",
+      "level": 2,
+      "minutes": 14,
+      "summary": {
+        "ro": "Cum faci cupping acasă, metoda profesioniștilor de a compara cafele.",
+        "en": "How to cup coffee at home, the professionals' way to compare coffees."
+      },
+      "chapterIds": [],
+      "recipeIds": [],
+      "year": 2019
+    },
+    {
+      "id": "natural-vs-washed-coffee",
+      "videoId": "HgG4_xGSMzw",
+      "url": "https://www.youtube.com/watch?v=HgG4_xGSMzw",
+      "title": "Differences Between Natural and Washed Coffees",
+      "channel": "Rogue Wave Coffee Co",
+      "lang": "en",
+      "topic": "fundamentals",
+      "level": 1,
+      "minutes": 4,
+      "summary": {
+        "ro": "Diferențele de gust și proces dintre cafelele procesate natural și cele spălate.",
+        "en": "The flavour and process differences between natural and washed coffees."
+      },
+      "chapterIds": [],
+      "recipeIds": [],
+      "year": 2020
+    },
+    {
+      "id": "hoffmann-coffee-roasting-explained",
+      "videoId": "N6BJVM5tvnw",
+      "url": "https://www.youtube.com/watch?v=N6BJVM5tvnw",
+      "title": "Coffee Roasting Explained",
+      "channel": "James Hoffmann",
+      "lang": "en",
+      "topic": "fundamentals",
+      "level": 2,
+      "minutes": 19,
+      "summary": {
+        "ro": "Ce se întâmplă cu boabele în timpul prăjirii și cum influențează nivelul de prăjire gustul.",
+        "en": "What happens to beans during roasting and how roast level shapes flavour."
+      },
+      "chapterIds": [],
+      "recipeIds": [],
+      "year": 2023
+    },
+    {
+      "id": "la-colombe-roast-levels",
+      "videoId": "HS4GtSY6Vx4",
+      "url": "https://www.youtube.com/watch?v=HS4GtSY6Vx4",
+      "title": "Intro to Coffee Roast Levels",
+      "channel": "La Colombe Coffee",
+      "lang": "en",
+      "topic": "fundamentals",
+      "level": 1,
+      "minutes": 3,
+      "summary": {
+        "ro": "Introducere scurtă în nivelurile de prăjire: light, medium și dark.",
+        "en": "A short introduction to roast levels: light, medium and dark."
+      },
+      "chapterIds": [],
+      "recipeIds": [],
+      "year": 2024
+    },
+    {
+      "id": "manglutescu-ce-este-cafeaua-de-specialitate",
+      "videoId": "NGwuXjxrrw8",
+      "url": "https://www.youtube.com/watch?v=NGwuXjxrrw8",
+      "title": "Ce este cafeaua de specialitate? | Episod 1 - Educatie & tutoriale cafea",
+      "channel": "Andrei Manglutescu",
+      "lang": "ro",
+      "topic": "fundamentals",
+      "level": 1,
+      "minutes": 7,
+      "summary": {
+        "ro": "Ce înseamnă cafeaua de specialitate, de unde vine și prin ce diferă de cafeaua comercială.",
+        "en": "What specialty coffee means, where it comes from and how it differs from commodity coffee."
+      },
+      "chapterIds": [],
+      "recipeIds": [],
+      "year": 2025
+    },
+    {
+      "id": "manglutescu-cum-recunosti-o-cafea-buna",
+      "videoId": "VCDgJZnQSaY",
+      "url": "https://www.youtube.com/watch?v=VCDgJZnQSaY",
+      "title": "Cum recunosti o cafea buna? | Episod 2 - Educatie & tutoriale cafea",
+      "channel": "Andrei Manglutescu",
+      "lang": "ro",
+      "topic": "fundamentals",
+      "level": 1,
+      "minutes": 7,
+      "summary": {
+        "ro": "Cum recunoști o cafea bună după aspect, aromă și gust, explicat pe înțelesul tuturor.",
+        "en": "How to recognise good coffee by look, aroma and taste, explained for everyone."
+      },
+      "chapterIds": [],
+      "recipeIds": [],
+      "year": 2025
+    },
+    {
+      "id": "manglutescu-ce-este-v60",
+      "videoId": "RzTXCJmbE2I",
+      "url": "https://www.youtube.com/watch?v=RzTXCJmbE2I",
+      "title": "Ce este V60? | Episod 3 - Educatie & tutoriale cafea",
+      "channel": "Andrei Manglutescu",
+      "lang": "ro",
+      "topic": "method",
+      "level": 1,
+      "minutes": 21,
+      "summary": {
+        "ro": "Episod despre V60: istoria dripperului, filtrele, măcinarea și o preparare demonstrativă.",
+        "en": "An episode on the V60: dripper history, filters, grind and a demo brew."
+      },
+      "chapterIds": [
+        "hario-v60"
+      ],
+      "recipeIds": [
+        "v60-hoffmann"
+      ],
+      "year": 2026
+    },
+    {
+      "id": "meron-home-barista-v60",
+      "videoId": "JRWJtoROqLU",
+      "url": "https://www.youtube.com/watch?v=JRWJtoROqLU",
+      "title": "Home Barista | Cum să-ți prepari cafeaua acasă la V60",
+      "channel": "Meron Coffee Roasters",
+      "lang": "ro",
+      "topic": "method",
+      "level": 1,
+      "minutes": 10,
+      "summary": {
+        "ro": "Meron Coffee Roasters arată pas cu pas cum prepari cafea la V60 acasă.",
+        "en": "Meron Coffee Roasters shows step by step how to brew a V60 at home."
+      },
+      "chapterIds": [
+        "hario-v60"
+      ],
+      "recipeIds": [],
+      "year": 2020
+    },
+    {
+      "id": "meron-home-barista-kalita-wave",
+      "videoId": "1pjY9JgvAQw",
+      "url": "https://www.youtube.com/watch?v=1pjY9JgvAQw",
+      "title": "Home Barista | Cum să-ți prepari cafeaua folosind Kalita Wave",
+      "channel": "Meron Coffee Roasters",
+      "lang": "ro",
+      "topic": "method",
+      "level": 1,
+      "minutes": 10,
+      "summary": {
+        "ro": "Prepararea cafelei la Kalita Wave, cu rețeta și sfaturile prăjitorilor de la Meron.",
+        "en": "Brewing coffee with a Kalita Wave, with Meron's recipe and tips."
+      },
+      "chapterIds": [
+        "kalita-wave"
+      ],
+      "recipeIds": [
+        "kalita"
+      ],
+      "year": 2020
+    },
+    {
+      "id": "meron-home-barista-french-press",
+      "videoId": "zkfA36qz_eU",
+      "url": "https://www.youtube.com/watch?v=zkfA36qz_eU",
+      "title": "Home Barista | Cum să-ți prepari cafeaua la French Press",
+      "channel": "Meron Coffee Roasters",
+      "lang": "ro",
+      "topic": "method",
+      "level": 1,
+      "minutes": 4,
+      "summary": {
+        "ro": "Cum prepari cafea la presa franceză: măcinare grosieră, infuzie și filtrare corectă.",
+        "en": "How to brew French press coffee: coarse grind, steeping and proper filtering."
+      },
+      "chapterIds": [
+        "french-press"
+      ],
+      "recipeIds": [
+        "french-hoffmann"
+      ],
+      "year": 2020
+    },
+    {
+      "id": "meron-home-barista-moka-pot",
+      "videoId": "S7B7EiRj5pA",
+      "url": "https://www.youtube.com/watch?v=S7B7EiRj5pA",
+      "title": "Home Barista | Cum să-ți prepari cafeaua la moka pot",
+      "channel": "Meron Coffee Roasters",
+      "lang": "ro",
+      "topic": "method",
+      "level": 1,
+      "minutes": 9,
+      "summary": {
+        "ro": "Cum prepari cafea la moka pot fără să o arzi, explicat de Meron Coffee Roasters.",
+        "en": "How to brew moka pot coffee without scorching it, explained by Meron Coffee Roasters."
+      },
+      "chapterIds": [
+        "moka-pot"
+      ],
+      "recipeIds": [
+        "moka"
+      ],
+      "year": 2020
+    },
+    {
+      "id": "meron-home-barista-ibric",
+      "videoId": "Ox_2bG3xzLg",
+      "url": "https://www.youtube.com/watch?v=Ox_2bG3xzLg",
+      "title": "Home Barista | Cum să-ți prepari cafeaua la ibric",
+      "channel": "Meron Coffee Roasters",
+      "lang": "ro",
+      "topic": "method",
+      "level": 1,
+      "minutes": 7,
+      "summary": {
+        "ro": "Cafea la ibric cu boabe de specialitate: măcinare, proporții și încălzire lentă.",
+        "en": "Ibrik coffee with specialty beans: grind, ratio and slow heating."
+      },
+      "chapterIds": [
+        "turkish-ibrik"
+      ],
+      "recipeIds": [
+        "ibrik"
+      ],
+      "year": 2021
+    },
+    {
+      "id": "meron-home-barista-aeropress",
+      "videoId": "hlDxiIPNA2E",
+      "url": "https://www.youtube.com/watch?v=hlDxiIPNA2E",
+      "title": "Home Barista | Cum să-ți prepari cafeaua la Aeropress",
+      "channel": "Meron Coffee Roasters",
+      "lang": "ro",
+      "topic": "method",
+      "level": 1,
+      "minutes": 9,
+      "summary": {
+        "ro": "Prepararea cafelei la AeroPress pas cu pas, cu rețeta Meron Coffee Roasters.",
+        "en": "Brewing AeroPress coffee step by step with Meron Coffee Roasters' recipe."
+      },
+      "chapterIds": [
+        "aeropress"
+      ],
+      "recipeIds": [
+        "aero-inverted"
+      ],
+      "year": 2020
+    },
+    {
+      "id": "claro-cafe-v60-metoda-2",
+      "videoId": "nx30w7cS16o",
+      "url": "https://www.youtube.com/watch?v=nx30w7cS16o",
+      "title": "METODA 2 DE PREPARARE A CAFELEI LA FILTRU V60 *demonstratie* - CLARO CAFE",
+      "channel": "CLARO Cafe",
+      "lang": "ro",
+      "topic": "method",
+      "level": 2,
+      "minutes": 18,
+      "summary": {
+        "ro": "Demonstrație detaliată a unei a doua metode de preparare la V60, cu explicații despre turnări.",
+        "en": "A detailed demo of a second V60 brewing method with explanations of the pours."
+      },
+      "chapterIds": [
+        "hario-v60"
+      ],
+      "recipeIds": [],
+      "year": 2022
+    },
+    {
+      "id": "juba-coffee-v60",
+      "videoId": "PyrAoYSElf8",
+      "url": "https://www.youtube.com/watch?v=PyrAoYSElf8",
+      "title": "Cum se prepara o cafea prin metoda alternativa V60 - Juba Coffee",
+      "channel": "Juba Coffee",
+      "lang": "ro",
+      "topic": "method",
+      "level": 1,
+      "minutes": 2,
+      "summary": {
+        "ro": "Scurt tutorial Juba Coffee pentru prepararea la V60 ca metodă alternativă.",
+        "en": "A short Juba Coffee tutorial on brewing with the V60 as an alternative method."
+      },
+      "chapterIds": [
+        "hario-v60"
+      ],
+      "recipeIds": [],
+      "year": 2022
+    },
+    {
+      "id": "adrian-goaga-aeropress",
+      "videoId": "AR0kr3s_rjw",
+      "url": "https://www.youtube.com/watch?v=AR0kr3s_rjw",
+      "title": "Preparare Cafea Aeropress",
+      "channel": "Adrian Goaga",
+      "lang": "ro",
+      "topic": "method",
+      "level": 1,
+      "minutes": 2,
+      "summary": {
+        "ro": "Demonstrație scurtă de preparare a cafelei la AeroPress.",
+        "en": "A short demo of brewing coffee with an AeroPress."
+      },
+      "chapterIds": [
+        "aeropress"
+      ],
+      "recipeIds": [],
+      "year": 2020
+    },
+    {
+      "id": "coffee-alchemist-moka-pot",
+      "videoId": "P1MHk3Wa-oQ",
+      "url": "https://www.youtube.com/watch?v=P1MHk3Wa-oQ",
+      "title": "Cum sa faci corect cafea la moka pot",
+      "channel": "Coffee Alchemist",
+      "lang": "ro",
+      "topic": "method",
+      "level": 1,
+      "minutes": 8,
+      "summary": {
+        "ro": "Greșelile frecvente la moka pot și cum faci corect o cafea dulce și fără gust de ars.",
+        "en": "Common moka pot mistakes and how to make a sweet cup without a burnt taste."
+      },
+      "chapterIds": [
+        "moka-pot"
+      ],
+      "recipeIds": [
+        "moka"
+      ],
+      "year": 2024
+    },
+    {
+      "id": "stefan-benedict-presa-franceza",
+      "videoId": "ukI8AekkvPo",
+      "url": "https://www.youtube.com/watch?v=ukI8AekkvPo",
+      "title": "Cum se prepara cafea la \"Presa Franceza\"",
+      "channel": "Ștefan Benedict",
+      "lang": "ro",
+      "topic": "method",
+      "level": 1,
+      "minutes": 2,
+      "summary": {
+        "ro": "Cum se prepară cafeaua la presa franceză, explicat simplu în două minute.",
+        "en": "How to brew coffee in a French press, explained simply in two minutes."
+      },
+      "chapterIds": [
+        "french-press"
+      ],
+      "recipeIds": [],
+      "year": 2017
+    },
+    {
+      "id": "andrea-ghita-cafea-turceasca",
+      "videoId": "8Mr2a4regq0",
+      "url": "https://www.youtube.com/watch?v=8Mr2a4regq0",
+      "title": "Cafea turcească după reţeta originală",
+      "channel": "Andrea Ghita",
+      "lang": "ro",
+      "topic": "method",
+      "level": 1,
+      "minutes": 4,
+      "summary": {
+        "ro": "Rețeta tradițională de cafea turcească la ibric, cu caimac.",
+        "en": "The traditional Turkish coffee recipe in an ibrik, with foam (kaymak)."
+      },
+      "chapterIds": [
+        "turkish-ibrik"
+      ],
+      "recipeIds": [
+        "ibrik"
+      ],
+      "year": 2021
+    },
+    {
+      "id": "kfea-basic-espresso",
+      "videoId": "Kuf1JcjxUPo",
+      "url": "https://www.youtube.com/watch?v=Kuf1JcjxUPo",
+      "title": "Cum se face: Basic Espresso | Kfea.ro",
+      "channel": "Echipa kfea.ro",
+      "lang": "ro",
+      "topic": "espresso",
+      "level": 1,
+      "minutes": 3,
+      "summary": {
+        "ro": "Pașii de bază pentru un espresso: doză, tasare și timp de extracție.",
+        "en": "The basic steps for an espresso: dose, tamping and extraction time."
+      },
+      "chapterIds": [
+        "espresso-basics"
+      ],
+      "recipeIds": [
+        "espresso"
+      ],
+      "year": 2015
+    },
+    {
+      "id": "cafizzio-8-pasi-espresso",
+      "videoId": "kWH_RIoNZc0",
+      "url": "https://www.youtube.com/watch?v=kWH_RIoNZc0",
+      "title": "8 Pași Pentru Un Espresso Perfect (Cafizzio)",
+      "channel": "Cafizzio",
+      "lang": "ro",
+      "topic": "espresso",
+      "level": 1,
+      "minutes": 7,
+      "summary": {
+        "ro": "Opt pași pentru un espresso reușit, de la boabe proaspete la curățarea espressorului.",
+        "en": "Eight steps to a great espresso, from fresh beans to cleaning the machine."
+      },
+      "chapterIds": [
+        "espresso-basics",
+        "dialing-in"
+      ],
+      "recipeIds": [
+        "espresso"
+      ],
+      "year": 2022
+    },
+    {
+      "id": "claro-cafe-espressor-automat",
+      "videoId": "gtRj7hqmBTc",
+      "url": "https://www.youtube.com/watch?v=gtRj7hqmBTc",
+      "title": "Cum prepari o cafea bună repede și ușor, acasă? Demonstrație cu espressor automat – partea II ☕",
+      "channel": "CLARO Cafe",
+      "lang": "ro",
+      "topic": "espresso",
+      "level": 1,
+      "minutes": 13,
+      "summary": {
+        "ro": "Cum obții o cafea bună rapid acasă cu un espressor automat: setări de măcinare, doză și lapte.",
+        "en": "How to get good coffee quickly at home with a super-automatic: grind, dose and milk settings."
+      },
+      "chapterIds": [
+        "super-automatics"
+      ],
+      "recipeIds": [],
+      "year": 2022
+    },
+    {
+      "id": "kfea-lapte-la-espressor",
+      "videoId": "7AomB0Lw3Gs",
+      "url": "https://www.youtube.com/watch?v=7AomB0Lw3Gs",
+      "title": "Cum faci lapte la espressor | Kfea.ro",
+      "channel": "Echipa kfea.ro",
+      "lang": "ro",
+      "topic": "milk",
+      "level": 1,
+      "minutes": 3,
+      "summary": {
+        "ro": "Cum spumezi laptele cu lancea de abur a espressorului pentru cappuccino și latte.",
+        "en": "How to steam milk with the espresso machine's wand for cappuccino and latte."
+      },
+      "chapterIds": [
+        "milk-steaming"
+      ],
+      "recipeIds": [
+        "cappuccino"
+      ],
+      "year": 2019
+    },
+    {
+      "id": "sikana-latte-art-inima",
+      "videoId": "qLaOHHslB8Y",
+      "url": "https://www.youtube.com/watch?v=qLaOHHslB8Y",
+      "title": "Arta in latte: Modelul inima",
+      "channel": "SIKANA Română",
+      "lang": "ro",
+      "topic": "milk",
+      "level": 1,
+      "minutes": 1,
+      "summary": {
+        "ro": "Cum desenezi o inimă în latte art, într-un tutorial scurt.",
+        "en": "How to pour a latte art heart in a short tutorial."
+      },
+      "chapterIds": [
+        "latte-art"
+      ],
+      "recipeIds": [],
+      "year": 2016
+    },
+    {
+      "id": "claro-cafe-single-dose-vs-regular",
+      "videoId": "p2einK-7Hr0",
+      "url": "https://www.youtube.com/watch?v=p2einK-7Hr0",
+      "title": "Ce RASNITE de CAFEA sunt mai bune? SINGLE DOSE vs REGULAR GRINDER - CLARO Cafe",
+      "channel": "CLARO Cafe",
+      "lang": "ro",
+      "topic": "gear",
+      "level": 2,
+      "minutes": 24,
+      "summary": {
+        "ro": "Comparație între râșnițele single dose și cele clasice cu buncăr: avantaje, retenție și pentru cine sunt.",
+        "en": "Single-dose versus regular hopper grinders: pros, retention and who each is for."
+      },
+      "chapterIds": [
+        "single-dosing"
+      ],
+      "recipeIds": [],
+      "year": 2022
+    },
+    {
+      "id": "corretto-cutite-rasnita",
+      "videoId": "khebRwQags4",
+      "url": "https://www.youtube.com/watch?v=khebRwQags4",
+      "title": "Ce cuțite de râșniță alegi pentru espresso și filtru | Detalii care contează | Corretto",
+      "channel": "Corretto Coffee",
+      "lang": "ro",
+      "topic": "gear",
+      "level": 2,
+      "minutes": 1,
+      "summary": {
+        "ro": "Ce tip de cuțite de râșniță alegi pentru espresso și pentru filtru, pe scurt.",
+        "en": "Which grinder burr type to choose for espresso versus filter, in brief."
+      },
+      "chapterIds": [
+        "single-dosing"
+      ],
+      "recipeIds": [],
+      "year": 2025
+    }
+  ]
+}
